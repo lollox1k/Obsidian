@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "TEST NOTE.md",
+            "file": "README.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TEST NOTE.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +89,7 @@
   },
   "active": "9fb16bc5c79921c8",
   "lastOpenFiles": [
+    "README.md",
     "TEST NOTE.md",
     "Matematica/Teorema di Lagrange.md",
     "Matematica/Teorema di Banach-Caccioppoli.md",
@@ -97,7 +98,6 @@
     "Lemma di Gronwall.md",
     "Termodinamica/Variabili coniugate.md",
     "Termodinamica/Termodinamica assiomatica.md",
-    "Termodinamica/Potenziali termodinamici.md",
-    "Matematica/Probabilità/Jensen's inequality.md"
+    "Termodinamica/Potenziali termodinamici.md"
   ]
 }
