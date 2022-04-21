@@ -1,0 +1,103 @@
+{
+  "main": {
+    "id": "c04d855d5f28b341",
+    "type": "split",
+    "children": [
+      {
+        "id": "9fb16bc5c79921c8",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Matematica/Teorema di Lagrange.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ef038412d6f7abc1",
+    "type": "split",
+    "children": [
+      {
+        "id": "95fd4f67d433d76f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "51323684b4c46c57",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "0ee964a67a510388",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "teorema lagrange",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "953946482fdc2b4f",
+    "type": "split",
+    "children": [
+      {
+        "id": "89c8771b9b301877",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "11e2b615f887150e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Matematica/Teorema di Lagrange.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "9fb16bc5c79921c8",
+  "lastOpenFiles": [
+    "Matematica/Teorema di Lagrange.md",
+    "Matematica/Teorema di Banach-Caccioppoli.md",
+    "Matematica/Spazio metrico.md",
+    "Matematica/ODE/Teorema di Picard–Lindelöf.md",
+    "Lemma di Gronwall.md",
+    "Termodinamica/Variabili coniugate.md",
+    "Termodinamica/Termodinamica assiomatica.md",
+    "Termodinamica/Potenziali termodinamici.md",
+    "Matematica/Probabilità/Jensen's inequality.md",
+    "Meccanica statistica/Entropia termodinamica.md"
+  ]
+}
