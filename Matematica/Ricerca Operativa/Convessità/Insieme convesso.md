@@ -20,3 +20,12 @@ $$
 \lambda\mu + \lambda(1-\mu) + (1-\lambda) = \lambda\mu +\lambda -\lambda\mu + 1 -\lambda = 1
 $$
 come doveva essere.
+
+### Teorema Intersezioni
+L'_intersezione_ di un numero finito di insiemi convessi è un insieme convesso. Banale!
+
+In combinazione con il teorema precedente si nota una cosa utile: se l'insieme ammissimile è definito tramite curve di livello di fuzioni convesse:
+$$
+g_1(x)\leq 0, \\ g_2(x) \leq 0 \\ \dots
+$$
+è un insieme convesso.
