@@ -44,8 +44,6 @@ $$
 $$
 Possono essere tanti, ma sono finiti!. 
 
-# Esistenza dei veritci
-
 ## Quando un poliedro ha almeno un vertice?
 non tutti i poliedro hanno vertici, basta considerare il poliedro definito da una singola disequazione, che genera un semispazio (privo di vertici), oppure nel caso del _corollario 1_.
 
@@ -58,7 +56,7 @@ Dato un poliedro non vuoto $P = \{x \in \mathbb{R}^n \; | \; Ax \leq b\}$ e un s
 2. esiste un $\overline \lambda > 0$ abbastanza piccolo tale che tutti i punti sulla retta  del tipo $\overline x + \lambda d$ con $\lambda \in [-\overline \lambda, + \overline \lambda]$ appartengono a $P$.
 
 Geometricamente è chiaro cosa stiamo dicendo: partendo da $\overline x$ traccio una retta nel sottospazio dove sono attivi i vincoli di $\overline x$, questa prima o poi deve "sbattere da qualche parte", ovvero in un bordo del poliedro dove sono attivi altri vincoli.
-#### Dim
+#### Dim 
 Per ipotesi, essendo $\overline x$ non un vertice in esso saranno attivi un numero di vincoli $k< n$. Allora il sistema omogeneo ha infinite soluzioni:
 $$
 a_i^T d = 0 \qquad \forall i \in I(\overline x)
@@ -72,7 +70,7 @@ $$
 a_i^T\overline x < b_i
 $$
 per continuità, siccome le disequazioni sono strette e definiscono semispazi aperti, posso trovare un aperto sulla retta abbastanza piccolo da continuare a rispettare anche le disugualgianze relative ai vincoli attivi, scegliendo $\overline \lambda$ abbastanza piccolo: quindi sono ancora dentro al poliedro, dimostrando il punto **2**.
-Per dimostrare il primo punto, siccome il poliedro non contiene rette, ciò significa che per un certo $\lambda$, si esce, ovvero qualche vincolo non viene più soddisfatto. Tale vincolo non soddisfatto è necessariamente uno di quelli non attivi in $\overline x$, perchè lungo la retta questi sono sempre soddisfatti con uguaglianza.
+Per dimostrare il primo punto, siccome il poliedro non contiene rette, ciò significa che per un certo $\lambda$, si esce, ovvero qualche vincolo non viene più soddisfatto. Tale vincolo non soddisfatto è necessariamente uno di quelli non attivi in $\overline x$, perchè lungo la retta questi sono sempre soddisfatti con uguaglianza. 
 In maniera precisa:
 un punto della retta appartiene al poliedro se:
 $$
@@ -89,22 +87,18 @@ $$
 $$
 \lambda \geq \lambda_i = \frac{b_i-a_i^T\overline x}{a_i^T d} < 0
 $$
-3. $a_i^T d < 0$, in questo caso $\lambda$ deve essere:
-$$
-\lambda \geq \lambda_i = \frac{b_i-a_i^T\overline x}{a_i^T d} < 0
-$$
 Siccome la retta non è contenuta in $P$, per almeno un vincolo $i$ si è nel caso **2** o **3**. Supponiamo di essere nel caso **2**, sia $j$ l'indice che corrisponde il più piccolo $\lambda_i$. E' chiaro allora che il punto $y = \overline x + d\lambda_j$ appartiene a $P$, e sono attivi tutti i vincoli di $\overline x$ ed il vincolo $j$.
 Per il caso **3**, tutto analogo ma $\lambda_j$ è il più grande $\lambda_i$. $\square$
 
 Possiamo enunciare il teorema.
 
-# Teorema
+# Teorema 
 Sia $P$ un poliedro non vuoto. Le seguenti affermazioni sono equivalenti:
 1. Il rango di $A$ è minore di $n$;
 2. $P$ non ha vertici;
 3. $P$ non contiene una retta.
-### Dim
-**1** $\implies$ **2**
+### Dim 
+**1** $\implies$ **2** 
 Un vertice è un punto dove sono attivi $n$ vincoli l.i, ma i vincoli attivi sono un sottoinsieme dei vincoli che definiscono il  poliedro, quind hanno rango sempre minore. $\square$
 **2** $\implies$ **3**
 Supponiamo che $P$ non abbia vertici, facciamo vedere che deve contenere una retta. Si giunge ad un assurdo, applicando il lemma precedente. Se infatti supponiamo che non contenga rette, possiamo applicare il lemma, e di volta in volta trovare punti in cui sono attivi sempre più vincoli una volta finiti i vincoli si arriva all'assurdo di avere più vincoli attivi dei vincoli totali del poliedro. $\square$
@@ -126,3 +120,7 @@ $$
 $$
 affinché sia soffisfatta per ogni $\lambda$, $a_i^Td = 0$.
 Ma se il sistema omogeno ha una soluzione non banale $d$, allora il rango della matrice $A$ è minore di $n$. $\square$.
+
+
+
+
