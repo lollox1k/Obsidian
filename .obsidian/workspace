@@ -7,12 +7,8 @@
         "id": "9fb16bc5c79921c8",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "successioni di Cauchy.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "graph",
+          "state": {}
         }
       }
     ],
@@ -53,7 +49,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 324
   },
   "right": {
     "id": "953946482fdc2b4f",
@@ -69,7 +65,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "successioni di Cauchy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +84,15 @@
   },
   "active": "9fb16bc5c79921c8",
   "lastOpenFiles": [
-    "successioni di Cauchy.md",
-    "README.md",
-    "TEST NOTE.md",
     "Matematica/Ricerca Operativa/Poliedri.md",
-    "Matematica/Ricerca Operativa/Convessità/Insieme convesso.md",
-    "Matematica/Ricerca Operativa/Convessità/Funzioni convesse.md",
-    "Matematica/Ricerca Operativa/Convessità/Ottimizzazione di funzioni convesse.md",
-    "Matematica/Ricerca Operativa/Convessità/Teorema di separazione.md",
-    "Matematica/Ricerca Operativa/Eliminazione di Fourier-Motzkin.md",
-    "Matematica/Ricerca Operativa/Dualità.md"
+    "Matematica/Ricerca Operativa/Rappresentazione interna di poliedri.md",
+    "Matematica/Ricerca Operativa/Programmazione lineare/Algoritmo del Simplesso.md",
+    "Matematica/Ricerca Operativa/Ottimizzazzione/Ottimizzazione di funzioni convesse.md",
+    "Matematica/Ricerca Operativa/Ottimizzazzione/Esistenza delle soluzioni ottime.md",
+    "Termodinamica/Variabili coniugate.md",
+    "Meccanica statistica/Entropia termodinamica.md",
+    "Termodinamica/Termodinamica assiomatica.md",
+    "Meccanica statistica/Metodi matematici in Meccanica Statistica.md",
+    "Matematica/Teoria Della Misura/Costruzione di una misura, metodo Caratheodory.md"
   ]
 }
