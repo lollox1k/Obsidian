@@ -27,4 +27,22 @@ $$
 $$
 $\square$
 
-Non si può non enunciare il [[Teorema di Weierstrass]], che garantisce l'esistenza dell'insieme delle soluzioni quando $C$ è compatto ed $f$ continua.
+Non si può non enunciare il [[Teorema di Weierstrass]], che garantisce l'esistenza dell'insieme delle soluzioni quando $C$ è compatto ed $f$ continua. 
+
+Quando non si può applicare Weierstrass direttamente, è utile il teorema sugli [[Funzioni convesse#Insiemi di livello|insiemi di livello]], posso ragionare su $C\bigcap \mathcal{L}(\alpha,f)$ per un qualche $\alpha \in Im(f)$, che potrebbe essere limitato. Ha le stesse soluzioni ottime, dalla definizione di insieme di livello! 
+
+Utile il seguente fatto:
+
+### Teorema 
+>> Gli _insiemi di livello_ di una funzione continua e coerciva sono Compatti
+
+#### Dim 
+La chiusura segue dalla definzione di insieme di livello e della continuità della $f$, la limitatezza dalla coercività della funzione! (prima o poi se mi allontano troppo $f \geq \alpha$).
+### Oss
+Le _curve di livello_ di una funzione convessa in generale non sono insiemi convessi, questo vale solo quando la funzione è affine (dimostrazione ovvia, basta considerare gli insiemi complementari).
+
+### Oss conclusiva
+Possiamo combinare i precedenti teoremi/osservazioni con questo enunciato:
+>> Il problema $MIN(C,f)$ con $f$ *continua* e coerciva, $C$ insieme chiuso, allora $SOL(C,f)$ è non vuoto e compatto
+
+infatti $SOL(C,f) = SOL(C\bigcap \mathcal{L},f)$ che per continuità e coercività è compatto, quindi non vuoto per il [[Teorema di Weierstrass]] e chiuso per la [[Esistenza delle soluzioni ottime#Proposizione 1]].

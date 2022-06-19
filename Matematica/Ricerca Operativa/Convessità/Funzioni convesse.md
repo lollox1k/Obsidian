@@ -32,7 +32,7 @@ $(x,y)\in epi(f)$ se $y \geq f(x)$, ma questa cosa è proprio la definizione di 
 Vediamo un utile teorema, che mostra ancora come funzioni ed insiemi convessi siano legati.
 ### Teorema
 Sia dato un insieme convesso $C \subseteq \mathbb{R}^n$ e una funzione convessa
-$f : C → \mathbb{R}^n$. Allora l’insieme di livello della f relativo a un qualunque valore $\alpha$ è un insieme convesso. Se poi $C$ è un insieme chiuso e $f$ è continua allora l’
+$f : C → \mathbb{R}$. Allora l’_insieme di livello_ della f relativo a un qualunque valore $\alpha$ è un insieme convesso. Se poi $C$ è un insieme chiuso e $f$ è continua allora l’
 insieme di livello è anche un insieme chiuso.
 #### Dim
 Facciamo vedere che la combinazione convessa di due punti $x_1,x_2 \in \mathcal{L}(f,\alpha)$ è ancora nell'insieme di livello, ciò segue dalla convessità di $f$. $\forall \beta \in [0,1]$:
@@ -46,7 +46,7 @@ $$
 da notare che $\overline x \in C$ essendo chiuso (quidi compatto).
 
 ### Oss
-Le curve di livello di una funzione convessa in generale non sono insiemi convessi, questo vale solo quando la funzione è affine (dimostrazione ovvia, basta considerare gli insiemi complementari).
+Utile in combo con il [[Teorema di Weierstrass]], se l'insieme ammissibile $C$  è chiuso ma non limitato (quindi non compatto e non posso usare Weierstrass) posso ragionare su $C\bigcap \mathcal{L}(\alpha,f)$ per un qualche $\alpha \in Im(f)$, che potrebbe essere limitato. Ha le stesse soluzioni ottime, dalla definizione di insieme di livello! 
 
 ## Funzioni differenziabili
 Si possono caratterizzare ulteriomente, tramite il segno dell'hessiano e il piano tangente. 

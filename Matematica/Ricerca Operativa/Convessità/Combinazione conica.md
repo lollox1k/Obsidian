@@ -19,4 +19,23 @@ $$
 $$
 ovviamente $\lambda \alpha + (1-\lambda)\beta \geq 0$. $QED$
 
+## Teorema
+La definizione di combinazione conica può essere interpretata come un poliedro, con $\lambda$ come variabili. Vale la rappresentazione:
+$$
+cone(v_1,\dots,v_n)= \{x \in \mathbb{R}^n \vert Ax \leq 0\}
+$$
+per una certa matrice $A$. 
+### Dim
+è abbastanza naturale, si procede con l'[[Eliminazione di Fourier-Motzkin]] e si arriva ad un sistema di disequazioni omogeneo in $\lambda$. Le $x$ (che fanno il ruole delle $b$ costanti) si cancellano, dovendo trasformare le equazioni in due disequazioni con segno opposto:
+$$
+\lambda^Tv = x \quad
+\begin{cases}
+\lambda^T \leq x \\
+-\lambda^Tx \leq -x
+\end{cases}
+$$
+
+
+
+
 

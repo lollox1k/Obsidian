@@ -69,3 +69,36 @@ $$
 A(x+\lambda d) = Ax +\lambda Ad \leq b
 $$
 per i segni, quindi **1** è dimostrato. Il punto **2** segue banalmente, notando che $x$ scompare dalla caratterizzazione.
+
+## Teorema 
+Sia $C = \{x \in \mathbb{R}^n \vert Ax \leq 0\}$ un _cono poliedrale_, allora vale la rappresentazione:
+$$
+C = cone(d_1,\dots,d_n) \qquad d_i \in C
+$$
+si può esprimere come _combinazione conica_ di un _numero finito_ di suoi elementi, analogamente per i poliedri limitati e i veritici.
+#### Dim 
+Consideriamo la combinazione conica delle righe della matrice $A$:
+$$
+cone(a_1, \dots a_n) = \{x \in \mathbb{R}^n \vert Dx \leq 0\}
+$$
+dove abbiamo usato il [[Combinazione conica#Teorema|teorema]] che ci consente di rappresentare una combinazione conica come un cono poliedrale. 
+Consideriamo le righe della nuova matrice $d_i$. Siccome $a_i \in cone(a_1,\dots,a_n)$ deve valere:
+$$
+d_j^Ta_i = a_i^Td_j \leq 0 \quad \forall j
+$$
+quindi i vettori $d_i$ soddisfano il sistema $Ax\leq 0$, sono contenuti in $C$, ovviamente anche la loro combinazione conica, quindi:
+$$
+cone(d_i) \subseteq C
+$$
+Mostriamo ora l'altro verso, per ottenere l'equivalenza degli insiemi. Sfruttiamo ancora il teorema di rappresentazione della combinazione convessa, stavolta dei vettori $d_i$:
+$$
+cone(d_i) = \{x \in \mathbb{R}^n \vert Gx \leq 0\}
+$$
+per una certa matrice $G$. Siccome $d_i \in cone(d_i)$, deve valere:
+$$
+g_j^T d_i = d_i^T g_j \leq 0
+$$
+quindi i vettori $g_j$ soddisfano il sistema $Dx\leq 0$, che era proprio $cone(a_i)$. Ogni punto di $C$ soddisfa anche le disequazioni implicate da $A$ che sono proprio quelle di $G$, quindi:
+$$
+C \subseteq cone(d_i) \qquad \square
+$$
