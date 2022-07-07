@@ -97,7 +97,7 @@ Se è $C^2$ si può caratterizzare ulteriormente con l'Hessiano.
 #### Teo
 Sia $f: S \subseteq \mathbb{R}^n \to \mathbb{R}$ con $S$ convesso ed $f \in C^2[S]$, allora:
 1. Se $H_f(x)$ è definito semi-positivo in $S$ allora $f$ è convessa
-2. Se $H_f(x)$ è definitopositivo in $S$ allora $f$ è strettamente convessa
+2. Se $H_f(x)$ è definito positivo in $S$ allora $f$ è strettamente convessa
 3. Se $S$ è aperto ed $f$ è convessa, allora $H_f(x)$ è definito semi-positivo in $S$
 #### Dim
 1. Per il corollario del [[Teorema di Lagrange]] possiamo scrivere $f$ come:
@@ -120,7 +120,7 @@ Siccome $f$ è convessa per ipotesi vale il teorema 1, quindi:
 $$
 \frac{\lambda^2}{2}d^T H(x)d + o(|\lambda|^2||d||^2) \geq 0
 $$
-dividendo per $\lambda$ e facendo il limite $\lambda \to 0$ :
+dividendo per $\lambda^2$ e facendo il limite $\lambda \to 0$ :
 $$
 \langle  d \cdot H(x) d \rangle \geq 0 \qquad \forall d \in \mathbb{R} ^n
 $$

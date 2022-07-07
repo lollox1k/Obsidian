@@ -8,11 +8,11 @@ poliedri costituisce un importante capitolo dell’[[Ottimizzazione di funzioni 
 Un _poliedro_ in $\mathbb{R}^n$  è l’insieme delle soluzioni di un numero
 finito di equazioni e disequazioni (non strette) lineari.
 
-Con questa definizione un poliedro è sempre un insieme _chiuso_ e _convesso_ (si veda [[Insieme convesso#Teorema Intersezioni|Intersezione di convessi]].
+Con questa definizione un poliedro è sempre un insieme _chiuso_ e _convesso_ (si veda [[Insieme convesso#Teorema Intersezioni|Intersezione di convessi]]).
 
 _Geometricamente_ le soluzioni di un’equazione lineare rapp-
 resentano un iperpiano, mentre le soluzioni di una disequazione (non stretta) rappresenta un semispazio chiuso. 
-Vediamo quindi che, con terminologia più geometrica, possiamo affermare che _un poliedro è l’ intersezione di un numero finito di iperpiani e semispazi chiusi_.
+Vediamo quindi che, con terminologia più geometrica, possiamo affermare che _un poliedro è l’ intersezione di un numero finito di semispazi chiusi_.
 
 ## Vertici
 Geometricamente è chiaro cosa siano. Algebricamente? Esprimiamo un poliedro come:
@@ -21,7 +21,7 @@ Ax \leq b
 $$
 senza perdità di generalità. I vertici sono i punti dove sono "attivi" un numero massimo di vincoli.
 ### Def vincoli attivi
-Se un vettore $\overline x \in \mathbb{R}^n$ soddisfa $a_i^T x = b_i$ per un qualche $i \in \{1,\dots,m\} (le righe di $A$) si dice che il corrispondente vincolo è attivo in $\overline x$. Indichiamo l'insieme dei vincoli attivi in un generico punto come $I(x)\subseteq \{1,\dots,m\}$.
+Se un vettore $\overline x \in \mathbb{R}^n$ soddisfa $a_i^T x = b_i$ per un qualche $i \in \{1,\dots,m\}$ (le righe di $A$) si dice che il corrispondente vincolo è attivo in $\overline x$. Indichiamo l'insieme dei vincoli attivi in un generico punto come $I(x)\subseteq \{1,\dots,m\}$.
 
 La cosa da notare è che in un vertice sono attivi esattamente $n$ vincoli, ma bisogna stare attenti a possibili vincoli ritondanti: _infatti in un vertice sono attivisi $n$ vincoli linearmente indipendenti_ (intendiamo che i vettori $a_i$ sono l.i.).
 
@@ -47,7 +47,7 @@ Possono essere tanti, ma sono finiti!.
 # Esistenza dei veritci
 
 ## Quando un poliedro ha almeno un vertice?
-non tutti i poliedro hanno vertici, basta considerare il poliedro definito da una singola disequazione, che genera un semispazio (privo di vertici), oppure nel caso del _corollario 1_.
+Non tutti i poliedri hanno vertici, basta considerare il poliedro definito da una singola disequazione, che genera un semispazio (privo di vertici), oppure nel caso del _corollario 1_.
 
 In generale, se la matrice $A$ ha un _numero massimo di righe lineramenti indipenenti_  $k<n$, è ovvio che non avrà un vertice. Facciamo vedere come questa condizione oltre ad essere sufficiente affinchè non abbia vertici, è anche necessaria.
 
@@ -89,10 +89,6 @@ $$
 $$
 \lambda \geq \lambda_i = \frac{b_i-a_i^T\overline x}{a_i^T d} < 0
 $$
-3. $a_i^T d < 0$, in questo caso $\lambda$ deve essere:
-$$
-\lambda \geq \lambda_i = \frac{b_i-a_i^T\overline x}{a_i^T d} < 0
-$$
 Siccome la retta non è contenuta in $P$, per almeno un vincolo $i$ si è nel caso **2** o **3**. Supponiamo di essere nel caso **2**, sia $j$ l'indice che corrisponde il più piccolo $\lambda_i$. E' chiaro allora che il punto $y = \overline x + d\lambda_j$ appartiene a $P$, e sono attivi tutti i vincoli di $\overline x$ ed il vincolo $j$.
 Per il caso **3**, tutto analogo ma $\lambda_j$ è il più grande $\lambda_i$. $\square$
 
@@ -102,7 +98,7 @@ Possiamo enunciare il teorema.
 Sia $P$ un poliedro non vuoto. Le seguenti affermazioni sono equivalenti:
 1. Il rango di $A$ è minore di $n$;
 2. $P$ non ha vertici;
-3. $P$ non contiene una retta.
+3. $P$ contiene una retta.
 ### Dim
 **1** $\implies$ **2**
 Un vertice è un punto dove sono attivi $n$ vincoli l.i, ma i vincoli attivi sono un sottoinsieme dei vincoli che definiscono il  poliedro, quind hanno rango sempre minore. $\square$
@@ -116,13 +112,4 @@ $$
 $$
 a_i^T\overline x + \lambda a_i^T d \leq b_i
 $$
-Siccome $\overline x \in P$ soddisfa i vincoli, quindi $a_i^T \overline x \leq b_i$ allora vale:
-$$
-b_i + \lambda a_i^T d \leq a_i^T \overline x + \lambda a_i^T d \leq b_i
-$$
-che implica
-$$
-\lambda a_i^Td \leq 0, \qquad \forall \lambda
-$$
-affinché sia soffisfatta per ogni $\lambda$, $a_i^Td = 0$.
-Ma se il sistema omogeno ha una soluzione non banale $d$, allora il rango della matrice $A$ è minore di $n$. $\square$.
+Se $(Ad)_i > 0$ mando $\lambda \to \infty$ ed esco dal poliedro, analogamente se $(Ad)_i < 0$ mando $\lambda \to -\infty$.  Segue che $Ad = 0$, ma se il sistema omogeno ha una soluzione non banale $d$, allora il rango della matrice $A$ è minore di $n$. $\square$

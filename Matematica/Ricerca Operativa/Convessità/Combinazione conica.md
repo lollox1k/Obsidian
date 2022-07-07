@@ -10,7 +10,7 @@ facciamo vedere che $\lambda x_1 + (1-\lambda)x_2 \in Q$ $\forall x_1,x_2 \in Q$
 $$
 x_1 = \alpha^Tv \qquad x_2 = \beta^Tv \qquad \alpha,\beta \geq 0
 $$
-Per far vedere che anche combinazioni coniche sono in $Q$, basta far vedere che può essere scritto come rappresentazione conica dei vettori generatori. Usiamo la notazione classica dei prodotti scalari: $v^tu = \langle v,u \rangle$ 
+Per far vedere che anche combinazioni convesse sono in $Q$, basta far vedere che può essere scritto come combinazione conica dei vettori generatori. Usiamo la notazione classica dei prodotti scalari: $v^tu = \langle v,u \rangle$ 
 $$
 \lambda \langle \alpha, v \rangle + (1-\lambda)\langle \beta, v \rangle
 $$

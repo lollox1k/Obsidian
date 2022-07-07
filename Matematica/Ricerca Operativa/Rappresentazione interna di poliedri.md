@@ -1,4 +1,4 @@
-L'obbiettivo è il _teorema di wyel_, rappresentare un poliedro in forma interna, ovvero come una combinazione particolare di un insieme finito di oggetti, rispetto alla definizione esterna tramite sistema di disequazioni [[Poliedri#Def]].
+L'obbiettivo è il _teorema di Wyel_, rappresentare un poliedro in forma interna, ovvero come una combinazione particolare di un insieme finito di oggetti, rispetto alla definizione esterna tramite sistema di disequazioni [[Poliedri#Def]].
 
 ### Def cono 
 Un insieme non vuoto $C \subseteq \mathbb{R}^n$ è detto _cono_ se $\forall x \in C$ $\lambda x \in C$ per tutti $\lambda \geq 0$.
@@ -16,7 +16,7 @@ Dati due insieme di punti in $\mathbb{R}^n$, $V = \{v 1 , . . . , v_k\}$ e $D = 
 
 #### Dim 
 L'idea è vedere il tutto come un insieme di disequazioni e vincoli, quindi un poliedro. Basta eliminare le variabili $\lambda$ e $\mu$ con una proiezione, ed ottenere così la rappresentazione esterna (implicita) del poliedro.
-Se $V = ∅$ abbiamo che $conv(V ) = ∅$ e quindi anche $conv(V ) + cone(D) $ è l’insieme vuoto, che è un poliedro. 
+Se $V = ∅$ abbiamo che $conv(V ) = ∅$ e quindi anche $conv(V ) + cone(D)$ è l’insieme vuoto, che è un poliedro. 
 Se invece $V$ non è vuoto abbiamo che i punti $x$ di $conv(V ) + cone(D)$ sono del tipo $x = w + z$ con $w ∈ conv(V)$ e $z ∈ cone(D)$. 
 Ricordando la definizione di involucro convesso e quello di involucro conico abbiamo quindi che $x$ appartiene a $conv(V ) + cone(D)$ se e solo se esistono $λ ∈ \mathbb{R}^k$ e $µ ∈ \mathbb{R}^q$ tali che:
 $$
@@ -48,6 +48,26 @@ Sia dato un poliedro non vuoto $P$ e un suo punto $x$. Un vettore $d ∈ \mathbb
 ### Oss
 Le direzioni di recfessione (che, come vedremo subito, non dipendono dal punto $x$ rappresentano quindi le direzioni in cui ci si può “muovere all’infinito” rimanendo dentro l’insieme $P$.
 
+## Teorema 
+Estendiamo il teorema precedente, ovvero la rappresentazione interna di poliedri non vuoti e finiti al caso non limitato, ma sempre senza rette: è possibile che una semiretta sia contenuta nel poliedro, questo fa cadere una parte della dimostrazione del teorema precedente. 
+
+Mostriamo il seguente fatto:
+$$
+P = conv(v_1,\dots,v_p) + rec(P)
+$$
+### Dim 
+Siccome $P$ è non vuoto, prendiamo $x\in P$. Se è un vertice ho finito, supponiamo non lo sia. Sempre per il lemma precedente, posso considerare una retta dove tutti i vincoli attivi rimangono tali, e siccome per ipotesi $P$ non contiene rette, almeno da uno dei due versi la rette deve "sbattere", ovvero attivare altri vincoli. Se trovo sempre due punti di collisione, reitero fino a giungere a dei vertici. Nel caso di un lato illimitato, posso espremire $x$ come:
+$$
+x = x_1 + \lambda d, \qquad \lambda \geq 0
+$$
+dove $x_1$ è il punto di collisione:
+$$
+x_1 = x -\overline \lambda d
+$$
+Quindi posso esprimere $x$ come un punto $x_1$ dove sono attivi tutti i vincoli di $x$ più almeno un altro ed una direzione di recessione, o come combinazione convessa di due punti $x_1$ e $x_2$ dove sono attivi più vincoli. Reitero fino ad avere solo vertici!. $\square$
+
+Vogliamo far vedere come caratterizzare l'insieme delle direzioni di recessioni come una combinazione conica di un insieme finito di elementi $rec(P)=cone(d_1,\dots,d_k)$.
+
 ### Teo caratterizzazione algebrica delle dir. di recessione
 1. Tutte le direzioni di recessione di un poliedro $P = \{x \; \vert \; Ax\leq b\}$ sono tutte e sole le soluzioni del sistema di disequazioni omogeno associato:
 $$
@@ -69,6 +89,9 @@ $$
 A(x+\lambda d) = Ax +\lambda Ad \leq b
 $$
 per i segni, quindi **1** è dimostrato. Il punto **2** segue banalmente, notando che $x$ scompare dalla caratterizzazione.
+
+### Oss
+L'insieme delle direzioni di recessioni $rec(P)$ è quindi un _cono poliedrale_. Facciamo vedere come un cono poliedrale si possa rappresentare come combinazione conica di un insieme finito di elementi.
 
 ## Teorema 
 Sia $C = \{x \in \mathbb{R}^n \vert Ax \leq 0\}$ un _cono poliedrale_, allora vale la rappresentazione:
@@ -102,3 +125,9 @@ quindi i vettori $g_j$ soddisfano il sistema $Dx\leq 0$, che era proprio $cone(a
 $$
 C \subseteq cone(d_i) \qquad \square
 $$
+
+### Conclusione
+$$
+P = conv(v_1,\dots,v_k)+rec(P)= conv(v_1,\dots,v_k) + cone(d_1,\dots,d_p)
+$$
+$\square$

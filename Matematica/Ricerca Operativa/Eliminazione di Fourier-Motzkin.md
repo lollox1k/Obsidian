@@ -42,3 +42,40 @@ Ripeto fino ad arrivare all'insieme vuoto, oppure zero variabili,
 
 
 L'algoritmo è semplice, ma il numero di disequazione diventa molto grande, non è pratico da implementare per sistemi grandi. Assumiamo di avere $n$ variabili e $m$ disequazioni, e che gli insiemi $N$ e $P$ siano di cardinalità circa $m/2$. Allora dopo ogni step avremo un numero di disequazioni pari alla cardinalità del prodotto cartesiano $N\times P$ ovvero $\simeq m^2$ . Dovendo fare $n$ eliminazioni per ciascuna variabile alla fine otteniamo circa $m^{2n}$ disequazioni: cresce esponenzialmente (no buono).   
+
+## Teorema 
+Il sistema $A'x\leq b'$ definito come:
+$$
+\sum_{j=2}^n \left( \frac{a_{ij}}{a_{j1}}+\frac{a_{kj}}{|a_{k1}|} \right)x_j \leq  \frac{b_i}{a_{j1}}+\frac{b_k}{|a_{k1}|}, \quad \forall i \in P, \; \forall k \in N
+$$
+$$
+\sum_{j=2}^n a_{ij}x_j \leq b_i \qquad \forall i \in Z
+$$
+è una proiezione del sistema $Ax\leq b$ dopo aver eliminato la variabile $x_1$.
+
+### Dim 
+Dobbiamo far vedere che $A'x\leq b'$ allora $\exists z$ tale che $A(x,z)\leq b$. 
+Il primo verso è ovvio, infatti tutte le disequazioni nel nuovo sistema sono ottenute come conbinazione conica di quelle originarie, quindi è un sistema implicato.
+
+Per dimostrare l'altro verso, scambiamo due termini:
+$$
+\sum_{j=2}^n \frac{a_{kj}}{|a_{k1}|}x_j - \frac{b_k}{|a_{k1}|} \leq \frac{b_i}{a_{j1}} -  \sum_{j=2}^n\frac{a_{ij}}{a_{j1}}x_j \qquad \forall i \in P, \; \forall k \in N
+$$
+quindi in particolare vale per massimi a sinistra e il minomo a destra, esiste quindi un elemento $x_1$ che si trova in mezzo, un _elemento separatore_. Questo elemento risolve il sistema originario, infatti:
+$$
+x_1 \leq \sum_{j=2}^n \frac{b_i}{a_{j1}} - \sum_{j=2}^n\frac{a_{ij}}{a_{j1}}x_j \qquad \forall i \in P
+$$
+$$
+x_1 \geq \sum_{j=2}^n \frac{a_{kj}}{|a_{k1}|}x_j - \frac{b_k}{|a_{k1}|} \qquad \forall k \in N
+$$
+moltiplicando per il valore positivo $a_{1j}$ le disequazioni del gruppo $P$ si ottiene:
+$$
+a_{1j}x_1 + \sum_{j=2}^n a_{ij}x_j \leq b_i \qquad \forall i \in P
+$$
+moltiplicando per il valore positivo  $|a_{k1}|$ il gruppo $N$ si ottiene:
+$$
+a_{k1}x_1 + \sum_{j=2}^n a_{kj}x_j \leq b_k \qquad \forall k \in N
+$$
+quelle del gruppo $Z$ sono ovviamente soddisfatte, quindi $A(x_1,x)\leq b$. $\square$
+
+> il sistema con meno variabili ha più equazioni, questo consente di essere una proiezione di quello di partenza!
