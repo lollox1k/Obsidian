@@ -27,15 +27,15 @@ Per trovare $u$ al tempo e posizione generica, mi basta trovare quale caratteris
 
 1. trovare le caratteristiche, risolvendo un'EDO:
 $$
-\dot x(t) = a(x) \implies x(t) = a(x)t + x_0
-$$semplicemente integrando nel tempo. Le caratteristiche sono rette (moto rettilineo uniforme) ma la velocità dipende dal punto.
+\dot x(t) = a(x), \quad x(0) = x_0
+$$
 
 2. ricostruire la soluzione partendo dalla condizione iniziale risolvendo un'altra EDO:
 $$
 \frac{d}{dt}u(t,x(t)) = -a'(x)u(t,x(t)) 
 $$
 Risolviamo esplicitamente nel caso della linear advection, quindi $a(x) = a \in \mathbb{R}$ costante.
-Il punto 1 rimane uguale, ma l'edo 2 è banale: _la u resta costante lungo le caratteristiche_. 
+Il punto 1 è una semplice integrazione, e l'edo 2 è banale: _la u resta costante lungo le caratteristiche_. 
 $$
 u(t,x(t))= u(0,x(0)) = u_0(x_0) = u_0(x-at)
 $$
@@ -68,7 +68,7 @@ u\partial_t u + au\partial_x u = \frac{1}{2}\partial_t u^2 + \frac{a}{2}\partial
 $$
 Moltiplichiamo per 2 ed integriamo nello spazio sull'intervallo:
 $$
-\frac{d}{dt}\int_0^L u^2 + a[u^2(t,L)-u^2(t,0)] dx = 0
+\frac{d}{dt}\int_0^L u^2dx + a[u^2(t,L)-u^2(t,0)] = 0
 $$
 ma $u^2(t,0) = g^2(t)$, il dato di bordo (sinitro, siamo nel caso $a>0$). 
 $$
