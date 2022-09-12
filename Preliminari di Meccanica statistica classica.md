@@ -1,5 +1,8 @@
-# Meccanica statistica classica
+# Preliminari di Meccanica statistica classica
 _Source:_ Short treatise G. Gallavotti (1999) 
+- Obbiettivo della MS classica;
+- Idee chiave di Boltzmann: discretizzazzione, ipotesi ergodica;
+- Tempo di ricorrenza, osservabilo macroscopiche;
 
 ## Introduzione 
 Scopo della meccanica statistica classica: 
@@ -25,7 +28,7 @@ In luce del principio di indeterminazione, è  naturale identificare $h$, il vol
 Prima imponiamo delle richieste sulla nostra descrizione discreta in cellette.
 
 ### Dinamica microscopica discreta
-Abbiamo discretizzato lo spazio delle fasi, discretizziamo anche la dinamica facendo lo stesso col tempo: introduciamo un intervallo temporale "piccolo" $\tau$. Come per la costante $h$, dobbiamo indagare che significam"piccolo".
+Abbiamo discretizzato lo spazio delle fasi, discretizziamo anche la dinamica facendo lo stesso col tempo: introduciamo un intervallo temporale "piccolo" $\tau$. Come per la costante $h$, dobbiamo indagare che significa "piccolo".
 
 Il sistema evolvendo passa da uno stato ad un altro, nel nostro caso da $\Delta \rightarrow \Delta'$. Ma se $\tau$ è troppo piccolo non riesce ad uscire dalla cella iniziale, se è troppo grande compie un salto.
 
@@ -80,7 +83,7 @@ Assumendo $\delta p = \overline p = \sqrt{3mk_BT}$ otteniamo:
 $$
 \tau \geq \frac{h}{k_BT}
 $$
-> Per temperature basse non funziona più, rompo la condizione di unicitià e reversibilità.
+> Per temperature basse non funziona più, rompo la condizione di unicità e reversibilità.
 
 Boltzmann fece le ipotesi:
 $$
@@ -105,11 +108,11 @@ E' palesemente falsa per molti sistemi! Infatti se esistono altre costanti del m
 
 Allora è naturale definire la nozione di _Distribuzione di probabilità ergodica_.
 ### Def 
-Un insieme di celle dello spazio delle fasi è ergodico se è chiuso rispetto la mappa $S$ e la sua azione è una permutazione ad un ciclo.
+Un *insieme di celle* dello spazio delle fasi è *ergodico* se è *chiuso rispetto la mappa $S$* e la sua azione è una permutazione ad un ciclo.
 
-Quindi la versione non restrittiva dell'ipotesi ergodica diventa quella di studiare il moto dopo aver fissato a priori tutte le quantità conservate.
+Quindi la versione non restrittiva dell'ipotesi ergodica diventa quella di studiare il moto dopo aver *fissato a priori tutte le quantità conservate*.
 
-Questo è in generale un problema difficile, esistono infatti quantità conservate non banali (come il momento angolare totale), e ogni sistema va analizzato a se.
+Questo è in generale un problema difficile, esistono infatti *quantità conservate non banali*(come il momento angolare totale), e ogni sistema va analizzato a se.
 
 Nonostante ciò Boltzmann ritenne che questi sistemi sono l'eccezzione.
 
@@ -156,7 +159,7 @@ $$
 $$
 Vol(J) = V^N Vol(J_p) 
 $$
-Dove $J_p$ è un guscio sferico. Lo calcoliamo usando al formula per il [[Volume della palla n dimensionale]] (sto barando, ma il volime del guscio è praticamente uguale a quello della palla visto che $N >> 1$)
+Dove $J_p$ è un guscio sferico. Lo calcoliamo usando al formula per il [[Volume della palla n dimensionale]] (sto barando, ma il volume del guscio è praticamente uguale a quello della palla visto che $N >> 1$)
 $$
 Vol(J_p)=\frac{(2\pi)^{N/2}}{\Gamma(N/2+1)}\left(2mE\right)^{N/2}
 $$
@@ -170,4 +173,17 @@ $$
 $$
 t_R = \mathcal{N}\tau \simeq  \mathcal{N} \frac{h}{k_B T} \simeq \frac{h}{Nk_BT} \left( \frac{2\pi e^{5/3}}{3} \right)^{3N/2}
 $$
+Per una mole di idrogeno in condizioni standard risulta $10^{-14}\cdot 10^{10^{19}}$, per confronto l'età dell'universo è $\simeq 10^{17}$ secondi.
 
+>> Il nostro lavoro e l'ipotesi ergodica sono da buttare?
+
+Per riconciliare il tutto Boltzmann fece l'ulteriore ipotesi che per *osservabili interessanti*, quelle *macroscopiche*, sono praticamente costanti sulla superficie ad energia fissata ad eccezioni di una piccolissima frazione $\epsilon$ di cellette.
+
+>> Le osservabili macroscopiche si comportano bene
+
+Esempi di osserabili macro:
+- Energia media
+- Energia cinetica media
+- Energia potenziale media
+- Pressione
+- Densità locale

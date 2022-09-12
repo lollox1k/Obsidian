@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Meccanica statistica classica.md",
-            "mode": "preview",
+            "file": "Lattice gas.md",
+            "mode": "source",
             "source": false
           }
         }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "sistemi reticola",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Meccanica statistica classica.md",
+                "file": "Lattice gas.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,17 +87,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "946c24a533c544a1",
+  "active": "51323684b4c46c57",
   "lastOpenFiles": [
-    "Formula di Stirling.md",
-    "Meccanica statistica classica.md",
-    "Volume della palla n dimensionale.md",
+    "Finite volume Gibbs distributions.md",
+    "Lattice gas.md",
+    "Sistemi reticolari.md",
     "Meccanica statistica/Metodi matematici in Meccanica Statistica.md",
-    "Meccanica statistica/Entropia termodinamica.md",
-    "Termodinamica/Termodinamica assiomatica.md",
-    "Meccanica statistica/Equazione di Nerst.md",
-    "Matematica/PDE/Shock and Rankine-Hugoniot theorem.md",
-    "Matematica/PDE/Problema di Riemann.md",
-    "Matematica/Matematica computazionale/Metodi numerici/Numerical PDE/Schemi numerici per leggi di conservazioni non lineari.md"
+    "Matematica/Matematica computazionale/Cinetic Models/Modelli Cinetici.md",
+    "Distribuzioni stazionarie sullo spazio delle fasi.md",
+    "Ensemble canonico.md",
+    "Teoremi sulla convergenza uniforme.md",
+    "Limite di successioni subadditive.md",
+    "Ensemble microcanonico.md"
   ]
 }
