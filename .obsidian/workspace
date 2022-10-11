@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Lattice gas.md",
+            "file": "Neural Networks/McCulloch-Pitts neuron.md",
             "mode": "source",
             "source": false
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "sistemi reticola",
+                "query": "convergenza monotona",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lattice gas.md",
+                "file": "Neural Networks/McCulloch-Pitts neuron.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,17 +87,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "51323684b4c46c57",
+  "active": "946c24a533c544a1",
   "lastOpenFiles": [
-    "Finite volume Gibbs distributions.md",
-    "Lattice gas.md",
-    "Sistemi reticolari.md",
-    "Meccanica statistica/Metodi matematici in Meccanica Statistica.md",
-    "Matematica/Matematica computazionale/Cinetic Models/Modelli Cinetici.md",
-    "Distribuzioni stazionarie sullo spazio delle fasi.md",
-    "Ensemble canonico.md",
+    "Neural Networks/The Perceptron.md",
+    "Neural Networks/McCulloch-Pitts neuron.md",
+    "Neural Networks/Neural Networks.md",
+    "README.md",
+    "Senza nome.md",
+    "successioni di Cauchy.md",
+    "Teorema di Weierstrass.md",
+    "Volume della palla n dimensionale.md",
     "Teoremi sulla convergenza uniforme.md",
-    "Limite di successioni subadditive.md",
-    "Ensemble microcanonico.md"
+    "Meccanica statistica/Sistemi reticolari.md"
   ]
 }

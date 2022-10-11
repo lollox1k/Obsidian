@@ -3,7 +3,7 @@
 the number of odd degree vertices is even.
 #### Dim 
 Assume the number is odd. We arrive at a contraddiction. 
-The sum of all vertices degree is two times the number of edges:
+The sum of all vertices degree is two times the number of edges [[Handshake Lemma]]:
 $$
 \sum_{v\in V}d(v) = 2m
 $$

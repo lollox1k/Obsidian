@@ -43,7 +43,7 @@ $$
 $$
 ### Proof
 Come prima, sia $\alpha := \inf_{\Lambda} \frac{a(\Lambda)}{|\Lambda|}$, sia $\Delta$ un elemento della successione tale che $\frac{a(\Delta)}{|\Delta|} \leq \alpha + \epsilon$. 
-Ogni cubo $\Lambda_n$ può essere scomposto in un'unione di  $N_n$ traslati di $\Delta$ ed un resto. Supponendo di scegliere $N_n$ grande a piacere, 
+Ogni cubo $\Lambda_n$ può essere scomposto in un'unione di  $N_n$ traslati di $\Delta$ ed un resto. Supponendo di scegliere $n$ grande a piacere, 
 $$
 \lim_{n\to \infty} \frac{|\Lambda_n|}{N_n|\Delta|} = 1
 $$
@@ -54,6 +54,6 @@ $$
 dove il secondo addendo è il termine di resto.
 Quindi:
 $$
-\alpha \leq \limsup_{n\to\infty} \frac{a(\Lambda_n)}{|\Lambda_n|} \leq \limsup_{n\to\infty} \frac{N_n a(\Delta)}{N_n|\Delta|} \leq \alpha + \epsilon
+\alpha \leq \liminf_{n\to\infty} \frac{a(\Lambda_n)}{|\Lambda_n|} \leq \limsup_{n\to\infty} \frac{N_n a(\Delta)}{N_n|\Delta|} \leq \alpha + \epsilon
 $$
 per l'arbitrarietà di $\epsilon$ questo conclude la dimostrazione. $\square$
