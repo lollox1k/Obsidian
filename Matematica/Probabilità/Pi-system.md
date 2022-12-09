@@ -101,3 +101,5 @@ $$
 \mathcal{B} = \sigma(\pi(\mathbb{R})) \qquad\pi(\mathbb{R}) := \{(-\infty, x] \vert\, x \in \mathbb{R}\}
 $$
 Quindi se due misure di probabilità concordadno sugli intervalli della forma $(-\infty, x]$ sono equivalenti su tutta la sigma algebra di $Borel$ (su tutto $\mathbb{R}$ fanno $1$ per definizione, quindi concordano).
+
+

@@ -17,7 +17,7 @@ $$
 per subadditività. Siccome è il resto di una serie convergente ottengo la tesi. $\square$
 
 # Lemma di Borel-Cantelli II
-Sia $(E_n)_{n\geq 1}$ una successione di _eventi indipendenti_ di uno spazio di probabilità $(\Omega, \mathcal{F},\mathbb{P})$. Se la serie $\sum_n \mathbb{P}(A_n) = \infty$ _diverge_ allora:
+Sia $(A_n)_{n\geq 1}$ una successione di _eventi indipendenti_ di uno spazio di probabilità $(\Omega, \mathcal{F},\mathbb{P})$. Se la serie $\sum_n \mathbb{P}(A_n) = \infty$ _diverge_ allora:
 $$
 \mathbb{P}(\limsup_n A_n) = 1
 $$

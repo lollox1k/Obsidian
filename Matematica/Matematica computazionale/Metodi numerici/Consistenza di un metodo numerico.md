@@ -1,3 +1,4 @@
+# Consistenza di un metodo numerico
 Un [[Metodi numerici|metodo numerico]] $\Phi$ si dice _consistente_ se:
 $$
 \lim_{h\to 0} T(x,y;h) = 0

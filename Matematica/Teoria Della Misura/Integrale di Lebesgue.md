@@ -9,6 +9,9 @@ $$
 $$
 Approssimiamo sempre più $f$ dal basso con funzioni semplici (per questo ci siamo limitati a funzioni non negative). 
 
+In effetti esiste una definizione più esplicita, per ogni funzione misurabile esiste una successione monotona crescente di funzioni semplici che converge puntualmente q.o. alla funzione, quindi è proprio il sup cercato. [[Funzioni misurabili#Successione monotna di funzioni semplici| successione monotona di funzioni semplici]]. Si può vedere come definizione alternativa.
+
+
 Estendiamo banalmente a funzioni generali separando le parti positive e negative, e facendo la differenza:
 $$
 \int f d\mu = \int f_+ d\mu - \int f_- d\mu

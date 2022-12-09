@@ -40,3 +40,37 @@ questo mi permette anche di legittimare il seguente scambio:
 $$
 \mu(\lim_{n\to\infty} A_n) = \mu(A) = \lim_{n\to\infty} \mu(A_n)
 $$
+
+# Lemma di Fatou per integrali
+Se vedo $\mu(f)$ come $I(f)$, Fatou continua a valere! Si dimostra usando il [[Monotone Convergence Theorem]]. Per l'altro verso devo aggiungere l'ipotesi di una funzione che limita all'alto la successione, infatti non posso usare direttamente la convergenza monotona sulla successione dei sup, perchè è decrescente!
+
+Sia $(f_n)_{n\geq 1}$ una successioni di funzioni misurabili non negative, allora:
+$$
+\mu(\liminf_n f_n) \leq \liminf_n \mu(f_n)
+$$
+Sia $(f_n)_{n\geq 1}$ una successione di funzioni misurabili non negative limitate dall'alto da una funzione misurabile $g$ tale che $\mu(g) < \infty$,  allora:
+$$
+\limsup_n \mu(f_n) \leq \mu(\liminf_n f_n)
+$$
+### Dim 
+1. Sia $g_n := \inf_{k \geq n} f_k$, allora $\liminf_n f_n = \lim_n g_n$.  Ovvio che $g_k \leq f_k$. Il limite è ovviamente monotono non descrescente, posso usare il teorema della convergenza monotona:
+$$
+\mu(\liminf_n f_n) = \mu(\lim_n g_n) =^{MCT} \lim_n \mu(g_n) \leq \liminf_n \mu(f_n) 
+$$
+2. L'osservazione chiave è che i sup di $f_n$ sono gli inf di $-f_n$, che posso rendere non negativa con il bound superiore $g$. Basta applicare  il lemma alla successione di funzioni non negataive $g-f_n$ ed usare la linearità dell'integrale:
+$$
+\mu(\liminf_n g-f_n) \leq \liminf_n \mu(g-f_n)
+$$
+$$
+\mu(g) - \mu(\limsup_n f_n) \leq \mu(g) - \limsup_n\mu(f_n)
+$$
+usando il fatto che $\mu(g) < \infty$:
+$$
+\limsup_n \mu(g_n) \leq \mu(\limsup_n g_n)
+$$
+$\square$
+
+
+
+
+

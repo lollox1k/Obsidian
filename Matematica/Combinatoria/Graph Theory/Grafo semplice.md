@@ -99,4 +99,46 @@ Sia $G'$ un sottografo di $G$, allora $d_{G'}(x,y) \geq d_G(x,y)$
 Se $d_G(x,y) = t$ allora esiste un cammino semplice che li collega: se non è semplice posso accorciarlo, ma è il minimo per definizione!
 
 
+## Connessione
+
+Vogliamo rispondere alla seguente domanda:
+Qual è il numero massimo di archi $D(n)$ affinchè un grafo di ordine $n$ sia sconnesso?
+
+Supponiamo abbia solo due componenti connesse, se infatti ne avesse di più, potrei aggiungere archi  collegando le compoenti connesse, mantenendo il grafo sconnesso. Le componenti connesse partizionano i veritci in due sottoinsiemi di cardinalità $x$ ed $n-x$. Supponiamo di aver massimizzato gli archi nelle due componenti, ovvero sono i grafi $K_n$ e $K_{n-x}$, il numero di archi è in totale:
+$$
+|E(K_x)| + |E(K_{n-x})| = \frac{x(x-1)}{2} + \frac{(n-x)(n-x-1)}{2}
+$$
+non ci resta che ottimizzare questa quantità rispetto ad $x$ vincolato a valori $0<x<n$.
+Un punto stazionario del polinomio è $x=\frac{n}{2}$, (si può scegliere la parte intera superiore o inferiore), che tuttavia è un minimo! dalla convessità risulta che l'ottimo è sui bordi (si possono usare le [[Condizioni di ottimalità Duali KKT]])
+
+![[Pasted image 20221207140030.png]]
+**caso n = 4**
+
+Si può far il ragionamento più smart minimizzando il numero di archi tolti che rendono possibile la sconnessione: $x(n-x)$, che ha minimo proprio in $x=1$ e $x=n-1$. In questi punti il numero di archi è:
+$$
+D(n) = \frac{(n-1)(n-2)}{2} = \binom{n-1}{2}
+$$
+
+**Corollario**
+Se $G$ ha ordine  $> D(n)$ allora è connesso.
+
+### Lemma connessione
+  Un grafo connesso ad $n$ vertici ha almeno $n-1$ archi.
+**Dim**
+Per induzione:
+$n=1$, niente da dimostrare. 
+Supponiamo ora di avere un grafo con $n+1$ vertici, facciamo vedere che deve avere almeno $n$ archi. Costruiamolo partendo da un grafo ad $n$ vertici connesso, per ipotesi induttiva ha almeno $n-1$ archi. Aggiungendo un vertici, affinchè rimanga connesso devo aggiungere almeno un arco. $\square$
+
+Una domanda analoga: 
+### Lemma aciclico
+Qual è il numero massimo di archi per un grafo di ordine $n$ tale che sia aciclico:
+
+**Dim** Per induzione:
+$n=1$, niente da dimostrare.
+Supponiamo di avere un grafo aciclico ad $n$ vertici, per ipotesi induttiva deve avere al massimo $n-1$ archi. Costruiamo un grafo a $n+1$ vertici. Se non collego il nuovo vertice, continua ad essere acicliclo, ed ad avere meno di $n-1$ archi. Se aggiungo un arco continua ad essere aciclico, infatti il nuovo vertice, che sarà di grado $1$, non può comparire in un ciclo: il grado dei vertici in un ciclo è almeno $2$. Se aggiungo più di un arco, creo dei cicli!. $\square$
+
+
+
+
+
 
