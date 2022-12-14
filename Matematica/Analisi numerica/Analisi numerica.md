@@ -9,7 +9,9 @@
 7. [[Problema dei minimi quadrati]]
 8. [[Singular Value Decomposition]]
 9. [[Metodi iterativi]]
-10. [[Metodo di Richardson stazionario]]
-11. 
+	1. [[Metodo di Richardson stazionario]]
+	2. [[Metodi del gradiente]]
+	
+	
 
 
