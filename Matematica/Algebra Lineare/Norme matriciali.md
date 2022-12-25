@@ -45,6 +45,6 @@ La norma matriciale indotta dalla norma due vettoriale può essere caratterizzat
 $$
 \Vert A \Vert_2 = \sqrt{\rho(A^HA)} = \sigma_1(A)
 $$
-Se $A$ è _hermitiana_, allora $\Vert A \Vert_2 =\rho(A)$. Se è _unitaria_ vale ha norma pari ad uno.
+Se $A$ è _hermitiana_, allora $\Vert A \Vert_2 =\rho(A)$. Se è _unitaria_ ha norma pari ad uno.
 
 

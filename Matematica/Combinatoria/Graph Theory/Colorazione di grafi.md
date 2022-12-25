@@ -32,7 +32,7 @@ Sia $\alpha(G)$ il numero di stabilità del grafo $G$ (l'ordine dell'insieme sta
 $$
 \frac{\vert V(G) \vert}{\alpha(G)} \leq \chi(G)
 $$
-($\alpha(G \geq 1$ per ogni grafo non vuoto).
+($\alpha(G) \geq 1$ per ogni grafo non vuoto).
 ### Dim 
 sfrutto il fatto che la preimmagine di una colorazione è un insieme stabile, e tutte le preimmagini sono una partizione dei veriti:
 $$

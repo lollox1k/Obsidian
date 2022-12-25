@@ -11,7 +11,7 @@
 9. [[Metodi iterativi]]
 	1. [[Metodo di Richardson stazionario]]
 	2. [[Metodi del gradiente]]
-	
+	3. [[Krylov subspace methods]]
 	
 
 
