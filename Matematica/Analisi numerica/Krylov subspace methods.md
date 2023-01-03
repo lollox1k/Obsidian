@@ -40,3 +40,5 @@ The idea is finding the new approximate solution in this subspace. The new solut
 Each method will have its own condition, for instance the [[GMRES method]]stand for _generalized minimal residua_, it will choose $x^{k+1}$ that minimzes the euclidean distance from the solution.
 
 The [[Conjugate gradient method]] minimizes the energy norm of the error.
+
+It is usefull to find an Orthonormal basis for a given Krylov subspace. The [[Arnoldi iteration]] is a numerical algorithm based upon a Gramh-Smith procedure. 

@@ -36,6 +36,8 @@ Un *cammino* (*trail*) impongo che gli archi siano diversi. Se è $x=y$ si chiam
 
 Un *cammino semplice* (*path*) è una *passeggiata* senza ripetizioni di vertici (quindi anche di archi). Se $x=y$ si parla di *ciclo*.
 
+**Proposizione** Sia $G$ un grafo con $\delta(G)\geq 2$ (grado minimo almeno $2$). Allora esiste un ciclo.
+**Dim** Sia $P$ un cammino massimale, e $u\in V$ uno dei suoi estremi. Siccome $d(u) \geq \delta(G) \geq 2$,  $u$ ha almeno un altro vicino. Se questo vicno non fosse già nel cammino, potrei costruire un cammino più lungo, contro la massimalità. Dunque esiste almeno un ciclo. $\square$
 
 ## Def Sottografi
 Un *sottografo* di $G$ è un grafo $G'$ tale che $V(G') \subseteq V(G)$ e $E(G') \subseteq E(G)$.
@@ -54,52 +56,7 @@ $$
 ovvero ha archi "opposti". L'unione dei due grafi è il grafo completo.
 
 
-## Relazione di raggiungibilità
-Se tra i vertici $x$ e $y$ esiste un cammino dico che sono raggiungibili:
-$$
-x \sim y \iff \exists \text{ una passeggiata da $x$ a $y$}
-$$
-### Oss 
-E' una relazione di equivalenza du $V$.
-
-Le classi di equivalenza sono chiamate *componenti connesse*.
-$$
-V(G)/\sim = V_1 \cup V_2 \cup \dots V_n
-$$
-definisco $\lambda(G) = n$ il numero di componenti connesse di un grafo $G$.
-
-### Propostizione
-Se $x \sim y$ allora esiste un cammino semplice tra $x$ ed $y$.
-
-#### Dim 
-Costruisco il cammino semplice a partire dalla passeggiata da $x$ ad $y$, infatti se non è semplice significa che c'è una ripetizioni di archi, quindi di vertici, ovvero $\exists i < j$ tale che: $x_i = x_j =: z$
-
-$$
-\mathcal{C} = x,e_1, x_2, e_2, \dots x_i, e_i,\dots x_j,e_j,\dots y
-$$
-posso rimuovere il blocco compreso tra questo stesso vertice $z$, ottengo una nuova passeggiata senza che il vertice $z$ si ripetea. Faccio lo stesso per tutti i vertici ripetuti, per induzione arrivo ad un cammino senza ripetizioni di vertici, ovvero semplice. $\square$
-
-
-## Metrica 
-Definiamo una metrica sull'insieme dei vertici $V(G)$, ovvero $d: V(G)\times V(G) \mapsto \mathbb{N} \cup \{\infty\}$
-
-$$
-d_G(x,y) = 
-\begin{cases}
-+\infty \text{ se } x \nsim y \\
-\min \{t : t \text{ lunghezza passeggiata da $x$ a $y$} \} 
-\end{cases}
-$$
-quindi $(G, d_G)$ è uno spazio metrico.
-
-### Oss
-Sia $G'$ un sottografo di $G$, allora $d_{G'}(x,y) \geq d_G(x,y)$ 
-
-### Oss
-Se $d_G(x,y) = t$ allora esiste un cammino semplice che li collega: se non è semplice posso accorciarlo, ma è il minimo per definizione!
-
-
-## Connessione
+## Combinatoria estremale dei grafi
 
 Vogliamo rispondere alla seguente domanda:
 Qual è il numero massimo di archi $D(n)$ affinchè un grafo di ordine $n$ sia sconnesso?
@@ -131,7 +88,7 @@ Supponiamo ora di avere un grafo con $n+1$ vertici, facciamo vedere che deve ave
 
 Una domanda analoga: 
 ### Lemma aciclico
-Qual è il numero massimo di archi per un grafo di ordine $n$ tale che sia aciclico:
+Qual è il numero massimo di archi per un grafo di ordine $n$ tale che sia aciclico: $n-1$.
 
 **Dim** Per induzione:
 $n=1$, niente da dimostrare.
