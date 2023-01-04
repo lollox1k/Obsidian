@@ -8,7 +8,7 @@
 	5.  [x] [[Handshake Lemma]]
 	6.  [x] [[Circuito Euleriano]]
 	7.  [x] [[Ciclo hamiltoniano]]
-	8.  [ ] [[Alberi]]
+	8.  [x] [[Alberi]]
 	9.  [ ] [[Formula di Caley]]
 	10.  [ ] [[Line graph]]
 	11.  [ ] [[Colorazione di grafi]]

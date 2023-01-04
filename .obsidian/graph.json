@@ -6,17 +6,67 @@
   "hideUnresolved": false,
   "showOrphans": true,
   "collapse-color-groups": false,
-  "colorGroups": [],
+  "colorGroups": [
+    {
+      "query": "path:Matematica/Combinatoria",
+      "color": {
+        "a": 1,
+        "rgb": 14701138
+      }
+    },
+    {
+      "query": "path:\"Matematica/Analisi numerica\"",
+      "color": {
+        "a": 1,
+        "rgb": 14725458
+      }
+    },
+    {
+      "query": "path:\"Matematica/Matematica computazionale\"",
+      "color": {
+        "a": 1,
+        "rgb": 11657298
+      }
+    },
+    {
+      "query": "path:\"Matematica/Teoria Della Misura\"",
+      "color": {
+        "a": 1,
+        "rgb": 486013
+      }
+    },
+    {
+      "query": "path:\"Meccanica statistica\"",
+      "color": {
+        "a": 1,
+        "rgb": 5431473
+      }
+    },
+    {
+      "query": "path:\"Matematica/Ricerca Operativa\"",
+      "color": {
+        "a": 1,
+        "rgb": 16687361
+      }
+    },
+    {
+      "query": "path:\"Neural Networks\"",
+      "color": {
+        "a": 1,
+        "rgb": 5395168
+      }
+    }
+  ],
   "collapse-display": false,
   "showArrow": true,
-  "textFadeMultiplier": -1.2,
-  "nodeSizeMultiplier": 1,
+  "textFadeMultiplier": -2.2,
+  "nodeSizeMultiplier": 1.53509234828496,
   "lineSizeMultiplier": 0.986357212740515,
   "collapse-forces": false,
   "centerStrength": 0.71754068716094,
   "repelStrength": 19.4430379746835,
   "linkStrength": 1,
   "linkDistance": 298,
-  "scale": 0.379635166999174,
+  "scale": 0.19744692330093463,
   "close": true
 }

@@ -2,14 +2,14 @@
 
 Vediamo una caratterizzazzione completa di questi grafi.
 
-## Def (Foresta)
+**Def** (Foresta)
 Un grafo $G$ acicliclo viene detto _foresta_. 
-## Def (Albero)
+**Def**
 Un grafo $G$ viene detto albero se è una foresta ed è _connesso_. 
 
 > In effetti una foresta è un'unione disgiunta di alberi.
 
-### Teorema 
+**Teorema** 
 Un grafo $G$ è una foresta se e solo se per ogni coppia di vertici $x,y$ esiste al più un solo cammino.
 
 **Dim**
@@ -38,9 +38,9 @@ $(3 \implies 1)$ Supponiamo $G$ sia aciclico massimale, basta far vedere che $G$
 ## Caratterizzazzione tramite ordine e taglia
 **Teorema** Un grafo $G$ è una foresta se e solo se vale la relazione:
 $$
-\vert E(G)\vert = \vert V(G)\vert -\lambda
+\vert E(G)\vert = \vert V(G)\vert -\lambda(G)
 $$
-dove $\lambda$ è il numero di componenti connessi del grafo.
+dove $\lambda(G)$ è il numero di componenti connessi del grafo.
 **Dim**
 Siccome una foresta è l'unione disgiunta di alberi, è sufficiente dimostrare che per un albero vale la relazione $\vert E(G)\vert = \vert V(G)\vert -1$. 
 $(\implies)$
@@ -48,10 +48,9 @@ Si usano i lemmi [[Grafo semplice#Lemma connessione|1]] e  [[Grafo semplice#Lemm
 
 $(\impliedby)$ Facciamo vedere che se vale la relazione, allora $G$ è un albero.
 Per _induzione_ sull numero di vertici $\vert V(G)\vert = n$:
-Base induttiva $n=1$: triviale, il grafo è un albero.
-
+Base induttiva $n=1$: triviale, il grafo è un albero e la relazione è soddisfatta.
 Passo induttivo: supponiamo che $\vert V(G)\vert = n$, facciamo vedere che anche per $n+1$ la relazione implica che sia un albero.
-Costruiamo il grafo $G'$ ad $n+1$ vertici aggiungendo un vertice al grafo $G$, ed un solo arco,siccome deve essere connesso, il nuovo arco incide sul nuovo vertice. Essendo di grado $1$ non può comparire in un ciclo ($G$ era aciclico per ipotesi), quindi anche $G$ è aciclico, ed è quindi un albero. $\square$
+Costruiamo il grafo $G'$ con $n+1$ vertici aggiungendo un vertice al grafo $G$, ed un solo arco, siccome deve essere connesso, il nuovo arco incide sul nuovo vertice. Essendo di grado $1$ non può comparire in un ciclo ($G$ era aciclico per ipotesi), quindi anche $G'$ è aciclico, ed è quindi un albero. $\square$
 
->**RECAP** connesso implica almeo $n-1$ archi, aciclico implica al massimo $n-1$ archi, quindi un albero (connesso ed aciclico) deve avere esattamente $n-1$ archi. Se un grafo ha $n-1$ archi, è un albero: si fa per induzione.
+>**RECAP** connesso implica almeno $n-1$ archi, aciclico implica al massimo $n-1$ archi, quindi un albero (connesso ed aciclico) deve avere esattamente $n-1$ archi. Se un grafo connesso ha $n-1$ archi, è un albero: si fa per induzione.
 
