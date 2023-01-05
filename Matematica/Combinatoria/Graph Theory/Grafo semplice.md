@@ -39,6 +39,12 @@ Un *cammino semplice* (*path*) è una *passeggiata* senza ripetizioni di vertici
 **Proposizione** Sia $G$ un grafo con $\delta(G)\geq 2$ (grado minimo almeno $2$). Allora esiste un ciclo.
 **Dim** Sia $P$ un cammino massimale, e $u\in V$ uno dei suoi estremi. Siccome $d(u) \geq \delta(G) \geq 2$,  $u$ ha almeno un altro vicino. Se questo vicno non fosse già nel cammino, potrei costruire un cammino più lungo, contro la massimalità. Dunque esiste almeno un ciclo. $\square$
 
+Vediamo una semplice caratterizzazzione dei cicli $C_n$.
+**Proposizione** Un grafo connesso $G$. Allora $G$ uniforme di grado $2$ se e solo se $G=C_n$.
+**Dim** 
+- ($\impliedby$) Banale.
+- $(\implies)$ Per la proposizione precedente esiste un ciclo $C \subseteq G$. Supponiamo per assurdo che $\exists v \in V(G)$ tale che $v \notin C$. Siccome $G$ è connesso, risco a trovare un vertice $x \in C$ ed uno $y \notin C$ tali che $\{x,y\} \in E(G)$. Ma allora $d(x) \geq 3$, assurdo. $\square$
+
 ## Def Sottografi
 Un *sottografo* di $G$ è un grafo $G'$ tale che $V(G') \subseteq V(G)$ e $E(G') \subseteq E(G)$.
 Un sottografo viene detto *ricoprente* se $V(G') = V(G)$ (tolgo solo qualche arco).

@@ -3,26 +3,23 @@ Se tra i vertici $x$ e $y$ esiste un cammino dico che sono raggiungibili:
 $$
 x \sim y \iff \exists \text{ una passeggiata da $x$ a $y$}
 $$
-### Oss 
-E' una relazione di equivalenza su $V$ (riflessiva, simmetrica e transitiva).
+**Oss** E' una relazione di equivalenza su $V$ (riflessiva, simmetrica e transitiva).
 
-Le classi di equivalenza sono chiamate *componenti connesse*.
+Le classi di equivalenza sono chiamate *componenti connesse*, sono i sottografi connessi massimali del grafo $G$:
 $$
 V(G)/_\sim = V_1 \cup V_2 \cup \dots V_n
 $$
 definisco $\lambda(G) = n$ il numero di componenti connesse di un grafo $G$.
 
-### Proposizione
-Se $x \sim y$ allora esiste un cammino semplice tra $x$ ed $y$.
+**Prop** Se $x \sim y$ allora esiste un cammino semplice tra $x$ ed $y$.
 
-#### Dim 
+**Dim** 
 Costruisco il cammino semplice a partire dalla passeggiata da $x$ ad $y$, infatti se non è semplice significa che c'è una ripetizioni di archi, quindi di vertici, ovvero $\exists i < j$ tale che: $x_i = x_j =: z$
 
 $$
 \mathcal{C} = x,e_1, x_2, e_2, \dots x_i, e_i,\dots x_j,e_j,\dots y
 $$
 posso rimuovere il blocco compreso tra questo stesso vertice $z$, ottengo una nuova passeggiata senza che il vertice $z$ si ripetea. Faccio lo stesso per tutti i vertici ripetuti, per induzione arrivo ad un cammino senza ripetizioni di vertici, ovvero semplice. $\square$
-
 
 ## Metrica 
 Definiamo una metrica sull'insieme dei vertici $V(G)$, ovvero $d: V(G)\times V(G) \mapsto \mathbb{N} \cup \{\infty\}$
@@ -73,4 +70,5 @@ d(u,v) \leq d(u,c) + d(c,v) \leq 2 ecc(c) = 2 rad(G) \qquad \square
 $$
 
 **Remark** Anche nel caso $G$ non connesso valgono queste disugualianze, ma ogni eccentricità risulta infinita...
+
 

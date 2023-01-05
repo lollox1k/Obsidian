@@ -55,6 +55,34 @@
         "a": 1,
         "rgb": 5395168
       }
+    },
+    {
+      "query": "path:\"Matematica/Set Theory\"",
+      "color": {
+        "a": 1,
+        "rgb": 11621088
+      }
+    },
+    {
+      "query": "path:Matematica/PDE",
+      "color": {
+        "a": 1,
+        "rgb": 14701233
+      }
+    },
+    {
+      "query": "path:Matematica/Probabilità",
+      "color": {
+        "a": 1,
+        "rgb": 14701138
+      }
+    },
+    {
+      "query": "path:\"Matematica/Teoria degli algoritmi\"",
+      "color": {
+        "a": 1,
+        "rgb": 14725458
+      }
     }
   ],
   "collapse-display": false,
@@ -67,6 +95,6 @@
   "repelStrength": 19.4430379746835,
   "linkStrength": 1,
   "linkDistance": 298,
-  "scale": 0.19744692330093463,
+  "scale": 0.2768172096864217,
   "close": true
 }

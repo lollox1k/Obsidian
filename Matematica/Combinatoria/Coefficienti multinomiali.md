@@ -36,6 +36,15 @@ Quindi il coefficiente  multinomiale è il numero di funzioni da $[n]$ in $[k]$ 
 Come per il coefficente binomiale il ruolo delle $r_i$ è  simmetrico.
 
 ## Relazione di ricorrenza
+
+Prima di dimostrarla algebricamente, esiste una semplice regola di addizione, una relazione di ricorrenza. Supponiamo di avere $m$ scatole ed $n$ oggetti da distribuire. Sia $\alpha \in [n]$ un particolare oggetto. Se lo mettiamo nella prima scatola, per i rimanenti oggetti abbiamo:
+$$
+\binom{n-1}{r_1-1, r_2,\dots, r_m}
+$$
+in maniera simili, se mettiamo $\alpha$ nella seconda scatola dovremmo diminuire $r_2$ di uno. Siccome possiamo partizionare tutti i possibili assegnamenti in base a dove contengono l'elemento $\alpha$, la cardinalità di tutti gli assegnamenti sarà la somma. $\square$
+
+Algebricamente:
+
 $$
 (x_1 + x_2 + \dots + x_k)^n = (x_1 + x_2 + \dots + x_k)^{n-1}(x_1 + x_2 + \dots + x_k)
 $$

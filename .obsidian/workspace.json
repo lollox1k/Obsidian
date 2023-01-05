@@ -92,24 +92,24 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "command-palette:Open command palette": false,
-      "markdown-importer:Open format converter": false,
+      "switcher:Apri selezione rapida": false,
+      "graph:Apri vista grafo": false,
+      "command-palette:Apri riquadro comandi": false,
+      "markdown-importer:Apri importazione Markdown": false,
       "canvas:Create new canvas": false
     }
   },
   "active": "a0977e06642bea6e",
   "lastOpenFiles": [
-    "Matematica/Combinatoria/Graph Theory/Formula di Caley.md",
+    "Matematica/Combinatoria/Graph Theory/Graph Isomorphism.md",
     "Matematica/Combinatoria/Combinatoria.md",
-    "Matematica/Combinatoria/Graph Theory/Alberi.md",
     "Matematica/Combinatoria/Graph Theory/Grafo semplice.md",
-    "Meccanica statistica/Metodi matematici in Meccanica Statistica.md",
-    "Ciclo hamiltoniano.md",
-    "Matematica/Combinatoria/Graph Theory/Circuito Euleriano.md",
-    "Matematica/Combinatoria/Graph Theory/Handshake Lemma.md",
+    "Line graph.md",
+    "Cut,Bridges, Block decomposition of a Graph.md",
     "Matematica/Combinatoria/Graph Theory/Distanza e connessione.md",
-    "Matematica/Combinatoria/Grafo complementare.md"
+    "Alberi di copertura.md",
+    "teorema di Kirchoff.md",
+    "Teorema di Bondy.md",
+    "Matematica/Teoria degli algoritmi/Riduzione polinomiale.md"
   ]
 }

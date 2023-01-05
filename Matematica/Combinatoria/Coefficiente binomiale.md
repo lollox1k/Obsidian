@@ -54,6 +54,7 @@ I due risultati devono coincidere, quindi:
 $$
 h\binom{n}{h} = n\binom{n-1}{h-1}
 $$
+Viene chiamata _absorption/extraction identity_, portando $h$ dall'altro lato è evidente perchè.
 3. Otteniamo un'altra identità, bipartizionando l'insieme $\binom{[n]}{h}$ : fissiamo un elemento $i \in [n]$, induce la bipartizione $S_i \cup S_c$
 $$
 \begin{align}
@@ -70,7 +71,7 @@ $$
 \sum_{h=0}^n \binom{n}{h}^2 = \binom{2n}{n}
 $$
 Abbiamo un gruppo di $n$ uomini ed $n$ donne, in totale $2n$ persone. Vogliamo invitarle ad una festa, ma c'è spazio solo per $n$ persone in totale $;($. 
-E' chiaro che avrò $\binom{2n}{n}$ modi possibili per riempire la festa, ovvero di scegliere il sottoinsieme di invitati $A \subset [2n]$.
+E' chiaro che avrò $\binom{2n}{n}$ modi possibili per riempire la festa, ovvero di scegliere il sottoinsieme di $n$ invitati $A \subset [2n]$.
 Partizioniamo gli invitati $A=U_A \cup D_A$. Contiamo i sottoinsiemi che contengono $i$ donne, (e quindi $n-i$ uomini):
 $$
 \binom{n}{i}\binom{n}{n-i} = \binom{n}{i}^2
@@ -84,6 +85,7 @@ $$
 \binom{n}{h} = \frac{n!}{h!(n-h!)}
 $$
 che rispetta tutte le proprietà dimostrate precedentemente.
+
 
 
 

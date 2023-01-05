@@ -48,7 +48,7 @@ This is result is knows as _Bauer-Fike theorem_.
 
 **Remark** If $A$ and $\delta A$ are normal, then $V$ is unitary and $\mathcal{K}_2(V)=1$.
 
-## Bauter-fike theorem
+## Bauer-fike theorem
 Let $A$ be a diagonalizable matrix, and $\delta A$ such that $A+\delta A$ is still diagonlaizable. 
 Let $\mu$ be an eigenvalus of $A+\delta A$, then there exists $\lambda$, eigenvalue of $A$ such that:
 $$
