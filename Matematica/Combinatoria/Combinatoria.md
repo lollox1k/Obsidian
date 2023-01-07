@@ -13,18 +13,20 @@
 	10. [x] [[Alberi di copertura]]
 	11.  [x] [[Formula di Caley]]
 	12.  [x] [[Line graph]]
-	13.  [ ] [[Colorazione di grafi]]
+	13.  [x] [[Colorazione di grafi]]
 	14.  [ ] [[Teorema di Brooks]]
-	15.  [ ] [[Grafi bipartiti]]
-	16.  [ ] [[Teorema di Erdos]]
+	15.  [x] [[Grafi bipartiti]]
+	16.  [x] [[Matchings]] 
+	17.  [x] [[Teorema di Erdos]]
 
 ## Combinatoria
 1.  [x] [[Teorema di Bondy]]
 2.  [x] [[Coefficiente binomiale]]
 3.  [x] [[Coefficienti multinomiali]]
 4.  [ ] [[Cammini di Dyck]]
-5.  [ ] [[Insieme trasversale]] 
+5.  [x] [[Insieme trasversale]] 
 6.  [ ] [[Ciclo di de Brujin]]
-7.  [ ] [[Combinatoria estremale]]
+7.  [ ] [[Combinatoria estremale]] 8/01
+8.  [ ] [[Teoria di Ramsey]]  9/01
 ## Teoria dell'informazione
-1.  [ ] [[Capacità di un grafo]]
+1.  [ ] [[Capacità di un grafo]] 8/01

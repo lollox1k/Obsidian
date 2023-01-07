@@ -90,7 +90,15 @@ Se $G$ ha ordine  $> D(n)$ allora è connesso.
 **Dim**
 Per induzione:
 $n=1$, niente da dimostrare. 
-Supponiamo ora di avere un grafo con $n+1$ vertici, facciamo vedere che deve avere almeno $n$ archi. Costruiamolo partendo da un grafo ad $n$ vertici connesso, per ipotesi induttiva ha almeno $n-1$ archi. Aggiungendo un vertici, affinchè rimanga connesso devo aggiungere almeno un arco. $\square$
+Supponiamo ora di avere un grafo connesso di ordine $n$, facciamo vedere che deve avere almeno $n$ archi. Costruiamo un suo sottografo rimuovendo un vertice $x \in V(G)$ $H = G \setminus \{x\}$. Il grafo ottenuto non è necessariamente connesso, siano $C_1,\dots,C_k$ le sue componenti connesse. In ogni componente connessa possiamo possiamo usare l'ipotesi induttiva:
+$$
+\forall i = 1,\dots,k \qquad |E(C_i)| \geq |V(C_i)|+1
+$$
+Ma tutte le $C_i$ sono connesse al vertice $\{x\}$, quindi ho soppresso almeno $k$ archi. Mettendo tutto insieme:
+$$
+|E(G)| \geq \sum_{i=1}^k |E(C_i)| +k \geq \sum_{i=1}^k (|V(C_i)|-1)+k = |V(G)|-1
+$$
+Dove il meno uno alla fine è il vertice $x$ che avevo rimosso. $\square$
 
 Una domanda analoga: 
 ### Lemma aciclico
@@ -98,7 +106,10 @@ Qual è il numero massimo di archi per un grafo di ordine $n$ tale che sia acicl
 
 **Dim** Per induzione:
 $n=1$, niente da dimostrare.
-Supponiamo di avere un grafo aciclico ad $n$ vertici, per ipotesi induttiva deve avere al massimo $n-1$ archi. Costruiamo un grafo a $n+1$ vertici. Se non collego il nuovo vertice, continua ad essere acicliclo, ed ad avere meno di $n-1$ archi. Se aggiungo un arco continua ad essere aciclico, infatti il nuovo vertice, che sarà di grado $1$, non può comparire in un ciclo: il grado dei vertici in un ciclo è almeno $2$. Se aggiungo più di un arco, creo dei cicli!. $\square$
+Supponiamo $n>1$, in questo caso esiste almeno un vertice $v \in V(G)$ di grado uno, altrimenti avrei un ciclo per la [[Grafo semplice#Passeggiate, Cammini, Circuiti, Cicli|proposizione]] sopra. Creo un sottografo $H = G \setminus \{v\}$. $H$ continua ad essere aciclico, ma è di ordine $n-1$. Per ipotesi induttiva, vale $|E(H)| \leq |V(H)|-1$. Ma per come l'abbiamo costruito:
+$$
+|E(G)| = |E(H)|+1 \leq |V(H)| = |V(G)| - 1 \qquad \square
+$$
 
 
 

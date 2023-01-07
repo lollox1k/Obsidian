@@ -86,6 +86,20 @@ $$
 $$
 che rispetta tutte le proprietà dimostrate precedentemente.
 
+## Upper bound
 
+Un upperbound immediato si verifica maggiorando $n^{\underline k}$ con $n^k$ 
+$$
+\binom{n}{k} \leq \frac{n^k}{k!} \leq \left(\frac{en}{k}\right)^k \leq n^k
+$$
+
+dove si è usato il lower bound per il fattoriale:
+$$
+e^x = \sum_{k=0}^\infty \frac{x^k}{k!} \geq \frac{k^k}{k!}
+$$
+per $x$ positivi, dunque:
+$$
+\left(\frac{k}{e}\right)^k \leq k!
+$$
 
 

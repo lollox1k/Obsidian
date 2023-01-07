@@ -22,3 +22,25 @@ V_D := \{ v \in V \;:\; v \text{ ha un numero dispari di 1}\}
 $$
 è chiaramente una partizione dei vertici, i due insiemi sono indipendenti infatti se $\{x,v\} \in E(H_n)$, cambia al più una cifra della stringa: un uno diventa zero o viceversa, di conseguenza se prima gli uni (zeri) erano pari, ora diventano dispari e viceversa. $\square$
 
+## Matching per grafi bipartiti
+
+E' chiaro trovare un [[Matchings|matching]] perfetto in un grafo bipartito è impossibile almeno che $|V_1|=|V_2|$. Rilassiamo la condizione, richiedendo che il mathing saturi solo una delle due parti.
+
+**Def** Sia $G$ un grafo bipartito con $|V_1| \leq |V_2|$, $M$ un suo matching. Diciamo che $M$ è un _matching completo_ se satura tutti i vertici di $V_1$.
+
+La cosa interssante, è che un matching completo e un [[Matematica/Insieme trasversale|insieme trasversale]] sono praticamente la stessa cosa, infatti posso tradurre una famiglia di sottoinsiemi in un grafo bipartito.
+
+Quando è possibile trovare un matching completo?
+
+**Teorema** (Hall). Sia $G$ un grafo bipartito. Allora esiste un matching completo se e solo se la condizione di Hall è soddisfatta:
+$$
+\forall S \subseteq V_1 \qquad |\Gamma(S)| = \sum_{x \in S} d(x) \geq |S|
+$$
+**Dim** Se esiste un matching completo, la condizione di Hall deve valere, infatti anche ogni suo sottinsieme $S \subseteq V_1$ è saturato dal matching, quindi deve valere $|S| \leq |\Gamma(S)|$ (scelgo solo uno dei vicini per ogni vertice in $S$).
+Mostriamo ora che è una condizione anche sufficiente. Supponiamo che $|S| \leq |\Gamma(S)|$ per tutti i sottoinsiemi $S \subseteq V_1$, sia $M$ un matching massimo. Supponiamo per assurdo che esista un vertice $u \in V_1$ non $M$-saturato. 
+Definiamo l'insieme dei vertici $A \subseteq V(G)$ che possono essere collegati al vertice $x$ tramite un cammino alternante. Sia $S = A \cap V_1$ e $T = A \cap V_2$. Siccome il matching $M$ è massimo, per il teorema di Berge non esiste un cammino alternante, quindi tutti i vertici di $T$ sono $M$-saturi, così come $S \setminus \{x\}$. Questo implica $|T| = |S|-1$, infatti da ogni cammino da $x$ in $S \setminus \{x\}$ visito un numero uguale di volte vertici in $S$ ed in $T$. 
+Inoltre dalla definizione vale $\Gamma(S)=T$, infatti, supponiamo esista un vertice $y \in V_2$ e $s \in S$ tale che $sy \in E(G)$ ma $y \notin T$. Siccome non appartiene a $T$, non esiste un cammino alternante $x-y$, quindi l'arco $sy \in M$ (se non fosse nel matching potrei costruire un cammino alternante). Ma questo è assurdo, siccome esiste già un arco del matching che ha come estremo $s$. 
+Mettendo insieme, ottengo l'assurdo
+$$
+|\Gamma(S)| = |T| = |S|-1 < |S| \qquad \square
+$$

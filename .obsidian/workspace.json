@@ -11,8 +11,12 @@
             "id": "a0977e06642bea6e",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Matematica/Combinatoria/Combinatoria.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -73,6 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Matematica/Combinatoria/Combinatoria.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,15 +106,15 @@
   },
   "active": "a0977e06642bea6e",
   "lastOpenFiles": [
-    "Matematica/Combinatoria/Graph Theory/Graph Isomorphism.md",
+    "Matematica/Combinatoria/Insieme trasversale.md",
     "Matematica/Combinatoria/Combinatoria.md",
-    "Matematica/Combinatoria/Graph Theory/Grafo semplice.md",
-    "Line graph.md",
-    "Cut,Bridges, Block decomposition of a Graph.md",
-    "Matematica/Combinatoria/Graph Theory/Distanza e connessione.md",
+    "Teorema di Brooks.md",
+    "Matematica/Combinatoria/Graph Theory/Grafi bipartiti.md",
+    "Matchings.md",
     "Alberi di copertura.md",
-    "teorema di Kirchoff.md",
-    "Teorema di Bondy.md",
-    "Matematica/Teoria degli algoritmi/Riduzione polinomiale.md"
+    "Matematica/Combinatoria/Graph Theory/Alberi.md",
+    "Images/Pasted image 20230107153911.png",
+    "Matematica/Combinatoria/Graph Theory/Grafo semplice.md",
+    "Teoria di Ramsey.md"
   ]
 }

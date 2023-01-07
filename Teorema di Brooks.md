@@ -1,17 +1,17 @@
 
-# Teorema di Brooks (1941)
+# Teorema di Brooks
 
 Abbiamo visto come si puù costruire un [[Colorazione di grafi#Algoritmo greedy e upper bound|algoritmo greedy]] che trova una colorazione con al più $d(G)+1$ colori.
 
 **Question** Sotto quali ipotesi posso invece avere $\chi(G) \leq d(G)$?
 
+**Teorema** (Brooks 1941)
 Sia $G$ un grafo con $d(G) = d$. Se $G$ soddisfa le condizioni:
 1. non contiene un grafo completo $K_{d+1}$;
 2. se $d>2$ ($G$ non è un ciclo)
 Allora $\chi(G) \leq d(G) = d$.
 
-### Dim 
-Ragioniamo per assurdo. Supponiamo esista un grafo G che rispetta **1** e **2**, e inoltre la negazione del teorema, ovvero $\chi(G) > d$, che unito al teorema precedentemenente dimostrato ci da $\chi(G) = d + 1$. Chiamiamo questa proprietà **3**. Facciamo vedere come un grafo che soffisfi **1** **2** e **3** non esista.
+**Dim** Ragioniamo per assurdo. Supponiamo esista un grafo G che rispetta **1** e **2**, e inoltre la negazione del teorema, ovvero $\chi(G) > d$, che unito al teorema precedentemenente dimostrato ci da $\chi(G) = d + 1$. Chiamiamo questa proprietà **3**. Facciamo vedere come un grafo che soffisfi **1** **2** e **3** non esista.
 
 Per prima costa, se $G$ soddisfa queste proprietà, allora esiste un sottografo $G' \subseteq G$ che le soddsifa. Consideriamo un tale **sottografo minimale**. 
 
@@ -26,7 +26,7 @@ $$
 $$
 ma questo va contro l'ipotesi di mininalità rispetto alle proprietà **1** **2** e **3**.
 
-**Strategia** Prendo in $G$ un vertice $x$ di grado massimo $d$.  Vedremo come $\Gamma(x) \cup \{x\}$ induce un completo.
+**Strategia** Prendo in $G$ un vertice $x$ di grado massimo $d$.  Vedremo come $\Gamma(x) \cup \{x\}$ induce un completo di ordine $d+1$ contro la condizione **1**.
 
 Il claim $1$ mostra come il numero cromatico debba scendere rimuovendo qualunque vertice, quindi in particolare un vertice $x$ di grado massimo $d$.
 Posso definire una colorazione ottimale, colorando i vicini $\Gamma(x)$ con $d$ colori e $x$ con il colore $d+1$.
