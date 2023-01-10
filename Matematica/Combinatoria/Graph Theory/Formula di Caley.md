@@ -18,7 +18,7 @@ Given a tree $T$, with labeled vertices $1,\dots,n$.
 4. Remove $v$ from $T_i$ and create a new $T_{i+1}$.
 5. If $T_{i+1} = K_2$, then stop. Otherwise $i++$ and go back to step 2.
 
-> sostanzialmente stiamo potando le foglie dell'albero in ordine crescente di label, ed annotando dove erano attaccata! _Prufer's pruning!_
+> sostanzialmente stiamo potando le foglie dell'albero in ordine crescente di label, ed annotando dove erano attaccate! _Prufer's pruning!_
 
 **Osservazione 1** Ogni vertice $v$ appare $d(v)-1$ volte nella sequenza (le foglie non compaiono).
 
@@ -43,7 +43,7 @@ This is obvious, since given a prufer's code, we can reconstruct (this is anothe
 Remains to prove surjectivity, that is, for each string $(a_1,a_2,\dots,a_{n-2}) \in [n]^{n-2}$ we can construct a tree $T$ such that  $c(T)=(a_1,a_2,\dots,a_{n-2})$. 
 Again, we can construct a complete code from the string, each column is an edge of the $n$ vertices. We need to prove that this make sense, that this a tree. 
 Each column, is distinct, since once a vertex appears in the lower part of the code, it's removed from the tree, so it won't appear ever next.
-Since there are $n-1$ (distinct) edges and $n$ vertices by contruction, this is a tree by [[Alberi#Caratterizzazzione tramite ordine e taglia|this]] characterization.
+Since there are $n-1$ (distinct) edges and $n$ vertices by contruction, we need to prove that is connected. We claim that the graph constructed adding edges from right to left, is always connected. This is  true, infact in the complete code each vertex appears exactly $d(v)$ times. Given the top vertex of a vertex in the middle of the code, it will appear next in the lower part when it will be removed! Hence it's connect and the final graph is a tree. $\square$
 
 ### Dimostrazione con la teoria delle specie
 
@@ -104,7 +104,11 @@ dunque $f^i(a)$ è un ricorrente. $\square$
 
 **Def** Se $a$ è un transiente, chiamo _punto di contatto_ di $a$ il primo dei ricorrenti che incontro iterando la funzione a partire da $a$.
 
+Definiamo la funzione $f : \mathcal{V}_n \mapsto end(n)$ mandnando i vertici della colonna in base al loro ordine naturale e quello indotto dall'oridine (i vertici della colonna vengono permutati dall'endofunzione). Quelli sulle membra in base al primo vicino lungo il cammino diretto che li collega ad una vertebra.
+
 Ora costruiamo il digrafo dell'endofunzione in maniera naturale. Ottengo dei cicli per i ricorrenti (possono essere più cicli separati), e degli alberi che si incontrano ad un ricorrente per i transienti. 
+
+Metto in ordine naturale i vertici corrispondenti agli elementi transienti, e sotto la loro immagine nell'endo funzione: è una permutazione che definisce il cammino coda-testa.
 
 ### Dimostrazione per ricorrenza con i coefficienti multinomiali
 
@@ -145,3 +149,8 @@ Il caso base $n=3$ funziona. Supponiamo ora la formula valga per $n-1$. Usando l
 $$
 |T(n;d_1,\dots,d_n)| = \sum_{i=1}^{n-1}\binom{n-3}{d_1-1, \dots d_i -2, \dots, d_{n-1}-1} = \binom{n-2}{d_1-1,\dots d_{n-1}-1,0}
 $$
+
+**Corollario** Questo era evidente già dal numero di codici di Prufer per una data sequenza di gradi, $d_1,d_2,\dots$. Potevo contarli con il coefficiente multinomiale e poi sommare su tutte le sequenze ammissibili, ed ottenere $n^{n-2}$.
+
+
+

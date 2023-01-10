@@ -29,4 +29,4 @@
 7. [x] [[Teorema di Konig-Egervary]]
 8. [x] [[Teorema di Birkoff-von Neumann]] 
 ## Teoria dell'informazione
-1.  [ ] [[Capacità di un grafo]] 8/01
+1.  [ ] [[Capacità di un grafo]] 

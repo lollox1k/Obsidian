@@ -87,7 +87,7 @@ $$
 
 questo fatto insieme alla scelta intelligente di $n=2^{\frac{k}{2}}$
 $$
-|\Omega_n| = 2^{\binom{n}{2}-\binom{k}{2}+k(\frac{k}{2}-1)}
+|\Omega_n| < 2^{\binom{n}{2}-\binom{k}{2}+k(\frac{k}{2}-1)}
 $$
 per semplificare ancora le cose, notiamo che per $k \geq 2$ vale:
 $$
@@ -101,7 +101,7 @@ $$
 $$
 siccome sono sottoinsiemi. Non sono disgiunti, ma posso stimare dall'alto con al somma:
 $$
-|\mathcal{G}_n\setminus(\mathcal{A}_n \cup \Omega_n)| \geq |\mathcal{G}_n|- 2|\Omega_n| \geq 2^{\binom{n}{2}} -2\cdot 2^{\binom{n}{2}-\binom{k}{2}+k(k/2-1)}
+|\mathcal{G}_n\setminus(\mathcal{A}_n \cup \Omega_n)| \geq |\mathcal{G}_n|- 2|\Omega_n| > 2^{\binom{n}{2}} -2\cdot 2^{\binom{n}{2}-\binom{k}{2}+k(k/2-1)}
 $$
 usando l'ultimo upperbound (stretto) discusso:
 $$

@@ -11,7 +11,7 @@ Vediamo una caratterizzazzione dei punti di taglio.
 
 **Teorema** Un vertice $v \in V(G)$ è un cut-vertex di $G$ se e solo se $\exists u,w \in V(G)$  diversi da $v$ tali che $v$ compare in ogni cammino $u-w$.
 
-**Dim** Assuiamo che $G$ sia connesso, il caso generale si otteiene considrando ogni componente connessa. 
+**Dim** Assuiamo che $G$ sia connesso, il caso generale si otteiene considerando ogni componente connessa. 
 $(\implies)$ Sia $v \in V(G)$ un cut-vertex, allora per definizione $G \setminus v$ è disconnesso. Siano $u,w$ vertici in componenti connesse diverse di $G\setminus v$, quindi $\nexists$ cammini $u-w$ nel grafo ridotto, ma siccome $G$ era connesso, e questo cammino non esiste più, tutti i cammini passavano per $v$.
 $(\impliedby)$ Supponiamo esistano due vertici $u,w$ tali che ogni cammino $u-w$ passa per un vertice $v$. Ma allora rimuovendolo, non esiste un cammino tra $u$ e $w$, quindi il grafo e disconnesso. $\square$ 
 

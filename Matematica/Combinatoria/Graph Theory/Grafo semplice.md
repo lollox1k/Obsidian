@@ -90,7 +90,7 @@ Se $G$ ha ordine  $> D(n)$ allora è connesso.
 **Dim**
 Per induzione:
 $n=1$, niente da dimostrare. 
-Supponiamo ora di avere un grafo connesso di ordine $n$, facciamo vedere che deve avere almeno $n$ archi. Costruiamo un suo sottografo rimuovendo un vertice $x \in V(G)$ $H = G \setminus \{x\}$. Il grafo ottenuto non è necessariamente connesso, siano $C_1,\dots,C_k$ le sue componenti connesse. In ogni componente connessa possiamo possiamo usare l'ipotesi induttiva:
+Supponiamo ora di avere un grafo connesso di ordine $n$, facciamo vedere che deve avere almeno $n-1$ archi. Costruiamo un suo sottografo rimuovendo un vertice $x \in V(G)$ $H = G \setminus \{x\}$. Il grafo ottenuto non è necessariamente connesso, siano $C_1,\dots,C_k$ le sue componenti connesse. In ogni componente connessa possiamo possiamo usare l'ipotesi induttiva:
 $$
 \forall i = 1,\dots,k \qquad |E(C_i)| \geq |V(C_i)|+1
 $$
@@ -106,7 +106,7 @@ Qual è il numero massimo di archi per un grafo di ordine $n$ tale che sia acicl
 
 **Dim** Per induzione:
 $n=1$, niente da dimostrare.
-Supponiamo $n>1$, in questo caso esiste almeno un vertice $v \in V(G)$ di grado uno, altrimenti avrei un ciclo per la [[Grafo semplice#Passeggiate, Cammini, Circuiti, Cicli|proposizione]] sopra. Creo un sottografo $H = G \setminus \{v\}$. $H$ continua ad essere aciclico, ma è di ordine $n-1$. Per ipotesi induttiva, vale $|E(H)| \leq |V(H)|-1$. Ma per come l'abbiamo costruito:
+Supponiamo $n>1$, in questo caso esiste almeno un vertice $v \in V(G)$ di grado uno, altrimenti avrei un ciclo per la [[Grafo semplice#Passeggiate, Cammini, Circuiti, Cicli|proposizione]] sopra (se il grafo non ha archi la disuguaglianza è soddisfatta). Creo un sottografo $H = G \setminus \{v\}$. $H$ continua ad essere aciclico, ma è di ordine $n-1$. Per ipotesi induttiva, vale $|E(H)| \leq |V(H)|-1$. Ma per come l'abbiamo costruito:
 $$
 |E(G)| = |E(H)|+1 \leq |V(H)| = |V(G)| - 1 \qquad \square
 $$

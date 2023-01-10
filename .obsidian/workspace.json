@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Matematica/Combinatoria/Combinatoria.md",
-                "mode": "preview",
+                "file": "Matematica/Combinatoria/Teorema di Hall.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Matematica/Combinatoria/Combinatoria.md",
+                "file": "Matematica/Combinatoria/Teorema di Hall.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,15 +106,15 @@
   },
   "active": "a0977e06642bea6e",
   "lastOpenFiles": [
-    "Matematica/Combinatoria/Graph Theory/Teorema di Konig-Egervary.md",
-    "Matematica/Combinatoria/Teorema di Birkoff-von Neumann.md",
-    "Matematica/Combinatoria/Teoria di Ramsey.md",
-    "Matematica/Combinatoria/Graph Theory/Teorema di Brooks.md",
-    "Matematica/Combinatoria/Teorema di Bondy.md",
-    "teorema di Kirchoff.md",
-    "Matematica/Combinatoria/Teorema di Sperner.md",
-    "Matematica/Combinatoria/Teorema di Hall.md",
     "Matematica/Combinatoria/Combinatoria.md",
-    "Matematica/Combinatoria/Graph Theory/Grafo complementare.md"
+    "Matematica/Combinatoria/Graph Theory/Cut,Bridges, Block decomposition of a Graph.md",
+    "Matematica/Combinatoria/Graph Theory/Distanza e connessione.md",
+    "Ciclo di de Brujin.md",
+    "Matematica/Combinatoria/Combinatoria estremale.md",
+    "Grafo di Petersen.md",
+    "Least squares.md",
+    "Matematica/Combinatoria/Graph Theory/Matchings.md",
+    "Matematica/Combinatoria/Graph Theory/Line graph.md",
+    "Matematica/Combinatoria/Graph Theory/Alberi di copertura.md"
   ]
 }
