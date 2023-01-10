@@ -96,13 +96,13 @@ Ho due modi di contare tutti gli uni della matrice:
 - Per righe: $m\cdot r$ 
 - Per colonne $d\cdot n$
 Siccome $m \leq n$ $\implies$ $r \geq d$ 
-Supponiamo per assurdo non valga la condizione di Hall, allora esistono delle righe per cui:
+Supponiamo per assurdo non valga la condizione di Hall, allora esistono $k$ sottoinsiemi $A_{i_1},\dots,A_{i_k}$ tali che:
 $$
-| \cup A_{i_1} \cup \dots \cup A_{i_k}| < k
+U := A_{i_1} \cup \dots \cup A_{i_k}\qquad| U| < k
 $$
-Ripeto il doppio conteggio nella sottomatrice con queste $k$ righe:
+Ripeto il doppio conteggio nella matrice di incidenza dell $k$ righe:
 $$
-k\cdot r < k\cdot d \implies r < d
+k\cdot r = \sum_{j = 1}^k |A_{i_j}|= \sum_{x \in U} d_x \leq d |U| < k\cdot d
 $$
-assurdo. $\square$ 
+dove con $d_x$ indichiamo quante volte compare l'elemento $x$ negli insiemi $A_{i_1},\dots$ $\square$ 
 

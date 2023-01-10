@@ -9,12 +9,12 @@ $$
 > la lunghezza del circuito è la taglia del sottografo.
 > "Si può disegnare senza staccare la penna"
 
-### Teorema di Eulero
+**Teorema** Eulerio
 Sia $G$ un grafo senza punti isolati, Allora:
 $$
 G \text{ euleriano} \iff G \text{ connesso e vertici di grado pari} 
 $$
-### Dim 
+**Dim** (Machì)
 ($\implies$) 
 Sia $\mathcal{E}$ il cammino euleriano del grafo $G$ privo di punti isolati.
 L'esistenza di un cammino che contiene tutti gli archi (quindi anche tutti i vertici dato che non esistono vertici isolati) implica che il grafo è _connesso_.

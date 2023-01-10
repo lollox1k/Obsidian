@@ -28,7 +28,7 @@ E' chiaro trovare un [[Matchings|matching]] perfetto in un grafo bipartito è im
 
 **Def** Sia $G$ un grafo bipartito con $|V_1| \leq |V_2|$, $M$ un suo matching. Diciamo che $M$ è un _matching completo_ se satura tutti i vertici di $V_1$.
 
-La cosa interssante, è che un matching completo e un [[Matematica/Insieme trasversale|insieme trasversale]] sono praticamente la stessa cosa, infatti posso tradurre una famiglia di sottoinsiemi in un grafo bipartito.
+La cosa interssante, è che un matching completo e un [[Teorema di Hall|insieme trasversale]] sono praticamente la stessa cosa, infatti posso tradurre una famiglia di sottoinsiemi in un grafo bipartito.
 
 Quando è possibile trovare un matching completo?
 

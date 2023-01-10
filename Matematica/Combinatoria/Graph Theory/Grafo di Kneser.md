@@ -1,4 +1,4 @@
-# Grafi di Kneser
+# Grafo di Kneser
 I grafici di Kneser formano una famiglia infinita di grafici. 
 Il grafo di Kneser $K_{n,k}$ con $n \geq k$ è un [[Grafo semplice]] i cui vertici corrispondono ai sottoinsieme di elementi $k$ di un insieme di $n$ elementi. Due vertici sono collegati se corrispondono a due sottoinsiemi disgiunti.
 

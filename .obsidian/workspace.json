@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Matematica/Combinatoria/Combinatoria.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -106,15 +106,15 @@
   },
   "active": "a0977e06642bea6e",
   "lastOpenFiles": [
-    "Matematica/Combinatoria/Insieme trasversale.md",
+    "Matematica/Combinatoria/Graph Theory/Teorema di Konig-Egervary.md",
+    "Matematica/Combinatoria/Teorema di Birkoff-von Neumann.md",
+    "Matematica/Combinatoria/Teoria di Ramsey.md",
+    "Matematica/Combinatoria/Graph Theory/Teorema di Brooks.md",
+    "Matematica/Combinatoria/Teorema di Bondy.md",
+    "teorema di Kirchoff.md",
+    "Matematica/Combinatoria/Teorema di Sperner.md",
+    "Matematica/Combinatoria/Teorema di Hall.md",
     "Matematica/Combinatoria/Combinatoria.md",
-    "Teorema di Brooks.md",
-    "Matematica/Combinatoria/Graph Theory/Grafi bipartiti.md",
-    "Matchings.md",
-    "Alberi di copertura.md",
-    "Matematica/Combinatoria/Graph Theory/Alberi.md",
-    "Images/Pasted image 20230107153911.png",
-    "Matematica/Combinatoria/Graph Theory/Grafo semplice.md",
-    "Teoria di Ramsey.md"
+    "Matematica/Combinatoria/Graph Theory/Grafo complementare.md"
   ]
 }

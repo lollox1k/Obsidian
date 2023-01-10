@@ -1,7 +1,7 @@
 # Combinatoria
 ## Teoria dei grafi
 1. [x] [[Grafo semplice]]
-	1. [x] [[Grafi di Kneser]]
+	1. [x] [[Grafo di Kneser]]
 	2.  [x] [[Graph Isomorphism]]
 	3.  [x] [[Grafo complementare]]
 	4.  [x] [[Distanza e connessione]]
@@ -23,10 +23,10 @@
 1.  [x] [[Teorema di Bondy]]
 2.  [x] [[Coefficiente binomiale]]
 3.  [x] [[Coefficienti multinomiali]]
-4.  [ ] [[Cammini di Dyck]]
-5.  [x] [[Insieme trasversale]] 
-6.  [ ] [[Ciclo di de Brujin]]
-7.  [ ] [[Combinatoria estremale]] 8/01
-8.  [ ] [[Teoria di Ramsey]]  9/01
+4.  [x] [[Teorema di Hall]] 
+5.  [x] [[Combinatoria estremale]] 
+6.  [x] [[Teoria di Ramsey]]  
+7. [x] [[Teorema di Konig-Egervary]]
+8. [x] [[Teorema di Birkoff-von Neumann]] 
 ## Teoria dell'informazione
 1.  [ ] [[Capacità di un grafo]] 8/01
