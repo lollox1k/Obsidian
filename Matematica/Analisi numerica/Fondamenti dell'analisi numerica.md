@@ -6,7 +6,7 @@ $$
 F(x,d)=0
 $$
 Il problema è _ben posto_ se ammette un'unica soluzione che dipende con _continuità_ dai dati $d$.
-Sia D l’insieme dei dati ammissibili, ovvero, l’insieme dei valori di d in corrispondenza dei quali il problema ammette soluzione unica. 
+Sia $D$ l’insieme dei dati ammissibili, ovvero, l’insieme dei valori di $d$ in corrispondenza dei quali il problema ammette soluzione unica. 
 La dipendenza continua dai dati significa che piccole perturbazioni sui dati d debbano riflettersi in “piccole” variazioni nella soluzione x, ovvero perturbando il problema:
 $$
 F(x+\delta x, d + \delta d) = 0

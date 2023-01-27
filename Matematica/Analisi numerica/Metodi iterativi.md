@@ -33,10 +33,8 @@ ovvero $\Vert B \Vert < 1$.
 
 Usando il [[Teorema di Banach-Caccioppoli]], sappiamo che $x^k \to x$.
 
-### Teorema
-Un metodo $x^{k+1} = Bx^k + f$ _consistente_, è convergente per ogni approssimazione iniziale $x^0$ se e solo se vale $\rho(B)<1$.
-**Dim**
-Per la consistenza del metodo posso scrivere esplicitamente come evolve il residuo:
+**Teorema** Un metodo $x^{k+1} = Bx^k + f$ _consistente_, è convergente per ogni approssimazione iniziale $x^0$ se e solo se vale $\rho(B)<1$.
+**Dim** Per la consistenza del metodo posso scrivere esplicitamente come evolve il residuo:
 $$
 e^{k+1} = x-x^{k+1} = Bx + f - Bx^k -f = B(X-x^k) = Be^k
 $$
@@ -44,6 +42,7 @@ dove abbiamo usato la consistenza del metodo per la terza uguaglianza. Da qui se
 $$
 e^k = B^k e^0 \qquad \forall k \geq 0
 $$
+Segue dalla Gelfand's formula che $\lim_k\Vert B^k \Vert = \lim_k\rho(B)^k = 0$. 
 ($\impliedby$)  Sia $\rho(B) < 1$, facciamo vedere che il residuo va a zero per ogni $e^0$ iniziale.
 Sia $\epsilon >0$ tale che $\rho(B) < 1-\epsilon$. Ricordiamo che vale $\rho(A) = \inf_{\Vert\cdot\Vert} \Vert A\Vert$ sull'insieme delle norme naturali:
 $$

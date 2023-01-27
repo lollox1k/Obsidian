@@ -32,5 +32,37 @@ Sia $A \in \mathbb{R}^{n\times n}$. La fattorizzazzione $A=LU$ con $l_{ii}=1$ co
 Matrici $A$ che soddisfano questo prerequisito sono matrici definite positive
 
 ### Generalizzazzione PA=LU
-La fattorizzazzione può essere generalizzata cercando, al passo $k$$ del processo di eliminazione, un elemento pivotale non nullo scorrendo gli elementi della sola sottocolonna. Per tale motivo essa è detta pivotazione parziale (per righe). Un valore grande di mik (generato ad esempio da un valore piccolo del pivot a(k) kk ) può amplificare gli eventuali errori di arrotondamento. Per questo motivo si sceglie come elemento pivotale l’elemento di modulo massimo della colonna e la pivotazione parziale viene generalmente operata ad ogni passaggio anche quando non si incontrano elementi pivotali nulli.
+La fattorizzazzione può essere generalizzata cercando, al passo $k$ del processo di eliminazione, un elemento pivotale non nullo scorrendo gli elementi della sola sottocolonna. Per tale motivo essa è detta pivotazione parziale (per righe). Un valore grande di $m_{ik}$ (generato ad esempio da un valore piccolo del pivot $a_{kk}$  può amplificare gli eventuali errori di arrotondamento. Per questo motivo si sceglie come elemento pivotale l’elemento di modulo massimo della colonna e la pivotazione parziale viene generalmente operata ad ogni passaggio anche quando non si incontrano elementi pivotali nulli.
 
+### Fattorizzazzione LU per matrici a banda
+
+Se la nostra matrice quadrata $A$ ha una _struttura a banda_, ovvero e non nulla solo sulla diagonale e le $p$ sottodiagonali e $q$ sopradiagonali, è evidente che possiamo solvegere la fattorizzazzione in meno $flops$,
+
+
+## Calcolo dell'inversa
+
+Trovare l'inversa di una matrice invertibile $A$ equivale a trovare la matrice $X$ tale che:
+$$
+AX=I
+$$
+ma questo è equivalente a risolvere $n$ sistemi lineari del tipo:
+$$
+AX_i = e_i
+$$
+dove $X_i$ è la $i$-esima colonna di $X$. 
+Possiamo risovlere questi sistemi usando la fattorizzazzione LU di A, per un costo totale di:
+$$
+\frac{2}{3}n^3 + n(2n^2) = \frac{8}{3}n^3 = \Theta(n^3)
+$$
+
+## Stabilità
+
+Nel caso con pivoting parziale per righe, scegliendo come pivot l'elementod i modulo massimo, vale il seguente risultato di stabilità:
+$$
+\max_{ij} |l_{ij}| \leq 1
+$$
+Inoltre vale per la matrice $U$
+$$
+\max_{ij} |u_{ij}| \leq \rho_n \max_{ij}|a_{ij}|
+$$
+dove $\rho_n$ generalmente è una costante $O(1)$, tuttavia esistono esempi in cui $\rho_n = 2^{n-1}$. Questo tipo di stabilità che dipende dalla dimensione viene detta _in senso debole_.

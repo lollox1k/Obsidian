@@ -22,7 +22,7 @@ $$
 $$
 se la matrice $A$ è definita positiva.
 
-La precedente relazione si può esprimre in termini della  [[norma dell'energia]]:
+La precedente relazione si può esprimre in termini della [[norma dell'energia]]:
 $$
 \frac{1}{2}\Vert y-x\Vert_A^2 = \Phi(y) - \Phi(x)
 $$

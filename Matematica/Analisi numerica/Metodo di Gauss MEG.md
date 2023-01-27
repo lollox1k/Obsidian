@@ -1,4 +1,7 @@
 # Eliminazione Gaussiana MEG
+
+> Per risolvere un sistema lineare con questo metodo occorrono $2/3n^3$ $flops$, a cui vanno aggiunti $2n^2$ $flops$ per risolverte i due sistemi triangolari.
+
 L'idea è ridurre il generico sistema $Ax=b$ ad un sistema equivalente (stesse soluzioni) $Ux=d$ ma con $U$ matrice triangolare superiore. Una volta fatto ciò basta usare [[Risolvere sistemi lineari#Sistemi triangolari |backward substitution]] ed in $n^2$ FLOPS si ha la soluzione.
 
 Applicheremo al sistema $(A,b )$ trasformazioni che mantengono equivalente il sistema, sostituendo una riga con una combinazione lineare di altre righe per ottenere delle cancellazioni.

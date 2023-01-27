@@ -1,17 +1,23 @@
 # Analisi numerica
 
-1. [[Fondamenti dell'analisi numerica]]
-2. [[Risolvere sistemi lineari]]
-3. [[Metodo di Gauss MEG]]
-4. [[Fattorizzazzione LU]]
-5. [[Fattorizzazzione di Cholesky]]
-6. [[Fattorizzazzione QR]]
-7. [[Problema dei minimi quadrati]]
-8. [[Singular Value Decomposition]]
-9. [[Metodi iterativi]]
+1. [x] [[Fondamenti dell'analisi numerica]]
+2. [x] [[Risolvere sistemi lineari]]
+3. [x] [[Numero di condizionamento di una matrice]]
+4. [x] [[Metodo di Gauss MEG]]
+### Fattorizzazzioni 
+5. [x] [[Fattorizzazzione LU]]
+6. [x] [[Fattorizzazzione di Cholesky]]
+7. [x] [[Fattorizzazzione QR]]
+8. [x] [[Singular Value Decomposition]]
+9. [x] [[Problema dei minimi quadrati]]
+11. [x] [[Metodi iterativi]]
 	1. [[Metodo di Richardson stazionario]]
-	2. [[Metodi del gradiente]]
-	3. [[Krylov subspace methods]]
-	
+	2. [[Precondizionatori]]
+	3. [[Metodi del gradiente]]
+	4. [[Krylov subspace methods]]
+10. [[Metodi numerici per poisson PDE]]
 
-
+### Calcolo autovalori
+1. [[Decomposizione di Schur]]
+2. [[Power method]]
+3. [[The QR algorithm]]
