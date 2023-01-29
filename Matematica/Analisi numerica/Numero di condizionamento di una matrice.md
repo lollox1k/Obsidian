@@ -17,9 +17,13 @@ Definiamo il numero di condizionamento di una matrice singolare $S$ come infinit
 
 Quando usiamo la norma $p=2$, possiamo caratterizzare ulteriormente il numero di condizionamento $K_2(A)$, sfruttando la relazione:
 $$
-\Vert A \Vert_{2}= \sqrt{\rho(A^{T}A)}= |\lambda_{max}|
+\Vert A \Vert_{2}= \sqrt{\rho(A^{T}A)}=
 $$
-e che gli autovalori dell'inversa sono l'inverso degli autovalori, quindi per i moduli:
+In generale vale, per ogni norma indotta da una vettoriale, vale
+$$
+\rho(A) \leq \Vert A \Vert
+$$
+Nel caso della norma due, l'ugualgianza vale per matrici normali. In questo caso, siccome gli autovalori dell'inversa sono l'inverso degli autovalori, quindi per i moduli:
 $$
 K_{2}(A)= \frac{|\lambda_{max}|}{|\lambda_{min}|}
 $$

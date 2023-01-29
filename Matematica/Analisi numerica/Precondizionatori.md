@@ -38,9 +38,14 @@ $$
 $$
 Siccome $P^{-1}A$ è simile a $P^{-1/2}AP^{-1/2}$.
 
-Un'alternativa, di costo minore, è scegliere come $P_S = L$ e $P_D=L^H$ con $P= LL^H$ ottenuti dalla [[Fattorizzazzione di Cholesky]] del precondizionatore.
+Un'alternativa, di costo minore, è scegliere come $P_S = L$ e $P_D=L^H$ con $P= LL^H$ ottenuti dalla [[Fattorizzazione di Cholesky]] del precondizionatore.
 
 
 ## Fattorizzazioni incomplete
 
 L'idea è _preservare la struttura di sparsità_ della matrice da precondizionare. Infatti le normali fattorizzazzioni soffrono del cosidetto fenomeno del _fill in_, oneroso dal punto di vista sia computazionale che di memoria.
+
+
+
+
+

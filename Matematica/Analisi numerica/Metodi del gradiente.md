@@ -49,7 +49,7 @@ $$
 x^TA^Tp^k+\alpha p^TA^Tp^k -b^Tp^k = 0
 $$
 $$
-\alpha = \frac{b^Tp^k-x^TA^Tp^k }{p^TA^Tp^k } = \frac{(b^T-x^TA)p^k }{{p}k^TAp^k } = \frac{{r^k}^Tp^k }{{p^k}^TAp^k }
+\alpha = \frac{b^Tp^k-x^TA^Tp^k }{p^TA^Tp^k } = \frac{(b^T-x^TA)p^k }{{p^k}^TAp^k } = \frac{{r^k}^Tp^k }{{p^k}^TAp^k }
 $$
 dove abbiamo usato la simmetria di $A$ nell'ultimo uguaglianza. 
 Se $p^k$ è direzione di discesa,Il numeratore è positivo, anche il denomitatore essendo  $A$ definita positiva, dunque $\alpha_k>0$. $\square$
@@ -110,4 +110,10 @@ $$
 
 
 **Dimostrazione**
-Sia $x^k$ la soluzione generata al passo $k$ dal metodo del gradiente e ${x_R}^{k+1}$ il vettore generato da un passo del [[Metodo di Richardson stazionario]] non precondizionato a parametro ottimale, ovvero ${x_R}^{k+1} = x^k +\alpha_{opt} r^k$. 
+Sia $x^k$ la soluzione generata al passo $k$ dal metodo del gradiente e ${x_R}^{k+1}$ il vettore generato da un passo del [[Metodo di Richardson stazionario]] non precondizionato (pongo $P=I$) a parametro ottimale, ovvero ${x_R}^{k+1} = x^k +\alpha_{opt} r^k$. Ma per definizione abbiamo scelto un $\alpha_k$ che minimizza la $A$-norma dell'energia al passo $k$, dunque:
+$$
+\Vert e^{k+1}\Vert_A \leq \Vert e^{k+1}_R\Vert_A
+$$
+e la tesi segue. $\square$
+
+

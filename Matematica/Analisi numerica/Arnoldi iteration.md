@@ -1,56 +1,5 @@
 An Algorithm to compute a Orthonormal basis for a given [[Krylov subspace methods#Krylov subspace|Krylov subspace]], essentially using a Gramh-Smith procedure  
 
-Matlab code:
-```
-function [V, H] = GSarnoldi(A, v, k)
-	% ARNOLDI computes an orthonormal basis for the (k+1)-Krylov subspace
-	%
-	% Inputs:
-	% A: n x n matrix
-	% v: n x 1
-	% k: number of iterations
-	%
-	% Outputs:
-	% V: n x (k+1) matrix of Arnoldi basis vectors
-	% H: (k+1) x k matrix of upper Hessenberg matrix
-	
-	% Initialize variables
-	n = size(A, 1);
-	V = zeros(n, k+1);
-	H = zeros(k+1, k);
-	
-	% Set initial vector
-	V(:,1) = v / norm(v);
-	
-	% Iterate
-	for i = 1:k
-		% Compute next vector
-		
-		w = A * V(:,i);
-		
-		% Orthogonalize w
-		
-		for j = 1:i
-		
-		H(j,i) = V(:,j)' * w; %computing overlap
-		
-		w = w - H(j,i) * V(:,j); %removing overlap
-		
-		end
-		
-		% Normalize w
-		
-		H(i+1,i) = norm(w);
-		
-		if H(i+1,i) == 0 %check breakdown
-		
-		return
-		end
-		
-		V(:,i+1) = w / H(i+1,i);
-	end
-end
-```
 
 At a certain step $m \leq n$ **breakdown** wil happe, this means $w_m = 0$ and the process stops. 
 At every step the orthonormal vectors $v_i$ $i=1,\dots,k+1$ can be stored in the matrix $V_{k+1} \in \mathbb{R}^{n\times (k+1)}$.

@@ -55,7 +55,7 @@ Se $A$ è di rango massimo ($n$), allora posso ignorare gli zeri della matrice t
 $$
 A = Q_nR_n, \qquad Q_n \in \mathbb{C}^{m\times n}\quad R_n \in \mathbb{C}^{n\times n}
 $$
-Se siamo in questo caso, e richiediamo ad esempio che gli elementi diagonali della matrice $R_n$ siano positivi (posso farlo tramite una matrice di fase $S$), allora $Q_n$ e $R_n$ sono _univocamente determinati_, ed $R_n$ coincide con il fattore $L$ della [[Fattorizzazzione di Cholesky]] della matrice (hermitiana def. positiva) $A^HA$:
+Se siamo in questo caso, e richiediamo ad esempio che gli elementi diagonali della matrice $R_n$ siano positivi (posso farlo tramite una matrice di fase $S$), allora $Q_n$ e $R_n$ sono _univocamente determinati_, ed $R_n$ coincide con il fattore $L$ della [[Fattorizzazione di Cholesky]] della matrice (hermitiana def. positiva) $A^HA$:
 $$
 A^HA = R_n^HR_n
 $$

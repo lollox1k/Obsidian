@@ -12,8 +12,8 @@ The disks are centered at the diagonal elements of $A$, and their radius is the 
 
 **Remark** Since the spectrum of $A^h$ is the same, one can comput the gershgorin disks of $A^h$ and take the intersection with the disks of $A$ to improve the location exstimate.
 
-**Proof** Consider an eigenvalue $\lambda$ and its corresponding eigevector $v$, so that $Av = \lambda v$. 
-Let $v_i$, $i = 1,\dots,n$ be the biggest cordinate of $v$, then
+**Proof** Consider an eigenvalue $\lambda$ and its corresponding norm $1$ eigevector $v$, so that $Av = \lambda v$. 
+Let $v_i$, $i = 1,\dots,n$ be the biggest (in modulus) cordinate of $v$, then
 $$
 \sum_{j=1}^n a_{ij} v_j = \lambda v_i
 $$

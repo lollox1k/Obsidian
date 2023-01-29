@@ -31,13 +31,13 @@ $$
 - $\mathcal{K}_{k-1}(A;v) \subseteq \mathcal{K}_k(A;v)$ 
 - if $z \in \mathcal{K}_k(A;v)$ then there exists a polynomial $\phi$ of degree at most $k-1$ such that $z = \phi(A)v$ 
 
-In the setting of solving a linear system $Ax=b$ given an initial guess $x^0$ and its corresponding residue $r^0 = b-Ax^0$, we definte the subspace:
+In the setting of solving a linear system $Ax=b$ given an initial guess $x^0$ and its corresponding residue $r^0 = b-Ax^0$, we define the affine-subspace:
 $$
 W_k := \{v \in \mathbb{R}^n \,:\, v = x^0 + z, \, z \in \mathcal{K}_k(A;r^0)\}
 $$
-The idea is finding the new approximate solution in this subspace. The new solution will be choosen such that it minimizes some distance.
+The idea is finding the new approximate solution $x_k \in W_k$ in this subspace. The new solution will be choosen such that it minimizes some distance.
 
-Each method will have its own condition, for instance the [[GMRES method]]stand for _generalized minimal residua_, it will choose $x^{k+1}$ that minimzes the euclidean distance from the solution.
+Each method will have its own condition, for instance the [[GMRES method]]stands for _Generalized Minimal RESidual_, it will choose $x^{k+1}$ such that it minimizes the euclidean norm of the residue.
 
 The [[Conjugate gradient method]] minimizes the energy norm of the error.
 

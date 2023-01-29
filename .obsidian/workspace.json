@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "606b10e29c379d3d",
+        "id": "ad6065c57c7a52a4",
         "type": "tabs",
         "children": [
           {
-            "id": "f97b51ecfbe57e22",
+            "id": "404810d03e3c1e12",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Matematica/Analisi numerica/Metodi del gradiente.md",
+                "file": "Matematica/Analisi numerica/Precondizionatori.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "20221231170220",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Matematica/Analisi numerica/Metodi del gradiente.md",
+                "file": "Matematica/Analisi numerica/Precondizionatori.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,17 +104,17 @@
       "canvas:Create new canvas": false
     }
   },
-  "active": "51323684b4c46c57",
+  "active": "404810d03e3c1e12",
   "lastOpenFiles": [
     "Matematica/Analisi numerica/Analisi numerica.md",
-    "Matematica/Analisi numerica/Decomposizione di Schur.md",
-    "Matematica/Analisi numerica/Metodi del gradiente.md",
-    "Matematica/Analisi numerica/M-matrici.md",
-    "Least squares.md",
-    "Volume della palla n dimensionale.md",
-    "Meccanica statistica/Volume della palla n dimensionale.md",
-    "Untitled.md",
-    "README.md",
-    "Senza nome.md"
+    "Matematica/Analisi numerica/Krylov subspace methods.md",
+    "GMRES.md",
+    "Matematica/Analisi numerica/Arnoldi iteration.md",
+    "Matematica/Analisi numerica/Sensitivity of eigenvalue problems.md",
+    "Images/Pasted image 20221231170220.png",
+    "Images/Pasted image 20230107153911.png",
+    "Images/Pasted image 20230107153952.png",
+    "Images/Pasted image 20220307134428.png",
+    "Matematica/Analisi numerica/Wielandt algorithm.md"
   ]
 }

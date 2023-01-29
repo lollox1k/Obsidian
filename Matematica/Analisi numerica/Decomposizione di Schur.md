@@ -82,4 +82,28 @@ $$
 0 & U_2 
 \end{pmatrix}
 $$
-che concliu
+che conclude la dimostrazione.
+
+**Corollario** Sia $A \in \mathbb{C}^{n \times n}$, sia $\Lambda + U^+$ la sua decomposizione di Schur. Si ha $U^+ = 0$ se e solo se $A$ è normale.
+
+**Dim** Se $A$ è normale, allora $U$ è diagonale. Per prima cosa, $U$ è normale:
+$$
+U^HU = (Q^HAQ)^H(Q^HAQ) = Q^HA^HAQ = Q^HAA^HQ = Q^HAQQ^HA^HQ = UU^H
+$$
+
+Mostriamo per induzione che una matrice triangolare superiore e normale è diagonale. Caso $n=1$ ovviamente vero.
+Assumiamo la tesi per $n-1$. Dato che $U$ è triangolare superiore, sappiamo che l'elemento $(1,1)$ della matrice $U^HU$ è $|u_{1,1}|^2$, mentre quello della matrice $UU^H$ = $\sum_{j=1}^n |u_{1j}|^2$, ovvero il modulo quadro della prima riga. Siccome abbiamo dimostrato essere normali, devono essere uguali, dunque $u_{1j} = 0$ con $j >1$, e la prima riga ha tutti zeri tranne che per il primo elemento.
+Indichiamo con $U_{n-1}$ la sottomatrice ottenuta rimuovendo la prima riga e colonna da $U$. Continua ad essere triangolare superiore, e normale. Per ipotesi induttiva è diagonale, dunque $U$ lo è.
+
+Dimostriamo ora che se $U^+ = 0$, ovvero $U$ è diagonale, $A$ è normale. 
+$$
+A^HA = (Q\Lambda Q^H)^H(Q\Lambda Q^H) = Q\Lambda^H\Lambda Q^H
+$$
+Analogamente
+$$
+AA^H = (Q\Lambda Q^H)(Q\Lambda Q^H)^H = Q\Lambda\Lambda^H Q^H
+$$
+Ma le matrici diagonali commutano: $\Lambda^H\Lambda = \Lambda\Lambda^H$, dunque $A$ è normale. $\square$
+
+
+

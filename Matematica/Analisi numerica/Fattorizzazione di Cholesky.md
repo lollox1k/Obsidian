@@ -1,4 +1,4 @@
-# Fattorizzazzione di Cholesky $A = H^TH$
+# Fattorizzazione di Cholesky $A = H^TH$
 
 **Teorema** Sia $A \in \mathbb{C}^{n\times n}$ una matrice hermitiana definita positiva. Allora esiste un'unica matrice triangolare superiore $H$ tale che $A = H^TH$.
 La matrice $H$ è definita come, per $j=2,\dots,n$:
@@ -18,7 +18,7 @@ Supponiamo valga per $j-1$ con $j \geq 2$, ovvero esista $H_{j-1}$ triangolare s
 Partizioniamo $A_j$ nel modo seguente:
 ![[Pasted image 20221025170132.png]]
 Con $\alpha \in \mathbb{R}$. 
-Cerchiamo una fattorizzazzione della forma:
+Cerchiamo una fattorizzazione della forma:
 ![[Pasted image 20221025170214.png]]
 con $\beta \in \mathbb{R}$. Svolgendo il prodotto ed imponendo l'uguaglianza con gli elmenti di $A_j$ si ottengono le equazioni:
 $$
@@ -27,7 +27,7 @@ H_{j-1}^H h = v \\ \\
 h^Hh + \beta^2 = \alpha
 \end{cases}
 $$
-Trovare una fattorizzazzione per $A_j$ equivale a trovare il vettore $h$ e il numero reale $\beta$. Il vettore $h$ esiste ed è univocamente determinato, siccome $H_{j-1}^H$ è non singolare. Dopo di che dobbiamo verificare che 
+Trovare una fattorizzazione per $A_j$ equivale a trovare il vettore $h$ e il numero reale $\beta$. Il vettore $h$ esiste ed è univocamente determinato, siccome $H_{j-1}^H$ è non singolare. Dopo di che dobbiamo verificare che 
 $$
 \beta = \sqrt{ \alpha - \Vert h \Vert}^2 \in \mathbb{R}
 $$
@@ -40,6 +40,11 @@ quindi $\beta$ è reale. $\square$
 
 ### Costo computazionale
 https://math.stackexchange.com/questions/217738/how-to-calculate-the-cost-of-cholesky-decomposition
+
+$$
+\frac{1}{3}n^3 + O(n^2)
+$$
+
 
 
 
