@@ -232,11 +232,11 @@ $$
 è una _funzione di Lyapunov_ della dinamica sequenziale:
 ![[Pasted image 20221017131903.png]]
 
-dove si etrare $i$ uniformemente in $[1,N]$.
+dove si estrae $i$ uniformemente in $[1,N]$.
 
 Durante la dinamica la funzione evolve:
 $$
-\Delta L = L(\sigma(t+1))- L(\sigma(t)) = -2\left\vert \sum_{j=1}^N J_{ij}\sigma_j+h_i  \right\vert -2J_{ii} < 0
+\Delta L = L(\sigma(t+1))- L(\sigma(t)) = -2\left\vert \sum_{j=1}^N J_{ij}\sigma_j+h_i  \right\vert -2J_{ii} \leq 0
 $$
 Siccome $L(\sigma)$ è limitata inferiormente, ammette un minimo ed il sistema arriverà a queste configurazioni e si fermerà. (Richiediamo distanza di hamming $1$).
 
@@ -254,6 +254,47 @@ Si vede facilmente che possiamo memorizzare singoli pattern $\xi$ definendo le c
 
 Per più pattern, una scelta ragionevole è mediare:
 ![[Pasted image 20221017134756.png]]
+Per semplificare la trattazzione assumiamo che i pattern siano ortogonali.
+
+**Proposizione** La dinamica sequenziale applicata ad una rete con pesi dati dalla regola di Hebb e $h_1 = 0$, mostra $2K$ stati stazionari, che corrispondono ai pattern ed hai loro inversi.
+
+**Dim** Scriviamo la funzione di Lyapunov:
+$$
+L(\sigma) = -\frac{1}{2}\sum_{ij} J_{ij} \sigma_i \sigma_j + -\sum_{i}\sigma_ih_i
+$$
+con la regola di Hebb e campi esterni nulli
+$$
+= \frac{1}{2N}\sum_{ij} (\delta_{ij}-1)\left[\sum_{\mu = 1}^K \xi_i^\mu\xi_j^\mu \right]\sigma_i \sigma_j 
+$$
+$$
+= \frac{1}{2N}\sum_{ij}\left[\sum_{\mu = 1}^K \xi_i^\mu\xi_j^\mu \right]\sigma_i \sigma_j + \frac{1}{2}K
+$$
+notando che
+$$
+\left(\sum_{i=1}^N \xi_i^\mu \sigma_i\right)^2
+= \sum_{ij} \xi_i^\mu\xi_j^\mu \sigma_i \sigma_j
+$$
+dunque
+$$
+L(\sigma) = -\frac{1}{2}\sum_{\mu=1}^K \left(\frac{1}{\sqrt{N}}\sum_{i=1}^N \xi_i^\mu \sigma_i\right)^2 + \frac{1}{2}K
+$$
+
+Il termine al quadrato non è altro che il prodotto scalare tra lo stato ed il pattern (normalizzato) $\xi_i$. Siccome abbiamo supposto per ipotesi che i pattern sono ortogonali, per massimizzare il prodotto scalare $\sigma$ deve avere la stessa direzione di $\xi$, ed in questo caso $\langle \xi, \sigma \rangle = \pm \Vert \sigma \Vert$ e zero per gli altri pattern, dunque:
+$$
+L(\sigma) \geq \frac{1}{2}K -\frac{1}{2}N
+$$
+ed il minimo si ottiene quando $\sigma = \pm \xi$.
+
+**Osservazione** Non è vero che tutti i minimi sono pattern, esistono dei _minimi spuri_.
+$$
+\sigma_i = sgn(\xi_i^1 + \xi_i^2+ \dots)
+$$
+
+**Proposizione** Misture dispari dei pattern sono stati stazionari. Misture pari sono stati stazionario instabili. Sono minimi locali.
+
+
+
+
 
 ### Domande
 1. Capacità della rete? (in funzione di $N$)

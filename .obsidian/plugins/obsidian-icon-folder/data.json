@@ -5,11 +5,11 @@
     "fontSize": 16,
     "iconColor": null,
     "recentlyUsedIcons": [
+      "SiNetlify",
       "SiStackedit",
       "FarImage",
       "FasInfinity",
-      "RiComputerFill",
-      "FasRuler"
+      "RiComputerFill"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -28,5 +28,6 @@
   "Matematica/Teoria Della Misura": "FasRuler",
   "Matematica/Teoria degli algoritmi": "SiStackedit",
   "Matematica/Set Theory": "FasInfinity",
-  "Images": "FarImage"
+  "Images": "FarImage",
+  "Neural Networks": "SiNetlify"
 }

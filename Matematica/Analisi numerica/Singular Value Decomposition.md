@@ -178,7 +178,7 @@ $$
 $$
 Consideriamo ora il sottospazio $S = span(v_1,\dots,v_{r+1})$. Per ogni vettore $z \in S$ vale:
 $$
-\Vert Az \Vert_2^2 = \Vert \Sigma V^Hz \Vert_2^2 = \left\Vert \Sigma \sum_{i=1}^{r+1}\alpha_i e_i\right\Vert_2^2 = \sum_{i=1}^{r+1} \Vert \sigma_i \alpha_i\Vert^2_2 \geq \sigma_{r+1}^2 \Vert z \Vert_2^2
+\Vert Az \Vert_2^2 = \Vert \Sigma V^Hz \Vert_2^2 = \left\Vert \Sigma \sum_{i=1}^{r+1}\alpha_i v_i\right\Vert_2^2 = \sum_{i=1}^{r+1} \Vert \sigma_i \alpha_i\Vert^2_2 \geq \sigma_{r+1}^2 \Vert z \Vert_2^2
 $$
 questa disuguaglianza è incompatible con quella di prima (tranne nell'origine), dunque il sottospazio $S$ deve essere disgiunto da $\ker(B)$, ma ciò è impossibile perchè la dimensione della loro somma ha dimensione almemo $n+1$, assurdo. $\square$
 

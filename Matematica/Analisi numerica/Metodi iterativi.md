@@ -36,7 +36,7 @@ Usando il [[Teorema di Banach-Caccioppoli]], sappiamo che $x^k \to x$.
 **Teorema** Un metodo $x^{k+1} = Bx^k + f$ _consistente_, è convergente per ogni approssimazione iniziale $x^0$ se e solo se vale $\rho(B)<1$.
 **Dim** Per la consistenza del metodo posso scrivere esplicitamente come evolve il residuo:
 $$
-e^{k+1} = x-x^{k+1} = Bx + f - Bx^k -f = B(X-x^k) = Be^k
+e^{k+1} = x-x^{k+1} = Bx + f - Bx^k -f = B(x-x^k) = Be^k
 $$
 dove abbiamo usato la consistenza del metodo per la terza uguaglianza. Da qui segue:
 $$
@@ -62,7 +62,7 @@ da questo segue che:
 $$
 \Vert e^k\Vert = \Vert B^k e^0 \Vert = |\lambda|^k \Vert e^0 \Vert
 $$
-che è assurdo, infatti il limite non tende a zero, ma diverge! $\square$
+che è assurdo, infatti il limite non tende a zero, ma diverge ( rimane costante)! $\square$
 
 ## Criterio di arresto
 

@@ -5,8 +5,7 @@ Sia $(A_n)_{n\geq 1}$ una successione di insiemi misurabili di uno spazio di mis
 $$
 \mu(\limsup_n A_n) = 0
 $$
-### Proof
-It follows from the definition of $\limsup$ of sets;
+**Proof** It follows from the definition of $\limsup$ of sets;
 $$
 \mu\left(\bigcap_{n\geq 1} \bigcup_{m \geq n} A_m\right)
 $$
@@ -23,8 +22,7 @@ $$
 $$
 > è l'opposto del primo lemma, ma serve la condizione in più dell'indipendenza!
 
-### Proof
-Dimostro che l'evento complementare ha probabilità $0$ (anche gli eventi $A_n^C$ sono indipendenti e misurabili):
+**Proof** Dimostro che l'evento complementare ha probabilità $0$ (anche gli eventi $A_n^C$ sono indipendenti e misurabili):
 $$
 \mathbb{P}\left(\bigcap_{n\geq 1} \bigcup_{m\geq n} A_m\right)^C = \mathbb{P}\left(\bigcup_{n\geq 1} (\bigcup_{m\geq n} A_m)^C\right) = 
 \mathbb{P}\left(\bigcup_{n\geq 1} \bigcap_{m\geq n} A_m^C\right) =

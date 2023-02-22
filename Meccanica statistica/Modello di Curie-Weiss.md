@@ -1,6 +1,6 @@
 # Modello Curie-Weiss
 
-E' la versione _mean-field_ del [[Modello di Ising]], che è risolvibile analiticamente solo per $d=1$ e $d=2$ con campo esterno $h=0$. L'approssimazione di campo medio fornisce risultati qualitativamente corretti per dimensioni abbastanza elevate, nel caso $d=1$ sbaglia anche qualitativamente, mostrando una transizione di fase che nella soluzione esatta è assente.
+E' la versione _mean-field_ del [[Modello di Ising]], che è risolvibile analiticamente solo per $d=1$ e $d=2$ con campo esterno $h=0$. L'approssimazione di campo medio fornisce risultati qualitativamente corretti per dimensioni abbastanza elevate (esatte per $d > 4$), nel caso $d=1$ sbaglia anche qualitativamente, mostrando una transizione di fase che nella soluzione esatta è assente.
 
 ## L'approssimazione mean-field
 
@@ -58,13 +58,12 @@ Nel limite $N\to\infty$ ho delle delta di Dirac.
 
 In assenza di campo esterno, l'Hamiltoniana può essere riscritta in termini della magnetizzazzione media $M_N$ anzichè gli spin:
 $$
-M_N^2 = \left( \sum_{i=1}^N \sigma_i \right)^2 = \sum_{i=1}^N \sigma_i^2 + \sum_{i,j=1}^N \sigma_i \sigma_j = N + \sum_{i,j=1}^N \sigma_i \sigma_j
+M_N^2 = \left( \sum_{i=1}^N \sigma_i \right)^2 = \sum_{i,j=1}^N \sigma_i\sigma_j = N^2 m_N^2
 $$
 
 $$
-\mathcal{H}^{CW} = -\frac{2dJ}{N}\sum_{i,j = 1}^N \sigma_i\sigma_j = -\frac{2dJ}{N}(M_N^2-N) = -2dJNm_N^2 + 2dJ
+\mathcal{H}^{CW} = -\frac{2dJ}{N}\sum_{i,j = 1}^N \sigma_i\sigma_j = -\frac{2dJ}{N}M_N^2 = -2dJNm_N^2
 $$
-il termine costante è ovviamente trascurabile nel limite termodinamico.
 Con un abuso di notazione ridefiniamo la costa di accoppiamento:
 $$
 J = 2dJ
@@ -75,11 +74,10 @@ $$
 $$
 con $m_N \in [-1,1]$ e razionale del tipo $m = \frac{2k}{N}$ con $k = -N,\dots,N$.
 
-Abbiamo quindi un [[Two state system]], con entropia:
+Abbiamo quindi un [[Two state system]], con entropia per particella:
 $$
 s(m) = -\frac{\left(1-m\right)}{2}\ln\left(\frac{\left(1-m\right)}{2}\right) -\frac{\left(1+m\right)}{2}\ln\left(\frac{\left(1+m\right)}{2}\right)
 $$
-
 
 Calcoliamo la probabilità di osservare una magnetizzazzione media $m$, con la misura di Gibbs:
 $$
@@ -87,7 +85,7 @@ $$
 $$
 dove il coefficiente binomiale è un fattore di degenerazione, conta quante configurazione hanno una magnetizzazzione media $m_N$.
 
-Per la funzione di partizione, siccome siamo interessati all'andamento asintotico $N\to\infty$, possiamo stimarla con il termine massimo della somma:
+Per la funzione di partizione $Z^{CW}$, siccome siamo interessati all'andamento asintotico $N\to\infty$, possiamo stimarla con il termine massimo della somma:
 $$
 \max_m\binom{N}{N\frac{m+1}{2}} e^{\beta JNm_N^2 }\leq Z^{CW} \leq (N+1) \max_m\binom{N}{N\frac{m+1}{2}} e^{\beta JNm_N^2 }
 $$
@@ -103,7 +101,19 @@ massimizzare l'esponente equivale a minimizzare l'energia libera. Il fattore $(N
 $$
 \lim_{N\to\infty} \frac{-1}{\beta N}\log Z^{CW} = \min_m f(m)
 $$
-basta derivare l'espressione di $f(m)$ per trovare il minimo, si ricava l'equazione di autoconsistenza:
+Quindi la probabilità di avere una magnetizzazzione media $m$ sarà:
+$$
+\lim_{N\to\infty}-\frac{1}{\beta N}\log\mu^{CW}(m_N = m) = f(m)-\min_m f(m)
+$$
+e la probabilità che $m \in J \subseteq [-1,1]$ 
+$$
+\lim_{N\to\infty}-\frac{1}{\beta N}\log\mu^{CW}(m_N \in J) = \min_{m \in J} f(m)-\min_\hat m f(\hat m) = \min_{m \in J} I(m)
+$$
+possiamo risolvere il problema di minimizzazzione derivando (la funzione è smooth)
+$$
+\frac{\partial I}{\partial m} = (-2 \beta J m + \frac{1}{2}\log(1 - m) - \frac{1}{2}\log(1 + m)) = 0
+$$
+
 $$
 m = \tanh J\beta m \qquad J = 2dJ
 $$
@@ -123,12 +133,43 @@ la funzione potenziale sarà:
 $$
 \lim_{N\to\infty} \frac{-1}{\beta N}\log Z^{CW}_{h\neq 0} = \min_m \{f(m) - Thm\} =: \Psi(h)
 $$
-che non è altro che la trasformata di Legendre dell'energia libera rispetto alla magnetizzazzione media.
+che non è altro che la _trasformata di Legendre dell'energia libera_ rispetto alla magnetizzazzione media, la _pressione_.
 
-Ottimizzando si riottiene un'equazione di autoconsistenza:
+Studiamo il comportamento della magnetizzazzione media in funzione del campo esterno
+Possiamo trovare il massimo di $hm-f(m)$ derivando, essendo una funzione smooth (analitica), ottenendo una nuova equazione di autoconsistenza
 $$
 m = \tanh[\beta Jm + h]
 $$
+che come prima ammette sempre almeno una soluzione. 
+Nel caso $\beta > \beta_c$ i imiti destro e sinistro della magnetizzazzione $m(h)$ non coincidono, siamo nella fase _ferromagnetica_. Se invece $\beta \leq \beta_c$ entrambi i limiti fanno zero, siamo nella fase _paramagnetica_.
+
+Studiamo ora la pressione, scrivendola con la magnetizzazzione in cui si ottiene il massimo, diventa
+$$
+\Psi(h) = hm^* -f(m^*)
+$$
+dove con $m^*$ abbiamo indicato la magnetizzazzione che massimizza l'argomento della trasformata di legender (dipenderà sia dal campo esterno che dalla temperatura). Derivando
+$$
+\frac{\partial \Psi(h)}{\partial h} = m^*
+$$
+i ragionamento di prima sulla magnetizzazzione media $m^*$ si ripetono qui con i limiti destro e sinistro della deriata della pressione, che diventa dunque non derivabile in $h=0$ quando $\beta > \beta_c$.
+
+### Caratterizzazzione della transizione di fase
+
+Studiando le soluzioni $m^*$ dell'equazione di autoconsistenza otteniamo i punti stazionari dell'energia libera. Gli stati di equilibrio saranno i minimi.
+
+![[Pasted image 20230216190714.png]]
+
+Osserviamo come l'energia libera sia simmetrica in assenza di campo esterno $h$. Sotto la temperatura critica appaiono due minimi (simmetrici), al di sopra l'unico minimo è quello di magnetizzazzione nulla.
 
 
+La soglia critica $\beta_c$ si ottengono quando la derivata della tangente iperbolica diventa maggiore di uno:
+$$
+\beta 2dJ \geq 1 \implies \beta_c = \frac{1}{2dJ} 
+$$
+dipende quindi dalla dimensione del sistema $d$.
 
+usando l'identità $|\tanh z| \leq |z|$ si vede facilmente che
+$$
+|m| \leq \beta J |m|
+$$
+quindi nel caso $\beta J < 1$ l'unica soluzione possibile è $m = 0$, ovvero _fase paramagnetica_.

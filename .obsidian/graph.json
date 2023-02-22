@@ -74,7 +74,7 @@
       "query": "path:Matematica/Probabilità",
       "color": {
         "a": 1,
-        "rgb": 14701138
+        "rgb": 37375
       }
     },
     {
@@ -95,6 +95,6 @@
   "repelStrength": 19.4430379746835,
   "linkStrength": 1,
   "linkDistance": 298,
-  "scale": 0.2726859917360078,
+  "scale": 0.2726859917360095,
   "close": true
 }

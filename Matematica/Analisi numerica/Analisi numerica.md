@@ -14,7 +14,7 @@
 ### Metodi iterativi
 1. [x] [[Metodi iterativi]]
 2. [x] [[Metodo di Richardson stazionario]]
-3. [ ] [[Precondizionatori]]
+3. [x] [[Precondizionatori]]
 4. [x] [[Metodi del gradiente]]
 5. [x] [[Metodo del gradiente coniugato]]
 6. [x] [[Krylov subspace methods]]

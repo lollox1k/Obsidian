@@ -3,11 +3,11 @@ Sia $f$ una funzione convessa, $\lambda_i \in [0,1]$ t.c. $\sum_i \lambda_i = 1$
 $$
 f(\sum_i \lambda_ix_i) \leq \sum_i\lambda_if(x_i)
 $$
-### Conseguenze
+**Conseguenze**
 - $f(E[X])  \leq E[f(X)]$
 - media aritmetica $\geq$ media geometrica
 
-### Dim 
+**Dim**
 per induzione. Il caso $n=2$ segue dalla definizione di [[Funzioni convesse| funzione convessa]].
 Supponiamo sia vera per $n$. Motriamo che vale per $n+1$:
 $$
