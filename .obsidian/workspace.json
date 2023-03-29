@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Neural Networks/Restricted Boltzmann machines RBM.md",
+                "file": "Matematica/Probabilità/Processi stocastici/Markov property.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "752760c2acc8aa82",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Matematica/Probabilità/Processi stocastici/Hitting probability and mean hitting times.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -77,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Neural Networks/Restricted Boltzmann machines RBM.md",
+                "file": "Matematica/Probabilità/Processi stocastici/Hitting probability and mean hitting times.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,24 +110,27 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "command-palette:Open command palette": false,
-      "markdown-importer:Open format converter": false,
-      "canvas:Create new canvas": false
+      "canvas:Crea nuova lavagna": false,
+      "switcher:Apri selezione rapida": false,
+      "graph:Apri vista grafo": false,
+      "command-palette:Apri riquadro comandi": false,
+      "markdown-importer:Apri importazione Markdown": false
     }
   },
-  "active": "51323684b4c46c57",
+  "active": "752760c2acc8aa82",
   "lastOpenFiles": [
+    "Matematica/Probabilità/Processi stocastici/Markov property.md",
+    "Matematica/Probabilità/Processi stocastici/Discrete time Markov chains.md",
+    "Matematica/Probabilità/Processi stocastici/Hitting probability and mean hitting times.md",
+    "Pasted image 20230313180833.png",
+    "Matematica/Probabilità/Processi stocastici/Filtrazione naturale di un processo stocastico.md",
+    "Matematica/Probabilità/Weak convergence of probability mesures on metric spaces.md",
+    "Matematica/Combinatoria/Teorema di Birkoff-von Neumann.md",
+    "Matematica/Probabilità/Processi stocastici/Processi Stocastici.md",
+    "Restricted Boltzmann machines RBM.md",
     "Neural Networks/Neural Networks.md",
     "Neuroscience/The membrane potential.md",
     "Conditional exp on a discrete random variable.md",
-    "Neural Networks/The bayesian setting.md",
-    "Neural Networks/The general framwork.md",
-    "Neural Networks/The Hopfield model.md",
-    "Meccanica statistica/The Sherrington-Kirkpatrick model.md",
-    "Neural Networks/Isserlis-Wick theorem.md",
-    "Meccanica statistica/Preliminari di Meccanica statistica classica.md",
-    "Meccanica statistica/Ensemble canonico.md"
+    "Neural Networks/The bayesian setting.md"
   ]
 }
