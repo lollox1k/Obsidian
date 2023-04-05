@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "1c5c63711f57a271",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Matematica/Meccanica Hamiltoniana/EDO e flussi.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -77,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Matematica/Probabilità/Processi stocastici/Markov property.md",
+                "file": "Matematica/Meccanica Hamiltoniana/EDO e flussi.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,10 +117,12 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "553074df0fc7c07e",
+  "active": "1c5c63711f57a271",
   "lastOpenFiles": [
-    "Matematica/Probabilità/Processi stocastici/Hitting probability and mean hitting times.md",
     "Matematica/Probabilità/Processi stocastici/Markov property.md",
+    "Matematica/Meccanica Hamiltoniana/EDO e flussi.md",
+    "Matematica/Meccanica Hamiltoniana",
+    "Matematica/Probabilità/Processi stocastici/Hitting probability and mean hitting times.md",
     "Matematica/Probabilità/Processi stocastici/Discrete time Markov chains.md",
     "Pasted image 20230313180833.png",
     "Matematica/Probabilità/Processi stocastici/Filtrazione naturale di un processo stocastico.md",
