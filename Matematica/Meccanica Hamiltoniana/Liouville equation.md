@@ -1,3 +1,4 @@
+## Dispense
 Consider a generic initial probability distribution $f_0$ (w.r.t. Lebesque measure). Let $f(t,x)$ be the probability density at time $t$. For every subset of the phase space $A$ should hold the following
 $$
 \int_A dx \, f_0(x) = \int_{A_t} dx \, f(t,x)
@@ -48,6 +49,45 @@ $$
 $$
 In sostanza 
 >> L'equazione di Lioville è una legge di conservazione locale della probabilità, con la solita interpretazione del cambio di probabilità totale in $A$ è dovuto ad un flusso $u f$di probabilità attraverso il bordo dell'insieme $\partial A$.
+
+## Arnold
+
+**Theorem (Liouville)** Let be given a system of ODEs $\dot x = f(x)$ with $x = (x_1,\dots,x_n)$ such that solutions are defined for all times. Then we can define the associated [[EDO e flussi|flow]] $g^t$. Let $D_0$ be a region in the phase space, call $v_0$ its volume. For all times:
+$$
+D(t) = g^t D_0, \quad v(t) = \text{volume } D(t).
+$$
+Then 
+$$
+\frac{dv}{dt}\vert_{t=0} = \int_{D_0} \text{div }f dx
+$$
+**Proof**
+$$
+v(t) = \int_{D(t)}dx = \int_{D_0} \det{\frac{\partial g^tx}{\partial x}}dx
+$$
+we did a change of variable, so the determinat of the Jacobian appears.
+From the definition of flow
+$$
+g^t(x) = x + f(x)t + o(t^2) 
+$$
+so its Jacobian is
+$$
+\frac{\partial g^tx}{\partial x} = I + \frac{\partial f}{\partial x}t + o(t^2)
+$$
+using the [[Determinant near identity lemma]], we get
+$$
+v(t) = \int_{D_0} [1 + t\,\text{div }f + o(t^2)]\,dx
+$$
+applying the definition of derivative we obtain the result. $\square$
+
+
+**Corollary** Hamiltonian systems preserves volumes.
+**Proof** Just compute the divergence:
+$$
+\text{ div }f = \partial_q (\partial_p H) + \partial_p(-\partial_qH) = 0
+$$
+so by Liouville's theorem volumes in the phase space are preserved under time evolution. $\square$
+
+
 
 
 

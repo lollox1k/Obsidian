@@ -4,35 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "bbd8b17284133df0",
+        "id": "a33dde4453e9d23b",
         "type": "tabs",
         "children": [
           {
-            "id": "553074df0fc7c07e",
+            "id": "c1f5a9392d68566f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Matematica/Probabilità/Processi stocastici/Markov property.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1c5c63711f57a271",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Matematica/Meccanica Hamiltoniana/EDO e flussi.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -90,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Matematica/Meccanica Hamiltoniana/EDO e flussi.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,10 +99,23 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "1c5c63711f57a271",
+  "active": "c1f5a9392d68566f",
   "lastOpenFiles": [
-    "Matematica/Probabilità/Processi stocastici/Markov property.md",
     "Matematica/Meccanica Hamiltoniana/EDO e flussi.md",
+    "Matematica/Probabilità/Probabilità.md",
+    "Matematica/Meccanica Hamiltoniana/Liouville equation.md",
+    "Matematica/Meccanica Hamiltoniana/Poincarré return theorem.md",
+    "Matematica/Algebra Lineare/Determinant near identity lemma.md",
+    "Termodinamica/Variabili coniugate.md",
+    "Termodinamica/Termodinamica assiomatica.md",
+    "Termodinamica/Potenziali termodinamici.md",
+    "Neuroscience/The membrane potential.md",
+    "Neural Networks/The Perceptron.md",
+    "Neural Networks/The Hopfield model.md",
+    "Neural Networks/The general framwork.md",
+    "Neural Networks/The bayesian setting.md",
+    "Machine Learning/Machine Learning.md",
+    "Matematica/Probabilità/Processi stocastici/Markov property.md",
     "Matematica/Meccanica Hamiltoniana",
     "Matematica/Probabilità/Processi stocastici/Hitting probability and mean hitting times.md",
     "Matematica/Probabilità/Processi stocastici/Discrete time Markov chains.md",
@@ -131,8 +126,6 @@
     "Matematica/Probabilità/Processi stocastici/Processi Stocastici.md",
     "Restricted Boltzmann machines RBM.md",
     "Neural Networks/Neural Networks.md",
-    "Neuroscience/The membrane potential.md",
-    "Conditional exp on a discrete random variable.md",
-    "Neural Networks/The bayesian setting.md"
+    "Conditional exp on a discrete random variable.md"
   ]
 }

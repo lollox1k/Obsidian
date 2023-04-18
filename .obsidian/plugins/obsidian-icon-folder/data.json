@@ -5,11 +5,11 @@
     "fontSize": 16,
     "iconColor": null,
     "recentlyUsedIcons": [
+      "SiAtom",
+      "RiCpuLine",
       "SiNetlify",
       "SiStackedit",
-      "FarImage",
-      "FasInfinity",
-      "RiComputerFill"
+      "FarImage"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -29,5 +29,7 @@
   "Matematica/Teoria degli algoritmi": "SiStackedit",
   "Matematica/Set Theory": "FasInfinity",
   "Images": "FarImage",
-  "Neural Networks": "SiNetlify"
+  "Neural Networks": "SiNetlify",
+  "Matematica/Matematica computazionale": "RiCpuLine",
+  "Meccanica statistica": "SiAtom"
 }

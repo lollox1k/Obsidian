@@ -2,7 +2,7 @@
 
 >> Given an ODE, we can define a _flow_ in its state space. Each starting conditon moves guided by this flow.
 
-**Def** (flow) A _flow_ on a set $X$ is a group action of the addotove group of real numbers $(\mathbb{R},+)$. More explicitly
+**Def** (flow) A _flow_ on a set $X$ is a group action of the additive group of real numbers $(\mathbb{R},+)$. More explicitly
 $$
 \Phi : X \times \mathbb{R} \to X
 $$
@@ -30,6 +30,12 @@ $$
 \Phi^{s,s}(x)=x
 $$
 We suppose that all the conditions that ensure global existence and uniquness are satisfied [[Teorema di Picard–Lindelöf]].
+
+From the definition of flow of an ODE, follows the property:
+$$
+\Phi^{t+\epsilon,s}(x) = x + u(x,t)\epsilon + o(\epsilon^2)
+$$
+
 
 The advantage of working with a flow, is that we can ask and answer new question, consider the evolution of a region of initial condition all at once.
 For example, suppose (as in reality) that the initial conditions are not known exaclty, we can model this uncertainty with a region of inital condition, equipped with a probability distribution. How far apart does the solutions evolve? 
@@ -62,22 +68,10 @@ $$
 $$
 the use of $\epsilon$ is necessaty, since we want to differentiate $\Phi^{t,t}$ only for the first $t$.
 
-To prove this, we need another lemma
-**Lemma 2** Let $A$ be a $n\times n$ square matrix, then
-$$
-\det (I + \epsilon A) = 1 + \epsilon Tr(A) + o(\epsilon^2) 
-$$
-**Proof** Let $M = I + \epsilon A$.
-$$
-\det M = \sum_{\sigma} (-1)^\sigma \prod_{i=1}^n M_{i\sigma_i}
-$$
-Where $\sigma$ are the permutations of $[n]$. If $\sigma$ is the identity permutation, we get
-$$
-\prod_{i=1}^n M_{ii} = \prod_{i=1}^n (1+\epsilon A_{ii}) = 1 + \epsilon Tr(A) + o(\epsilon^2)
-$$
-for al the remaining permutation, at least one term of the product will be just $(\epsilon A_{ij})$, making only $o(\epsilon^2)$ contributions. $\square$
+To prove this, we need the [[Determinant near identity lemma]].
+With this lemma the proof of lemma $1$ is straightforward. $\square$
 
-Applying lemma $2$ the proof of lemma $1$ is straightforward
+
 
 
 
