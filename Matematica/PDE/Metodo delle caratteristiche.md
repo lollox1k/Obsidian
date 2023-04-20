@@ -1,6 +1,64 @@
+# Method of characteristics
+
 Metodo usato per risolvere [[PDE]] del primo ordine, (si può estendere alle PDE [[Hyperbolic PDEs|iperboliche]]). 
 Il metodo riduce la PDE in una famiglia di EDO, le cui soluzione sono dette _curve caratteristiche_ attraverso le quali si risolve la PDE grazie alla condizione inziale.
+### General case
+Consider ther general non-linear first order PDE
+$$
+F(Du,u,x)=0 \quad \text{ in } U
+$$
+subject to the boundary condition
+$$
+u = g \quad \text{ on } \Gamma \subseteq \partial U
+$$
+suppose that $F,g$ are smooth functions.
+The plan is to reduce the PDE to a system of ODEs.
+Let $s \in I \subseteq \mathbb{R}$ define the curve
+$$
+z(s) := u(x(s))
+$$
 
+where $u$ is a $C^2$ solution to our PDE. Set
+$$
+p(s) := Du(x(s))
+$$
+our task is to find a clever curve $x(s)$ that allows us to compute $p$ and $z$.
+Differentiating $p(s)$
+$$
+\dot p_i(s) = \sum_{j=1^n} u_{x_ix_j}(x(s))\dot x_j(s)
+$$
+Now differentiate the PDE w.r.t $x_i$
+$$
+\sum_{j=1} F_{p_j}(Du,u,x)u_{x_jx_i} + F_z(Du,u,x)u_{x_i} + F_{x_i}(Du,u,x) = 0
+$$
+we can use this idenity to compute the termi with $u_{x_ix_j}$, provided that
+$$
+\dot x_j(s) = F_{p_j}(Du,u,x)
+$$
+using our definitions, and the last identity
+$$
+\dot p_i(s) = -F_z(p(s), z(s), x(s))p_i(s) - F_{x_i}(p(s), z(s), x(s))
+$$
+we are missing and equation for $\dot z(s)$, so let's compute this
+$$
+\dot z(s) = \sum_{j=1} u_{x_j}(x(s))\dot x_j(s) = \sum_{j=1}p_j(s)\, F_{p_j}(p(s), z(s), x(s))
+$$
+which can be writtens as a scalar product.
+Summarizing our results in vector notation:
+$$
+\begin{cases}
+\mathbf{\dot p}(s) = -F_z(\mathbf{p}(s), z(s), x(s))\mathbf{P}(s) - D_xF(\mathbf{p}(s), z(s), x(s)) \\
+\dot z(s) = \mathbf{p}(s)\cdot D_p F(\mathbf{p}(s), z(s), x(s)) \\
+\mathbf{\dot x}(s) = D_p F(\mathbf{p}(s), z(s), x(s))
+\end{cases}
+$$
+We are still missing initial conditions. Imagine our characateristics starting from a point $x_0 \in \Gamma$. We assume to have a "flat" boundary, so that for any given point the boundary is just the plane $x_n=0$.
+
+Then we set $x(0) = x_0$, it follows from the boundary conditions that $z(0) = g(x_0)$ and that $p_i(0) = g_{x_i}(x_0)$ $i=1,\dots, n-1$, and since we want the PDE to hold $F(p_0,z_0,x_0)=0$. 
+Note that $z_0$ is uniqueley determined by our choice $x_0$, but the vector $\mathbf{p}_0$ is not guaranteed to exists, or be unique.
+![[Pasted image 20230420185209.png]]
+
+### Linear case
 Risolviamo l'equazione:
 $$
 \partial_t u + \partial_x[a(x)u] = 0
@@ -15,9 +73,7 @@ $$
 che ha come caso particolare l'equazione [[linear advection]].
 
 
-## Dim 
-
-L'idea fondamentale è supporre che la seconda variabile sia dipendente dal tempo $(t,x(t))$, effettuando la derivata totale di $u$ si ottiene:
+**Proof** L'idea fondamentale è supporre che la seconda variabile sia dipendente dal tempo $(t,x(t))$, effettuando la derivata totale di $u$ si ottiene:
 $$
 \frac{du}{dt} = \partial_t u + \dot x\partial_x u
 $$
