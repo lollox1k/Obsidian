@@ -1,4 +1,5 @@
-**Theorem 1.1.2** (Markov property) Let $(X_n)_{n\geq 0}$ be a $Markov(\lambda,P)$. Then, conditional on $X_m = i$, $(X_{m+n})_{n \geq 0}$ is $Markov(\delta_i, P)$ and is _indipendent_ of the random variables $X_0,\dots, X_m$.
+### Weak
+**Theorem** (Markov property) Let $(X_n)_{n\geq 0}$ be a $Markov(\lambda,P)$. Then, conditional on $X_m = i$, $(X_{m+n})_{n \geq 0}$ is $Markov(\delta_i, P)$ and is _indipendent_ of the random variables $X_0,\dots, X_m$.
 
 **Proof** We need to show that if $A$ is an event determined by $X_0,\dots,X_m$ we have, then
 $$
@@ -20,5 +21,36 @@ $$
 \delta_{i,i_m} p_{i_m,i_{m+1}} \dots\, p_{i_{m+n-1}, i_{m+n}}\; \lambda_{i_0}p_{i_0,i_1}\dots\, p_{i_{m-1},i}\frac{1}{\mathbb{P}(X_m = i)} 
 $$
 we can see that the right part is precisley the definition of conditional probability of $A$ to the event $X_m = i$. $\square$
+
+## Strong
+
+**Theorem** (Strong Markov property) Let $(X_n)_{n\geq 0}$ be a $Markov(\lambda,P)$, and let $T$ be a [[Stopping times|stopping time]] of $(X_n)_{n\geq 0}$. Then, conditional on $T < \infty$ and $X_T = i$, $(X_{T+n})_{n \geq 0}$ is $Markov(\delta_i, P)$ and is _indipendent_ of the random variables $X_0,\dots, X_T$.
+
+**Proof** Let's use the notation $H_{T-1} = \bigcap_{n=0}^{T-1}\{X_n=j_n\}$ for the "history" up to time $T-1$ of our DTMC, pick two states $i,j \in I$. Then
+$$
+P(X_{T+1}=j | H_{T-1} \cap \{X_T=i\}) = \frac{P(X_{T+1} = j \cap H_{T-1} \cap \{X_T=i\})}{P(H_{T-1} \cap \{X_T=i\})}
+$$
+where we have used the definition of conditional probability. Since we are working with finite a.s. stopping time, using the law of total probability
+$$
+= \sum_{n \geq 0} \frac{P(X_{T+1} = j \cap H_{T-1} \cap \{X_T=i\} \cap \{T=n\})}{P(H_{T-1} \cap \{X_T=i\})}
+$$
+we can substitute $T$ with $n$, since we are taking the interection with the event $\{T=n\}$, and use the regular Markov property!
+$$
+= \sum_{n \geq 0} \frac{P(X_{n+1} = j \cap H_{n-1} \cap \{X_n=i\} \cap \{T=n\})}{P(H_{T-1} \cap \{X_T=i\})}
+$$
+now use the defintion of conditional probability again
+$$
+= \sum_{n \geq 0} \frac{P(X_{n+1} = j | H_{n-1} \cap \{X_n=i\} \cap \{T=n\})}{P(H_{T-1} \cap \{X_T=i\})} P( H_{n-1} \cap \{X_n=i\} \cap \{T=n\})
+$$
+$$
+= \sum_{n \geq 0} p_{ij} \frac{P( H_{T-1} \cap \{X_n=i\} \cap \{T=n\})}{P(H_{T-1} \cap \{X_T=i\})}
+$$
+$$
+= p_{ij}\sum_{n \geq 0} P(\{T=n\} | H_{T-1} \cap \{X_T=i\}) = p_{ij}
+$$
+where the sum is equal to one since $T$ is a stopping time, so it's compleatly determined by the history up to time $T$ (one term is $1$ and the others $0$). $\square$
+
+
+
 
 

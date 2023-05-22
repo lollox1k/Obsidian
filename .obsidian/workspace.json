@@ -11,11 +11,28 @@
             "id": "c1f5a9392d68566f",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Recurrence and transience.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1a51e0d5d00d990a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Matematica/Probabilità/Processi stocastici/Hitting probability and mean hitting times.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -44,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "Markov",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -73,6 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Matematica/Probabilità/Processi stocastici/Hitting probability and mean hitting times.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,8 +117,14 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "c1f5a9392d68566f",
+  "active": "1a51e0d5d00d990a",
   "lastOpenFiles": [
+    "Recurrence and transience.md",
+    "Matematica/Probabilità/Processi stocastici/Processi Stocastici.md",
+    "Matematica/Probabilità/Processi stocastici/Markov property.md",
+    "Matematica/Probabilità/Processi stocastici/Discrete time Markov chains.md",
+    "Matematica/Probabilità/Processi stocastici/Hitting probability and mean hitting times.md",
+    "Matematica/Probabilità/Processi stocastici/Harmonic functions.md",
     "Matematica/Meccanica Hamiltoniana/Legendre transform.md",
     "Matematica/Meccanica Hamiltoniana/Hamilton-Jacobi equation.md",
     "Matematica/PDE/Metodo delle caratteristiche.md",
@@ -109,10 +133,7 @@
     "Matematica/Teoria Della Misura/Pushforward measure.md",
     "Matematica/Teoria Della Misura/Funzioni misurabili.md",
     "Matematica/Probabilità/Processi stocastici/Filtrazione naturale di un processo stocastico.md",
-    "Matematica/Probabilità/Processi stocastici/Hitting probability and mean hitting times.md",
-    "Matematica/Probabilità/Processi stocastici/Markov property.md",
     "Matematica/Probabilità/Processi stocastici/Moto Browniano.md",
-    "Matematica/Probabilità/Processi stocastici/Processi Stocastici.md",
     "Matematica/Meccanica Hamiltoniana/Poincarré return theorem.md",
     "Matematica/Meccanica Hamiltoniana/EDO e flussi.md",
     "Matematica/Probabilità/Probabilità.md",
@@ -125,10 +146,7 @@
     "Neural Networks/The Perceptron.md",
     "Neural Networks/The Hopfield model.md",
     "Neural Networks/The general framwork.md",
-    "Neural Networks/The bayesian setting.md",
-    "Machine Learning/Machine Learning.md",
     "Matematica/Meccanica Hamiltoniana",
-    "Matematica/Probabilità/Processi stocastici/Discrete time Markov chains.md",
     "Pasted image 20230313180833.png"
   ]
 }
