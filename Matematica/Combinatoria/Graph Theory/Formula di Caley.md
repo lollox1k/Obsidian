@@ -1,14 +1,14 @@
 # Formula di Caley
 
-### Teorema 
-Il numero di Alberi con vertici etichettati di ordine $n$, ovvero il numero di alberti di copertura di $K_n$, è $T(n) = n^{n-2}$.
 
-### Dimostrazione con i codici di Prufer
+**Teorema** Il numero di Alberi con vertici etichettati di ordine $n$, ovvero il numero di alberi di copertura di $K_n$, è $T(n) = n^{n-2}$.
+
+**Proof** (_Prufer's code_)
 Prufer ha trovato una biiezione tra alberi etichettati e stringhe di lunghezza $n-2$ di $n$ caratteri, un insieme di cardinalità facile da calcolare.
 
 The following is an algorithm to generate the prufer code of a given tree.
 $$
-c : T \mapsto [n]^{n-2}
+c : T \to [n]^{n-2}
 $$
 **Prufer's method to assign a code to a labeled tree**
 Given a tree $T$, with labeled vertices $1,\dots,n$.
@@ -43,7 +43,7 @@ This is obvious, since given a prufer's code, we can reconstruct (this is anothe
 Remains to prove surjectivity, that is, for each string $(a_1,a_2,\dots,a_{n-2}) \in [n]^{n-2}$ we can construct a tree $T$ such that  $c(T)=(a_1,a_2,\dots,a_{n-2})$. 
 Again, we can construct a complete code from the string, each column is an edge of the $n$ vertices. We need to prove that this make sense, that this a tree. 
 Each column, is distinct, since once a vertex appears in the lower part of the code, it's removed from the tree, so it won't appear ever next.
-Since there are $n-1$ (distinct) edges and $n$ vertices by contruction, we need to prove that is connected. We claim that the graph constructed adding edges from right to left, is always connected. This is  true, infact in the complete code each vertex appears exactly $d(v)$ times. Given the top vertex of a vertex in the middle of the code, it will appear next in the lower part when it will be removed! Hence it's connect and the final graph is a tree. $\square$
+Since there are $n-1$ (distinct) edges and $n$ vertices by contruction, we need to prove that is connected. We claim that the graph constructed adding edges from right to left, is always connected. This is true, infact in the complete code each vertex appears exactly $d(v)$ times. Given the top vertex of an edge in the middle of the code, it will appear next in the lower part when it will be removed! Hence it's connect and the final graph is a tree. $\square$
 
 ### Dimostrazione con la teoria delle specie
 

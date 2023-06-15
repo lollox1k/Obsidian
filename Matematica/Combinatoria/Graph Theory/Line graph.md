@@ -61,16 +61,16 @@ In generale, se i linegraph sono isomorfi, i grafi di partenza lo sono? Non semp
 
 Come detto prima, $K_{1,3}$ la forchetta è un esempio di un non line graph.
 
-Il seguente teorema è una caratterizzazzione dei line graph dovuto ad Krausz (1942).
+Il seguente teorema è una caratterizzazione dei line graph dovuto ad Krausz (1942).
 
-**Teorema** (caratterizzazzione dei linegraph)
+**Teorema** (caratterizzazione dei linegraph)
 Le seguenti sono equivalenti:
 1. $G$ è un linegraph.
 2. Gli archi di $G$ si possono partizionare in sottografi completi in modo che nessun vertice stia in più di due completi.
 3. $G$ non contiene $K_{1,3}$ come sottografo indotto, e se qualora due triangoli hanno un alto in comune, allora il sottografo ridotto dei $4$ vertici è un $K_4$ 
 4. Nessuno di nove sottografi mostri è un sottografo indotto di $G$. (configurazione proibite).
 
-Vediamo una caratterizzazzione ristretta agli [[Alberi]].
+Vediamo una caratterizzazione ristretta agli [[Alberi]].
 **Teorema** (Chartrand) Un grafo è il linegraph di un albero se e solo se è il grafo dei blocchi $B(G)$ di $G$, in cui ogni cutpoint sta in esattamente due blocchi.
 
 

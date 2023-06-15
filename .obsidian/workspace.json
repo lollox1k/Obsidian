@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "a33dde4453e9d23b",
+        "id": "641ae57cd46ca8be",
         "type": "tabs",
         "children": [
           {
-            "id": "c1f5a9392d68566f",
+            "id": "ce0cbb4830625c68",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Recurrence and transience.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1a51e0d5d00d990a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Matematica/Probabilità/Processi stocastici/Hitting probability and mean hitting times.md",
+                "file": "Matematica/Analisi numerica/Problema dei minimi quadrati.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -61,13 +48,21 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Markov",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
+            }
+          },
+          {
+            "id": "cbb13abb2a8404b0",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
             }
           }
         ]
@@ -90,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Matematica/Probabilità/Processi stocastici/Hitting probability and mean hitting times.md",
+                "file": "Matematica/Analisi numerica/Problema dei minimi quadrati.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,13 +95,21 @@
                 "unlinkedCollapsed": false
               }
             }
+          },
+          {
+            "id": "34d0875f9459aced",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -114,38 +117,43 @@
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "command-palette:Open command palette": false,
-      "markdown-importer:Open format converter": false
+      "markdown-importer:Open format converter": false,
+      "templater-obsidian:Templater": false,
+      "periodic-notes:Open today": false
     }
   },
-  "active": "1a51e0d5d00d990a",
+  "active": "51323684b4c46c57",
   "lastOpenFiles": [
-    "Recurrence and transience.md",
-    "Matematica/Probabilità/Processi stocastici/Processi Stocastici.md",
-    "Matematica/Probabilità/Processi stocastici/Markov property.md",
-    "Matematica/Probabilità/Processi stocastici/Discrete time Markov chains.md",
-    "Matematica/Probabilità/Processi stocastici/Hitting probability and mean hitting times.md",
-    "Matematica/Probabilità/Processi stocastici/Harmonic functions.md",
-    "Matematica/Meccanica Hamiltoniana/Legendre transform.md",
-    "Matematica/Meccanica Hamiltoniana/Hamilton-Jacobi equation.md",
-    "Matematica/PDE/Metodo delle caratteristiche.md",
+    "Matematica/Analisi numerica/Fattorizzazione QR.md",
+    "Matematica/Analisi numerica/Fattorizzazione LU.md",
+    "Matematica/Analisi numerica/Fattorizzazione di Cholesky.md",
+    "Matematica/Analisi numerica/Problema dei minimi quadrati.md",
+    "Matematica/Analisi numerica/Numero di condizionamento di una matrice.md",
+    "Matematica/Teoria Della Misura/Misure prodotto.md",
+    "Matematica/Analisi numerica/Metodo del gradiente coniugato.md",
+    "Matematica/Analisi numerica/Metodi del gradiente.md",
+    "Matematica/Ricerca Operativa/Programmazione lineare/Il metodo del Simplesso.md",
+    "Matematica/Combinatoria/Graph Theory/Line graph.md",
+    "Matematica/Combinatoria/Graph Theory/Cut,Bridges, Block decomposition of a Graph.md",
+    "Matematica/Combinatoria/Coefficienti multinomiali.md",
+    "Matematica/Combinatoria/Coefficiente binomiale.md",
+    "Matematica/Ricerca Operativa/Programmazione lineare/Algoritmo del Simplesso.md",
+    "Matematica/Combinatoria/Graph Theory/Alberi.md",
+    "Matematica/Combinatoria/Graph Theory/Alberi di copertura.md",
+    "Journal/15-06-2023.md",
+    "Matematica/Combinatoria/Graph Theory/Formula di Caley.md",
+    "Matematica/Combinatoria/Graph Theory/Capacità di un grafo.md",
+    "Journal/14-06-2023.md",
+    "Journal/Tracker.md",
+    "Journal/13-06-2023.md",
+    "Journal/12-06-2023.md",
+    "Matematica/Combinatoria/Combinatoria.md",
+    "Matematica/Combinatoria/Graph Theory/Graph Isomorphism.md",
+    "Templates/Daily note template.md",
+    "Templates",
+    "Tracker",
+    "Journal",
     "Pasted image 20230420185209.png",
-    "Matematica/Teoria Della Misura/Substitution formula.md",
-    "Matematica/Teoria Della Misura/Pushforward measure.md",
-    "Matematica/Teoria Della Misura/Funzioni misurabili.md",
-    "Matematica/Probabilità/Processi stocastici/Filtrazione naturale di un processo stocastico.md",
-    "Matematica/Probabilità/Processi stocastici/Moto Browniano.md",
-    "Matematica/Meccanica Hamiltoniana/Poincarré return theorem.md",
-    "Matematica/Meccanica Hamiltoniana/EDO e flussi.md",
-    "Matematica/Probabilità/Probabilità.md",
-    "Matematica/Meccanica Hamiltoniana/Liouville equation.md",
-    "Matematica/Algebra Lineare/Determinant near identity lemma.md",
-    "Termodinamica/Variabili coniugate.md",
-    "Termodinamica/Termodinamica assiomatica.md",
-    "Termodinamica/Potenziali termodinamici.md",
-    "Neuroscience/The membrane potential.md",
-    "Neural Networks/The Perceptron.md",
-    "Neural Networks/The Hopfield model.md",
-    "Neural Networks/The general framwork.md",
     "Matematica/Meccanica Hamiltoniana",
     "Pasted image 20230313180833.png"
   ]

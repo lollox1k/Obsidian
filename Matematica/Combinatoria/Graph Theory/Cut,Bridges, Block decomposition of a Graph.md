@@ -7,7 +7,7 @@ Per analizzare la questione introduciamo alcune definizione.
 **Def** (Cut) Un vertice $v$ di un grafo $G$ viene detto _punto di taglio_ se il grafo $G' = G\setminus v$ indotto ha più componenti connesse: $\lambda(G') > \lambda(G)$. 
 
 Quindi rimuovendo un vertice di taglio, il grafo diventa più sconnesso. 
-Vediamo una caratterizzazzione dei punti di taglio.
+Vediamo una caratterizzazione dei punti di taglio.
 
 **Teorema** Un vertice $v \in V(G)$ è un cut-vertex di $G$ se e solo se $\exists u,w \in V(G)$  diversi da $v$ tali che $v$ compare in ogni cammino $u-w$.
 
@@ -21,7 +21,7 @@ Ogni grafo completo $K_n$ ha zero punti di taglio.
 Il grafo cammino $P_n$ ha $n-2$ punti di taglio, tutti vertici interi.
 Esiste un grafo connesso con più di $n-2$ punti di taglio? No.
 
-**Teorema** Ogni grafo connesso non triviale ($n\geq 2$) continene almeno due punti non di taglio.
+**Teorema** Ogni grafo connesso non triviale ($n\geq 2$) contienene almeno due punti non di taglio.
 
 **Dim** Supponiamo per assurdo esista un grafo non triviale $G$ con al massimo $1$ non cut-vertex (tutti i vertici sono di taglio tranne al massimo uno). Siano $u,v \in V(G)$ tali che $d(u,v)=diam(G)$. Almeno uno dei due (s.p.g. $v$) sarà un cut-vertex, quindi $G\setminus v$ sarà disconnesso. Prendiamo ora un vertice $w$ in una componente connessa diversa da quella dove compare $u$. Siccome $v$ è un punto di taglio di $G$, ogni cammino $u-w$ deve passare per $v$. Ma allora 
 $d(u,w) > d(u,v) = diam(G)$, assurdo. $\square$
@@ -37,7 +37,7 @@ Analogamente:
 
 **Osservazione** A differenza dei punti di taglio, rimuovere un ponte fa aumentare la componenti connesse di esattamente uno.
 
-Vale una caratterizzazzione identia a quella per i punti di taglio, tramite i cammini:
+Vale una caratterizzazione identia a quella per i punti di taglio, tramite i cammini:
 
 **Teorema** Un arco $e \in E(G)$ è un ponte di $G$ se e solo se $\exists u,w \in V(G)$ tali che $e$ compare in ogni cammino $u-w$.
 **Dim** Identica a quella dei cut-vertex. $\square$
@@ -55,7 +55,7 @@ Ne esiste anche un'altra in termini di cicli:
 
 **Teorema** Se $e = \{u,v\}$ è un ponte di $G$, e $deg(u)\geq 2$ allora $u$ è un punto di taglio di $G$.
 
-**Dim** Segue dalla caratterizzazzione tramite cammini: infatti siccome $e$ è un ponte esistono vertici $u,v \in V$ tali che $e$ appare in ogni cammino, tuttavia se questi due veritici sono proprio gli incidenti di $e = \{u,v\}$, allora nessuno dei due è un punto di taglio, infatti per quella caratterizzazzione serve che siano distinti. Questo abbiene appena uno dei due $u,v$ è diverso da quelli di $e$, quindi il vertice $u$ avrà almeno un altro vicino oltre a $v$. $\square$
+**Dim** Segue dalla caratterizzazione tramite cammini: infatti siccome $e$ è un ponte esistono vertici $u,v \in V$ tali che $e$ appare in ogni cammino, tuttavia se questi due veritici sono proprio gli incidenti di $e = \{u,v\}$, allora nessuno dei due è un punto di taglio, infatti per quella caratterizzazione serve che siano distinti. Questo abbiene appena uno dei due $u,v$ è diverso da quelli di $e$, quindi il vertice $u$ avrà almeno un altro vicino oltre a $v$. $\square$
 
 
 

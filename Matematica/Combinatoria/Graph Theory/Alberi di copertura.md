@@ -9,7 +9,6 @@ La [[Formula di Caley]] conta il numero di alberi di copertura etichettati di $K
 Vediamo come costruire un grafo di copertura a partire da un grafo connesso è estremamente facile. Addirittura si può generalizzare al caso di archi pesati, è il problema del  _Mininum spanning tree_ o MST. E' un problema polinomiale, e due approcci greedy lo risolvono.
 
 ## Algoritmo di Kruskal 
-
 Algoritmo greedy del 1956.
 
 **Input** Un grafo connesso $G$ ed una funzione di costo $c : E(G) \to [0,\infty)$.
@@ -48,7 +47,7 @@ $$
 \lambda(a_1,\dots,a_s) \geq \lambda(e_1,\dots, e_{s-1}, a_1,\dots,a_s) = \lambda(e_1,e_2,\dots,e_{s-1})
 $$
 
-Siccome sono entrambe forest (sono dei sottografi di alberi) vale la [[Alberi#Caratterizzazzione tramite ordine e taglia|caratterizzazzione tramite ordine e taglia]]:
+Siccome sono entrambe foreste (sono dei sottografi di alberi) vale la [[Alberi#Caratterizzazione degli alberi|caratterizzazione tramite ordine e taglia]]:
 $$
 s+\lambda(a_1,\dots,a_s) = n = s-1 +\lambda(e_1,\dots, e_{s-1})
 $$

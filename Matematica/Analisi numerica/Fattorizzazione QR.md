@@ -1,4 +1,4 @@
-# Fattorizzazzione QR
+# Fattorizzazione QR
 
 Sia $A \in \mathbb{C}^{m\times n}$, esistono una matrice unitaria $Q \in \mathbb{C}^{m\times m}$ ed una matrice trapezoidale siperiore $R \in \mathbb{C}^{m\times n}$ tale che:
 $$
@@ -6,7 +6,7 @@ A = QR
 $$
 **Osservazione** Non è unica: introducendo una matrice di fase $S = diag(\theta_1,\dots,\theta_m)$ con $|\theta_i| = 1$ numeri completti di modulo uno (è unitaria), allora vale anche $A = (QS)(S^HR)$, infatti $QS$ è ancora unitaria e $S^HR$ è ancora trapezoidale superiore.  
 
-**Dimostrazione** Dimostriamo costruittivamente l'esistenza della fattorizzazzione, possiamo usare i [[Riflettore di Householder]] per annullare gli elementi di $A$ sotto la diagonale ed ottenere $R$ colonna dopo colonna:
+**Dimostrazione** Dimostriamo costruittivamente l'esistenza della fattorizzazione, possiamo usare i [[Riflettore di Householder]] per annullare gli elementi di $A$ sotto la diagonale ed ottenere $R$ colonna dopo colonna:
 $$
 U_n\dots U_2\,U_1 A = R
 $$
@@ -38,7 +38,7 @@ Siccome i riflettori sono unitari (il prodotto continua ad esserlo). $\square$
 
 
 ### Costo computazionale
-Si puà dimostrare che il costo è di $2n^2(m-n/3) + O(mn)$. Dunque, se siamo nel caso quadrato $m=n$ il costo diventa di $4/3n^3 + O(n^2)$, ovvero il doppio della fattorizzazzione $LU$. 
+Si puà dimostrare che il costo è di $2n^2(m-n/3) + O(mn)$. Dunque, se siamo nel caso quadrato $m=n$ il costo diventa di $4/3n^3 + O(n^2)$, ovvero il doppio della fattorizzazione $LU$. 
 Pertanto, come metodo diretto per risolvere un sistema lineare, conviene usare $LU$.
 
 ### Stabilità

@@ -7,9 +7,9 @@ $$
 \mathcal{C} = x_1, e_1, \dots e_t, x_1 \qquad t = \vert E(G)\vert
 $$
 > la lunghezza del circuito è la taglia del sottografo.
-> "Si può disegnare senza staccare la penna"
+> "Si può disegnare senza staccare la penna e ripassare sopra"
 
-**Teorema** Eulerio
+**Teorema** (Eulero)
 Sia $G$ un grafo senza punti isolati, Allora:
 $$
 G \text{ euleriano} \iff G \text{ connesso e vertici di grado pari} 
@@ -31,11 +31,11 @@ $G'$ potrebbe non essere più connesso, ma ogni vertice ha ancora grado pari (ab
 Per induzione sulle componenti connesse di $G'$ possiamo ottenere il cammino euleriano, infatti rimuovo tutti gli archi dei circuiti, non posso arrivare ad un sottografo vuoto, sennò il cicuito era euleriano!
 
 ## Teorema di Eulero 2
-Una caratterizzazzione leggermente diversa
+Una caratterizzazione leggermente diversa
 Sia $G$ un grafo connesso, allora le seguenti sono equivalenti:
 1. $G$ è _euleriano_.
 2. ogni vertice di $G$ ha _grado pari_.
-3. Gli archi di $G$ possono essere partizionati in cicli disgiunti (per archi).
+3. Gli archi di $G$ possono essere partizionati in cicli disgiunti per archi.
 
 **Dim**
 $(1 \implies 2)$ Sia $\mathcal{E}$ il circuito euleriano. Sia $v \in V$, ogni volta che $\mathcal{E}$ entra in $v$, deve uscire in $v$ da un arco diverso. Siccome $\mathcal{E}$ non ripete mai un arco, il numero di archi incidenti a $v$ deve essere pari.

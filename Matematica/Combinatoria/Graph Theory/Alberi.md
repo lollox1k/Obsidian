@@ -1,6 +1,6 @@
 # Alberi
 
-Vediamo una caratterizzazzione completa di questi grafi.
+Vediamo una caratterizzazione completa di questi grafi.
 
 **Def** (Foresta)
 Un grafo $G$ acicliclo viene detto _foresta_. 
@@ -20,7 +20,7 @@ x_{i-1}, x_i,\dots x_j, y_{j-1},\dots ,y_i, y_{i-1}
 $$
 quindi $G$ non è una foresta. $\square$
 
-## Caratterizzazzione degli alberi
+## Caratterizzazione degli alberi
 
 ![[Pasted image 20230107154858.png]]
 
@@ -50,7 +50,7 @@ Le seguenti condizioni sono equivalenti:
 - $(6 \implies 3)$ Banalmente dal [[Grafo semplice#Lemma connessione|lemma di connessione]], se tolgo un arco qualuque da $G$, allora avrà $m= n-2$ archi e sarà disconnesso.
 
 
->**RECAP** connesso implica almeno $n-1$ archi, aciclico implica al massimo $n-1$ archi, quindi un albero (connesso ed aciclico) deve avere esattamente $n-1$ archi. Se un grafo connesso ha $n-1$ archi, è un albero: si fa per induzione. Un grafo aciclico e con $n-1$ archi è un albero: ancora induzione. 
+>**RECAP** connesso implica almeno $n-1$ archi, aciclico implica al massimo $n-1$ archi, quindi un albero (connesso ed aciclico) deve avere esattamente $n-1$ archi. Se un grafo connesso ha $n-1$ archi, è un albero: è connesso minimale. Un grafo aciclico e con $n-1$ archi è un albero: è aciclico massimale. 
 
 **Corollario** Un grafo $G$ è una foresta se e solo se vale la relazione:
 $$
@@ -58,5 +58,26 @@ $$
 $$
 dove $\lambda(G)$ è il numero di componenti connessi del grafo.
 **Dim**
-Segue banalmente dal fatto che una foresta è un'unione disgiunta di alberi. $\square$.
-'''
+Segue banalmente dal fatto che una foresta è un'unione disgiunta di alberi. $\square$
+
+
+### Cool facts about trees
+**Proposition** The average degree $ad$ defined as
+$$
+ad := \frac{\sum_{v\in V} d(v)}{|V|}
+$$
+in a tree uniquely determines the order of the graph.
+
+**Proof** We use [[Handshake Lemma]], and the $m = n-1$ identity 
+$$
+ad = \frac{2|E|}{|V|} = \frac{2|V|-2}{|V|}
+$$
+solving for $|V|$ we get the formula
+$$
+|V| = \frac{1}{1-\frac{ad}{2}} \qquad ad = 2- \frac{2}{|V|}
+$$
+from this formula we gather another cool fact: in a tree the average degree is strictly less than $2$:
+$$
+ad < 2
+$$
+The path graph $P_n$, which is a tree, in the limit $n\to\infty$ tends to $ad = 2$. $\square$

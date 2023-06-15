@@ -22,7 +22,7 @@ E' facile vedere come un qualunque problema di PL può essere trasformato in que
 - $Ax\leq b = Ax + u = b$ con $u\geq 0$, variabili di Slack o surplus (nel caso $\geq$),
 - $x = x_+ - x_-$ con $x_+,x_- \geq 0$, per il problema di $x$ negativi. 
 
-Il vantaggio della forma standard è che consente una  caratterizzazzione comoda dei vertici, fondamentali per il metodo del simplesso:
+Il vantaggio della forma standard è che consente una  caratterizzazione comoda dei vertici, fondamentali per il metodo del simplesso:
 ### Teorema caratterizzazione dei vertici in forma standard
 Sia $P$ un poliedro non vuoto e $rank(A)=m$ (ovviamente $m\leq n$). 
 Un punto $\overline x \in P$ è un vertice _se e solo se_ le colonne di $A$ relative alle _componenti positive_ di $\overline x$ sono _linearmente indipendenti_.

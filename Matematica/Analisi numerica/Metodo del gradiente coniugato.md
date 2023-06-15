@@ -53,7 +53,7 @@ siccome lo step è ottimale, mentre
 $$
 p_1^TAp_0 = (r_1+\beta_1 p_0)^TAp_0
 $$
-e usando l'altra caratterizzazzione di $\beta_k$ per $k=1$ risulta nullo.
+e usando l'altra caratterizzazione di $\beta_k$ per $k=1$ risulta nullo.
 Assumiamo i risultato veri al passo $k-1$, con $k > 1$, mostriamo l'ortgonoalità dei residui:
 $$
 r_k^Tr_j = (r_{k-1}-\alpha_{k-1}Ap_{k-1})^Tr_j = r_{k-1}^Tr_j -\alpha_{k-1}p_{k-1}^TAr_j = 0

@@ -38,7 +38,7 @@ quindi il coefficiente binomiale _sta contando il numero sottoinsiemi di $h$ ele
 $$
 \binom{n}{h} = \left | \binom{[n]}{h}\right | 
 $$
-2. Possiamo trovare un'altra identità con questa nuova caratterizzazzione:
+2. Possiamo trovare un'altra identità con questa nuova caratterizzazione:
 Supponiamo di voler scegliere una tribù di $h$ persone con un capo, a partire da una popolazione di $n$ individui.Ora sappiamo che il numerò di tribù possibili è $\binom{n}{h}$. 
 Supponiamo che ogni tribù debba avere un capo, esistono due modi per sceglierlo:
 - **democratico** la tribù sceglie uno dei suoi membri per diventare capo. 

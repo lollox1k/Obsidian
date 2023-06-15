@@ -54,7 +54,7 @@ $$
 dove abbiamo usato la simmetria di $A$ nell'ultimo uguaglianza. 
 Se $p^k$ è direzione di discesa,Il numeratore è positivo, anche il denomitatore essendo  $A$ definita positiva, dunque $\alpha_k>0$. $\square$
 
-Vale la seguente caratterizzazzione legata alla norma dell'energia.
+Vale la seguente caratterizzazione legata alla norma dell'energia.
 
 **Proposizione** Minimizzare la funzione energia $\Phi$ lungo la retta $y(\alpha)=x^k+\alpha p^k$ equivale a minimizzare la norma dell'energia dell'errore $e^{k+1}=x-x^{k+1}$, dove $x$ è la solizione del sistema.
 

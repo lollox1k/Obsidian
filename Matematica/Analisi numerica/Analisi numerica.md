@@ -6,9 +6,9 @@
 3. [x] [[Numero di condizionamento di una matrice]]
 ### Metodi diretti
 1. [x] [[Metodo di Gauss MEG]]
-2. [x] [[Fattorizzazzione LU]]
+2. [x] [[Fattorizzazione LU]]
 3. [x] [[Fattorizzazione di Cholesky]]
-4. [x] [[Fattorizzazzione QR]]
+4. [x] [[Fattorizzazione QR]]
 5. [x] [[Singular Value Decomposition]]
 6. [x] [[Problema dei minimi quadrati]]
 ### Metodi iterativi

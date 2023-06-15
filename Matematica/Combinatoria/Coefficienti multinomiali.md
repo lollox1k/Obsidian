@@ -13,9 +13,9 @@ $$
 (x_1 + x_2 + \dots + x_k)^n = \sum_{r_1,\dots r_k \; \sum r_i = n} \binom{n}{r_1\,\dots \, r_k} x_1^{r_1}x_2^{r_2}\dots x_k^{r_k}
 $$
 **Osservazione**
-Una $k$-partizione ordinata di $[n]$ è una tupla di insiemi $(A_1,\dots, A_k)$ disgiunti che uniti danno $[n]$. Se fisso le cardinalità degli insiemi $|A_i| = r_i$, è chiaro che c'è una corrispondenda biunivoca tra le $k$-partizioni con cardinalità $r_1,\dots r_k$ e le stringhe sopra menzionate.
+Una $k$-partizione ordinata di $[n]$ è una tupla di insiemi $(A_1,\dots, A_k)$ disgiunti che uniti danno $[n]$. Se fisso le cardinalità degli insiemi $|A_i| = r_i$, è chiaro che c'è una corrispondenza biunivoca tra le $k$-partizioni con cardinalità $r_1,\dots r_k$ e le stringhe sopra menzionate.
 
-> un'altra caratterizzazzione del coefficiente multinomiale è il numero di partizioni di $[n]$  in $k$ sottoinsiemi (ordinati) con cardinalità fissata $r_1, \dots, r_k$  
+> un'altra caratterizzazione del coefficiente multinomiale è il numero di partizioni di $[n]$  in $k$ sottoinsiemi (ordinati) con cardinalità fissata $r_1, \dots, r_k$  
 
 Vediamo concretamente:
 
@@ -68,7 +68,7 @@ $$
 \binom{n}{r_1\, \dots r_k} = \frac{n!}{r_1!\dots r_k!}
 $$
 ### Dim
-Ricostruiamola a partire dal coefficiente binomiale, per cui abbiamo una forma algebrica. Usiamo la caratterizzazzione come funzioni con cardinalità delle fibre fissate. Possiamo scegliere la controimmagine di $1$ in $\binom{n}{r_1}$ modi diversi. Poi restano $n-r_1$ elementi per scegliere la preimmagine di $2$, quindi $\binom{n-r_1}{r_2}$ e così via. In totale:
+Ricostruiamola a partire dal coefficiente binomiale, per cui abbiamo una forma algebrica. Usiamo la caratterizzazione come funzioni con cardinalità delle fibre fissate. Possiamo scegliere la controimmagine di $1$ in $\binom{n}{r_1}$ modi diversi. Poi restano $n-r_1$ elementi per scegliere la preimmagine di $2$, quindi $\binom{n-r_1}{r_2}$ e così via. In totale:
 $$
 \binom{n}{r_1}\binom{n-r_1}{r_2}\dots \binom{r_k}{r_k}
 $$

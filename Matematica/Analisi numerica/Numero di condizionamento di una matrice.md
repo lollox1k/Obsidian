@@ -28,7 +28,7 @@ $$
 K_{2}(A)= \frac{|\lambda_{max}|}{|\lambda_{min}|}
 $$
 
-Un'altra caratterizzazzione del numero di condizionamento, è vederlo come l'inverso di una distanza tra le matrici singolari. Definendo una distanza:
+Un'altra caratterizzazione del numero di condizionamento, è vederlo come l'inverso di una distanza tra le matrici singolari. Definendo una distanza:
 $$
 dist_{p(A)}:= \left\{ \frac{\Vert \delta A \Vert_p}{\Vert A \Vert_{p} \,:\,}A+\delta A \text{ è singolare } \right\}
 $$

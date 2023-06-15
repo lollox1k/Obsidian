@@ -1,4 +1,10 @@
 [
   "cm-editor-syntax-highlight-obsidian",
-  "obsidian-icon-folder"
+  "obsidian-icon-folder",
+  "periodic-notes",
+  "calendar",
+  "dataview",
+  "templater-obsidian",
+  "obsidian-emoji-toolbar",
+  "obsidian-tracker"
 ]

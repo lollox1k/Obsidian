@@ -1,5 +1,5 @@
-# Fattorizzazzione LU
-Mostreremo come il [[Metodo di Gauss MEG]] equivalga a fattorizzare la matrice $A$ di partenza nel prodotto di due matrici, $A=LU$. Il vantaggio di questo punto di vista è che posso sfruttare la stessa fattorizzazzione per risolvere sistemi con termine noto $b$ diverso:
+# Fattorizzazione LU
+Mostreremo come il [[Metodo di Gauss MEG]] equivalga a fattorizzare la matrice $A$ di partenza nel prodotto di due matrici, $A=LU$. Il vantaggio di questo punto di vista è che posso sfruttare la stessa fattorizzazione per risolvere sistemi con termine noto $b$ diverso:
 $$
 LUx=b \qquad 
 \begin{cases} 
@@ -27,16 +27,16 @@ $$
 ![[Pasted image 20221025144043.png]]
 
 ### Proposizione
-Sia $A \in \mathbb{R}^{n\times n}$. La fattorizzazzione $A=LU$ con $l_{ii}=1$ con $i=1,\dots,n$, esiste ed è unica se e solo se le sottomatrici principali $A_i$ di ordine $i=1,\dots,n-1$ sono non singolari.
+Sia $A \in \mathbb{R}^{n\times n}$. La fattorizzazione $A=LU$ con $l_{ii}=1$ con $i=1,\dots,n$, esiste ed è unica se e solo se le sottomatrici principali $A_i$ di ordine $i=1,\dots,n-1$ sono non singolari.
 
 Matrici $A$ che soddisfano questo prerequisito sono matrici definite positive
 
-### Generalizzazzione PA=LU
-La fattorizzazzione può essere generalizzata cercando, al passo $k$ del processo di eliminazione, un elemento pivotale non nullo scorrendo gli elementi della sola sottocolonna. Per tale motivo essa è detta pivotazione parziale (per righe). Un valore grande di $m_{ik}$ (generato ad esempio da un valore piccolo del pivot $a_{kk}$  può amplificare gli eventuali errori di arrotondamento. Per questo motivo si sceglie come elemento pivotale l’elemento di modulo massimo della colonna e la pivotazione parziale viene generalmente operata ad ogni passaggio anche quando non si incontrano elementi pivotali nulli.
+### Generalizzazione PA=LU
+La fattorizzazione può essere generalizzata cercando, al passo $k$ del processo di eliminazione, un elemento pivotale non nullo scorrendo gli elementi della sola sottocolonna. Per tale motivo essa è detta pivotazione parziale (per righe). Un valore grande di $m_{ik}$ (generato ad esempio da un valore piccolo del pivot $a_{kk}$  può amplificare gli eventuali errori di arrotondamento. Per questo motivo si sceglie come elemento pivotale l’elemento di modulo massimo della colonna e la pivotazione parziale viene generalmente operata ad ogni passaggio anche quando non si incontrano elementi pivotali nulli.
 
 ### Fattorizzazzione LU per matrici a banda
 
-Se la nostra matrice quadrata $A$ ha una _struttura a banda_, ovvero e non nulla solo sulla diagonale e le $p$ sottodiagonali e $q$ sopradiagonali, è evidente che possiamo solvegere la fattorizzazzione in meno $flops$,
+Se la nostra matrice quadrata $A$ ha una _struttura a banda_, ovvero e non nulla solo sulla diagonale e le $p$ sottodiagonali e $q$ sopradiagonali, è evidente che possiamo solvegere la fattorizzazione in meno $flops$,
 
 
 ## Calcolo dell'inversa
@@ -50,7 +50,7 @@ $$
 AX_i = e_i
 $$
 dove $X_i$ è la $i$-esima colonna di $X$. 
-Possiamo risovlere questi sistemi usando la fattorizzazzione LU di A, per un costo totale di:
+Possiamo risovlere questi sistemi usando la fattorizzazione LU di A, per un costo totale di:
 $$
 \frac{2}{3}n^3 + n(2n^2) = \frac{8}{3}n^3 = \Theta(n^3)
 $$

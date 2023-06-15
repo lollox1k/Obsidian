@@ -14,7 +14,7 @@ x \geq 0, b \geq 0
 $$
 è evidente che aggiungendo opportune variabili e moltiplicando per $-1$, ogni problema di PL può essere riscritto in questa forma. Vediamo ora la proprietà fondamentale, la forma che assumono i veritici.
 
-### Teorema caratterizzazzione dei vertici in forma standard
+### Teorema caratterizzazione dei vertici in forma standard
 Sia $\overline x$ un punto appartenente al poliedro $P$ definito in forma standard, e $rango(A)=m$ (ovviamente $m<n$).
 Allora $\overline x$ è un vertice di $P$ se e solo se le colonne di $A$ relative alle
 componenti positive (non nulle) di $\overline x$ sono linearmente indipendenti.
@@ -67,7 +67,7 @@ Infatti le componenti positive hanno colonne l.i (sono un sottoinsieme delle col
 Inoltre ad ogni vertice corrisponde una SBA.
 Ogni vertice ha una _soluzione di base associata_. La costruisco partendo dalle $r \leq m$ componenti del vertice positive, posso aggiungere altre per creare la matrice $B$. Poi basta verificare che è in $P$.
 
-> Abbiamo ottenuto la seguente caratterizzazzione fondamentale:
+> Abbiamo ottenuto la seguente caratterizzazione fondamentale:
 $$
 Vertici \iff SBA
 $$
@@ -158,7 +158,7 @@ $$
 x_N' = \frac{(B^{-1}b)_k}{(B^{-1}N)_{hk}} e_h \qquad x_B'= B^{-1}b - \frac{(B^{-1}b)_k}{(B^{-1}N)_{hk}}(B^{-1}N)_h
 $$
 che succede alla compoente $k$ di $x_B'$? Il denomiatore si semplifica e quindi: $(x_B)_k = 0$
-Ricordando la caratterizzazzione $SBA \iff Vertice$, la nuova SBA deve avere le colonne corrispondenti alle variabili positive linearmente indipendenti. Questo insieme è appena cambiato, come abbiamo appena fatto.  Dobbiamo far vedere che la colonna $A_{m+h}$ è linearmente indipendente cone la colonne $A_{1,\dots,m}\setminus A_k$. Basta far vedere che $A_{m+h}$ è una combinazione lineare delle colonne di $B = A_{1,\dots,m}$ e che il coefficiente relativo alla colonna uscente $A_k$ sia diverso da zero. Ma è questo propriò il caso, infatti:
+Ricordando la caratterizzazione $SBA \iff Vertice$, la nuova SBA deve avere le colonne corrispondenti alle variabili positive linearmente indipendenti. Questo insieme è appena cambiato, come abbiamo appena fatto.  Dobbiamo far vedere che la colonna $A_{m+h}$ è linearmente indipendente cone la colonne $A_{1,\dots,m}\setminus A_k$. Basta far vedere che $A_{m+h}$ è una combinazione lineare delle colonne di $B = A_{1,\dots,m}$ e che il coefficiente relativo alla colonna uscente $A_k$ sia diverso da zero. Ma è questo propriò il caso, infatti:
 $$
 A_{m+h} = N_h = B(B^{-1}N)_h
 $$

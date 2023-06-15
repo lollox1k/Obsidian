@@ -18,7 +18,7 @@ $$
 **Proposizione** $range(A)^\perp = \ker(A^H)$.
 **Dim** $z \in range(A)^\perp$ significa che $0 = (Ax)^Hz = x^H A^H z \quad\forall x$. Questo implica che $A^Hz = 0$, ovvero $z \in \ker(A^H)$. $\square$
 
-Con questa caratterizzazzione, stiamo richiedendo che il residuo sia nel ker di $A^H$ ovvero:
+Con questa caratterizzazione, stiamo richiedendo che il residuo sia nel ker di $A^H$ ovvero:
 $$
 A^H(b-Ax)=0
 $$
@@ -41,13 +41,13 @@ A^+A = (A^HA)^{-1}A^HA = I_n
 $$
 > Risolvere usando le equazioni normali è pericoloso infatti $\mathcal{K}(A^HA) = \mathcal{K}(A)^2$.
 
-## Soluzione tramite fattorizzazzione QR
+## Soluzione tramite fattorizzazione QR
 
-Usiamo la [[Fattorizzazzione QR]] per riscrevere le equazioni normali:
+Usiamo la [[Fattorizzazione QR]] per riscrevere le equazioni normali:
 $$
 A^H(b-Ax) = R^HQ^H(b-QRx) = R^H(Q^Hb-Rx) = 0
 $$
-e risolvere il sistema triangolare con le matrici della fattorizzazzione ridotta:
+e risolvere il sistema triangolare con le matrici della fattorizzazione ridotta:
 $$
 R_nx = Q_n^Hb = c_1
 $$
@@ -70,5 +70,5 @@ siccome $Q^H$ è unitaria non cambia la norma $2$. Se decomponiamo $b$ ottiemo:
 $$
 \gamma = ||Q^Hb - Rx^*|| = ||c_2||
 $$
-quindi se calcoliamo la fattorizzazzione completa sappiamo anche calcolare $\gamma$ direttamente.
+quindi se calcoliamo la fattorizzazione completa sappiamo anche calcolare $\gamma$ direttamente.
 

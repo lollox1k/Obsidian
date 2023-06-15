@@ -35,4 +35,4 @@ Let $A \in \mathbb{R}^{n\times n}$, consider the eigenvalue problem:
 $$
 Ax = \lambda x,
 $$
-Call the eigenvalues $\theta_i$ $i=1,\dots,k$ of the upper hessemberg matrix $H_k$, called _Ritz values_ of $A$. We can compute them using [[Fattorizzazzione QR|QR method]], exploiting the fact that is upper hessember. The Ritz values are approximation of the eigenvalues of $A$.
+Call the eigenvalues $\theta_i$ $i=1,\dots,k$ of the upper hessemberg matrix $H_k$, called _Ritz values_ of $A$. We can compute them using [[Fattorizzazione QR|QR method]], exploiting the fact that is upper hessember. The Ritz values are approximation of the eigenvalues of $A$.

@@ -32,7 +32,7 @@ $$
 [0,1]\times [0,1] \bigcup [1,2]\times [1,2] \notin \mathcal{B}\times \mathcal{B}
 $$
 ## Funzioni misurabili
-Cominciamo con una caratterizzazzione delle funzioni misurabili limitate sullo spazio prodotto.
+Cominciamo con una caratterizzazione delle funzioni misurabili limitate sullo spazio prodotto.
 
 Sia $\mathcal{H}$ la classe delle funzioni $f : S \mapsto \mathbb{R}$ _limitate_ e $\Sigma$ misurabili, tali che:
 1. $\forall s_1 \in S_1$ fissato, la funzione $f_{s_1} : S_2 \mapsto \mathbb{R}$ con $f_{s_1}(s_2) := f(s_1,s_2)$ è $\Sigma_2$ misurabile.

@@ -2,7 +2,7 @@
 
 L'algoritmo genera una matrice $H$ unitariamente simile ad $A$ in forma di Hessemberg superiore.
 
-Come per la [[Fattorizzazzione QR]] si fa uso dei [[Riflettore di Householder|riflettori di Householder]].
+Come per la [[Fattorizzazione QR]] si fa uso dei [[Riflettore di Householder|riflettori di Householder]].
 
 La novità rispetto a QR è applicare i riflettori sia a _sinistra_ che a _destra_.
 $$
