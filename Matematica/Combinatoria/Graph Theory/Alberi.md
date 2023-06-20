@@ -81,3 +81,11 @@ $$
 ad < 2
 $$
 The path graph $P_n$, which is a tree, in the limit $n\to\infty$ tends to $ad = 2$. $\square$
+
+**Proposition** In a tree the number of leaves is
+$$
+\#leaves = 2 + \sum_{d(v_i)\geq 3} [d(v_i) -2]
+$$
+where the sum is taken over vertices of degree at least $3$.
+**Proof** By induction, need to check $3$ cases. $\square$
+

@@ -43,7 +43,7 @@ This is obvious, since given a prufer's code, we can reconstruct (this is anothe
 Remains to prove surjectivity, that is, for each string $(a_1,a_2,\dots,a_{n-2}) \in [n]^{n-2}$ we can construct a tree $T$ such that  $c(T)=(a_1,a_2,\dots,a_{n-2})$. 
 Again, we can construct a complete code from the string, each column is an edge of the $n$ vertices. We need to prove that this make sense, that this a tree. 
 Each column, is distinct, since once a vertex appears in the lower part of the code, it's removed from the tree, so it won't appear ever next.
-Since there are $n-1$ (distinct) edges and $n$ vertices by contruction, we need to prove that is connected. We claim that the graph constructed adding edges from right to left, is always connected. This is true, infact in the complete code each vertex appears exactly $d(v)$ times. Given the top vertex of an edge in the middle of the code, it will appear next in the lower part when it will be removed! Hence it's connect and the final graph is a tree. $\square$
+Since there are $n-1$ (distinct) edges and $n$ vertices by contruction, we need to prove that is acyclic. We claim that the graph constructed adding edges from right to left, is always acyclic, since when adding the vertex in the lower part of the code, it's always different from the top right vertices, and also the bottom right, so it can't build a cycle! Hence the final graph is a tree. $\square$
 
 ### Dimostrazione con la teoria delle specie
 
@@ -66,7 +66,7 @@ $$
 
 Quindi mettendo in biiezione vertebrati ed endofunzioni su $[n]$, che sono banalmente $n^n$, segue immediatamente la formula di Caley.
 
-**Teorama di joyal** Gli insiemi $\mathcal{V}(n)$ dei vertebrati su $[n]$ e l'insieme $\mathcal{F}(n)$ delle endofunzioni su $[n]$ sono equipotenti.
+**Teorama** (_Joyal_) Gli insiemi $\mathcal{V}(n)$ dei vertebrati su $[n]$ e l'insieme $\mathcal{F}(n)$ delle endofunzioni su $[n]$ sono equipotenti.
 
 **Dim** Definiamo la _colonna vertebrale_ come (l'unico) cammino orientato dalla coda alla testa. L'idea è effettuare una "chirurgia", rimuovendo gli archi della colonna vertebrale, ottenendo una foresta. Ogni albero della foresta avrà un unico punto di contatto con la colonna, una _vertebra_. 
 
@@ -108,7 +108,7 @@ Definiamo la funzione $f : \mathcal{V}_n \mapsto end(n)$ mandnando i vertici del
 
 Ora costruiamo il digrafo dell'endofunzione in maniera naturale. Ottengo dei cicli per i ricorrenti (possono essere più cicli separati), e degli alberi che si incontrano ad un ricorrente per i transienti. 
 
-Metto in ordine naturale i vertici corrispondenti agli elementi transienti, e sotto la loro immagine nell'endo funzione: è una permutazione che definisce il cammino coda-testa.
+Metto in ordine naturale i vertici corrispondenti agli elementi ricorrenti, e sotto la loro immagine nell'endo funzione: è una permutazione che definisce il cammino coda-testa.
 
 ### Dimostrazione per ricorrenza con i coefficienti multinomiali
 

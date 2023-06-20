@@ -3,7 +3,7 @@
 searchType: frontmatter
 searchTarget: sleep[0], sleep[1]
 folder: Journal
-valueShift: -24:00, 00:00
+#valueShift: -24:00, 00:00
 datasetName: Sleep, Wake up
 line:
     title: "Sleep"
@@ -61,3 +61,14 @@ folder: Journal
 summary:
     template: "Longest Streak: {{maxStreak()}} day(s)\nLongest Breaks: {{maxBreaks()}} day(s)\nLast streak: {{currentStreak()}} day(s)"
 ```   
+
+```tracker
+searchType: frontmatter
+searchTarget: workout
+folder: Journal
+datasetName: workout
+month:
+	startWeekOn: 'Mon'
+	color: 'blue'
+	
+```

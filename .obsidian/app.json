@@ -3,5 +3,6 @@
   "livePreview": true,
   "promptDelete": false,
   "alwaysUpdateLinks": true,
-  "showInlineTitle": false
+  "showInlineTitle": false,
+  "attachmentFolderPath": "Images"
 }

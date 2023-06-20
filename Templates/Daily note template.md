@@ -4,6 +4,7 @@ tags: daily notes
 sleep: 
 study_hours: 
 meditation: 
+workout: 
 ---
 
 

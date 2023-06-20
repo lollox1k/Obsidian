@@ -23,18 +23,29 @@ $$
 \omega(G) = n = \chi(K_k) \leq \chi(G) \qquad \square
 $$
 2. **Stabile**
-O indipendet set. Il numero di stabilità di un grafo $\alpha(G)$ è la massima cardinalità di un indipendet set contenuto in $G$. Vale $\alpha(G) = \omega (\overline G^c)$. Dalla definizione di colorazione, segue che le preimmagini della colorazione fissato un colore siano un insieme stabile. Quindi una colorazione è una decomposizione di un grafo in insiemi stabili.
+O indipendet set. Il numero di stabilità di un grafo $\alpha(G)$ è la massima cardinalità di un indipendet set contenuto in $G$. Vale $\alpha(G) = \omega (\overline G)$. Dalla definizione di colorazione, segue che le preimmagini della colorazione fissato un colore siano un insieme stabile. Quindi una colorazione è una decomposizione di un grafo in insiemi stabili.
 
 **Proposizione** Sia $\alpha(G)$ il numero di stabilità del grafo $G$ (l'ordine dell'insieme stabile massimo che contiene), allora vale il seguente lower-bound per il numero cromatico di $G$:
 $$
 \frac{\vert V(G) \vert}{\alpha(G)} \leq \chi(G)
 $$
 ($\alpha(G) \geq 1$ per ogni grafo non vuoto).
-**Dim**  Sfrutto il fatto che la preimmagine di una colorazione è un insieme stabile, e tutte le preimmagini sono una partizione dei veriti:
+**Dim**  Sfrutto il fatto che la preimmagine di una colorazione è un insieme stabile, e tutte le preimmagini sono una partizione dei veritici:
 $$
 V(G) = \dot\bigcup_{c \in C} f^{-1}(c) \qquad |V(G)| = \sum_{i=1}^{\chi(G)} |f^{-1}(c_i)| \leq \chi(G)\alpha(G) \quad \square
 $$
-**Osservazione** Se ho una $n$-partizione del grafo $G$, allora $\chi(G) \leq n$.
+**Osservazione** Se ho una $n$-partizione in stabili del grafo $G$, allora $\chi(G) \leq n$.
+
+Si può ottenere un upper bound che riguarda il numero di stabilità:
+**Proposition** Let $G$ be a graph of order $n$, then
+$$
+\chi(G) \leq 1 + n- \alpha(G)
+$$
+**Proof** Let $S \subseteq G$ be a maximal indipendent set of $G$. We can assign it the same color. For the remaining $n-\alpha(G)$ vertices, assign different colors. This is a valid coloration, so
+$$
+\chi(G) \leq 1 + n -\alpha(G) \qquad \square
+$$
+
 
 ## Algoritmo greedy e upper bound
 Da un algoritmo greedy, che procede colorando uno stabile e poi rimuovendolo dal grafo, si ottiene l'upper bound:
@@ -71,7 +82,7 @@ Facciamo vedere che se $d(G) = d$ allora vale $\chi(G) \leq d + 1$.
 
 L'idea è costruire la colorazione in modo greedy:
 1. Coloro un vertice $v$;
-2. Costruisco uno _stabile massimale_ $S$ che contiene $v$ (è unico) e lo corolo del colore di $v$.
+2. Costruisco uno _stabile massimale_ $S$ che contiene $v$ e lo coloro del colore di $v$.
 3. Rimuovo tutto lo stabile, cambio colore e ripeto.
 
 **Claim** $d(G\setminus S) < d(G) = d$ 

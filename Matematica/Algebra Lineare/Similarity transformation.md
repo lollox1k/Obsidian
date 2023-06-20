@@ -11,4 +11,4 @@ we use [[Binet]] theorem and the fact that $XI = IX$ (the identity commutes with
 $$
 \det{X^{-1}} \det{(AX-\lambda IX)} = \det{X^{-1}} \det{(A-\lambda I)}\det{X} = \det{(A-\lambda I)}
 $$
-where we again used binet. The last therm is the characteristic polynimial of $A$. $\square$
+where we again used binet. The last term is the characteristic polynimial of $A$. $\square$

@@ -1,14 +1,14 @@
 {
 	"nodes":[
-		{"id":"afd440e689e6bc09","x":-188,"y":-156,"width":98,"height":59,"color":"1","type":"text","text":"Grafi"},
-		{"id":"c587b4ff99ad4633","x":-556,"y":-392,"width":250,"height":117,"type":"text","text":"Passeggiate, Cammini, cammini semplici\n"},
-		{"id":"be910a72a2bc8362","x":-995,"y":-348,"width":250,"height":225,"type":"text","text":"Connessione,\nMetrica:\n- eccentricità\n- diametro\n- raggio"},
-		{"id":"e63ab4fa253082c9","x":-55,"y":-468,"width":250,"height":93,"color":"5","type":"text","text":"- Circuiti Euleriani\n- Cicli Hamiltoniani"},
-		{"id":"de2732caa90cad76","x":199,"y":-157,"width":136,"height":60,"type":"text","text":"Line graph"},
-		{"id":"f1bc8eb62e3266e8","x":-666,"y":117,"width":110,"height":60,"color":"4","type":"text","text":"Alberi"},
-		{"id":"10033cd62be92fce","x":-1045,"y":81,"width":206,"height":60,"type":"text","text":"Teorema di Caley"},
-		{"id":"47088894e6a8b2cb","x":-580,"y":-123,"width":172,"height":60,"type":"text","text":"Isomorfismo"},
-		{"id":"bc833bb321ce02c1","x":-106,"y":98,"width":176,"height":60,"color":"6","type":"text","text":"Colorabilità"}
+		{"type":"text","text":"Grafi","id":"afd440e689e6bc09","x":-188,"y":-156,"width":98,"height":59,"color":"1"},
+		{"type":"text","text":"Passeggiate, Cammini, cammini semplici\n","id":"c587b4ff99ad4633","x":-556,"y":-392,"width":250,"height":132},
+		{"type":"text","text":"Connessione,\nMetrica:\n- eccentricità\n- diametro\n- raggio","id":"be910a72a2bc8362","x":-995,"y":-348,"width":250,"height":238},
+		{"type":"text","text":"- Circuiti Euleriani\n- Cicli Hamiltoniani","id":"e63ab4fa253082c9","x":-55,"y":-468,"width":250,"height":135,"color":"5"},
+		{"type":"text","text":"Line graph","id":"de2732caa90cad76","x":199,"y":-157,"width":136,"height":94},
+		{"type":"text","text":"Alberi","id":"f1bc8eb62e3266e8","x":-666,"y":117,"width":110,"height":60,"color":"4"},
+		{"type":"text","text":"Teorema di Caley","id":"10033cd62be92fce","x":-1045,"y":81,"width":206,"height":96},
+		{"type":"text","text":"Isomorfismo","id":"47088894e6a8b2cb","x":-580,"y":-123,"width":172,"height":60},
+		{"type":"text","text":"Colorabilità","id":"bc833bb321ce02c1","x":-106,"y":98,"width":176,"height":60,"color":"6"}
 	],
 	"edges":[
 		{"id":"1d80a657720b245b","fromNode":"afd440e689e6bc09","fromSide":"top","toNode":"c587b4ff99ad4633","toSide":"bottom"},

@@ -1,3 +1,4 @@
+
 L'interno ed esterno di una cellula possono avere potenziali elettrici diversi. Definiamo il _potenziale di membrana_ come:
 $$
 V_M = V_{in} - V_{out}

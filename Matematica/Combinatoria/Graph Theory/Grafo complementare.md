@@ -25,7 +25,7 @@ Dimostriamolo costruendo un cammino tra due vertici arbitrari $x,y \in V(\overli
 Se $x,y$ appartenevano a diverse componenti connessi di $G$ (ne ha almeno due essendo sconnesso, in particolare ha almeno due vertici distinti), ho fatto, infatti $xy \in E(\overline G^c)$. Supponiamo ora che $x,y$ appartengano alla stessa componente connessa, i casi sono due:
 1. $xy \notin E(G)$, e allora ho finito perchè $xy \in E(\overline G)$;
 2. $xy \in E(G)$, in questo caso non ho un arco che li collega direttamente nel complementare, dobbiamo costruire un cammino più lungo:
-Prendiamo un vertice $z$ appartenente ad un'altra componente connessa del grafo di partenza $G$, deve esistere perchè per ipotesi il grafo è sconnesso ma $xy \in E(G)$. Ma allora sia $x$ che $y$ sono collegati a $z$, quindi $x\sim y$. $\square$
+Prendiamo un vertice $z$ appartenente ad un'altra componente connessa del grafo di partenza $G$, deve esistere perchè per ipotesi il grafo è sconnesso ma $xy \in E(G)$. Ma allora sia $x$ che $y$ sono collegati a $z$, quindi esiste il cammino $xzy$, dunque $x\sim y$. $\square$
 
 
 

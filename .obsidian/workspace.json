@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Matematica/Analisi numerica/Problema dei minimi quadrati.md",
+                "file": "Matematica/Combinatoria/Coefficiente binomiale.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Matematica/Analisi numerica/Problema dei minimi quadrati.md",
+                "file": "Matematica/Combinatoria/Coefficiente binomiale.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,7 +97,7 @@
             }
           },
           {
-            "id": "34d0875f9459aced",
+            "id": "1ed465ccd648d402",
             "type": "leaf",
             "state": {
               "type": "calendar",
@@ -122,39 +122,40 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "51323684b4c46c57",
+  "active": "ce0cbb4830625c68",
   "lastOpenFiles": [
-    "Matematica/Analisi numerica/Fattorizzazione QR.md",
-    "Matematica/Analisi numerica/Fattorizzazione LU.md",
-    "Matematica/Analisi numerica/Fattorizzazione di Cholesky.md",
-    "Matematica/Analisi numerica/Problema dei minimi quadrati.md",
-    "Matematica/Analisi numerica/Numero di condizionamento di una matrice.md",
-    "Matematica/Teoria Della Misura/Misure prodotto.md",
-    "Matematica/Analisi numerica/Metodo del gradiente coniugato.md",
-    "Matematica/Analisi numerica/Metodi del gradiente.md",
-    "Matematica/Ricerca Operativa/Programmazione lineare/Il metodo del Simplesso.md",
-    "Matematica/Combinatoria/Graph Theory/Line graph.md",
-    "Matematica/Combinatoria/Graph Theory/Cut,Bridges, Block decomposition of a Graph.md",
+    "Matematica/Combinatoria/Combinatoria.md",
     "Matematica/Combinatoria/Coefficienti multinomiali.md",
     "Matematica/Combinatoria/Coefficiente binomiale.md",
-    "Matematica/Ricerca Operativa/Programmazione lineare/Algoritmo del Simplesso.md",
-    "Matematica/Combinatoria/Graph Theory/Alberi.md",
-    "Matematica/Combinatoria/Graph Theory/Alberi di copertura.md",
-    "Journal/15-06-2023.md",
-    "Matematica/Combinatoria/Graph Theory/Formula di Caley.md",
-    "Matematica/Combinatoria/Graph Theory/Capacità di un grafo.md",
-    "Journal/14-06-2023.md",
+    "Matematica/Combinatoria/Combinatoria estremale.md",
+    "Matematica/Combinatoria/Teorema di Bondy.md",
+    "Matematica/Combinatoria/Graph Theory/Teorema di Erdos.md",
+    "Matematica/Combinatoria/Graph Theory/Grafi bipartiti.md",
+    "Matematica/Combinatoria/Graph Theory/Ciclo hamiltoniano.md",
+    "Matematica/Combinatoria/Graph Theory/Grafo complementare.md",
+    "Matematica/Probabilità/Processi stocastici/Recurrence and transience.md",
+    "Matematica/Probabilità/Processi stocastici/Discrete time Markov chains.md",
+    "Matematica/Algebra Lineare/Similarity transformation.md",
+    "Matematica/Algebra Lineare/Norme matriciali.md",
+    "Matematica/Algebra Lineare/Gershgorin cicle theorem.md",
+    "Matematica/Algebra Lineare/Determinant near identity lemma.md",
+    "Matematica/Algebra Lineare/Binet.md",
+    "Journal/20-06-2023.md",
     "Journal/Tracker.md",
-    "Journal/13-06-2023.md",
+    "Journal/18-06-2023.md",
+    "Journal/19-06-2023.md",
+    "Neuroscience/The membrane potential.md",
+    "Neuroscience/Cincotti's true statements.md",
+    "Matematica/Combinatoria/Graph Theory/Colorazione di grafi.md",
+    "Journal/17-06-2023.md",
+    "Journal/16-06-2023.md",
     "Journal/12-06-2023.md",
-    "Matematica/Combinatoria/Combinatoria.md",
-    "Matematica/Combinatoria/Graph Theory/Graph Isomorphism.md",
-    "Templates/Daily note template.md",
+    "Matematica/Combinatoria/Senza nome.canvas",
     "Templates",
     "Tracker",
     "Journal",
-    "Pasted image 20230420185209.png",
+    "Images/Pasted image 20230420185209.png",
     "Matematica/Meccanica Hamiltoniana",
-    "Pasted image 20230313180833.png"
+    "Images/Pasted image 20230313180833.png"
   ]
 }

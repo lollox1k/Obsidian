@@ -13,7 +13,7 @@ Quindi possiamo dire che _$G$ è bipartito se e solo se $\chi(G) \leq 2$_ (il mi
 $$
 \chi(G) = n \text{ con n cardinalità della partizione minima}
 $$
-**Esempio** Consideriamo il grafo _ipercubo_ di dimensione $n$ $H_n$, dove i vertici sono stringhe $\{0,1\}^n$, e sono collegati se i vertici dell'ippercubo corrispondente hanno uno spigolo tra loro (gli archi), siccome può essere bipartito è due colorabile, indipendentemente dalla dimensione $n$:
+**Esempio** Consideriamo il grafo _ipercubo_ di dimensione $n$ $H_n$, dove i vertici sono stringhe $\{0,1\}^n$, e sono collegati se i vertici dell'ipercubo corrispondente hanno uno spigolo tra loro (gli archi), siccome può essere bipartito è due colorabile, indipendentemente dalla dimensione $n$:
 $$
 V_P := \{ v \in V \;:\; v \text{ ha un numero pari di 1}\}
 $$

@@ -55,7 +55,21 @@ $$
 h\binom{n}{h} = n\binom{n-1}{h-1}
 $$
 Viene chiamata _absorption/extraction identity_, portando $h$ dall'altro lato è evidente perchè.
-3. Otteniamo un'altra identità, bipartizionando l'insieme $\binom{[n]}{h}$ : fissiamo un elemento $i \in [n]$, induce la bipartizione $S_i \cup S_c$
+3. E' possibile generalizzare la precedente identità, supponiamo ora che la tribù sia guidata da un'oligarchia. Ho sempre i due approcci:
+- **democratico** ogni tribù scegli i suoi $m \leq h$ leader:
+$$
+\binom{n}{h}\binom{k}{m}
+$$
+- **oligarchica** Gli oligarchi scelgono i loro $k-m$ sudditi:
+$$
+\binom{n}{m}\binom{n-m}{k-m}
+$$
+I due risultati devono coincidere, quindi:
+$$
+\binom{n}{h}\binom{k}{m} = \binom{n}{m}\binom{n-m}{h-m}
+$$
+Questa identità viene chiamata _cancellation identity_.
+1. Otteniamo un'altra identità, bipartizionando l'insieme $\binom{[n]}{h}$ : fissiamo un elemento $i \in [n]$, induce la bipartizione $S_i \cup S_c$
 $$
 \begin{align}
 &S_i := \{I \subseteq [n] \, :\, i \in I\} \\
@@ -66,7 +80,7 @@ essendo disgiunti, la cardinalità dell'unione è la somma delle cardinalità:
 $$
 \binom{n}{h} = \binom{n-1}{h} + \binom{n-1}{h-1}
 $$
-4. 
+5. 
 $$
 \sum_{h=0}^n \binom{n}{h}^2 = \binom{2n}{n}
 $$

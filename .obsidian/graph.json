@@ -83,6 +83,13 @@
         "a": 1,
         "rgb": 14725458
       }
+    },
+    {
+      "query": "path:Journal",
+      "color": {
+        "a": 1,
+        "rgb": 12279313
+      }
     }
   ],
   "collapse-display": false,
@@ -95,6 +102,6 @@
   "repelStrength": 19.4430379746835,
   "linkStrength": 1,
   "linkDistance": 298,
-  "scale": 0.2588596620235872,
+  "scale": 0.2588596620235885,
   "close": true
 }
