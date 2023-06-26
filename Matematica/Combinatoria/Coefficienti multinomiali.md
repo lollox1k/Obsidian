@@ -27,7 +27,7 @@ il carattere $1$ ha due occorrenze, $4$ ne ha due, $3$ e $2$ ne hanno una. Il ca
 $$
 114432 \mapsto (\{1,2\}, \,\{6\}, \,\{5\}, \,\{3,4\})
 $$
-è chiaro che sia una biiezione.
+è chiaro che è una biiezione.
 
 Se consideriamo una funzione $f  : [n] \mapsto [k]$, con $k \leq n$, è chiaro che le preimmagini formano una partizione, e ugualmente ogni $k$-partizione induce una funzione $g : [n] \mapsto [k]$, se $x \in A_i$ allora $g(x) = i$.
 

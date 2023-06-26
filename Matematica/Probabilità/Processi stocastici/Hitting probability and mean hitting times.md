@@ -21,7 +21,7 @@ $$
 Consider the example
 ![[Pasted image 20230313180833.png]]
 
-it's a $4$ state Markov chain with absorptin states $0$ and $3$.
+it's a $4$ state Markov chain with absorbing states $0$ and $3$.
 Let $h_i = \mathbb{P}_i(\text{hit }3)$ and  $k_i = \mathbb{E}_i(\text{time to hit } \{0,3\})$. 
 Clearly,
 

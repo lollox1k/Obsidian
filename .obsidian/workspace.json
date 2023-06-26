@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "641ae57cd46ca8be",
+        "id": "3e6512ef201beba6",
         "type": "tabs",
         "children": [
           {
-            "id": "ce0cbb4830625c68",
+            "id": "e1acbf935d97190b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Matematica/Combinatoria/Coefficiente binomiale.md",
+                "file": "Matematica/Probabilità/Processi stocastici/Hitting probability and mean hitting times.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 274.50418853759766
+    "width": 328.5
   },
   "right": {
     "id": "953946482fdc2b4f",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Matematica/Combinatoria/Coefficiente binomiale.md",
+                "file": "Matematica/Probabilità/Processi stocastici/Hitting probability and mean hitting times.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,34 +122,34 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "ce0cbb4830625c68",
+  "active": "e1acbf935d97190b",
   "lastOpenFiles": [
+    "Matematica/Probabilità/Processi stocastici/Ruin probability.md",
+    "Matematica/Probabilità/Processi stocastici/Recurrence and transience.md",
+    "Matematica/Probabilità/Processi stocastici/Hitting probability and mean hitting times.md",
+    "Journal/26-06-2023.md",
+    "Matematica/Probabilità/Processi stocastici/Limiting distribution of a Markov Chain.md",
+    "Matematica/Probabilità/Processi stocastici/Discrete time Markov chains.md",
+    "Matematica/Probabilità/Processi stocastici/Moto Browniano.md",
+    "Matematica/Probabilità/Processi stocastici/Markov property.md",
+    "Matematica/Probabilità/Processi stocastici/Harmonic functions.md",
+    "Journal/Tracker.md",
+    "Journal/22-06-2023.md",
+    "Journal/23-06-2023.md",
+    "Journal/24-06-2023.md",
+    "Journal/25-06-2023.md",
+    "Journal/21-06-2023.md",
+    "Matematica/Combinatoria/Combinatoria estremale.md",
     "Matematica/Combinatoria/Combinatoria.md",
     "Matematica/Combinatoria/Coefficienti multinomiali.md",
     "Matematica/Combinatoria/Coefficiente binomiale.md",
-    "Matematica/Combinatoria/Combinatoria estremale.md",
-    "Matematica/Combinatoria/Teorema di Bondy.md",
+    "Matematica/Combinatoria/Cammini di Dyck.md",
+    "Matematica/Combinatoria/Graph Theory/Walks, trails and paths.md",
+    "Matematica/Combinatoria/Graph Theory/Teorema di Konig-Egervary.md",
     "Matematica/Combinatoria/Graph Theory/Teorema di Erdos.md",
-    "Matematica/Combinatoria/Graph Theory/Grafi bipartiti.md",
-    "Matematica/Combinatoria/Graph Theory/Ciclo hamiltoniano.md",
-    "Matematica/Combinatoria/Graph Theory/Grafo complementare.md",
-    "Matematica/Probabilità/Processi stocastici/Recurrence and transience.md",
-    "Matematica/Probabilità/Processi stocastici/Discrete time Markov chains.md",
-    "Matematica/Algebra Lineare/Similarity transformation.md",
-    "Matematica/Algebra Lineare/Norme matriciali.md",
-    "Matematica/Algebra Lineare/Gershgorin cicle theorem.md",
-    "Matematica/Algebra Lineare/Determinant near identity lemma.md",
-    "Matematica/Algebra Lineare/Binet.md",
     "Journal/20-06-2023.md",
-    "Journal/Tracker.md",
-    "Journal/18-06-2023.md",
-    "Journal/19-06-2023.md",
-    "Neuroscience/The membrane potential.md",
-    "Neuroscience/Cincotti's true statements.md",
-    "Matematica/Combinatoria/Graph Theory/Colorazione di grafi.md",
-    "Journal/17-06-2023.md",
-    "Journal/16-06-2023.md",
-    "Journal/12-06-2023.md",
+    "Matematica/Combinatoria/Teorema di Bondy.md",
+    "Matematica/Combinatoria/Graph Theory/Grafi bipartiti.md",
     "Matematica/Combinatoria/Senza nome.canvas",
     "Templates",
     "Tracker",

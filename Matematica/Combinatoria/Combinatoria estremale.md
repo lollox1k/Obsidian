@@ -9,7 +9,7 @@ Se si riesce a dimostrare che i vettori così ottenuti sono linearmente indipend
 
 **Teorema 1** Sia $\mathcal{F}$ una famiglia di sottoinsiemi di $[n]$ tale che:
 1. ogni sottoinsieme di $\mathcal{F}$ ha un numero dispari di elementi;
-2. due sottoinsiemi di $\mathcal{F}$ si intersecano in un unmero pari di elementi.
+2. due sottoinsiemi di $\mathcal{F}$ si intersecano in un numero pari di elementi.
 Allora la famiglia $\mathcal{F}$ ha al più $n$ sottoinsiemi.
 
 **Dim** Codifichiamo i sottoinsiemi di una famiglia con vettori $0,1$, ad $n$ componenti, con ovvio significato. Effettuando un prodotto scalare tra due insiemi:
