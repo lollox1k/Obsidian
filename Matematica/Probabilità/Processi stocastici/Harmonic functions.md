@@ -31,14 +31,13 @@ $$
 $$
 \sum_{x_0\sim y} p(x_0,y)(F(y)-F(x_0))=0
 $$
-this implies $F(y)=F(x_0)$, that is the function $F$ is constant on all reachable states $y$ from $x_0$ ($p(x_0,y) > 0$). $\square$
+this implies $F(y)=F(x_0)$, that is the function $F$ is constant on all reachable states $y$ from $x_0$ (since if $x\sim y$ then $p(x_0,y) > 0$). $\square$
 
 **Theorem** (_Uniqueness principle_) Let $W$ be a finite proper subset of states of a Markov chain on a finite or countable state space $𝖵$. Suppose that $𝖵 \setminus W$ is accessible from every state in $W$ for the chain absorbed off of $W$. If $f , g: 𝖵 \to \mathbb{R}$ are two functions that are both harmonic on $W$ and agree off $W$ (that is, $f(x) = g(x)$ for all $x \notin W$), then $f = g$.
 
 **Proof** We use the maximum principle on the function $h := f-g$, which is still harmonic on $W$ (linear combinantions of harmonic functions is still harmonic, it follows from the linearity of the definition).
 
-Since $f$ and $g$ agree outside $W$, $h(x) = 0$ for all $x \notin W$. We claim $h \leq 0$. 
-If the supremum of $h$ is outside $W$, then $\sup(h) = 0$, so our claim is true. 
+Since $f$ and $g$ agree outside $W$, $h(x) = 0$ for all $x \notin W$. We claim $h \leq 0$. Since $W$ is finite, the function assumes finite values, hence the supremum is atteined at some $x_0 \in V$. If the supremum of $h$ is outside $W$, then $\sup(h) = 0$, so our claim is true. 
 If the supremum is atteined in $W$ from some $x_0$, then by the maximum principle (since $V \setminus W$ is accessible from every state in $W$) again $\sup(h) = 0$, so $h \leq 0$. 
 
 Repeat with the function $\tilde h := g-f = -h$, we can show that $\tilde h \leq 0$, this implies $h = 0$ on all $V$. $\square$

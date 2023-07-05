@@ -22,7 +22,7 @@ $$
 M' = (M\setminus \{v_2v_3,v_4v_5, \dots, v_{k-2}v_{k-1}\}) \cup \{v_1v_2,\dots,v_{k-1}v_k\}
 $$
 contraddizione.
-- ($\impliedby$) Assumiamo che $G$ non ha $M$-cammini aumentanti, supponiamo che $M'$ sia una matching migliore di $M$. Definiamo il sottografo $H\subseteq G$ nel seguente modo:
+- ($\impliedby$) Assumiamo che $G$ non abbia $M$-cammini aumentanti, supponiamo che $M'$ sia una matching migliore di $M$. Definiamo il sottografo $H\subseteq G$ nel seguente modo:
 $$
 V(H)=V(G) \qquad e \in E(H) \iff e \in M\Delta M'
 $$

@@ -90,4 +90,68 @@ $$
 $$
 since $T_i^{(r)} < \infty$ is the same event as $V_i > r$.
 
-**Theorem** the dicotomy...
+
+### Characterization 
+**Theorem** We have the dichotomy:
+1. se $P_i(T_i < \infty) = 1$, allora $i$ è _ricorrente_ e 
+$$
+\sum_{n=0}^\infty p_{ii}^{(n)} = \infty
+$$
+2. se $P_i(T_i < \infty) < 1$, allora $i$ è _transiente_ e
+$$
+\sum_{n=0}^\infty p_{ii}^{(n)} < \infty
+$$
+
+**Proof** The probability that the state $i$ is recurrent, i.e. the number $V_i$ of visits is infinite is
+$$
+P_i(V_i = \infty) = P_i\left(\bigcap_{r\geq 0}\{V_i > r\} \right) = \lim_{r\to\infty} P(V_i > r) = \lim_{r\to\infty} f_i^r = 1
+$$
+where we have used [[Continuity of mesure]] and the previous lemma.
+Since $P_i(V_i=\infty) = 1$, we also know that
+$$
+\infty = \mathbb{E}_i[V_i] = \mathbb{E}_i\left[\sum_{n\geq 0} \mathbb{1}(X_n=i)\right] = \sum_{n\geq 0} P_i(X_n=i) = \sum_{n\geq 0} p_{ii}^{(n)}
+$$
+where we have used [[teorema di Fubini|Fubini's theorem]].
+
+Doing the same computation for a state such that $P_i(T_i < \infty) < 1$ we get
+$$
+P_i(V_i = \infty) = \lim_{r\to\infty} f_i^r = 0
+$$
+computing the expected value we get
+$$
+\mathbb{E}_i[V_i] = \sum_{r\geq 0} P_i(V_i > r) = \sum_{r\geq 0} f_i^r = \frac{1}{1-f_i} < \infty
+$$
+but also
+$$
+\mathbb{E}_i[V_i] = \sum_{n\geq 0} p_{ii}^{(n)}
+$$
+and the theorem is proven. $\square$
+
+**Corollary** Every state is either transient of recurrent.
+
+
+### Class property
+
+We can show that being recurrent or transient is a [[Class structure|class]] property.
+
+**Theorem** Let $C \subseteq I$ be a communicating class. Then either all state in $C$ are transient or all are recurrent.
+
+**Proof** Take any pair $i,j \in C$ and suppose $i$ is transient, let's show that $j$ is also transient. Since $i \leftrightarrow j$ then $\exists n,m \geq 0$ such that
+$$
+P_{ij}^{(n)} > 0 \quad \text{and} \quad P_{ji}^{(m)} > 0
+$$
+for all $r \geq 0$
+$$
+P_{ii}^{n+r+m} = (P^nP^rP^m)_{ii} = \sum_{l,k \in I} P^{(n)}_{il}P^{(r)}_{lk}P^{(m)}_{ki} \geq P^{(n)}_{ij}P^{(r)}_{jj}P^{(m)}_{ji}
+$$
+then
+$$
+\sum_{r\geq 0} P_{jj}^{(r)} \leq \frac{1}{P^{(n)}_{ij}P^{(m)}_{ji}} \sum_{r \geq 0}P_{ii}^{n+r+m} < \infty
+$$
+where we have used the fact that $i$ is transient, and the dichotomy. This proves that also $j$ is transient. $\square$ 
+
+We have proven that if a state $i \in C$ is transient, then the whole class is transient. This means either state are all recurrent, or all transient. $\square$
+
+**Theorem** Every recurrent class is closed.
+
+**Proof** Let's show that if $C$ is open, then it's transient. 

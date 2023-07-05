@@ -1,7 +1,7 @@
 
 # Teorema di Brooks
 
-Abbiamo visto come si puù costruire un [[Colorazione di grafi#Algoritmo greedy e upper bound|algoritmo greedy]] che trova una colorazione con al più $d(G)+1$ colori.
+Abbiamo visto come si puù costruire un [[Graph coloring#Algoritmo greedy e upper bound|algoritmo greedy]] che trova una colorazione con al più $d(G)+1$ colori.
 
 **Question** Sotto quali ipotesi posso invece avere $\chi(G) \leq d(G)$?
 

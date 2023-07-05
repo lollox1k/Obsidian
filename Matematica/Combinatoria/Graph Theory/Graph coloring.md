@@ -1,4 +1,4 @@
-# Colorazione di grafi
+# Graph coloring
 
 ### Alcune definizioni
 
@@ -100,6 +100,23 @@ che è equivalente a
 $$
 \chi(G) \leq d+1 \qquad \square
 $$
+
+### Colorability and complementary graph
+
+**Proposition** Let $G$ be a graph of order $n$ and $\overline G$ its [[Grafo complementare|complementary graph]]. Then
+1. $n \leq \chi(G)\chi(\overline G)$,
+2. $2\sqrt{n} \leq \chi(G) + \chi(\overline G)$.
+
+**Proof of 1** Use the lower bounds $\frac{n}{\alpha(\overline G)}\leq \chi(\overline G)$ and  $\omega(G) \leq \chi(G)$, and the fact that $\alpha(\overline G) = \omega(G)$. $\square$
+**Proof of 2** Just add the two lower bounds:
+$$
+\frac{n}{\omega(G)} + \omega(G) \leq \chi(G) + \chi(\overline G)
+$$
+the function on the left side is 
+$$
+2\sqrt{n}\leq\frac{n+x^2}{x}
+$$
+and has a point of minimum when $\omega(G)=\sqrt{n}$, with value $2\sqrt{n}$. $\square$
 
 
 ## Morale sul numero cromatico

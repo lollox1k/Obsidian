@@ -6,7 +6,7 @@ $$
 quindi $V_1$ e $V_2$ sono _stabili_.
 Questo concetto si estende in modo naturale a quello di grafo _n-partito_.
 
-**Osservazione** Abbiamo visto che se $f$ è una colorazione di un grafo $G$ allora le controimmagini dei colori definiscono una partizione di V (G) in stabili [[Colorazione di grafi#Relazioni con gli altri invarianti| vedi qui]]. 
+**Osservazione** Abbiamo visto che se $f$ è una colorazione di un grafo $G$ allora le controimmagini dei colori definiscono una partizione di V (G) in stabili [[Graph coloring#Relazioni con gli altri invarianti| vedi qui]]. 
 Quindi possiamo dire che _$G$ è bipartito se e solo se $\chi(G) \leq 2$_ (il minore uguale è per includere il caso di grafo stabile, con nessun arco che è 1-colorabile e 1-partito, quindi anche 2-partito).
 
 **Osservazione** Data la dualità tra $n$-partizione in stabili e $n$-colorabilità, in generale vale:

@@ -13,7 +13,7 @@
 11. [[Alberi di copertura]]
 12.  [x] [[Formula di Caley]]
 13.  [ ] [[Line graph]]
-14.  [x] [[Colorazione di grafi]]
+14.  [x] [[Graph coloring]]
 15.  [ ] [[Teorema di Brooks]]
 16.  [ ] [[Grafi bipartiti]]
 17.  [ ] [[Matchings]] 

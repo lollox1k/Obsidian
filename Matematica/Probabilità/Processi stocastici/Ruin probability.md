@@ -70,6 +70,8 @@ $$
 h_k = \frac{\left(\frac{q}{p}\right)^k-\left(\frac{q}{p}\right)^N}{1-\left(\frac{q}{p}\right)^N}
 $$
 
+**Remark** In the limit $N\to \infty$ the ruin probability is simply a geometric random variable.
+
 For the symmetric case $p=q=1/2$ this is not enough, since we only get $a=1$. 
 First note that in the symmetric case, our difference equations is a discretization of the laplace equation:
 $$
@@ -79,7 +81,7 @@ rearranging
 $$
 h_{n+1}-2h_n + h_{n-1} = 0
 $$
-which is a discretization formula for the second derivative. Linear functions solve laplace equation in $1$d, so an ansatz is
+which is the finite difference formula for the second derivative. Linear functions solve laplace equation in $1$d, so an ansatz is
 $$
 g(k) = C_2k
 $$

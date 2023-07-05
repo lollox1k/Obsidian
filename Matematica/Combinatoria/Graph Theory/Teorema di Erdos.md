@@ -1,5 +1,5 @@
 # Teorema di Erdos (1947)
-In generale vale il lower bound per il [[Colorazione di grafi|numero cromatico]]
+In generale vale il lower bound per il [[Graph coloring|numero cromatico]]
 $$
 \omega(G) \leq \chi(G)
 $$
@@ -16,7 +16,7 @@ Per $k \geq 4$, esiste un grafo $G$ con:
 3. $\omega(G) < k$
 
 **Corollario**
-Segue dal teorema e dal [[Colorazione di grafi#Relazioni con gli altri invarianti| lower bound]]:
+Segue dal teorema e dal [[Graph coloring#Relazioni con gli altri invarianti| lower bound]]:
 $$
 \frac{\vert V(G) \vert}{\alpha(G)} \leq \chi(G)
 $$
