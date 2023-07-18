@@ -34,7 +34,7 @@ $$
 $$
 Basta prendere $\mathcal{F}_{\lfloor \frac{n}{2}\rfloor}$ per concludere che $M(n)$ deve essere maggiore o uguale.
 2. Sia $\mathcal{F}$ qualunque con la proprietà di Sperner, facciamo vedere che $\vert \mathcal{F} \vert \leq \binom{n}{\lfloor \frac{n}{2}\rfloor}$.
-**Osservazione** La successione dei coffefficienti binomiali è unimodale (la binomiale):
+**Osservazione** La successione dei coffefficienti binomiali è bimodale (la binomiale):
 $$
 \binom{n}{\lfloor \frac{n}{2}\rfloor} = \binom{n}{\lceil \frac{n}{2}\rceil}
 $$

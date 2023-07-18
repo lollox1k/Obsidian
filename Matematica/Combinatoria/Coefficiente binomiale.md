@@ -92,8 +92,25 @@ $$
 $$
 Mi basta sommare per $i = 0,n$ ed ottengo la tesi!.
 
-### Definizione algebrica
+6. **Formula di Vandermonde**. Fisso un sottoinsieme di $[n]$ di $m$ elementi. Partiziono i sottoinsiemi in base quanti elementi fissati contengono.
+$$
+\binom{n}{h} = \sum_{k=0}^m\binom{m}{k}\binom{n-k}{h-k}
+$$
+7. **Recursive sum** 
+$$
+\binom{n}{h} = \sum_{k=r-1}^{n-1}\binom{k}{r-1}
+$$
+**Proof** Induction on $n$, use the first identity. $\square$
 
+8. 
+$$
+\sum_{i=0}^ni\binom{n}{i} = n2^{n-1}
+$$
+**Proof** Double counting dei sottoinsiemi puntati di $[n]$:
+Conto quanti sottoinsiemi puntati di $i$ elementi ci sono, sommo fino ad $n$.
+Prima fisso l'elemento, ho $n$ scelte, completo aggiungendo tutti i sottoinsiemi dei rimanenti $n-1$ elementi, che sono $2^{n-1}$. $\square$
+
+### Definizione algebrica
 Da qui possiamo definire algebricamente il coefficiente binomiale alla maniera solita: Per il primo elemnto $a_1$ abbiamo $n$ scelte, per $a_2$ $n-1$, e così via fino ad avere $n-h+1$ scelte per l'emento $a_h$. Ma per un insieme l'ordine non conta, quindi dividiamo per tutte le permutazioni di un insieme di $h$ elementi, otteniamo la solita formula:
 $$
 \binom{n}{h} = \frac{n!}{h!(n-h!)}

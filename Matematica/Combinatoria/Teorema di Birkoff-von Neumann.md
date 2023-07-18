@@ -4,7 +4,7 @@ Un'altra conseguenza del [[Teorema di Hall|teorema di Hall]] per matrici $0$-$1$
 
 E' chiaro che un insieme di $1$ indipendenti forma una matrice di permutazione. E' anche ovvio che la somma per righe e colonne da sempre $1$ come risulato.
 
-**Def** Una matrice ad elementi non negativi $A$ viene detta _stocastica_ per righe (colonne) se la somma dei suoi elementi per riga (colonna) è parti ad uno.
+**Def** Una matrice ad elementi non negativi $A$ viene detta _stocastica_ per righe (colonne) se la somma dei suoi elementi per riga (colonna) è pari ad uno.
 
 **Def** Una matrice $A$ stocastica sia per righe che per colonne viene detta _bistocastica_.
 
@@ -15,7 +15,7 @@ Il teorema di Birkoff-von Neumann dice che ogni matrice bistocastica è combinaz
 Facciamo vedere che ogni matrice bistocastica soddisfa la condizione di Hall, dove gli $1$ sono gli elementi non nulli.
 
 **Lemma** Una matrice bistocastica soddisfa la condizione di Hall.
-**Dim** Ovvia, se trovassimo un sottoinsieme di righe che non soddisfa la condizione di Hall, la somma per righe fa $k\lambda$, e se per assurdo questi elementi non nulli si trovasserso su meno di $k$ colonne avrei $k\lambda = k'\lambda$, assurdo. $\square$
+**Dim** Ovvio, se trovassimo un sottoinsieme di righe che non soddisfa la condizione di Hall, la somma per righe fa $k\lambda$, e se per assurdo questi elementi non nulli si trovasserso su meno di $k$ colonne avrei $k\lambda = k'\lambda$ con $k' < k$, assurdo. $\square$
 
 **Corollario** Il permanente di una matrice bistocastica $A$ è diverso da zero $per(A) \neq 0$.
 

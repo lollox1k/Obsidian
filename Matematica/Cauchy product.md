@@ -7,4 +7,4 @@ $$
 Come si rapporta alla due serie di partenza? Teorema di Mertens:
 Siano le serie entrambe convergenti rispettivamente ad i valori $A$ e $B$, se almeno una è anche assolutamente convergente allora la serie prodotto di Cauchy converge ad $AB$.
 
-Per dimostrarlo si ragiona con le somme parziali, riarraggianmento dei termini, e alla fine si sfrutta la convergenza delle serie e la disuguaglianza trinagolare.
+Per dimostrarlo si ragiona con le somme parziali, riarrangiamento dei termini, e alla fine si sfrutta la convergenza delle serie e la disuguaglianza triangolare.
