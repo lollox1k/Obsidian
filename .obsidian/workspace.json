@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "3e6512ef201beba6",
+        "id": "c7afdbef8e17cf74",
         "type": "tabs",
         "children": [
           {
-            "id": "e1acbf935d97190b",
+            "id": "8efbfa2ef6e8a9a4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Matematica/Combinatoria/Teorema di Sperner.md",
+                "file": "Rip 2.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 328.5
+    "width": 328.5,
+    "collapsed": true
   },
   "right": {
     "id": "953946482fdc2b4f",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Matematica/Combinatoria/Teorema di Sperner.md",
+                "file": "Rip 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,7 +110,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -122,37 +124,39 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "e1acbf935d97190b",
+  "active": "51323684b4c46c57",
   "lastOpenFiles": [
-    "Matematica/Combinatoria/Combinatoria estremale.md",
-    "Matematica/Combinatoria/Erdos-Ko-Rado theorem.md",
-    "Matematica/Combinatoria/Graph Theory/Grafo di Kneser.md",
-    "Grafo di Petersen.md",
-    "Matematica/Combinatoria/Teorema di Sperner.md",
-    "Matematica/Combinatoria/Senza nome.canvas",
-    "Matematica/Combinatoria/Teorema di Birkoff-von Neumann.md",
-    "Matematica/Combinatoria/Graph Theory/Matchings.md",
-    "Matematica/Probabilità/Processi stocastici/Recurrence and transience.md",
+    "Untitled.canvas",
+    "Rip 2.md",
+    "Untitled 1.md",
+    "Machine Learning/Deep Learning/Deep Learning.md",
+    "Neural Networks/The general framwork.md",
+    "Neural Networks/The bayesian setting.md",
+    "Machine Learning/Machine Learning basics.md",
+    "Intro to Deep Learning.md",
+    "Machine Learning/Deep Learning",
     "Matematica/Combinatoria/Graph Theory/Turan theorem.md",
-    "Matematica/Combinatoria/Graph Theory/Mantel's theorem.md",
+    "Matematica/Combinatoria/Combinatoria.md",
+    "Matematica/Combinatoria/Graph Theory/Alberi.md",
+    "Matematica/Probabilità/Processi stocastici/Limiting distribution of a Markov Chain.md",
+    "Matematica/Probabilità/Processi stocastici/Hitting probability and mean hitting times.md",
+    "Matematica/Probabilità/Processi stocastici/Harmonic functions.md",
+    "Matematica/Probabilità/Processi stocastici/Filtrazione naturale di un processo stocastico.md",
+    "Matematica/Probabilità/Processi stocastici/Discrete time Markov chains.md",
+    "Matematica/Probabilità/Processi stocastici/Class structure.md",
+    "Matematica/Probabilità/Processi stocastici/Processi Stocastici.md",
+    "Misc/Olbers paradox.md",
+    "Meccanica statistica/Finite volume Gibbs distributions.md",
+    "Meccanica statistica/Lattice gas.md",
+    "Meccanica statistica/Forma microscopica della pressione.md",
+    "Meccanica statistica/Untitled.md",
+    "Meccanica statistica/Equivalenza degli ensembles.md",
+    "Meccanica statistica/Equazione di Nerst.md",
+    "Meccanica statistica/Entropia termodinamica.md",
+    "Misc",
+    "Matematica/Combinatoria/Senza nome.canvas",
     "Images/Pasted image 20230717201513.png",
     "Images/Pasted image 20230717195450.png",
-    "Matematica/Combinatoria/Graph Theory/Handshake Lemma.md",
-    "Matematica/Combinatoria/Coefficiente binomiale.md",
-    "Matematica/Cauchy product.md",
-    "Journal/13-07-2023.md",
-    "Journal/09-07-2023.md",
-    "Journal/11-07-2023.md",
-    "Journal/05-07-2023.md",
-    "Matematica/Combinatoria/Graph Theory/Circuito Euleriano.md",
-    "Matematica/Probabilità/Processi stocastici/Class structure.md",
-    "Matematica/Probabilità/Processi stocastici/Ruin probability.md",
-    "Matematica/Probabilità/Processi stocastici/Harmonic functions.md",
-    "Journal/04-07-2023.md",
-    "Journal/03-07-2023.md",
-    "Journal/02-07-2023.md",
-    "Journal/01-07-2023.md",
-    "Journal/30-06-2023.md",
     "Templates",
     "Tracker",
     "Journal",

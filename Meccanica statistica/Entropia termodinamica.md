@@ -16,9 +16,11 @@ Vale quindi:
 $$
 \text{Sistema } \Sigma \iff \text{Entropia } S^\Sigma
 $$
-Come nella meccanica analitica Sistema $\iff$ Lagrangiana.
-
-Dall'entropia definiamo le [[Variabili coniugate]], quantità familiari come la _Temperatura_, _la pressione_ ed il meno famoso _potenziale chimico_.
+Come nella meccanica analitica 
+$$
+\text{Sistema } \Sigma \iff \text{Lagrangiana } \mathcal{L}^\Sigma
+$$
+Dall'entropia definiamo le [[Variabili coniugate]], quantità familiari come la _temperatura_, la _pressione_ ed il meno famoso _potenziale chimico_.
 
 ### Proprietà
 1. Se un sistema è descritto dalle variabili estensive $(U,V,N)$ segue dall'additività che l'entropia è _omogenea di grado 1_ per tutte queste variabili:
@@ -26,14 +28,13 @@ $$
 S(\lambda U,\lambda V, \lambda N) = \lambda S(U,V,N) \qquad \forall \lambda > 0
 $$
 #### Dim
-Divertente, prima si dimostra per i naturali, poi razionali e per continuità i reali.
+Divertente, prima si dimostra per i naturali, poi razionali e per continuità per reali. 
 
 2. E' una funzione _concava_ rispetto alla variabili.
 #### Dim 
 Banale segue direttamente dalla condizione di massimizazzione.
 
 ## Densità di entropia
-
 Essendo omogenea, possiamo "portare fuori" il volume e definire un'entropia per unità di volume (una densità):
 $$
 S(U,V,N) = VS(\frac{U}{V},1,\frac{N}{V})

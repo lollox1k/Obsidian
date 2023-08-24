@@ -1,10 +1,10 @@
 $$
 D = Tk_B \mu
 $$
-Il coefficiente di diffusione ([[Diffusione Fick's Law]]) è legato alla _mobilità_, ovvero il rapporto tra la forza agente e la velocità terminale.
+Il coefficiente di diffusione ([[Diffusione Fick's Law]]) è legato alla _mobilità_ $\mu$, ovvero il rapporto tra la forza agente e la velocità terminale e la temperatura.
 
 #### Dim 
-All'equilibrio la somma tra le densità di corrente di diffusine e di drift (dovuto ad una forza) è nulla:
+All'equilibrio la somma tra le densità di corrente di diffusione e di drift (dovuto ad una forza) è nulla:
 $$
 \vec J_{diff} + \vec J_{drift} = \vec 0
 $$
@@ -20,7 +20,7 @@ quindi l'equazione è:
 $$
 -D\nabla \rho + \mu \vec F\rho = 0
 $$
-Serve esplcitamente la forza $\vec F(x)$ per trovare $\rho$, tuttavia se la forza è conservativa possiamo sfruttare, sapendo dalla [[statistica maxwell-boltzmann]] che la densità dipende solo dal potenziale:
+Serve esplicitamente la forza $\vec F(x)$ per trovare $\rho$, tuttavia se la forza è conservativa $F = -\nabla U$, e sapendo dalla [[statistica maxwell-boltzmann]] che la densità dipende solo dal potenziale:
 
 $$
 D\nabla \rho + \mu \nabla U\rho = 0
@@ -31,7 +31,7 @@ $$
 $$
 quindi l'equazione vettoriale 
 $$
-D \frac{\partial \rho}{\partial U} \nabla U + \mu \nabla U \rho = 0
+D \frac{\partial \rho}{\partial U} \nabla U + \mu \rho\nabla U  = 0
 $$
 impone l'equazione scalare (eliminando le componenti del gradiente di $U$):
 $$
@@ -43,6 +43,5 @@ $$
 $$
 (la normalizzazione $Z_q$ non è rilevante). Quindi calcolando la derivata e sostituendo:
 $$
-D = \frac{\mu}{\beta} = k_B T \mu
+D = \frac{\mu}{\beta} = k_B T \mu \qquad \square
 $$
-$QED$
