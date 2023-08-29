@@ -5,11 +5,11 @@
     "fontSize": 16,
     "iconColor": null,
     "recentlyUsedIcons": [
+      "FasArrowDownShortWide",
+      "SiBookstack",
       "IbArrowUpRight",
       "FasDice",
-      "FasBookOpen",
-      "SiAtom",
-      "RiCpuLine"
+      "FasBookOpen"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -36,5 +36,7 @@
   "Meccanica statistica": "SiAtom",
   "Journal": "FasBookOpen",
   "Matematica/Probabilità": "FasDice",
-  "Matematica/Algebra Lineare": "IbArrowUpRight"
+  "Matematica/Algebra Lineare": "IbArrowUpRight",
+  "Misc": "SiBookstack",
+  "Machine Learning/Deep Learning": "FasArrowDownShortWide"
 }

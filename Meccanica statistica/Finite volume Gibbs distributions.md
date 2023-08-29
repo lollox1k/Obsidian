@@ -1,5 +1,5 @@
 # Finite volume Gibbs distributions
-Lavoriamo sui sitemi reticolari, ovvero in $\mathbb{Z}^d$.
+Lavoriamo sui sistemi reticolari, ovvero in $\mathbb{Z}^d$.
 
 Indichiamo un _volume finito_ con $\Lambda \Subset \mathbb{Z}^d$. 
 

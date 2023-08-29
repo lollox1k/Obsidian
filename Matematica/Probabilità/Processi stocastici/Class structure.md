@@ -1,4 +1,4 @@
-It is possible to break a Markov Chain into smaller pieces, each of them is easy to understand. The key idea is _communicating classes_.
+It is possible to break a Markov Chain into smaller pieces, each of them easy to understand. The key idea is _communicating classes_.
 
 
 **Def** We say that $i$ _leads to_ $j$ and write $i\to j$ if exists some $n\geq 0$ such that
@@ -20,4 +20,4 @@ $$
 **Def** A non closed class is called _open_. 
 
 
-**Def** (Irreducibility) A Markov Chain is said to be _irreducible_ if $I$ is a single class. Just check that $\forall i,j$ $i \to j$.
+**Def** (Irreducibility) A Markov Chain is said to be _irreducible_ if $I$ is a single class. Just check that $\forall i,j$   $i \to j$.

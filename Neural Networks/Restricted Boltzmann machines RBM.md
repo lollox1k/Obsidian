@@ -67,10 +67,10 @@ $$
 $$
 calcoliamo le derivate che compaiono al numeratore
 $$
-\partial_\lambda Z(v) = \beta\sum_h \partial_\lambda H(v,h)e^{-\beta H}
+\partial_\lambda Z(v) = -\beta\sum_h \partial_\lambda H(v,h)e^{-\beta H}
 $$
 $$
-\partial_\lambda Z = \beta\sum_{v,h} \partial_\lambda H(v,h)e^{-\beta H}
+\partial_\lambda Z = -\beta\sum_{v,h} \partial_\lambda H(v,h)e^{-\beta H}
 $$
 rimettendo insieme...
 $$
@@ -79,7 +79,7 @@ $$
 $$
 \Delta \theta_i = -\frac{\eta\beta}{\ln2}\left[ \langle s_i\rangle_{free} - \langle s_i\rangle_{clamped}\right]
 $$
-per la procedura di traing devo far termalizzare la rete... Computazionalmente non trattabile per reti non miniuscole. 
+per la procedura di training devo far termalizzare la rete... Computazionalmente non trattabile per reti non miniuscole. 
 
 **Teniche per approssimare**:
 - MCMC Monte Carlo Markov Chain, più passi faccio meglio è (empiricamente ne basta anche uno solo!)

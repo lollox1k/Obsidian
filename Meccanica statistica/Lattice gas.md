@@ -3,7 +3,7 @@ Ipotesi: ogni sito può essere occupato o meno da una sola particella, quindi c'
 
 Chiamiamo $\Phi_2(i,j)$  con $K(i,j)$.
 1. essendo **attrattiva** è negativa, la definiamo positiva: $-K(i,j) \leq 0$
-2. a lungo raggio la forza descresce: $K(i,k) \to 0$ quando $\Vert i-j \Vert_\infty \to 0$.
+2. a lungo raggio la forza decresce: $K(i,k) \to 0$ quando $\Vert i-j \Vert_\infty \to 0$.
 3. **invariante per traslazioni**
 $$
 K(i,j) = K(i+a,j+a) \qquad \forall a \in \mathbb{Z}^d
