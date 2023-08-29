@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "3e6512ef201beba6",
+        "id": "2487bb5a82757ffc",
         "type": "tabs",
         "children": [
           {
-            "id": "e1acbf935d97190b",
+            "id": "e69afb6b8fad4199",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Matematica/Combinatoria/Teorema di Sperner.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Matematica/Combinatoria/Teorema di Sperner.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,7 +104,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -122,15 +118,26 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "e1acbf935d97190b",
+  "active": "e69afb6b8fad4199",
   "lastOpenFiles": [
-    "Matematica/Combinatoria/Combinatoria estremale.md",
-    "Matematica/Combinatoria/Erdos-Ko-Rado theorem.md",
-    "Matematica/Combinatoria/Graph Theory/Grafo di Kneser.md",
-    "Grafo di Petersen.md",
-    "Matematica/Combinatoria/Teorema di Sperner.md",
-    "Matematica/Combinatoria/Senza nome.canvas",
+    "Matematica/Combinatoria/Graph Theory/Teorema di Konig-Egervary.md",
+    "Matematica/Combinatoria/Combinatoria.md",
+    "Rip Fisica.md",
+    "Matematica/Combinatoria/Teorema di Hall.md",
+    "Matematica/Combinatoria/Graph Theory/Formula di Caley.md",
+    "Matematica/Combinatoria/Coefficienti multinomiali.md",
     "Matematica/Combinatoria/Teorema di Birkoff-von Neumann.md",
+    "Matematica/Combinatoria/Teorema di Bondy.md",
+    "Matematica/Combinatoria/Teoria di Ramsey.md",
+    "Matematica/Combinatoria/Teorema di Sperner.md",
+    "Matematica/Combinatoria/Graph Theory/Distanza e connessione.md",
+    "Matematica/Combinatoria/Graph Theory/Grafo di Kneser.md",
+    "Matematica/Combinatoria/Erdos-Ko-Rado theorem.md",
+    "Matematica/Combinatoria/Combinatoria estremale.md",
+    "Matematica/Combinatoria/Graph Theory/Graph coloring.md",
+    "Matematica/Combinatoria/Graph Theory/Teorema di Brooks.md",
+    "Grafo di Petersen.md",
+    "Matematica/Combinatoria/Senza nome.canvas",
     "Matematica/Combinatoria/Graph Theory/Matchings.md",
     "Matematica/Probabilità/Processi stocastici/Recurrence and transience.md",
     "Matematica/Combinatoria/Graph Theory/Turan theorem.md",
@@ -142,17 +149,6 @@
     "Matematica/Cauchy product.md",
     "Journal/13-07-2023.md",
     "Journal/09-07-2023.md",
-    "Journal/11-07-2023.md",
-    "Journal/05-07-2023.md",
-    "Matematica/Combinatoria/Graph Theory/Circuito Euleriano.md",
-    "Matematica/Probabilità/Processi stocastici/Class structure.md",
-    "Matematica/Probabilità/Processi stocastici/Ruin probability.md",
-    "Matematica/Probabilità/Processi stocastici/Harmonic functions.md",
-    "Journal/04-07-2023.md",
-    "Journal/03-07-2023.md",
-    "Journal/02-07-2023.md",
-    "Journal/01-07-2023.md",
-    "Journal/30-06-2023.md",
     "Templates",
     "Tracker",
     "Journal",

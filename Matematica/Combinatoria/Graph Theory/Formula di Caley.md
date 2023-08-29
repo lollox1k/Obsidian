@@ -1,4 +1,4 @@
-# Formula di Caley
+# Formula di Cayley
 
 
 **Teorema** Il numero di Alberi con vertici etichettati di ordine $n$, ovvero il numero di alberi di copertura di $K_n$, è $T(n) = n^{n-2}$.

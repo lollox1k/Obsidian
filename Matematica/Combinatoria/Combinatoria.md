@@ -18,15 +18,15 @@
 16.  [ ] [[Grafi bipartiti]]
 17.  [ ] [[Matchings]] 
 18.  [x] [[Teorema di Erdos]]
+19.  [ ] [[Capacità di un grafo]] 
 
 ## Combinatoria
 1.  [x] [[Teorema di Bondy]]
 2.  [x] [[Coefficiente binomiale]]
-3.  [ ] [[Coefficienti multinomiali]]
-4.  [ ] [[Teorema di Hall]] 
-5.  [ ] [[Combinatoria estremale]] 
-6.  [ ] [[Teoria di Ramsey]]  
+3.  [x] [[Coefficienti multinomiali]]
+4.  [x] [[Teorema di Hall]] 
+5.  [x] [[Combinatoria estremale]] 
+6.  [x] [[Teoria di Ramsey]]  
 7. [ ] [[Teorema di Konig-Egervary]]
 8. [ ] [[Teorema di Birkoff-von Neumann]] 
-## Teoria dell'informazione
-1.  [ ] [[Capacità di un grafo]] 
+
