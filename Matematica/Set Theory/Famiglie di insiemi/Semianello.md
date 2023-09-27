@@ -6,7 +6,7 @@ Siano $A,B \in \mathcal{A}$, si hanno le seguenti proprietà di chiusura:
 3. $A \setminus B = \bigcup_{n=1}^M C_n$ con ogni $C_n \in \mathcal{A}$ 
 
 Da notare che $A\setminus B$ è unione _finita_ di insiemi appartenenti ad $\mathcal{A}$.
-Quindi è chiuso per intersezione,e "quasi" chiuso per differenza. Un esempio di semianello sono le box di $\mathbb{R}$, usati per costruire la misura di Lebesgue.
+Quindi è chiuso per intersezione, e "quasi" chiuso per differenza. Un esempio di semianello sono le box di $\mathbb{R}$, usati per costruire la misura di Lebesgue.
 
 Da notare come ogni  [[Anello]] sia un semianello.
 

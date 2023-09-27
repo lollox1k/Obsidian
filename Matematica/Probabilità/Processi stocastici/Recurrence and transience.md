@@ -155,3 +155,49 @@ We have proven that if a state $i \in C$ is transient, then the whole class is t
 **Theorem** Every recurrent class is closed.
 
 **Proof** Let's show that if $C$ is open, then it's transient. 
+Since $C$ is open, then $\exists i \in C$ and $\exists j \notin C$ such that $i \to j$ (but not $j\to i$ since $j \notin C$. This means there exist $n \geq 0$ such that $(P^n)_{ij} > 0$
+
+$$
+P_i(V_i > n| \exists m )
+$$
+
+**Theorem** Let $P$ be an irreducible recurrent markov chain. Then for every initial distribution $\mu$ every state is visited a.s:
+$$
+P(T_i < \infty) = 1
+$$
+**Proof** Using the w.m.p
+$$
+P(T_i < \infty) = \sum_{j \in I} P(T_i < \infty| X_0 = j)\mu_j
+$$
+$$
+= \sum_{j \in I} P_j(T_i < \infty)\mu_j
+$$
+since $\sum_j \mu_j = 1$, if we prove that $P_j(T_i < \infty) = 1$ for all $j$ we have done.
+We now use the recurrence hypotesis
+$$
+1 = P_j(V_j =\infty) 
+$$
+$$
+= P_j(\sum_{n=0}^\infty \mathbb{1}(X_n = j) =\infty) 
+$$
+choose an arbitrary time $m \geq 0$
+$$
+= P_j(\sum_{n=0}^{m-1} \mathbb{1}(X_n = j) + \sum_{n = m}^\infty \mathbb{1}(X_n = j)=\infty) 
+$$
+since the first sum is less or equal to $m-1$ (a finite number)
+$$
+= P_j(\sum_{n = m}^\infty \mathbb{1}(X_n = j)=\infty)
+$$
+$$
+\geq P_j(X_n = j, \exists n \geq m)
+$$
+$$
+= \sum_{i \in I} P_j(X_n=j, \exists n\geq m|X_m =i)P_j(X_m=i)
+$$
+$$
+= \sum_{i \in I}P_i(T_j < \infty)P_j(X_m=i)
+$$
+since the second terms add to one, this implies that
+$$
+P_i(T_j < \infty) = 1 \qquad \square
+$$

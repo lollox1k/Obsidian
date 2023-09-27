@@ -50,7 +50,7 @@ $$
 $$
 Sia $(f_n)_{n\geq 1}$ una successione di funzioni misurabili non negative limitate dall'alto da una funzione misurabile $g$ tale che $\mu(g) < \infty$,  allora:
 $$
-\limsup_n \mu(f_n) \leq \mu(\liminf_n f_n)
+\limsup_n \mu(f_n) \leq \mu(\limsup_n f_n)
 $$
 ### Dim 
 1. Sia $g_n := \inf_{k \geq n} f_k$, allora $\liminf_n f_n = \lim_n g_n$.  Ovvio che $g_k \leq f_k$. Il limite è ovviamente monotono non descrescente, posso usare il teorema della convergenza monotona:

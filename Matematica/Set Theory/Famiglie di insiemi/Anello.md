@@ -1,5 +1,5 @@
 # Anello 
-Si chiama Anello una famiglia di insiemi $\mathcal{R}$ chiusa per intersezione e differenza simmetrica finita. Siano $A,B \in \mathcal{R}$:
+Si chiama Anello una famiglia di insiemi $\mathcal{R}$ chiusa per intersezione (prodotto) e differenza simmetrica (somma) finita. Siano $A,B \in \mathcal{R}$:
 1. $A\bigcap B \in \mathcal{R}$
 2. $A \Delta B \in \mathcal{R}$
 
@@ -28,11 +28,11 @@ Segue dalla costruzione dell'anello e dalla rappresentazione come unione finita 
 $$
 \nu(E) := \sum^M \nu(A_i) = \sum^M \mu(A_i)
 $$
-Si deve fare vedere che è ben definita, esistono più rappresentazioni come unione finita di insiemi disgiunti del semianello, ma il risultato non deve dipendere dalla scomposizione. 
+Si deve fare vedere che è ben definita, esistono più rappresentazioni come unione finita di insiemi disgiunti del semianello, ma il risultato non deve dipendere dalla decomposizione. 
 
 
 #### Ben definita
-Siano date due scomposizioni dell'insime $E$ , devo dimostrare che:
+Siano date due scomposizioni dell'insieme $E$ , devo dimostrare che:
 $$
 \sum \mu(F_i) = \sum \mu(E_i)
 $$

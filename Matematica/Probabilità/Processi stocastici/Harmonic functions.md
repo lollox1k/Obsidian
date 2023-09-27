@@ -31,7 +31,7 @@ $$
 $$
 \sum_{x_0\sim y} p(x_0,y)(F(y)-F(x_0))=0
 $$
-this implies $F(y)=F(x_0)$, that is the function $F$ is constant on all reachable states $y$ from $x_0$ (since if $x\sim y$ then $p(x_0,y) > 0$). $\square$
+this implies $F(y)=F(x_0)$, that is the function $F$ is constant on neighbours of $x_0$ (distance $n = 1$). Using induction on the distance from $x_0$, we can prove the same for all reachabl states. $\square$
 
 **Theorem** (_Uniqueness principle_) Let $W$ be a finite proper subset of states of a Markov chain on a finite or countable state space $𝖵$. Suppose that $𝖵 \setminus W$ is accessible from every state in $W$ for the chain absorbed off of $W$. If $f , g: 𝖵 \to \mathbb{R}$ are two functions that are both harmonic on $W$ and agree off $W$ (that is, $f(x) = g(x)$ for all $x \notin W$), then $f = g$.
 
@@ -50,7 +50,7 @@ Given a function defined on a subset of states, the _Dirichlet problem_ asks whe
 $$
 f (x) := E_x[Y]
 $$
-which is harmonic, in fact using first step analysis:
+this function is well defined, since $f(x) < \infty$ thaks to the boundness assumption for $f_0$, and it is harmonic, in fact using first step analysis:
 $$
 f(x) = \sum_{y \in V \setminus W} f_0(y)P_x(X=y)
 $$
@@ -63,4 +63,4 @@ $$
 $$
 = \sum_z f(z) p(x,z)
 $$
-And clearly $f(x)=f_0(x)$ when $x \in V\setminus W$, therefore we have found the harmonic extention we were looking for. $\square$.
+And clearly $f(x)=f_0(x)$ when $x \in V\setminus W$, therefore we have found the harmonic extention we were looking for. $\square$

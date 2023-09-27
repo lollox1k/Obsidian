@@ -17,7 +17,7 @@ $$
 $$
 #### Unicità 
 La procedura è quindi:
-1. Definire una proto misura su un sottoinsieme dell'insieme delle parti, cosa estremanente facile;
+1. Definire una proto misura su un sottoinsieme dell'insieme delle parti, cosa estremamente facile;
 2. Costruire la misura esterna con la definizione sopra;
 3. Trovare la famiglia di insiemi misurabili, abbiamo quindi una misura completa.
 

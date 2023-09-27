@@ -1,4 +1,4 @@
-Essenzialmente una misura definita su un [[Semianello]]. Stranamente richiedo la $\sigma$-additività, con la condizione che l'elemento unione numebrabile deve appartenere al semianello, dato che un semianello è solo chiuso per intersezione finita,e  _quasi_ chiuso per differenza.
+Essenzialmente una misura definita su un [[Semianello]]. Stranamente richiedo la $\sigma$-additività, con la condizione che l'elemento unione numerabile deve appartenere al semianello, dato che un semianello è solo chiuso per intersezione finita, e _quasi_ chiuso per differenza.
 
 #### Def 
 Una funzione a valori non negativi definita su un semianello $\mu_p : \mathcal{A} \to [0,\infty]$ con le proprietà:

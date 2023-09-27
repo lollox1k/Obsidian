@@ -85,9 +85,57 @@ we can reiterate the substitution, after $n$ steps one gets
 $$
 = \mathbb{P}_i(X_1 \in A) + \mathbb{P}_i(X_1 \notin A,\, X_2 \in A)+ \dots + \sum_{J_1 \notin A}\dots \sum_{j_n \notin A} p\dots x_{j_n}
 $$
-since $x$ is non-negative, so is the last term. Notice that the remaining terms add to the probability of $\mathbb{P_i}(H^A \leq n)$ (each term is the probability of $H^A = l$). Then
+since $x$ is non-negative, so is the last term. Notice that the remaining terms add to the probability of $\mathbb{P}_i(H^A \leq n)$ (each term is the probability of $H^A = l$. Then
 $$
 x_i \geq \mathbb{P}_i(H^A \leq n)
 $$
-we can take the limit as $n\to\infty$ on both sides to get the desired inequality. $\square$
+we can take the limit as $n\to\infty$ on both sides, and by [[Continuity of mesure]] we get the desired inequality. $\square$
+
+**Theorem** The vector of mean hitting time  $k^A = (k_i^A)_{i \in I}$ is the minimal non-negative solution to the system of linear equations
+$$
+\begin{cases}
+k_i^A = 0 \quad \text{ for } i \in A \\
+k_i^A = 1+\sum_j p_{ij}k_j^A \quad \text{ for } i \notin A \\
+\end{cases}
+$$
+
+**Proof** First we show that $k^A$ solves these equations. $If $i \in A$ then $k_i^A = 0$. If $i \notin A$ then, using first step analysis:
+$$
+k_i^A = \sum_{n \geq 0} nP_i(\tau_A = n) + \infty P_i(\tau_A = \infty) = 
+$$
+$$
+\sum_{n \geq 0}\sum_{j \in I} nP_i(\tau_A = n|X_1 = j)P_i(X_1=j) + \sum_{j \in I}\infty P_i(\tau_A = \infty| X_1=j)
+$$
+
+we can exchange the sums by [[teorema di Fubini|Fubini's theorem]] (all the terms are non-negative), and $n\geq 1$ since $i \notin A$, and using the weak [[Markov property]]
+$$
+= \sum_{j \in I}p_{ij}\left( \sum_{n\geq 1}nP_j(\tau_A = n-1) + \infty P_j(\tau_A = \infty)\right)
+$$
+we now change the index to $m = n-1$ 
+$$
+= \sum_{j \in I}p_{ij}\left( \sum_{m\geq 0}(m+1)P_j(\tau_A = n) + \infty P_j(\tau_A = \infty)\right)
+$$
+$$
+= \sum_{j \in I} (p_{ij}k_j^A + 1) \qquad \square
+$$
+We need to prove that if $x_i$ is another non negative solution, then $k_i \leq x_i$. The strategy is the same as in the previous proof (repeated substitution). Note that since $x_i = 0$ if $i \in A$, we can omit these terms in the sum over all states. 
+Let $i \notin A$, then
+$$
+x_i = 1 + \sum_{j \notin A} p_{ij}x_j
+$$
+$$
+= 1 + \sum_{j \notin A} p_{ij}\left( 1+\sum_{k \notin I} p_{jk}x_k\right)
+$$
+$$
+= 1 + \sum_{j \notin A} p_{ij} + \sum_{j \notin A}\sum_{k \notin A}p_{ij}p_{jk}x_k
+$$
+$$
+= P_i(\tau_A \geq 1) + P_i(\tau_A \geq 2) + R
+$$
+where $R \geq 0$, since $x$ is non-negative. Repeating the substitution $M$ times one gets:
+$$
+x_i \geq \sum_{n = 1}^M P_i(\tau_A \geq n)
+$$
+taking the limit $M \to \infty$ on both sides one gets the definition of $k_i^A$ on the right. $\square$
+
 

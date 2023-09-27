@@ -1,7 +1,7 @@
 #### Misura 
-Aggiungiamo ad una [[Misura esterna]] la cosa fondamentale, ovvero la richiesta intutiva che la misura deve essere uguale alla misura delle parti, la sigma additività. Purtroppo, causa oggetti patologici nell'insieme delle parti di $\mathbb{R}$ [[Insieme di Vitali]] ci limitamo a definirla su una sigma algebra [[Sigma algebra]].
+Aggiungiamo ad una [[Misura esterna]] la cosa fondamentale, ovvero la richiesta intuitiva che la misura deve essere uguale alla misura delle parti (anche numebrabili), la sigma additività. Purtroppo ciò causa oggetti patologici nell'insieme delle parti di $\mathbb{R}$ [[Insieme di Vitali]], ci limitamo a definirla su una sigma algebra [[Sigma algebra]].
 
-Una funzione $m : S \to [0, +\infty]$ dove $S \subseteq 2^E$ è una $\sigma$-algebra. 
+**Def** (measure) Una funzione $m : S \to [0, +\infty]$ dove $S \subseteq 2^E$ è una $\sigma$-algebra. 
 1. $m(\emptyset) = 0$
 2. $\sigma$-additività:
 $$

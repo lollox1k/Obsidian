@@ -185,8 +185,9 @@ _Per funzioni misurabili non negative_
 Prendiamo $f_n \uparrow f$ e $g_n \uparrow g$ successioni di funzioni semplici che convergno a due funzioni misurabili non negative. Sappiamo che $I(g_n + f_n) = I(g_n) + I(f_n)$. Inoltre è evitente che 
 $(g_n+f_n) \uparrow (g+f)$. Quindi:
 $$
-I(f+g) = \lim_n I(g_n + f_n) = \lim_n I(g_n) + I(f_n) = I(g) + I(f)
+I(f+g) = \lim_n I(g_n + f_n) = \lim_n I(g_n) + \lim_n I(f_n) = I(g) + I(f) \quad \square
 $$
+
 
 
 
