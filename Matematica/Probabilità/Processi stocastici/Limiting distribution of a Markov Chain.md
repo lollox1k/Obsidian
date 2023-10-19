@@ -43,18 +43,4 @@ b & a \\
 $$
 which also show that the limiting probability distribution doesn't care about the starting state $X_0$.
 
-When does a MC admits a limiting distribution?
 
-**Theorem** If a MC $(X_n)_{n\geq 0}$ satisfies the following conditions:
-1. _recurrence_,
-2. _aperiodicity,_
-3. _irreducibility_.
-Then we have
-$$
-\lim_{n\to\infty} P_i(X_n=j) = \frac{1}{\mu_j(j)}, \quad i,j \in I
-$$
-indipendently of the initial state $i$, where
-$$
-\mu_j(j) = \mathbb{E}_j[T_j]
-$$
-the _mean return time_ to state $j$.

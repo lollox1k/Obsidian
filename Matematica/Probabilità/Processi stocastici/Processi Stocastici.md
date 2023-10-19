@@ -3,7 +3,23 @@
 - [[Markov property]]
 - [[Hitting probability and mean hitting times]]
 - [[Recurrence and transience]]
-
+- [[Aperiodic chains]]
+- [[Class structure]]
+- [[Convergence to equilibrium for ergodic chains]]
+- [[Electrical networks]]
+- [[Energy]]
+- [[Escape probabiliy]]
+- [[Filtrazione naturale di un processo stocastico]]
+- [[Green function of a random walk]]
+- [[Harmonic functions]]
+- [[Limiting distribution of a Markov Chain]]
+- [[Long run behavior of Markov Chains]]
+- [[Mixing time]]
+- [[Moto Browniano]]
+- [[Problem of finite set exit]]
+- [[Reversibile Markov Chains]]
+- [[Ruin probability]]
+- [[Time reversal]]
 
 • **Lezione 1**  Definizione di catena di Markov, caratterizzazione di catena di Markov finita. Esercizio: completare dimostrazione sulla caratterizzazione di catena di Markov finita.
 

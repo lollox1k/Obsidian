@@ -3,7 +3,7 @@ Si fanno due richieste ragionevoli:
 $$
 \alpha^k \to 0 \qquad \sum_k \alpha^k = +\infty
 $$
-quindi una successione infinitesima non sommabile, ad esempio $\frac1k$, l'idea è di consentire al metodo di arrivare ovunque. Infatti al seconda condizione garantisce che non converge ad un punto non stazionario:
+quindi una successione infinitesima non sommabile, ad esempio $\frac1k$, l'idea è di consentire al metodo di arrivare ovunque. Infatti la seconda condizione garantisce che non converge ad un punto non stazionario:
 Sia $x^k \to \overline x$, allora scelti $m>n$ abbastanza grandi:
 $$
 |x^m-\overline x| < \epsilon \qquad |x^n-\overline x| < \epsilon
@@ -27,7 +27,7 @@ $$
 $$
 \Vert d^k \Vert^2 \leq c_2 \Vert\nabla f(x^k)\Vert^2
 $$
-con $c_1,c_2>0$.
+con $c_1,c_2>0$, sia $x^k \to \overline x$. Allora $\nabla f(\overline x) = 0$. 
 ### Dim 
 Usiamo il [[Descent Lemma]], otteniamo:
 $$
@@ -45,7 +45,7 @@ sommando queste disequazioni a partire da $\overline k$ ottengo (si cancellano i
 $$
 c_1\sum_{k=\overline k}^\infty\alpha^k\Vert \nabla f(x^k)\Vert^2 \leq \lim_{k\to\infty}f(x^k)-f(x^{\overline k})
 $$
-siccome la disugualianza precedente ci assicura che la successione è definitivamente monotona, o diverge a $-\infty$ o ad un punto $\overline x$. In questo caso il termine di destra è limitato, di consguenza la serie a sinistra convergente:
+siccome la disuguaglianza precedente ci assicura che la successione è definitivamente monotona, o diverge a $-\infty$ o ad un punto $\overline x$. In questo caso il termine di destra è limitato, di conseguenza la serie a sinistra è convergente:
 $$
 \sum_{k=\overline k}^\infty \alpha^k \Vert \nabla f(x^k)\Vert^2 < +\infty
 $$

@@ -29,7 +29,7 @@ then we can define an _empirical cost_ to measure the performance of our model
 $$
 \hat R_M(\lambda) := \frac{1}{M} \sum_{i=1}^M dist(y_i, f_\lambda(x_i))
 $$
-so we the average distance (averagin on all our dataset of $M$ samples) a choice of distance. It's clear that using the true parameters $\lambda_0$, this empirical cost would tend to zero in the limi $M\to \infty$.
+so we the average distance (averaging on all our dataset of $M$ samples) a choice of distance. It's clear that using the true parameters $\lambda_0$, this empirical cost would tend to zero in the limi $M\to \infty$.
 
 It makes sense to choose as our best guess for the parametes 
 $$
