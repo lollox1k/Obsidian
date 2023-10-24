@@ -97,11 +97,18 @@
         "a": 1,
         "rgb": 3143983
       }
+    },
+    {
+      "query": "path:\"Matematica/Functional analysis\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 16711680
+      }
     }
   ],
   "collapse-display": false,
   "showArrow": true,
-  "textFadeMultiplier": -2,
+  "textFadeMultiplier": 2.7,
   "nodeSizeMultiplier": 1.53509234828496,
   "lineSizeMultiplier": 0.993229166666667,
   "collapse-forces": true,
@@ -109,6 +116,6 @@
   "repelStrength": 19.4430379746835,
   "linkStrength": 1,
   "linkDistance": 298,
-  "scale": 0.1524926866183238,
+  "scale": 0.21379213867482058,
   "close": true
 }

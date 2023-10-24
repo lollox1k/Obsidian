@@ -11,12 +11,8 @@
             "id": "c2cb90e27d7deb11",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Matematica/Functional analysis/Banach spaces.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Matematica/Functional analysis/Banach spaces.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,14 +130,26 @@
   },
   "active": "c2cb90e27d7deb11",
   "lastOpenFiles": [
-    "Matematica/Functional analysis/Lp spaces.md",
+    "Matematica/Teoria degli algoritmi/Riduzione polinomiale.md",
+    "Matematica/Teoria degli algoritmi/Riduzioni/SAT to Clique.md",
+    "Matematica/Teoria degli algoritmi/Riduzioni/SAT to 3SAT.md",
+    "Matematica/Teoria degli algoritmi/Riduzioni/Partition to knapsack.md",
+    "Matematica/Teoria degli algoritmi/Riduzioni/Node cover to IS.md",
+    "Matematica/Teoria degli algoritmi/Riduzioni/Clique to Indipendent set.md",
+    "Matematica/Teoria degli algoritmi/Riduzioni/CNFSat to 3-COL.md",
+    "Matematica/Teoria degli algoritmi/Riduzioni/3-COL to exact cover.md",
+    "Matematica/Combinatoria/Senza nome.canvas",
+    "Matematica/Functional analysis/Distribuzioni.md",
+    "Matematica/Functional analysis/Delta di Dirac.md",
     "Matematica/Functional analysis/Banach spaces.md",
-    "Minkowsky's inequality.md",
     "Matematica/Functional analysis/Young's inequality.md",
-    "Matematica/Functional analysis/Holder's inequality.md",
-    "Machine Learning/Optimization algorithms with adaptive LR.md",
     "Matematica/Functional analysis/Weak deriative.md",
     "Matematica/Functional analysis/Spazi funzionali.md",
+    "Matematica/Functional analysis/Riesz represebtation theorem.md",
+    "Matematica/Functional analysis/Lp spaces.md",
+    "Matematica/Functional analysis/Holder's inequality.md",
+    "Minkowsky's inequality.md",
+    "Machine Learning/Optimization algorithms with adaptive LR.md",
     "Machine Learning/Deep Learning/Intro to Deep Learning.md",
     "Rip 2.md",
     "Untitled.md",
@@ -150,17 +157,6 @@
     "Machine Learning/Deep Learning/Deep Learning.md",
     "Machine Learning/Self-Supervised Learning.md",
     "Machine Learning/Deep Learning/RNN.md",
-    "Machine Learning/Deep Learning/Residual networks.md",
-    "Machine Learning/Deep Learning/ReLu.md",
-    "Machine Learning/Deep Learning/GAN.md",
-    "Machine Learning/Deep Learning/CNN.md",
-    "Matematica/Teoria Della Misura/Radon-Nikodym theorem.md",
-    "Matematica/Teoria Della Misura/Pushforward measure.md",
-    "Matematica/Teoria Della Misura/Substitution formula.md",
-    "Machine Learning/Cross Entropy.md",
-    "Machine Learning/Transformer.md",
-    "Machine Learning/Stochastic gradient descent SGD.md",
-    "Machine Learning/Overfiting and underfitting.md",
     "Images/Pasted image 20231016203119.png",
     "Images/Pasted image 20231016200458.png",
     "Images/Pasted image 20231016162519.png",
@@ -178,7 +174,6 @@
     "Matematica/Automata Theory",
     "Misc",
     "Machine Learning/Deep Learning",
-    "Matematica/Combinatoria/Senza nome.canvas",
     "Templates",
     "Tracker",
     "Journal",
