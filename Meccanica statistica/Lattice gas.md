@@ -242,7 +242,7 @@ The canonical partition function becomes a _purely combinatorial quantity_, coun
 $$
 Z_{\Lambda,\beta,N} = \binom{|\Lambda|}{N} 
 $$
-l'**energia libera** a volume infinito può essere calacolata approssimando con stirling i fattoriali:
+l'**energia libera** a volume infinito può essere calcolata approssimando con stirling i fattoriali:
 $$
 f_\beta(\rho) = \frac{1}{\beta}\left( \rho \log \rho + (1-\rho)\log(1-\rho) \right)
 $$
@@ -262,7 +262,7 @@ da qui derivando posso calcolare la densità media:
 $$
 \rho(\mu) = \frac{e^{\beta\mu}}{1+e^{\beta\mu}} \implies \mu = \frac{1}{\beta}\log\frac{p}{1-p}
 $$
-Questa espressione è invertivile, quindi posso scrivere il potenziale chimico in funzione della densità per ottenere un'equazione di stato:
+Questa espressione è invertibile, quindi posso scrivere il potenziale chimico in funzione della densità per ottenere un'equazione di stato:
 
 $$
 p = \frac{1}{\beta} \log (1 + \frac{p}{1-p}) = \frac{1}{\beta} \log (\frac{1}{1-p}) =- \frac{1}{\beta} \log(1-p) 

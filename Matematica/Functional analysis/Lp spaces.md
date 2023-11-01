@@ -74,10 +74,7 @@ and similalry
 $$
 g := \lim_{n\to\infty} g_n =|f_1| + \sum_{k\geq 1} |f_{k+1}-f_k|
 $$
-
-
 Note that $g_n \uparrow g$. 
-
 Applying the [[Minkowsky's inequality]] and taking the limit we get
 $$
 \lim_n\Vert g_n\Vert_p\leq \Vert f_1\Vert_p + \sum_{k\geq 0} \Vert f_{k+1}-f_k \Vert_p < \infty
@@ -86,7 +83,7 @@ using [[Monotone Convergence Theorem]]
 $$
 \Vert g \Vert_p = \lim_n \Vert g_n \Vert_p < \infty
 $$
-so that $g \in L^p$.  This implies that $g$ is finite a.e., so that $f_n$ is absolutely convergent a.e., meaning that it's also convergent a.e. and the definition of $f$ makes sence. Also $f_n \leq g_n$ and we can conclude that also $f \in L^p$. 
+so that $g \in L^p$.  This implies that $g$ is finite a.e., so that $f_n$ is absolutely convergent a.e., meaning that it's also convergent a.e. and the definition of $f$ makes sense. Also $f_n \leq g_n$ and we can conclude that also $f \in L^p$. 
 
 By construction 
 $$

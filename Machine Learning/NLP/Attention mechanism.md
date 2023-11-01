@@ -25,7 +25,7 @@ The new embeddings is also called _contextualized embedding_ since it (should) i
 Is the most common way to compute attention introduced in the "Attention is all you need" paper.
 1. Project each token embedding into three vectors called _query_, _key_ and _value_.
 2. Compute _attention scores_. We determine how much the query and key vectors relate to each other using a _similarity function_. In this case this function is a scaled dot-product. The output is a $n\times n$ _attention score matrix_.
-3. Compute _attention weights_. To limit the size of the dot-product we introduce a normalization of $\frac{1}{\sqrt{n}}$ (assumes gaussian variance), and scale the scores with a [[softmax]] function to ensure that they add to one. The resulting matrix contains all attention weights $w_{ij}$.
+3. Compute _attention weights_. To limit the size of the dot-product we introduce a normalization of $\frac{1}{\sqrt{n}}$ (assumes gaussian variance), and scale the scores with a [[softmax]] function to ensure that they are non-negative and add to one. The resulting matrix contains all attention weights $w_{ij}$.
 4. Update the token embeddings. We use the value vector:
 $$
 x'_i = \sum_j w_{ij}v_j

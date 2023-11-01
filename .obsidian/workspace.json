@@ -8,11 +8,15 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c2cb90e27d7deb11",
+            "id": "3c7dbc62fc7a923a",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Meccanica statistica/The Ising model.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -44,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Minko",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Meccanica statistica/The Ising model.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,35 +133,39 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "c2cb90e27d7deb11",
+  "active": "3c7dbc62fc7a923a",
   "lastOpenFiles": [
-    "Matematica/Teoria degli algoritmi/Riduzione polinomiale.md",
-    "Matematica/Teoria degli algoritmi/Riduzioni/SAT to Clique.md",
-    "Matematica/Teoria degli algoritmi/Riduzioni/SAT to 3SAT.md",
-    "Matematica/Teoria degli algoritmi/Riduzioni/Partition to knapsack.md",
-    "Matematica/Teoria degli algoritmi/Riduzioni/Node cover to IS.md",
-    "Matematica/Teoria degli algoritmi/Riduzioni/Clique to Indipendent set.md",
-    "Matematica/Teoria degli algoritmi/Riduzioni/CNFSat to 3-COL.md",
-    "Matematica/Teoria degli algoritmi/Riduzioni/3-COL to exact cover.md",
+    "Matematica/Limite di successioni subadditive.md",
+    "Meccanica statistica/The Ising model.md",
+    "Meccanica statistica/Finite volume Gibbs distributions.md",
+    "Meccanica statistica/Equivalenza degli ensembles.md",
+    "Meccanica statistica/Equipartition of energy.md",
+    "Meccanica statistica/Equazione di Nerst.md",
+    "Meccanica statistica/Entropia termodinamica.md",
+    "Meccanica statistica/Ensemble microcanonico.md",
+    "Meccanica statistica/Ensemble canonico.md",
+    "Meccanica statistica/Einstein's relation.md",
+    "Meccanica statistica/Distribuzioni stazionarie sullo spazio delle fasi.md",
+    "Meccanica statistica/Disordered systems.md",
+    "Meccanica statistica/Diffusione Fick's Law.md",
+    "Meccanica statistica/Boltzmann Equation.md",
+    "homepage.md",
+    "Ensemble gran canonico.md",
+    "Thesis ideas.canvas",
+    "README.md",
+    "limite termodinamico per microcanonico.md",
+    "Meccanica statistica/Forma microscopica della pressione.md",
+    "Meccanica statistica/Metodi matematici in Meccanica Statistica.md",
+    "Meccanica statistica/Misure di Gibbs a volume infinito.md",
+    "Meccanica statistica/Sistemi reticolari.md",
+    "Meccanica statistica/Gas perfetto.md",
+    "Meccanica statistica/Lattice gas.md",
+    "Matematica/Teoremi sulla convergenza uniforme.md",
+    "Matematica/Ricerca Operativa/Convessità/Funzioni convesse.md",
+    "Images/Pasted image 20231027122535.png",
+    "Images/Pasted image 20231024210926.png",
+    "Images/Pasted image 20231024210912.png",
     "Matematica/Combinatoria/Senza nome.canvas",
-    "Matematica/Functional analysis/Distribuzioni.md",
-    "Matematica/Functional analysis/Delta di Dirac.md",
-    "Matematica/Functional analysis/Banach spaces.md",
-    "Matematica/Functional analysis/Young's inequality.md",
-    "Matematica/Functional analysis/Weak deriative.md",
-    "Matematica/Functional analysis/Spazi funzionali.md",
-    "Matematica/Functional analysis/Riesz represebtation theorem.md",
-    "Matematica/Functional analysis/Lp spaces.md",
-    "Matematica/Functional analysis/Holder's inequality.md",
-    "Minkowsky's inequality.md",
-    "Machine Learning/Optimization algorithms with adaptive LR.md",
-    "Machine Learning/Deep Learning/Intro to Deep Learning.md",
-    "Rip 2.md",
-    "Untitled.md",
-    "Transformers.md",
-    "Machine Learning/Deep Learning/Deep Learning.md",
-    "Machine Learning/Self-Supervised Learning.md",
-    "Machine Learning/Deep Learning/RNN.md",
     "Images/Pasted image 20231016203119.png",
     "Images/Pasted image 20231016200458.png",
     "Images/Pasted image 20231016162519.png",
@@ -164,10 +173,6 @@
     "Images/Pasted image 20231016154724.png",
     "Images/Pasted image 20231016142446.png",
     "Images/Pasted image 20231016142343.png",
-    "Images/Pasted image 20231016141833.png",
-    "Images/Pasted image 20231016141521.png",
-    "Images/Pasted image 20231016140858.png",
-    "Thesis ideas.canvas",
     "Machine Learning/NLP",
     "Matematica/Untitled",
     "Matematica/Algebra",
