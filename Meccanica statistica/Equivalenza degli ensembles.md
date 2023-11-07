@@ -94,4 +94,4 @@ $$
 Ne consegue che anche le entropie (dunque la termodinamica) coincidono.
 
 ## Non equivalenza
-La derivazione precedente fa un'assunzione importante: _l'energia libera ha un unico punto di massimo_. Per far vedere questa cosa si dimostra la concavità dell'energia libera. Per fare ciò si richiedono _ipotesi aggiuntive di stabilità_. La cosa diventa delicata durante le _transizione di fase_.
+La derivazione precedente fa un'assunzione importante: _l'energia libera ha un unico punto di massimo_. Per far vedere questa cosa si dimostra la stretta convessità dell'energia libera. Per fare ciò si richiedono _ipotesi aggiuntive di stabilità_. La cosa diventa delicata durante le _transizione di fase_.

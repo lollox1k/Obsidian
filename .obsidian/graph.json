@@ -1,11 +1,11 @@
 {
-  "collapse-filter": false,
+  "collapse-filter": true,
   "search": "",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": false,
+  "collapse-color-groups": true,
   "colorGroups": [
     {
       "query": "path:Matematica/Combinatoria",
@@ -108,14 +108,14 @@
   ],
   "collapse-display": false,
   "showArrow": true,
-  "textFadeMultiplier": 2.7,
+  "textFadeMultiplier": -1.9,
   "nodeSizeMultiplier": 1.53509234828496,
   "lineSizeMultiplier": 0.993229166666667,
-  "collapse-forces": true,
-  "centerStrength": 0.71754068716094,
-  "repelStrength": 19.4430379746835,
-  "linkStrength": 1,
-  "linkDistance": 298,
-  "scale": 0.152492686618324,
+  "collapse-forces": false,
+  "centerStrength": 0.462426614481409,
+  "repelStrength": 17.8904109589041,
+  "linkStrength": 0.656555772994129,
+  "linkDistance": 336,
+  "scale": 0.42022043068616566,
   "close": true
 }
