@@ -1,6 +1,5 @@
 # Lorenzo Gregoris
 
-
 ![[Pasted image 20231027122535.png]]
 
 WIP...

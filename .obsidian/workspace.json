@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "fffe6526ed59cbb1",
+        "id": "f662b347e457b09f",
         "type": "tabs",
         "children": [
           {
-            "id": "9b7b4b9cffc763f8",
+            "id": "eab347531a2ba9d7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Meccanica statistica/The Ising model.md",
+                "file": "Matematica/Bounded variation functions.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 419.5110321044922
+    "width": 319.5
   },
   "right": {
     "id": "953946482fdc2b4f",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Meccanica statistica/The Ising model.md",
+                "file": "Matematica/Bounded variation functions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,15 +133,25 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "9b7b4b9cffc763f8",
+  "active": "eab347531a2ba9d7",
   "lastOpenFiles": [
+    "Matematica/Functional analysis/Lp spaces.md",
+    "Matematica/Bounded variation functions.md",
+    "Matematica/Functional analysis/Convergence of Measurable Functions.md",
+    "Matematica/Teoria Della Misura/Misura esterna.md",
+    "Matematica/Teoria Della Misura/Costruzione di una misura, metodo Caratheodory.md",
+    "Matematica/Teoria Della Misura/Monotone Convergence Theorem.md",
+    "Matematica/Teoria Della Misura/Integrale di Lebesgue.md",
+    "Matematica/Teoria Della Misura/Funzioni misurabili.md",
+    "Meccanica statistica/The Ising model.md",
+    "homepage.md",
+    "Meccanica statistica/Two state system.md",
     "Meccanica statistica/Lattice gas.md",
     "Meccanica statistica/Finite volume Gibbs distributions.md",
     "Meccanica statistica/Equivalenza degli ensembles.md",
     "Meccanica statistica/Forma microscopica della pressione.md",
     "Meccanica statistica/Gas perfetto.md",
     "Meccanica statistica/Modello di Curie-Weiss.md",
-    "Meccanica statistica/The Ising model.md",
     "Meccanica statistica/Misure di Gibbs a volume infinito.md",
     "Thesis ideas.canvas",
     "Termodinamica/Variabili coniugate.md",
@@ -152,16 +162,6 @@
     "Meccanica statistica/Diffusione Fick's Law.md",
     "Meccanica statistica/Disordered systems.md",
     "Meccanica statistica/Distribuzioni stazionarie sullo spazio delle fasi.md",
-    "Meccanica statistica/Dobrushin's uniqueness Theorem.md",
-    "Meccanica statistica/Einstein's relation.md",
-    "Meccanica statistica/Ensemble canonico.md",
-    "Meccanica statistica/Entropia termodinamica.md",
-    "Meccanica statistica/Equazione di Nerst.md",
-    "Meccanica statistica/Equipartition of energy.md",
-    "Meccanica statistica/ipotesi ergodica.md",
-    "Meccanica statistica/Metodi matematici in Meccanica Statistica.md",
-    "Meccanica statistica/Preliminari di Meccanica statistica classica.md",
-    "Meccanica statistica/Sistemi reticolari.md",
     "Images/Pasted image 20231103175616.png",
     "Images/Pasted image 20231027122535.png",
     "Images/Pasted image 20231024210926.png",
