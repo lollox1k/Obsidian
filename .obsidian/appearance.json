@@ -2,5 +2,8 @@
   "baseFontSize": 21,
   "translucency": true,
   "cssTheme": "Things",
-  "accentColor": ""
+  "accentColor": "",
+  "enabledCssSnippets": [
+    "custom_callouts"
+  ]
 }

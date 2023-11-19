@@ -2,7 +2,7 @@
 
 Let $(X, \mathcal{A})$ be a measurable space, $\lambda$ and $\mu$ two measure on this space.
 
-**Def**  A measure $\mu$ algebra is called _absolutely continuos_ w.r.t. another measure $\lambda$ if
+**Def**  A measure $\mu$ algebra is called _absolutely continuous_ w.r.t. another measure $\lambda$ if
 $$
 \lambda(A)=0 \implies \mu(A)=0, \quad \forall A \in \mathcal{B}(\mathbb{R})
 $$
@@ -18,8 +18,8 @@ this is written as $\mu \perp \lambda$.
 Usually one works with measures on the reals, so that the measurable space is $(\mathbb{R}, \mathcal{B}(\mathbb{R}))$ and $\lambda$ is the Lebesgue measure.
 
 Some examples: 
-- The zero measure is absolutely continuos w.r.t any measure.
-- Every measure is absolutely continuos w.r.t itself.
+- The zero measure is absolutely continuous w.r.t any measure.
+- Every measure is absolutely continuous w.r.t itself.
 - The Dirac measure $\delta_0$ is singular w.r.t. the Lebesgue measure, since:
 $$
 \delta_0(\{0\}^c) = 0 \quad\text{ and } \mathcal{L}(\{0\}) = 0

@@ -1,11 +1,11 @@
-**Theorem** Let $(X, \langle\cdot,\cdot\rangle)$ be a _complete_ Hilber space, and $L : X \to \mathbb{F}$ a continuos (or bounded) linear map. Then there exists a unique $x_L \in X$ such that
+**Theorem** Let $(X, \langle\cdot,\cdot\rangle)$ be a _complete_ Hilber space, and $L : X \to \mathbb{F}$ a continuous (or bounded) linear map. Then there exists a unique $x_L \in X$ such that
 $$
 L(x) = \langle x_L, x\rangle \qquad \forall x \in X
 $$
 moreover $\Vert L \Vert = \Vert x_L\Vert$.
 
 **Proof** The main idea is to pick an element in the orthogonal complement of the Kernel. If $Ker(L) = X$, then the map is trivial (everthing is zero), in this case $x_L = 0$. 
-Suppose now $Ker(L) \neq X$. Since $L$ is continuos, then $Ker(L)$ is a closed set (the preimage of $\{0\}$), then there exists an element $y \in Ker(L)^\perp$, since it's linear we can scale it such that  $\Vert y \Vert = 1$.
+Suppose now $Ker(L) \neq X$. Since $L$ is continuous, then $Ker(L)$ is a closed set (the preimage of $\{0\}$), then there exists an element $y \in Ker(L)^\perp$, since it's linear we can scale it such that  $\Vert y \Vert = 1$.
 
 Consider a vector of the form
 $$

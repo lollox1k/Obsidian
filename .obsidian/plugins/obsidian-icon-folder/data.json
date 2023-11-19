@@ -5,11 +5,11 @@
     "fontSize": 16,
     "iconColor": null,
     "recentlyUsedIcons": [
+      "FasCode",
+      "FasTable",
       "FasLanguage",
       "FasF",
-      "FasArrowRightArrowLeft",
-      "FasArrowDownShortWide",
-      "SiBookstack"
+      "FasArrowRightArrowLeft"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -41,5 +41,7 @@
   "Machine Learning/Deep Learning": "FasArrowDownShortWide",
   "Matematica/Algebra": "FasArrowRightArrowLeft",
   "Matematica/Functional analysis": "FasF",
-  "Machine Learning/NLP": "FasLanguage"
+  "Machine Learning/NLP": "FasLanguage",
+  "Templates": "FasTable",
+  "Codici": "FasCode"
 }

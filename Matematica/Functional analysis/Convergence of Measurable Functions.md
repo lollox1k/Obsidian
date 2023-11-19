@@ -27,12 +27,12 @@ which converges pointwise the the function $f(0)=1$ and $f(x) = 0$ if $x\neq 0$,
 
 Also if $f_n \to f$ and $f_n \in C$ doesn not imply $f \in C$, a counterexample is just a smooth version of the previous characteristic function. On the other hand, if $f_n \rightrightarrows f$ then also $f \in C$.
 
-**Proposition** If a sequence $\{f_n\}_{n\geq 1}$of continuos function converges uniformly to a function $f$, then $f \in C(X)$.
+**Proposition** If a sequence $\{f_n\}_{n\geq 1}$of continuous function converges uniformly to a function $f$, then $f \in C(X)$.
 **Dim** Let $x \in X$, for all $\epsilon > 0$
 $$
 |f(x)-f(y)| \leq |f_n(x)-f(x)| + |f_n(x)-f_n(y)| + |f_n(y)-f(y)|
 $$
-since we have uniform convergence there exists $N$ such that $\forall n \geq N$ the first and last term on the right are less than $\frac \epsilon 3$. Since $f_n$ is continuos, there exists a $\delta > 0$ such that if $|x-y| < \delta$ the second term is less than $\frac \epsilon 3$. $\square$.
+since we have uniform convergence there exists $N$ such that $\forall n \geq N$ the first and last term on the right are less than $\frac \epsilon 3$. Since $f_n$ is continuous, there exists a $\delta > 0$ such that if $|x-y| < \delta$ the second term is less than $\frac \epsilon 3$. $\square$.
 
 
 In a finite measure space, pointwise convergence is _almost_ uniform convergence, in the sense that it converges uniformly except on a set of arbitrary small measure.
@@ -95,7 +95,7 @@ $$
 which shows the second and third claim. $\square$
 
 
-The next result is surprising, a Borel function is almost continuos, in the sense that there exists a large closed set on where continuos.
+The next result is surprising, a Borel function is almost continuous, in the sense that there exists a large closed set on where continuous.
 
-**Theorem** (Luzin) Suppose $f : \mathbb{R} \to \mathbb{R}$ is a Borel measurable function. Then for every $\epsilon > 0$ there exists a closed set $F \subseteq \mathbb{R}$ such that $\lambda(\mathbb{R}\setminus F) < \epsilon$ and $g|_F$ is continuos on $F$.
-**Proof** The claim is clear if $g$ is a simple functions: any Borel set can be approximated from the inside with a closed set, and from the outside with an open set. If we restrict the function on the disjoint close sets, $g$ is continuos. Now by the previous proposition we can find a sequence of simple function that convergences pointwise to $g$, restrict the domain such that they are continuos, then use Egorov's theorem and the fact that uniform convergence preserves continuity.
+**Theorem** (Luzin) Suppose $f : \mathbb{R} \to \mathbb{R}$ is a Borel measurable function. Then for every $\epsilon > 0$ there exists a closed set $F \subseteq \mathbb{R}$ such that $\lambda(\mathbb{R}\setminus F) < \epsilon$ and $g|_F$ is continuous on $F$.
+**Proof** The claim is clear if $g$ is a simple functions: any Borel set can be approximated from the inside with a closed set, and from the outside with an open set. If we restrict the function on the disjoint close sets, $g$ is continuous. Now by the previous proposition we can find a sequence of simple function that convergences pointwise to $g$, restrict the domain such that they are continuous, then use Egorov's theorem and the fact that uniform convergence preserves continuity.

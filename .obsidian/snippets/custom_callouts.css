@@ -1,0 +1,24 @@
+.callout[data-callout="theorem"] {
+    --callout-color: 104, 126, 255;
+    --callout-icon: scroll;
+}
+
+.callout[data-callout="proof"] {
+    --callout-color: 128, 179, 255;
+    --callout-icon: list-checks;
+}
+
+.callout[data-callout="definition"] {
+    --callout-color: 9, 224, 214;
+    --callout-icon: clipboard-list;
+}
+
+.callout[data-callout="remark"] {
+    --callout-color: 232, 255, 206;
+    --callout-icon: crosshair;
+}
+
+.callout[data-callout="proposition"] {
+    --callout-color: 255, 199, 199;
+    --callout-icon: pen-square;
+}
