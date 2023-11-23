@@ -3,6 +3,11 @@
     --callout-icon: scroll;
 }
 
+.callout[data-callout="lemma"] {
+    --callout-color: 83, 201, 114;
+    --callout-icon: pencil;
+}
+
 .callout[data-callout="proof"] {
     --callout-color: 128, 179, 255;
     --callout-icon: list-checks;

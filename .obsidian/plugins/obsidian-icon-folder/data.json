@@ -5,11 +5,11 @@
     "fontSize": 16,
     "iconColor": null,
     "recentlyUsedIcons": [
+      "SiOpera",
       "FasCode",
       "FasTable",
       "FasLanguage",
-      "FasF",
-      "FasArrowRightArrowLeft"
+      "FasF"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -43,5 +43,6 @@
   "Matematica/Functional analysis": "FasF",
   "Machine Learning/NLP": "FasLanguage",
   "Templates": "FasTable",
-  "Codici": "FasCode"
+  "Codici": "FasCode",
+  "Matematica/Topology": "SiOpera"
 }

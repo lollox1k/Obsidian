@@ -93,6 +93,41 @@ A consequence of this decomposition is that any bounded variation function has a
 
 
 
+# Decomposition of BV functions
+Let's recap what we know about bounded variation functions.
+Let $g \in BV$, since in general $g \notin AC$ 
+$$
+g \neq \int_a^x g'dt -g(a)
+$$
+define a new function as this difference
+$$
+\chi := g - \int_a^x g'dt+g(a)
+$$
+Note that $\chi' = 0$ almost everywhere. Then we can decompose $g$ as
+$$
+g = \chi + \phi, \qquad \phi:= \int_a^x g' dt -g(a)
+$$
+where $\phi$ is an [[Absolutely continuous functions|absolutely continuous function]]. Then $\chi$ is still a bounded variation function that we can represent using the Jordan decomposition:
+$$
+\chi = u-v
+$$
+where $u,v$ are monotonic non-decreasing functions. We can further decompose $u$ and $v$ using [[Jump functions]]:
+$$
+u = H_u + \varphi_u, \qquad v = H_v + \varphi_v
+$$
+where $\varphi_u, \varphi_v$ are continuous functions. 
+Putting all piecies togheter we get:
+$$
+g = H + C + \phi
+$$
+where $H := H_u + H_v$ is called the **Jump part** of $g$; $C := \varphi_u + \varphi_v$ is a continuous function known as the **cantorian part** of $g$, and $\phi$ is the **absolutely continuous part** of $g$.
+
+For example the [[Cantor-Vitali function]] coincides with its cantorian part (this is the reason for its name).
+
+> [!tip] Moral of the story
+> Since $(C+H)' =0$ a.e., the only part we can get back from integrating the derivative $g'$ is the absolutely continuous one.
+
+
 
 
 

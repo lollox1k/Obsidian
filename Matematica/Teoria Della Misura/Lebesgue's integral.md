@@ -1,4 +1,4 @@
-#### Integrazione astratta
+# Definition
 Vogliamo associare ad una funzione con codominio in $\mathbb{R^n}$ un numero reale, il suo integrale (definito).
 
 Si procede costruttivamente, prima definendo l'integrale per una classe di funzioni, le [[Funzioni semplici]], e poi generalizzando con un passaggio al limite per una classe più ampia di funzioni. 
@@ -27,3 +27,20 @@ Per essere precisi, $f$ è Lebesgue integrabile se e solo se anche $|f|$ lo è, 
 $$
 |f| = f_+ + f_-
 $$
+
+# Properties
+
+> [!proposition]
+>**Absolute continuity** Let $f \in L^1(E)$ . Then for all $\epsilon > 0$ there exists a $\delta > 0$ such that
+>$$
+>\left|\int_E f d\mu\right| < \epsilon
+>$$
+>whenever $\mu(E) < \delta$.
+>> [!proof]-
+>> Let $g$ be a simple function, then
+>> $$
+>> \left|\int_E g d\mu \right| \leq\int_E |g| d\mu \leq \max |g| \mu(E)
+>> $$
+>> just take $\delta < \frac \epsilon {\max |g|}$. By density and the triangle inequality the claim is true in $L^1(E)$. $\square$
+
+
