@@ -4,6 +4,7 @@
   "cssTheme": "Things",
   "accentColor": "",
   "enabledCssSnippets": [
-    "custom_callouts"
+    "custom_callouts",
+    "right"
   ]
 }
