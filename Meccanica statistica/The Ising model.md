@@ -223,7 +223,7 @@ $$
 
 ### Infinite volume Gibbs state
 
-Here we define an infinite volume Gibbs state, as a linear functional on local functions. The link of this section with [[Misure di Gibbs a volume infinito|Infinite-volume Gibbs measures]] is given by the [[Riesz represebtation theorem]].
+Here we define an infinite volume Gibbs state, as a linear functional on local functions. The link of this section with [[Misure di Gibbs a volume infinito|Infinite-volume Gibbs measures]] is given by the [[Riesz representation theorem]].
 
 **Def** An **Infinite-volume Gibbs state** is a functional mapping a local function $f$ to a real number $\langle f \rangle$ satisfying:
 1. Normalization $\langle 1 \rangle = 1$

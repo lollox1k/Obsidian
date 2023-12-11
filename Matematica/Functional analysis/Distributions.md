@@ -61,6 +61,31 @@ This notion of convergence can be obtained as a LC-topology from a family of sem
 > A clear contradiction if $\varphi(x) \neq 0$.
 
 
+Every Radon measure induces a distribution in a natural way:
+$$
+T_\mu (\varphi) := \int \varphi \,d\mu
+$$
+in fact:
+- it's well defined since $\forall \varphi \in C_c^\infty(\Omega)$ 
+$$
+\int_\Omega \varphi d\mu \leq \Vert \varphi \Vert_\infty \mu(\text{supp}(\varphi)) < \infty
+$$
+- it's linear and continuous by the properties of the [[Lebesgue's integral]]
+
+> [!proposition]
+> Let $\mu$ be a Radon measure, then $T_\mu$ is representable by an $L^1_{loc}$ function iff $\mu$ is absolutely continuous w.r.t. the Lebesgue measure.
+> > [!proof]-
+> > Let $\mu$ be a Radon measure, following [[Radon-Nikodym theorem|Lebesgue decomposition theorem]] we can decompose it as $\mu = \mu_{as} + \mu_s$. A measure defines a distribution via integration:
+> > $$
+> > T_\mu(\varphi) = \int \varphi \,d\mu = \int \varphi \,d \mu_{as} + \int \varphi \,d \mu_{s}
+> > $$ 
+> > Using the [[Radon-Nikodym theorem]] we can write the integral with the absolutely continuous measure as
+> > $$
+> > \int g \varphi\,d\lambda
+> > $$
+> > w.r.t. the Lebesgue measure. Since $\mu$ is Radon, it gives finite measure to every compact set, so $g \in L^1_{loc}$. 
+> > Clearly equality holds iff $\mu_s \equiv 0$, i.e. $\mu$ is absolutely continuous w.r.t. the Lebesgue measure. $\square$
+
 The following proposition is usefull to check if a given linear functional is a distribution.
 
 > [!proposition]
@@ -107,9 +132,29 @@ The following proposition is usefull to check if a given linear functional is a 
 > > $$
 > > hence $T$ is not continous. $\square$
 
+Given a distribution, the $m$ above is called its **order**. 
+For example any regular distribution has order $m=0$, since:
+$$
+|T_f(\varphi)| \leq \int|f(t)\varphi(t)|dt \leq C \Vert \varphi \Vert_\infty
+$$
+where $C$ is just the integral (which is finite since $f \in L^1_{loc}$).
+In general any Radon measure induces a distribution of order zero:
+$$
+|T_\mu(\varphi)| \leq \mu(\text{supp }\varphi)\Vert \varphi \Vert_\infty
+$$
+The converse is also true by the [[Riesz representation theorem]]:
+Let $T$ be an order zero distributuion, then there exists $4$ unique Radon measures such that
+$$
+T(\varphi) = \int \varphi \,d\mu_1 -\int \varphi \,d\mu_2 +i\int \varphi \,d\mu_2 -i\int \varphi \,d\mu_4
+$$
+In general for a distribution of order $m$ there exists a set of Radon measures for any multi-index of oder $\leq m$$: $\mu_\alpha$, $\alpha \in \mathbb{N}^n$, $|\alpha| \leq m$ such that
+$$
+T(\varphi) = \sum_{|\alpha| \leq m} \int D^\alpha \varphi \,d\mu_\alpha
+$$
+> [!tip] 
+> We can think of a distribution of order $m$ to depend only on derivatives of order less or equal to $m$
 
 # Distributional derivatives
-
 Since $C^1(\mathbb{R}^n) \subset L^1_{loc}(\mathbb{R}^n)$ it makes sense to define $T_f$ for any differentiable function $f$. In $n=1$ we would like:
 $$
 T'_f = T_{f'}
@@ -130,12 +175,20 @@ Using induction see that for any multi-index $\alpha$
 $$
 \langle D^\alpha T, \varphi \rangle = (-1)^{|\alpha|}\langle T, D^\alpha\varphi \rangle, \qquad \forall \varphi \in \mathcal{D}(\mathbb{R}^n)
 $$
+
+> [!example]
+> In general for differentiable a.e. functions the distributional derivatives doesn't match the a.e. derivative.
+> Consider the Haveside function $H(x) = \mathbb{1}_{[0,+\infty)}(x)$ (a [[Jump functions|jump function]]) which has derivative $0$ a.e, but it's distributional derivative is:
+> $$
+> T'_H(\varphi) = -T_H(\varphi') = -\int_{[0,+\infty)} \varphi'(t) dt = \varphi(0) = \delta_0(\varphi)
+> $$
+
 # Definizione
 Per definire la [[Weak deriative|derivata debole]], abbiamo integrato una funzione localmente integrabile $f \in L^1_{loc}(\mathbb{R}^n)$ con una funzione test $\psi \in C^{\infty}_{c}(\Omega)$. Possiamo interpetare questa procedura come una funzionale definito dalla $f$ che manda $C^{\infty}_{cpt} \to \mathbb{R}$
 $$
 \psi \mapsto \int_\Omega f \psi d^nx
 $$
-Una _distribuzione_ su $\Omega \subset \mathbb{R}^n$ è un funzionale generale, non necessariamente rappresentabile in forma integrale, es. _[[Delta di Dirac]]_ $\delta_x$ :
+Una _distribuzione_ su $\Omega \subset \mathbb{R}^n$ è un funzionale generale, non necessariamente rappresentabile in forma integrale, es. _[[Dirac's delta]]_ $\delta_x$ :
 $$
 \delta_x[\psi] = \psi(x)
 $$

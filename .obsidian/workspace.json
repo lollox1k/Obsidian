@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "f662b347e457b09f",
+        "id": "5d0f9d619e8690ca",
         "type": "tabs",
         "children": [
           {
-            "id": "eab347531a2ba9d7",
+            "id": "4a93fb44125ac185",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Matematica/Functional analysis/Hahn-Banach theorem.md",
+                "file": "Misc/X.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "funzioni semplici",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Matematica/Functional analysis/Hahn-Banach theorem.md",
+                "file": "Misc/X.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,6 +124,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "repeat-plugin:Repeat due notes": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -133,18 +134,35 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "eab347531a2ba9d7",
+  "active": "4a93fb44125ac185",
   "lastOpenFiles": [
-    "Matematica/Functional analysis/Banach-Steinhaus theorem.md",
-    "Matematica/Functional analysis/Hahn-Banach theorem.md",
+    "Misc/X.md",
+    "Matematica/Teoria Della Misura/Funzioni semplici.md",
+    "Matematica/Teoria Della Misura/Dominated convergence theorem.md",
+    "Matematica/Teoria Della Misura/Convergence of Measurable Functions.md",
+    "Matematica/Functional analysis/Lp spaces.md",
     "Matematica/Functional analysis/Banach spaces.md",
-    "Matematica/Functional analysis/Distributions.md",
     "Matematica/Functional analysis/Weak deriative.md",
-    "Matematica/Bounded variation functions.md",
-    "Matematica/Topology/Topological vector space.md",
+    "Matematica/Functional analysis/Young's inequality.md",
+    "Matematica/Functional analysis/Standard Mollifiers.md",
+    "Matematica/Functional analysis/Spazi funzionali.md",
+    "Meccanica statistica/Misure di Gibbs a volume infinito.md",
+    "Meccanica statistica/Dobrushin's uniqueness Theorem.md",
+    "Meccanica statistica/Volume della palla n dimensionale.md",
+    "Meccanica statistica/Two state system.md",
+    "Meccanica statistica/The Sherrington-Kirkpatrick model.md",
+    "Meccanica statistica/The Ising model.md",
+    "Meccanica statistica/Sistemi reticolari.md",
+    "Meccanica statistica/Preliminari di Meccanica statistica classica.md",
+    "Meccanica statistica/Metodi matematici in Meccanica Statistica.md",
+    "Meccanica statistica/ipotesi ergodica.md",
+    "Meccanica statistica/Lattice gas.md",
+    "Meccanica statistica/Gas perfetto.md",
+    "Meccanica statistica/Forma microscopica della pressione.md",
+    "Meccanica statistica/Equivalenza degli ensembles.md",
+    "Meccanica statistica/Finite volume Gibbs distributions.md",
+    "Meccanica statistica/Equipartition of energy.md",
     "Matematica/Topology",
-    "Matematica/Absolutely continuous functions.md",
-    "Journal/19-11-2023.md",
     "Images/traffic_curve_cropped.gif",
     "Images/Pasted image 20231121213013.png",
     "Images/Pasted image 20231108162437.png",
@@ -154,23 +172,6 @@
     "Images/Banners/percolation_big.png",
     "Images/Banners/Screenshot 2023-10-09 140919.png",
     "Images/Banners",
-    "Art Gallery.md",
-    "Matematica/Functional analysis/Lp spaces.md",
-    "Matematica/Functional analysis/Convergence of Measurable Functions.md",
-    "Matematica/Teoria Della Misura/Misura esterna.md",
-    "Matematica/Teoria Della Misura/Costruzione di una misura, metodo Caratheodory.md",
-    "Matematica/Teoria Della Misura/Monotone Convergence Theorem.md",
-    "Matematica/Teoria Della Misura/Integrale di Lebesgue.md",
-    "Matematica/Teoria Della Misura/Funzioni misurabili.md",
-    "Meccanica statistica/The Ising model.md",
-    "homepage.md",
-    "Meccanica statistica/Two state system.md",
-    "Meccanica statistica/Lattice gas.md",
-    "Meccanica statistica/Finite volume Gibbs distributions.md",
-    "Meccanica statistica/Equivalenza degli ensembles.md",
-    "Meccanica statistica/Forma microscopica della pressione.md",
-    "Meccanica statistica/Gas perfetto.md",
-    "Meccanica statistica/Modello di Curie-Weiss.md",
     "Thesis ideas.canvas",
     "Images/Pasted image 20231103175616.png",
     "Images/Pasted image 20231027122535.png",

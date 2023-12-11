@@ -8,6 +8,7 @@ banner: "![[traffic_banner.gif]]"
 
 WIP...
 
+✉️
 
 ### About me
 Cool stuff about me

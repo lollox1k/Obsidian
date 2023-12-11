@@ -32,11 +32,11 @@ $$
 $$
 \mu = \mu_{ac} + \mu_{s}, \qquad \mu_{ac} << \mathcal{L}, \, \mu_s \perp \mathcal{L}
 $$
-2. There is a measurable map $h: \mathbb{R} \to [0,\infty)$ such that
+2. There is a measurable map $g: \mathbb{R} \to [0,\infty)$ such that
 $$
 \mu_{ac}(A) = \int_A g d\mathcal{L}, \qquad \forall A \in \mathcal{B}(\mathbb{R})
 $$
-$g$ is called the _Radon-Mikodym derivative_.
+$g$ is called the _Radon-Nikodym derivative_.
 
 **Proof** (Von-Neumann) First we prove a result for finite measure spaces, and then extend it to $\sigma$-finite spaces.
 
@@ -55,7 +55,7 @@ $$
 |T[u]| \leq  \Vert \mu \Vert_1 \leq \Vert \mu\Vert_2 \sqrt{\mu(X)}
 $$
 where we have used the [[Holder inequality]]. 
-Then by [[Riesz represebtation theorem]] there exists a $g \in L^2(X,\mathcal{A}, \sigma)$ such that
+Then by [[Riesz representation theorem]] there exists a $g \in L^2(X,\mathcal{A}, \sigma)$ such that
 $$
 T[u] = \int_X ud\mu = \int_u ug\,d\sigma, \forall u \in L^2(\sigma)
 $$

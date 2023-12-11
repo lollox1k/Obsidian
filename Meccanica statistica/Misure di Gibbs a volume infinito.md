@@ -81,7 +81,7 @@ $$
 \langle f \rangle = \langle \langle f\rangle_\Delta^\cdot\rangle
 $$
 
-Rephrasing this with the probability measure obtained from the [[Riesz represebtation theorem]], for all local event $A \in \mathcal{F}$ 
+Rephrasing this with the probability measure obtained from the [[Riesz representation theorem]], for all local event $A \in \mathcal{F}$ 
 $$
 \mu(A) = \int \mu_\Delta^\omega(A) \mu(d\omega)
 $$
