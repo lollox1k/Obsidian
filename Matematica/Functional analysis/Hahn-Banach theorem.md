@@ -7,7 +7,7 @@ Let $(X, \Vert \cdot \Vert_X)$ be a normed space.
 $$
 x'(x) = u(x) = \Vert x \Vert_X \qquad \Vert x' \Vert_{X'} = \Vert u' \Vert_{U'}=\sup\{ |u'(u)| \mid \Vert u\Vert_X = 1\}
 $$
-	since $|u'(u)| = |\lambda| \Vert x \Vert_X$ so if $u$ is a unit vector $\lambda = \frac{1}{\Vert x \Vert_X}$. 
+since $|u'(u)| = |\lambda| \Vert x \Vert_X$ so if $u$ is a unit vector $\lambda = \frac{1}{\Vert x \Vert_X}$. 
 2. $(X', \Vert \cdot \Vert_{X\to\mathbb{R}})$ _separates_ points of $X$: for any $x_1, x_2 \in X$ such that $x_1 \neq x_2$ we can always find two linear operators $l_1, l_2 \in X'$ so that $l_1(x_1) \neq l_2(x_2)$. 
 	Just use the previous result on the (non-zero) vector $x := x_2-x_1$, define the functional $x' \in X'$ as above. Then $x'(x) = \Vert x \Vert_X \neq 0$. By linearity
 	$$

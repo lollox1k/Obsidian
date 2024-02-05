@@ -32,7 +32,7 @@ $$
 $$
 taking the $\liminf$ on gets that $\lim_p \Vert f\Vert_p = \Vert f\Vert_\infty$.
 
-**Proof** Let $u \in L^q$, Apply [[Holder inequality]] to $u^p$ and $1$. Since we want on the right the $q$ norm, use as  indices $\frac{q}{p}$ and its conjugated:
+**Proof** Let $u \in L^q$, Apply [[Holder inequality]] to $u^p$ and $1$. Since we want on the right the $q$ norm, use as  indices $\frac{q}{p}$ and its conjugate:
 $$
 \Vert u^p \cdot 1 \Vert_1 \leq \Vert u \Vert_q^p \cdot \Vert 1 \Vert_{\frac{q}{q-p}}
 $$
@@ -129,6 +129,21 @@ $$
 
 
 # Dense subsets
+
+> [!proposition]
+> $L^\infty(\mathbb{R}^n)$ is non-seperable.
+> > [!proof]-
+> > Consider the functions $\{\chi_{B_r(0)}\}_{r\geq 0}$, which is clearly an uncountalbe family of functions in $L^\infty$. Suppose that there exists a dense subsets $\{ \varphi_n\}_n$. Then given two $r_1 \neq r_2$, and a fixed $\epsilon > 0$,  we can find
+> > $$
+> > \Vert \chi_{B_{r_1}(0)} - \varphi_{n_1} \Vert_{L^\infty} < \epsilon \qquad \Vert \chi_{B_{r_2}(0)} - \varphi_{n_2} \Vert_{L^\infty} < \epsilon
+> > $$
+> > we know prove that $\varphi_{n_1} \neq \varphi_{n_2}$, so that $\{\varphi_n\}$ is uncountable: if that weren't the case:
+> > $$
+> > 1 = \Vert \chi_{B_{r_1}(0)} - \chi_{B_{r_2}(0)} \Vert_{L^\infty} \leq \Vert \chi_{B_{r_1}(0)} - \varphi_{n_1} \Vert_{L^\infty} + 
+> > \Vert \chi_{B_{r_2}(0)} - \varphi_{n_1} \Vert_{L^\infty} \leq 2 \epsilon
+> > $$
+> > which is a contradiction. $\square$
+
 > [!proposition]
 > Let $1 \leq p < +\infty$. Simple functions are _dense_ in $L^p(\Omega)$: for any $f \in L^p(\Omega)$ there exists a sequence $\{h_k\}$ of simple functions such that:
 > $$

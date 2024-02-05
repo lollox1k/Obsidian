@@ -49,7 +49,7 @@ This notion of convergence can be obtained as a LC-topology from a family of sem
 > $$
 > T_f(\varphi) := \int_{\mathbb{R}^n} f(t)\varphi(t)dt
 > $$
-> Distribution which can be represented by a local function are called **regular**.
+> Distribution which can be represented by a $L^1_{loc}$ function are called **regular**.
 > 1. The most famous not regular distribution is the **Dirac's delta**:
 > $$
 > \delta_x(\varphi) := \varphi(x)
@@ -147,13 +147,14 @@ Let $T$ be an order zero distributuion, then there exists $4$ unique Radon measu
 $$
 T(\varphi) = \int \varphi \,d\mu_1 -\int \varphi \,d\mu_2 +i\int \varphi \,d\mu_2 -i\int \varphi \,d\mu_4
 $$
-In general for a distribution of order $m$ there exists a set of Radon measures for any multi-index of oder $\leq m$$: $\mu_\alpha$, $\alpha \in \mathbb{N}^n$, $|\alpha| \leq m$ such that
+In general for a distribution of order $m$ there exists a set of Radon measures for any multi-index of oder $\leq m$ : $\mu_\alpha$, $\alpha \in \mathbb{N}^n$, $|\alpha| \leq m$ such that
 $$
 T(\varphi) = \sum_{|\alpha| \leq m} \int D^\alpha \varphi \,d\mu_\alpha
 $$
 > [!tip] 
 > We can think of a distribution of order $m$ to depend only on derivatives of order less or equal to $m$
 
+---
 # Distributional derivatives
 Since $C^1(\mathbb{R}^n) \subset L^1_{loc}(\mathbb{R}^n)$ it makes sense to define $T_f$ for any differentiable function $f$. In $n=1$ we would like:
 $$
@@ -183,6 +184,93 @@ $$
 > T'_H(\varphi) = -T_H(\varphi') = -\int_{[0,+\infty)} \varphi'(t) dt = \varphi(0) = \delta_0(\varphi)
 > $$
 
+For [[Absolutely continuous functions]], since the FTC holds:
+let $f \in AC(I)$, then using integration by parts ($f\varphi \in AC(I)$) 
+$$
+\int_I f' \varphi \,dt = -\int_T f \varphi \,dt \implies (T_f)'= T_{f'}
+$$
+in words, for absolutely continuous functions the distributional derivative is the a.e. derivative. Clealry this doesn not holds for any functions differentiable a.e., like [[Bounded variation functions]] (see example above). We will see that the distributional derivative of a bounded variation function is always a Radon measure.
+
+> [!theorem]
+> Let $f \in L^1(a,b)$, If $T'_f = T_\mu$ with $\mu$ a [[Radon measure]], then $f \in BV(a,b)$ ($f$ is a.e. equal to a $BV$ function).
+> > [!proof]-
+> > $$
+> > T'_f(\varphi) = \int_a^b \varphi(y) d\mu =\int_a^b \int_a^y \varphi'(x)\,dx \,d\mu 
+> > = \int_a^b \int_a^b \mathbb{1}_{(a,y)}\varphi'(x)\,dx\,d\mu 
+> > $$
+> > $$
+> > = \int_a^b \int_a^b \mathbb{1}_{(a,y)}\varphi'(x)\,dx\,d\mu 
+> > $$
+
+> [!theorem]
+> Let $I \subseteq \mathbb{R}$ an interval and $T \in \mathcal{D}'(I)$. Then $T' = 0$ iff there exists a $c \in \mathbb{R}$ such that $T = T_c$.
+> > [!proof]-
+> > If $T=T_c$ then $T' = 0$. For the other implication fix a $\varphi_0$ such that $\int_I \varphi_0\,dx= 1$, and set $c := T(\varphi_0)$. Given any $\varphi \in D(I)$ define 
+> > $$
+> > \tilde \varphi := \varphi - \varphi_0 \int_I \varphi\,dx
+> > $$  
+> > this is again a test function with the property $\int_I \tilde\varphi \,dx = 0$. Note that test functions with these property can be written as $\psi' = \tilde\varphi$ (the zero integral on $I$ ensures compact support). We are done:
+> > $$
+> > \langle T, \varphi \rangle = \langle T, \tilde\varphi \rangle + \langle T, \varphi_0 \int_I \varphi\,dx \rangle = 0 + T_c(\varphi) \quad \square
+> > $$ 
+
+From this follows that every distribution has a primitive which is unique up to an additive constant, the primitive is contructed similarly:
+$$
+\langle G, \varphi \rangle := -\langle T, \psi \rangle, \qquad \psi' = \tilde \varphi = \varphi -\varphi_0 \int_I \varphi\,dx
+$$
+One has to show that $G$ is continuous, the fact that $G' = T$ is straightforward:
+$$
+\langle G', \varphi \rangle = -\langle G, \varphi' \rangle = \langle T, \varphi \rangle 
+$$
+Uniqueness up to a constant is again easy:
+$$
+\langle (G-H)', \varphi\rangle = 0
+$$
+implies $G - H = T_c$. $\square$
+
+---
+
+# Operations on distributions
+
+**Product with a smooth function** Clearly if $f \in C^\infty(I)$ and $\varphi \in D(I)$, then also $f\varphi \in C^\infty(I)$. Then it makes sense to define 
+$$
+fT(\varphi) := T(f\varphi)
+$$
+
+**Convolution** Let $\rho \in \mathcal{D}(\mathbb{R}^n)$ and $x \in \mathbb{R}^n$, we will use the notation
+$$
+\rho^x : y \mapsto \rho(x-y)
+$$
+clearly $\rho^x \in \mathcal{D}(\mathbb{R}^n)$ for all $x \in \mathbb{R}^n$. With this notation we can write the [[Convolution]] $\rho * f$ as
+$$
+T_{\rho^xf} = T_f(\rho^x)
+$$
+in general we define the convolution beetween a distribution and a test function as:
+
+> [!definition]
+> Let $T \in \mathcal{D}'(\mathbb{R}^n)$ and $\rho \in \mathcal{D}(\mathbb{R}^n)$, the function $\rho * T : \mathbb{R}^n \to \mathbb{R}$ is defined as:
+> $$(\rho * T)(x) := T(\rho^x)$$
+ we will define also $T*\rho$ to be the same thing.
+
+If $T = T_f$ is regular then we get the usual definition: $\rho * T_f = \rho*f$.
+
+> [!remark]
+> If $x_n \to x$, then $\rho^{x_n} \to \rho^x$ in $\mathcal{D}(\mathbb{R}^n)$. This means that $\rho * T$ is a **continuous function**.
+> It turns out that it's $C^\infty$, furthermore for all multi-indecies $\alpha$
+> $$
+> D^\alpha (\rho * T) = (\rho * D^\alpha T) = (D^\alpha\rho *  T)
+> $$
+
+> [!proposition]
+> Let $\{\rho_\epsilon\}$ a sequence of [[Standard Mollifiers]] and $T \in \mathcal{D}'(\mathbb{R}^n)$. Then
+> $$
+> \rho_\epsilon * T \xrightarrow{\epsilon \to 0} T \qquad \text{ in } \mathcal{D}'(\mathbb{R}^n)
+> $$
+> in particular, _regular distribution are dense_ in $\mathcal{D}'(\mathbb{R}^n)$.
+> > [!proof]-
+> > 
+
+---
 # Definizione
 Per definire la [[Weak deriative|derivata debole]], abbiamo integrato una funzione localmente integrabile $f \in L^1_{loc}(\mathbb{R}^n)$ con una funzione test $\psi \in C^{\infty}_{c}(\Omega)$. Possiamo interpetare questa procedura come una funzionale definito dalla $f$ che manda $C^{\infty}_{cpt} \to \mathbb{R}$
 $$

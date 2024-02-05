@@ -4,7 +4,7 @@
 $$
 \left| \sum_k^m \Vert x_k\Vert - \sum_k^n \Vert x_k\Vert\right| = \sum_{k=n+1}^m \Vert x_k\Vert < \epsilon
 $$
-using the [[Minkowsky's inequality]] 
+using [[Minkowsky's inequality]] 
 $$
 \left\Vert \sum_k^m  x_k - \sum_k^n  x_k\right\Vert \leq \sum_{k=n+1}^m \Vert x_k \Vert < \epsilon
 $$

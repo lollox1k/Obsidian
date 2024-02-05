@@ -43,7 +43,7 @@ The last property implies that a monotonic function is _continuous almost everyw
 > > E := \{x \in (a,b)\,:\, \underline D^+f(x) < \alpha < \beta < \overline D_-f(x)\}
 > > $$
 > > has measure zero. 
-> > \vdots \vdots \vdots
+> > $\vdots \vdots \vdots$
 > > Define the familiy of functions $\{\Delta_h f\}_{h\geq 0}$ where
 > > $$
 > > \Delta_h f(x) := \frac{f(x+h)-f(x)}{h}

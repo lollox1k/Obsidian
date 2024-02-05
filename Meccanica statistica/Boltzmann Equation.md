@@ -1,7 +1,7 @@
 # Equazione di Boltzmann
 Descrive l'evoluzione temporale della densità di probabilità degli stati di una particella, partendo da interazioni binarie istantanee (per il gas di Maxwell gli urti)
 $$
-\partial_t f(t,x,v) + v\cdot \nabla_x f(t,x,v) = Q[f](v)
+\partial_t f(t,x,v) + v\cdot \nabla_x f(t,x,v) = Q[f,f](v)
 $$
 Il termine con la velocità è detto termine diffusivo: senza l'operatore collisionale $Q[f]$ l'equazione si riduce all' [[Equazione del trasporto]].
 
@@ -15,6 +15,128 @@ Interpretazione: si può vedere come due parti:
 1. quella di sinistra (a volte indicaga con $Q_+[f]$) essendo positiva rappresenta l'incremento della probabilità di avere delle particelle con velocità $v'$ e $w'$;
 2. quello di destra col meno è la rispettiva perdita, abbiamo perso due particelle con $v$ e $w$.
 3. il termine $k$ è detto _kernel d'interazione_, che può essere scomposto in una sezione d'urto differenziale per un fattore.
+
+# Derivation from BBKGY 
+
+In the case of hard spheres, the region where $f_t$ is non-zero is
+$$
+\Omega_r := \{(x,v) \mid |x_i-x_j| > r, \,i\neq j\}
+$$
+where $r$ is the diameters of the spheres. When integrating [[Liouville equation]] we need to account of these holes in the domain. Another way is to derive a weak Liouville equation for hard spheres, with a singular term. 
+
+We consider the case $N=2$. To find the weak equation, we multiply with a test function $\alpha$ and integrate:
+$$
+\int \alpha(z) f_t(z)dz = \int \alpha(Z_t(z)) f_0(z)dz
+$$
+where $Z_t(z)$ is the flow that solves the hard sphere system. Define the distance before any collision $\Delta_t := x_2-x_1+t(v_2-v_1)$, we use this to separate which starting states have undergone a collision at time $t$:
+$$
+= \int \alpha(Z_t(z)) f_0(z) \chi(|\Delta_t| > r) dz + \int \alpha(Z_t(z)) f_0(z) \chi(|\Delta_t| < r) dz
+$$
+we want to compute the time derivative to find a weak equation, on the right we end up with $4$ terms. When the derivative is on $\alpha(Z_t(z))$, we get:
+$$
+\int \sum_{i=1}^2 v_i \partial_{x_i} \alpha(Z_t(z)) f_0(z)dz
+$$
+where we have rejoined the integrals. The time derivative of the step functions introduce delta functions:
+$$
+\frac{d}{dt} \chi(|\Delta_t| > r) = \delta(|\Delta_t| = r) \frac{\Delta_t}{|\Delta_t|}\cdot (v_2-v_1) = \delta(|\Delta_t| = r) n\cdot (v_2-v_1)
+$$
+since $\chi(|\Delta_t| > r) + \chi(|\Delta_t| < r) = 1$ a.e., their derivative are opposites. The first term is
+$$
+\int f_0(z) \alpha(Z_t^-(z)) \delta(|x_2(t)-x_1(t)| = r) [n \cdot (v_2^-(t)-v_1^-(t))]^-dz
+$$
+this is the side _before the collision_. The _after the collision_ integral is
+$$
+-\int f_0(z) \alpha(Z_t^+(z)) \delta(|x_2(t)-x_1(t)| = r)[n \cdot (v_2^-(t)-v_1^-(t))]^-dz
+$$
+our goal is to use the flow in reverse to obtain $f_t(z)$. 
+$$
+\int f_t(z) \alpha(z) \delta(|x_2-x_1|=r)[n \cdot(v_2-v_1)]^-
+$$
+in the term after the collision we have variables both after and before the collision. The trick is
+$$
+[n \cdot (v_2^-(t)-v_1^-(t))]^- = -[n \cdot(v_2^+(t)-v_1^+(t))]^+
+$$
+now we can use the flow
+$$
+\int f_t(z) \alpha(z) \delta(|x_2-x_1|=r) [n\cdot(v_2-v_1)]^+
+$$
+We can write more explicitely the $\delta$ function, we are integrating with $x_2 = x_1 + rn$ for some $n \in S^-$, that is $n \cdot (v_2-v_1) < 0$. 
+$$
+-\int dx_1dv_1dv_2\int_{S^-} r^2dn\, |n \cdot (v_2-v_1)|f_0(x_1,x_1+rn) \alpha(x_1,x_1+rn) 
+$$
+and 
+$$
+\int dx_1dv_1dv_2\int_{S^+} r^2dn\,|n\cdot(v_2-v_1)| f_0(x_1,x_1+rn)\alpha(x_1,x_1+rn)
+$$
+we want to combine these two terms, we can do the substitution $n \mapsto -n$ in the second to match the integration domains:
+$$
+\int dx_1 dv_1 dv_2 \int_{S^-} r^2 dn |n \cdot(v_2-v_1)| \Big[f_0(x_1,x_1+rn) \alpha(x_1,x_1+rn) - f_0(x_1,x_1-rn) \alpha(x_1,x_1-rn)\Big]
+$$
+since $f$ is constant at the collision:
+$$
+f_t(x_1,x_2,v_1,v_2) = f_t(x_1,x_2,v_1',v_2')
+$$
+We have found the singular term:
+$$
+\mathcal{T}_{12} := \int_{S^-} r^2dn |n \cdot (v_2-v_1)| [\delta(x_2 = x_1-rn)f_t(x_1,x_2, v_1',v_2')- \delta(x_2 = x_1+rn)f_t(x_1,x_2, v_1,v_2)]
+$$
+
+The general weak Liouville equation reads:
+$$
+\partial_t f_t^N + \sum_{i=1}^N v_i \cdot \partial_{x_i} f_t^N = \sum_{i < j} \mathcal{T}_{ij}
+$$
+with this form marginalization is easy. Let's compute the equation for $f_1$. The terms on the left simply get us $\partial_t f_t^1$ and $v_1 \cdot \partial_{x_1} f_t^1$. Integrating the collision term is non-zero only for the $N-1$ terms with $i=1$:
+$$
+(N-1)r^2 \int dv_2\int_{S^-} dn|n\cdot(v_2-v_1)|\Big[ f_t^2(x_1,x_1-rn, v_1', v_2') - f_t^2(x_1, x_1+rn, v_1, v_2) \Big] 
+$$
+
+# The Boltzmann-Grad limit
+
+Again we want to take the limit $N\to\infty$ in the first equation of the BBKGY hierarky. First observe that to get a $O(1)$ collision term:
+$$
+Nr^2 \to \lambda > 0
+$$
+the occupied volume by the spheres goes to zero, since it's $Nr^3$. 
+This is the **Boltzmann-Grad** limit of low density, we get the equation (using continuity of $f$)
+$$
+\partial_t f_t + v \cdot \partial_{x_1} f_t = \lambda \int dv_2 \int_{S^-} dn |n\cdot(v_2-v_1)| [f_t^2(x_1,x_1, v_1', v_2') - f_t^2(x_1,x_1, v_1,v_2)]
+$$
+
+We need to write $f^2$ as a function of $f^1$, we do this using the _molecular chaos_ hypotesis. Since in this limit there is not dependedence on $n$, we can integrato on $S$ and add a factor of $1/2$.
+
+
+# Properties
+
+We consider the homogeneous Boltzmann equation:
+$$
+\partial_t f_t = Q[f,f]
+$$
+> [!theorem]
+> Let $f_t$ be a solution of the homogeneous Boltzmann equation. Then the following quantities are conserved:
+> - density 
+>   $$
+>   \int f(t,v) dv =: \rho
+>  $$
+>  - density of momentum
+>  $$
+>  \int v f(t,v) dv =: \rho u
+> $$
+> - energy density
+> $$
+> \int \frac 12 |v|^2 f(t,v)dv = \frac 12 \rho |u|^2 + \rho e 
+> $$
+> where
+> $$
+> e = \frac 1{2\rho} \int |v-u|^2 f(t,v)dv
+> $$
+> is the _internal enery density_.
+> > [!proof]-
+> > It' s easy to see that the expected value for any observable $\phi$ changes with time as
+> > $$
+> > \frac{d}{dt} \int f \phi dv= \int \phi Q[f,f] dv 
+> > $$
+> > 
+
 
 # Quantità conservate
 Usiamo sempre l'ipotesi che:
@@ -143,7 +265,7 @@ Si conclude con $\phi(v)= (\phi_+ \phi_-)/2$       $\square$
 # Equilibrio
 Una distribuzione $f$ è detta di _equilibrio_ se:
 $$
-Q[f,f]dv=0
+Q[f,f]=0
 $$
 ### Proposizione
 Una distribuzione è di equilibrio se è l'esponenziale di un invariante collisionale della forma $\phi(v)+\phi(w)= \phi(v')+\phi(w')$
@@ -165,7 +287,7 @@ f(v)= \mathcal{M}_{\rho,u,T}(v)=\frac{\rho}{(2\pi T)^{3/2}}e^{-\frac{\Vert v-u\V
 $$
 
 # Teorema H
-Sia $f(t,v,x)$ una funzione sufficientemente smooth e zero all'infinito, ed una soluzione dell'equazione di Boltzmann. Allora la quantita:
+Sia $f(t,v,x)$ una funzione sufficientemente smooth e che tende a zero all'infinito, ed una soluzione dell'equazione di Boltzmann. Allora la quantita:
 $$
 H(t) := \int f\log{f} dvdt
 $$

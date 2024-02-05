@@ -42,7 +42,7 @@ Definiamo una successione che fa avanti e dietro:
 $$
 f_{nk}(x) = \mathbb{1}_{\left[\frac{k}{2^n}, \frac{k+1}{2^n}\right]}(x) \qquad 0 \leq k \leq n
 $$
-**Oss** possiamo estrerre una sottosuccessione che convergente anche quasi ovunque, basta prendere $f_n0$. Questa cosa è vera in generale. Convergenza in misura implica l'esistenza di una sottosuccessione estratta convergente quasi ovunque.
+**Oss** possiamo estrarre una sottosuccessione che convergente anche quasi ovunque, basta prendere $f_n0$. Questa cosa è vera in generale. Convergenza in misura implica l'esistenza di una sottosuccessione estratta convergente quasi ovunque.
 
 ## Convergenza in Norma-p
 Diciamo che $f_n \xrightarrow{\Vert \cdot \Vert^p} f$ se la differenza della norma $p$ tende a zero:
@@ -64,4 +64,48 @@ $$
 $$
 Passando al limite ottengo la tesi. $\square$
 
+# Weak convergence
 
+> [!theorem]
+> (Riesz) Let $\Omega \subseteq \mathbb{R}^n$ open, $p \in (1,\infty]$, and $\{u_k\}$ a bounded sequence in $L^p(\Omega)$. Then:
+> 1. if $1 < p < \infty$, there exists a subsequence $u_k$ which converges weakly in $L^p(\Omega)$;
+> 2. if $p = \infty$ there exists a subsequence $u_k$ which converges weakly-$*$ in $L^\infty(\Omega)$;
+>  
+> > [!proof]-
+> > Since $p \neq 1$, $L^q$ is seperable, let $\{g_j\}$ be a dense sequence in $L^q$. Then the numerical sequence:
+> > $$
+> > \int u_i g_1 dx \leq M \Vert g_1 \Vert_{L^q}
+> > $$
+> > where $\Vert u_i \Vert_{L^p} \leq M$. Then it has a converging subsequence
+> > $$
+> > \int u_i^{(1)} g_1 dx
+> > $$
+> > Again, the sequence
+> > $$
+> > \int u_i^{(1)} g_2 dx \leq M \Vert g_2 \Vert_{L^q}
+> > $$
+> > is bounded, and we can find a converging subsequence $u_i^{(2)}$. Keep going, we can define the diagonal subsequence $w_i := u_i^{(i)}$, which has the property that all numerical sequences converges:
+> > $$
+> > \int w_i g dx \quad \forall g 
+> > $$
+> > Since $\{g_i\}$ is a dense sequence, for any $v \in L^q$ and $\epsilon > 0$ we can find a $g$ such that
+> > $$
+> > \Vert v-g \Vert_{L^q} < \epsilon
+> > $$
+> > we want to show that $w_i$ converges also when integrated along any $v \in L^q$. This is true since:
+> > $$
+> > |\int (w_j-w_i)v dx| \leq  |\int (w_j-w_i)(v-g) dx| + |\int (w_j-w_i)g dx| \leq 2M \epsilon +|\int (w_j-w_i)g dx|
+> > $$
+> > where we have used [[Holder's inequality]] for the first term. Clearly the second term on the right goes to zero as $i,j \to \infty$, which also implies that the sequence on the left is Cauchy. Call it's limit:
+> > $$
+> > \int w_i v dx \to T(v)
+> > $$
+> > $T(v)$ is a linear operator, and is also bounded:
+> > $$
+> > |T(v)| \leq M \Vert v \Vert_{L^q}
+> > $$
+> > so that $T \in (L^q)'$, and can be represented by a function $u \in L^p$:
+> > $$
+> > \int w_i vdx \to T(v) = \int uv dx
+> > $$
+> > which is the defintion of weak convergence $w_j  \rightharpoonup u$ in $L^p$, and weak-$*$ in $L^\infty$. $\square$

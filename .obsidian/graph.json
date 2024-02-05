@@ -104,9 +104,23 @@
         "a": 1,
         "rgb": 16711680
       }
+    },
+    {
+      "query": "path:\"Meccanica statistica\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 11992858
+      }
+    },
+    {
+      "query": "path:\"Matematica/Hamiltonian Mechanics\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 5638324
+      }
     }
   ],
-  "collapse-display": true,
+  "collapse-display": false,
   "showArrow": true,
   "textFadeMultiplier": -2,
   "nodeSizeMultiplier": 2.39657534246575,
@@ -116,6 +130,6 @@
   "repelStrength": 17.8904109589041,
   "linkStrength": 1,
   "linkDistance": 162,
-  "scale": 0.07758246678098632,
-  "close": false
+  "scale": 0.07758246678098643,
+  "close": true
 }
