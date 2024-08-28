@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 Una famiglia di [[Metodi numerici]] ad $s$-step. 
 
 I metodi espliciti sono esprimibili come:

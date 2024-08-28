@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 ### Versione 1-dim
 Sia $f : [a,b] \to \mathbb{R}$ una funzione continua e derivabile in $(a,b)$. Vale:
 $$

@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 **Lemma** Let $A$ be a $n\times n$ square matrix, then
 $$
 \det (I + \epsilon A) = 1 + \epsilon Tr(A) + o(\epsilon^2) 

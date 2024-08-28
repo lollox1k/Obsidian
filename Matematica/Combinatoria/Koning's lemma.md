@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 > Big skinny trees are tall.
 
 **Theorem** (Konig's Lemma) If $T$ is an infinite tree (this implies infinite vertices and infinite edges) and each level of $T$ is finite, then $T$ contains an infinite path.

@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 Using the same compact notation from [[Symplectic transformations]] we can introduce an operation on *observables*, which are (smooth) real valued functions on the phase space. Recall the [[symplectic matrix|symplectic product]], then the **poisson bracket** of $f$ and $g$ is defined as
 $$
 \{f,g\} := [\partial_z f, \partial_z g]_J = \partial_q f \partial_p g - \partial_p f \partial_q g

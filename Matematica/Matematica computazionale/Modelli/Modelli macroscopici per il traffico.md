@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 Consideriamo una corsia unidimensionale, senza incroci. Essendo un [[Modelli macroscopici]][[Scale di osservazione]] le variabili indipendenti sono $(x,t)$.
 
 Vogliamo derivare il modello macroscopico, quindi PDEs per il traffico partendo da prinicipi fisici. Sia $\rho(t,x)$ la densità. Il numero dei veicoli (massa) sarà:

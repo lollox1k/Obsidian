@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 Let $(X_n)_{n \geq 0}$ be a Markov chain with transition matrix $P$. 
 The _first hitting time_ of a subset of states $A \subseteq I$ is the random variable $H^A: \Omega \to \mathbb{N} \cup \{\infty\}$ defined by
 $$

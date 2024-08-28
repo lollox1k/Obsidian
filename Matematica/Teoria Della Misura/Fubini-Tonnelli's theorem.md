@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 
 >[!warning]
 >The $\sigma$-finiteness is crucial, consider the simple counterexaple with measure space $([0,1], \mathcal{B}, \lambda)$ and $([0,1], \mathcal{B}, \#)$ (the first is the usual lebesgue measure, the second is the counting measure). If we try to integrate the characteristic function of the diagonal set:

@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 # Fondamenti dell'analisi numerica
 ## Buona positura e numero di condizionamento di un problema
 

@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 # Assioma di Dedekind
 Ogni sottoinsieme non vuoto $S\subset \mathbb{R}$ limitato superiormente/inferiormente ammette un estremo superiore/inferiore.
 

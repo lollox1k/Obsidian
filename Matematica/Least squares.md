@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 Inventato da Gauss (a 21 anni) nel 1801, problema originario astronomico (scoperta di Cerere).
 
 Ipotesi di errori Gaussiani $N(0,\sigma)$ (la inventa qui) indipendenti.

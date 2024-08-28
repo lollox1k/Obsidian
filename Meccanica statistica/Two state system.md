@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 # Two state system
 
 Uno dei modelli più semplici da studiare della meccanica statistica, utile come controllo, per verificare l'equivalenza degli ensemble nel limite termodinamico. 

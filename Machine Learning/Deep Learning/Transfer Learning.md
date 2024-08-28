@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 **Transfer Learning** and domain adaptation refer to the situation where what has been learned in one setting... is expoilted to improve generalization in another setting.
 Is the improvement of learning a new task through thew transfer of knowledge from a related task that has already been learned.
 

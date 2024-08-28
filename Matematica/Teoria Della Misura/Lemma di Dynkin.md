@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 ## Lemma di Dynkin
 Anche chiamato delle classi monotone, mostra come
 Sia $\mathcal{I}$ un $\pi$ sistema su $S$ _contenente $S$_. Allora:

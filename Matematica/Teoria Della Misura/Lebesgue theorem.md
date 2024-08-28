@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 The average amount by which a function in $L^1(\mathbb{R})$ differs from its values is small almost everywhere on small intervals.[^1]
 
 > [!theorem]

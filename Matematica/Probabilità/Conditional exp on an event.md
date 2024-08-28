@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 # Definitions
 ## Conditioning on an event
 Let $(\Omega, \mathcal{F}, \mathbb{P})$ be a probability space. Given an event $A \in \mathcal{F}$ such that $\mathbb{P}(A) >0$, and a random variable $X$, we definte the _conditional expectation_:

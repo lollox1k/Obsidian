@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 # Insieme trasversale
 
 Consideriamo un insieme finito, $[n] = \{1,2,\dots, n\}$, ed una famiglia $\mathcal{F}$ (un multinsieme) finita di elementi dell'insieme delle parti $2^{[n]}$ (posso avere copie degli stessi sottoinsiemi).

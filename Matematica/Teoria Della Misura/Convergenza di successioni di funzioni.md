@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 # Convergenza di successioni di funzioni
 ## Convergenza puntuale q.o
 Diciamo che si ha _convergenza quasi ovunque_ $f_n \to f$ q.o. Se si ha convergenza puntuale a meno di insiemi di misura nulla, ovvero $\forall x \in E$ con $\mu(E^c) =0$ si ha:

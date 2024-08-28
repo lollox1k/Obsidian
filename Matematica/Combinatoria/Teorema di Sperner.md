@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 # Teorema di Sperner
 
 Detto $M(n) := \{\vert \mathcal{F} \vert \;:\; \mathcal{F} \subseteq 2^{[n]} \}$ che ha la proprietà di Sperner, (ovvero nessun insieme è contenuto nell'altro). Allora $M(n) = \binom{n}{\lfloor \frac{n}{2}\rfloor}$.

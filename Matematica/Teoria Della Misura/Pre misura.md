@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 Essenzialmente una misura definita su un [[Semianello]]. Stranamente richiedo la $\sigma$-additività, con la condizione che l'elemento unione numerabile deve appartenere al semianello, dato che un semianello è solo chiuso per intersezione finita, e _quasi_ chiuso per differenza.
 
 #### Def 

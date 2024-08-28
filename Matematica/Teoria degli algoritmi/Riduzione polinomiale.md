@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 Vogliamo mappare un'istanza di un problema di decisione ad un'istanza di un altro, $T(A) = B$, con le seguenti proprietà:
 1. la conversione avvien in tempo polinomiale 
 2. $I_A \iff I_B$ ovvero un'istanza è true se e solo se l'altra lo è

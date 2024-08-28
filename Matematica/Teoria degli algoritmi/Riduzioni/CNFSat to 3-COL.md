@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 [[Riduzione polinomiale]]
 Sia $\varphi$ una formula CNF. Costruiamo un grafo $G = (V,E)$ 3-colorabile se e solo se $\varphi$ è SAT.
 

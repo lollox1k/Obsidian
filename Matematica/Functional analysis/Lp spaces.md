@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 Let $\mu$ be a positive measure on the set $E$, and $u : E \to \mathbb{C}$ a measurable function, then we can define
 $$
 \Vert u \Vert_{L^p} := \left( \int_E |u|^p d\mu\right)^\frac 1p, \quad p \in (0, +\infty),

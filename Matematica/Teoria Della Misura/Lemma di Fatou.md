@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 # Lemma di Fatou
 Segue dalla definizione di [[Limit of sets#Liminf limsup]] di insiemi.
 

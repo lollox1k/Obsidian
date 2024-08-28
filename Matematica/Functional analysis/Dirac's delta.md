@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 It's a [[Distributions|distribution]], or a [[Misura|measure]] since there is a canonical bijection, defined as:
 $$
 \delta_x[\varphi] = \varphi(x)

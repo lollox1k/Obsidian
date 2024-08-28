@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 # Equazione di Boltzmann
 Descrive l'evoluzione temporale della densità di probabilità degli stati di una particella, partendo da interazioni binarie istantanee (per il gas di Maxwell gli urti)
 $$

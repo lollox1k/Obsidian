@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 # Step costante
 La regola più semplice, passo costante:
 $$

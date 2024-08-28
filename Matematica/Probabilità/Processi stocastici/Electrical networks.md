@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 Mathematically an eletrical network is just a non negative weighted graph. We call this edge weights _conductances_, their reciprocals _resistences_. 
 The reason for this terminology is that physics can aid our intuition.
 

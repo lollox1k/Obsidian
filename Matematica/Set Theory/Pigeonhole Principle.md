@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 **Theorem** (Pigeonhole principle) Let $n$ be a positive integer. If more than $n$ objects are distribuited among $n$ containers, then some container must contain more than one object.
 **Proof**  Suppose by contradiciont that in all $n$ containers there is at most one object, then in total we would have at most $n$ objects. $\square$
 

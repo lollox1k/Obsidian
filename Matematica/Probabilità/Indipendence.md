@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 # Indipendenza di sigma algebre
 Sotto $\sigma$-algebre $\mathcal{G_1}, \mathcal{G}_2, \dots$ di $\mathcal{F}$ vengono dette *indipendenti* se, quando $G_i \in \mathcal{G}_i$ ($i\in \mathbb{N}$), con indici $i_1,\dots,i_n$ _distinti_, allora vale:
 $$

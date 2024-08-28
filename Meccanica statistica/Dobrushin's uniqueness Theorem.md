@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 
 In [[Misure di Gibbs a volume infinito]] we have studied the question wheter given a potential $\Phi$ the space of Infinite-volume Gibbs measures is non-empty. 
 

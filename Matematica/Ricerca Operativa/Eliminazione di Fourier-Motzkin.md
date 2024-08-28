@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 E' un teorema/metodo di elimninazione per risolvere sistemi lineari di disequazioni:
 $$
 \begin{cases}

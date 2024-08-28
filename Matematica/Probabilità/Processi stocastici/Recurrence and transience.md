@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 ### Definitions
 Let $(X_n)_{n\geq 0}$ be a [[Discrete time Markov chains|Markov chain]] with transition matrix $P$. Define
 $$

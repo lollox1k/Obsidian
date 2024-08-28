@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 # Cambio di prospettiva
 La procedura che abbiamo adottato fino ad ora è stata di definire distribuzioni di probabilità per sistemi definiti in un volume finito $\Lambda$, per poi effettuare il _limite termodinamico_ tendendo ad un sistema infinito. Vorremmo cambiare strategia, e partire direttamente da una distribuzione definita su tutto lo spazio.
 

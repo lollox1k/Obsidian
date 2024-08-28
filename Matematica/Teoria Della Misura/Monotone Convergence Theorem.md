@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 # Monotone Convergence Theorem
 Sia $(f_n)_{n\geq 1}$ una successione di funzioni misurabili non negative $f \in m\Sigma^+$ (spazio misurabile $(S,\Sigma)$), tali che $f_n \uparrow f$. Allora:
 $$

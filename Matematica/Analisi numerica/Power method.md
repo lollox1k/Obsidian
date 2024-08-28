@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 # Power method
 
 Is the _simplest eigenvalue algorithm_, it finds the eigenvalue of largest modulus.

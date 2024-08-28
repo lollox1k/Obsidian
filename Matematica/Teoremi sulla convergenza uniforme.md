@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 # Teoremi sulla convergenza uniforme
 Assumiamo che la successioni di funzioni $f_n \to f$ converga puntualmente.
 In quali casi riesco a dimostrare la convergenza uniforme $f_n \rightrightarrows f$ ?

@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 # Cono tangente
 ## Def
 L'insieme _cono tangente_ nel punto $\overline x$ dell'insieme chiuso $C \subseteq \mathbb{R}^n$ è:

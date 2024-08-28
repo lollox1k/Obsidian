@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 Nel caso dell'equazione del trasporto non lineare, le curve caratteristiche possono intersecarsi: si formano delle discontinuità, e la soluzione va assunta in [[Weak solutions of continuity equations|senso debole]].
 
 I punti di intersezione venogno detti di _shock_. 

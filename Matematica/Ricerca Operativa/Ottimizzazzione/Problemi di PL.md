@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 Nel contesto PL, vincoli e funzione obbiettivo lineare, posso enunciare risultato più precisi riguardo l' [[Esistenza delle soluzioni ottime]] in generale.
 
 Problema di PL:

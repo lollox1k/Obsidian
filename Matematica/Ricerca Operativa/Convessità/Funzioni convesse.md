@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 Definizioni, caratterizzazioni.
 
 L' Epigrafo di una funzione $f : K\subseteq \mathbb{R}^n \to \mathbb{R}$ , indicato con $epi(f)$ è l'insieme di tutti i punti _al di sopra_ del grafico di $f$:

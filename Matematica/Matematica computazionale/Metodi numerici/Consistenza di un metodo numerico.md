@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 # Consistenza di un metodo numerico
 Un [[Metodi numerici|metodo numerico]] $\Phi$ si dice _consistente_ se:
 $$

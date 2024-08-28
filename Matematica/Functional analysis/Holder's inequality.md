@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 **Theorem** (Holder's inequality) Suppose $(X,\mathcal{A}, \mu)$ is a measure space, $1 \leq p \leq +\infty$, and $u,v :X \to F$ are measurable. Then
 $$
 \Vert uv \Vert_1 \leq \Vert u \Vert_p \Vert v \Vert_{p'}.

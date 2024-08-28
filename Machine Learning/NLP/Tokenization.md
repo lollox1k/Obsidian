@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 Transformer models cannot receive raw strings as input; instead, they assume the text has been tokenized and encoded as numerical vectors.
 
 ### Character Tokenization

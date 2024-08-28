@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 It is possible to break a Markov Chain into smaller pieces, each of them easy to understand. The key idea is _communicating classes_.
 
 

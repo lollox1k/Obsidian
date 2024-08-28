@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 Sia $S\subseteq \mathbb{R}^n$ un insieme convesso, chiuso e non vuoto. Sia $y \notin S$, allora esiste un iperpiano definito da $\alpha \neq 0, \alpha \in \mathbb{R}^n$, e $b \in \mathbb{R}$ tale che $\alpha^T y > b$ e $\alpha^T x< b$ per tutti $x \in S$. 
 Geometricamente:
 ![[Pasted image 20220307134428.png]]

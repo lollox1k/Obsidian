@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 > [!definition]
 > Given two probability [[Misura[measures]]] $\mu$ and $\nu$, their **Wasserstein distance** $W_p$ is defined as
 > $$

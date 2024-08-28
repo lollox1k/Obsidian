@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 # Ottimalità vincolata
 Diamo una condizione di ottimalità _necessaria_ per un problema di ottimizzazione vincolata, legata al [[Cono Tangente]].
 

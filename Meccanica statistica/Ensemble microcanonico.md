@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 # Enseble Microcanonico
 Segue subito in maniera maturale dall'ipotesi ergodica (Boltzmann lo chiamava "Ergode") e di stato di equilibrio come distribuzione stazionaria:
 

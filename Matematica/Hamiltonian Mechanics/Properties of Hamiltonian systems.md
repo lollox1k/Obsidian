@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 Hamilton equations are a system of ODEs in normal form in the _phase space_ $\mathbb{R}^n \times \mathbb{R}^n$.
 
 1. Hamiltonian systems preserves volumes:

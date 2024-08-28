@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 # GMRES
 
 The method GMRES stants for _Generalized Minimum RESidual_, è un metodo di [[Krylov subspace methods|Krylov]] in quanto cerca la soluzione $x_k$ minimizzando la norma euclidea del residuo nel sottospazio affine $W_k$:

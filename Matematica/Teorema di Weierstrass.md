@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 # Teorema di Weierstrass
 Sia dato un problema di minimo $MIN(C,f)$, con l'insieme ammissibile $C$ compatto ed $f$ continua. Allora l'insieme della soluzioni $SOL(C,f)$ del problerma è non vuoto e compatto.
 

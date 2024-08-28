@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 A simple algorithm for word embedding, i.e. from a simple one-hot representation we get a semantic vector of choosen size. 
 
 This is a _bag of words_ model, it doesn't care about word order.

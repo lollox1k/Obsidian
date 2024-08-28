@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 
 Un insieme $S\subseteq \mathbb{R}^n$ si dice _convesso_ se per ogni coppia di punti $x_1,x_2 \in S$ si ha che:
 $$

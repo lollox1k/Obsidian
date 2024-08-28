@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 # Anello 
 Si chiama Anello una famiglia di insiemi $\mathcal{R}$ chiusa per intersezione (prodotto) e differenza simmetrica (somma) finita. Siano $A,B \in \mathcal{R}$:
 1. $A\bigcap B \in \mathcal{R}$

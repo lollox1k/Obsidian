@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 Node cover, Vertex cover
 Input: $G=(V,E)$, $k$
 Question: $\exists C \subseteq V$ t.c. 

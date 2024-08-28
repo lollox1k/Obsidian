@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 ### Weak
 **Theorem** (Markov property) Let $(X_n)_{n\geq 0}$ be a $Markov(\lambda,P)$. Then, conditional on $X_m = i$, $(X_{m+n})_{n \geq 0}$ is $Markov(\delta_i, P)$ and is _indipendent_ of the random variables $X_0,\dots, X_m$.
 

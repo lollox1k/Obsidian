@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 # Formula di Stirling
 $$
 \lim_{N\to\infty} \frac{N!}{N^Ne^{-N}\sqrt(2\pi N)} = 1

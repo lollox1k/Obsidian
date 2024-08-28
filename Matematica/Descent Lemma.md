@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 # Descent lemma
 Un risultato elementare, che pone un bound su una funzione L-continua con una funzione quadratica, col termine quadratico che dipende dalla costante di Lipshitz.
 ## Lemma 

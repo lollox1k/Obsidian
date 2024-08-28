@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 # The Sherrington-Kirkpatrick model
 
 Is a simple mean-field [[Disordered systems]] with gaussian coupings. 

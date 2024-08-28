@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 
 
 Vediamo [[Numerical PDE|metodo numerico]] ai volumi finiti: discretizziamo lo spazio in cellette, invece che punti studiamo l'evoluzione temporale dei valori medi di cella. Alla fine si arriva ad un metodo equivalente a quello delle differenze finito al prim'ordine. Vedremo due scelte, upwind e downwind per la derivata.

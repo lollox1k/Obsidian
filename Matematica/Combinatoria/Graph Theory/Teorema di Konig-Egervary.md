@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 # Teorema di Konig-Egervary
 
 Se la condizione di Hall non è soddisfatta, non posso trovare un [[Teorema di Hall|insieme di rappresentanti distinti]], o di uni indipendenti per ogni riga. Qual è il numero massimo di uni che posso ottenere? A questo risponde il teorema di Konig-Egervary.

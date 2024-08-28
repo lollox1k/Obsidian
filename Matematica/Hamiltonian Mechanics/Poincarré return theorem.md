@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 
 > [!theorem]
 > Let $\Phi$ be a measurable bijection on the set $\Omega$, with measurable inverse and that preserves measures. Then for all measurable sets $A$ with positive measure, there exists $n > 0$ such that

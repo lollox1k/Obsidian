@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 **Proposition** A subset $Y \subseteq X$ is dense iff for every non-empty open set $O \subseteq X$ we have that $Y \cap O \neq \emptyset$.
 
 **Proof** $(\implies)$ Since $Y$ is dense, this menas that the closure of $Y$ is the entire set $X$:

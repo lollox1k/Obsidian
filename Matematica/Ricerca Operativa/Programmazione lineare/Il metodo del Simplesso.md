@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 # Metodo del simplesso
 Riscrive il problema di PL in una forma equivalente e _comoda_, in cui i vertici, che sono fondamentali come conseguenza del [[Problemi di PL#Teorema fondamentale della PL| Teorema fondamentale della PL]], assumono una forma semplice.
 

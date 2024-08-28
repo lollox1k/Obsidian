@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 # Cuts
 
 Vogliamo dire di più su quanto è [[Distanza e connessione|connesso]] un grafo. Intuitivamente, un grafo "molto connesso" ha più cammini possibili dati due vertici, un grafo conesso minimale ne ha solo uno (vedi [[alberi]]). 

@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 Normalize to zero mean and one variance each feature across the batch.
 It's a method of _adaptive reparametrization_.
 

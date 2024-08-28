@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 **Encoder** Converts an input sequence of tokens into a sequence of embedding vectors, often called the hidden state or _context_.
 **Decoder** Uses the encoder’s hidden state to iteratively generate an output sequence of tokens, one token at a time.
 

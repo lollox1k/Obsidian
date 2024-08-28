@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 # Operation on sets
 Strarting from fondamental $\in$ relation and the axiomns of ZFC [[Axioms of set theory]] we have defined some relation/operation on sets.
 Our goal here is to find the useful relations beetween them.

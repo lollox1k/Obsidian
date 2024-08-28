@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 > $\sigma$-algebra's are difficult, but $\pi$-systems are EASY; we aim to work on the latter.
 
 # $\pi$-System

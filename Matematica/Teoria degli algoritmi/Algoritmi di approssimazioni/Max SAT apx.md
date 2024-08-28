@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 ### MAX CNF-SAT
 _Input_: $CNF$ boolean formula (clause lenght not fixed)
 _Goal:_ find assignment that maximises # of sat clauses

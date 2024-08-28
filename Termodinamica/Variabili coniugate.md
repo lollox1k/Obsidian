@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 Vediamo come ricavare a partire dalla funzione entropia le altre quantità con cui si lavora in termodinamica classica. Per ipotesi la funzione entropia è differenziabile. 
 
 Le variabili macroscopiche con cui solitamente si descrive un sistema isolato (in maniera molto generali) sono:

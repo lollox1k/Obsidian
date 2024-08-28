@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 # Continuità della misura
 Sia $(A_n)_{n\geq 1} \subset \mathcal{F}$ una successione monotona non decrescente di insiemi misurabili. Allora:
 $$

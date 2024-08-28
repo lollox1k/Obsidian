@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 > [!theorem] Let $(X, \Vert\cdot\Vert_X)$ a normed space and $(X', \Vert\cdot \Vert_{X'})$ its dual.
 > Let $U \subseteq X$, $u' : U \to \mathbb{R}$ a continuous linear functional. Then there exists an _extention_ $x' : X \to \mathbb{R}$ a continuous linear functional such that $x'(u)=u'(u)$ for all $u \in U$ and $\Vert x' \Vert_{X'} = \Vert u' \Vert_{U'}$.
 

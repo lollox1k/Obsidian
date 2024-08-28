@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 Vediamo come costruire una misura, seguendo il procedimento di Caratheodory (il suo teorema di estensione).
 
 #### Misura esterna a partire da una proto misura

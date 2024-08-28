@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 # Condizioni duali
 Si ottengono esprimendo il [[Cono Tangente]] con il [[Cono linearizzato]], come abbiamo visto questo non è sempre vero, quando è possibile questa condizione viene detta _condizione di Abadie_: $T_C(\overline x) = L_C(\overline x)$.
 

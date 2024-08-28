@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 **Theorem** Let $(X, \langle\cdot,\cdot\rangle)$ be a _complete_ Hilber space, and $L : X \to \mathbb{F}$ a continuous (or bounded) linear map. Then there exists a unique $x_L \in X$ such that
 $$
 L(x) = \langle x_L, x\rangle \qquad \forall x \in X

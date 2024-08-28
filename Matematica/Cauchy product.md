@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 Analogo della convoluzione per serie (convoluzione discreta).
 #### Def 
 Siano $\sum^\infty a_i$ e  $\sum^\infty b_i$ , definiamo la serie _prodotto di Cauchy_:

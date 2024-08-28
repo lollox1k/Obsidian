@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 **Def** A Markov chain $(X_n)_{n\geq0}$ is said to admit a _limiting distribution_ if the following conditions are satisfied:
 1. the limits
 $$

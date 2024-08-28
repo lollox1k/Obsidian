@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 We have discussed the existence and uniqueness of a stationary distribution for a Markov Chain in [[Long run behavior of Markov Chains]]. We have also shown that in a _finite_ Markov Chain, if for some $i$ the limits
 $$
 (p^n)_{ij} \to \pi_j

@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 # Least square problem
 
 Assumiamo $A \in \mathbb{C}^{m\times n}$ di rango massimo ($n$) con $m\geq n$. 

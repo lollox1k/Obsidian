@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 Sono [[Modelli microscopici]]  [[Scale di osservazione]], lo stato del sistema è l'insieme delle posizioni e velocita dei veicoli.
 $$
 x_i(0) = x_i^0, \qquad v_i(0)= v_i^0, \qquad i=1,\dots,N

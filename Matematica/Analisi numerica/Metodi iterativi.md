@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 # Metodi iterativi
 
 Un metodo iterativo per risolvere equazioni lineari, consiste in un algoritmo che parte da una guess iniziale $x^0$, e via via genera soluzioni approssimate sempre migliori. Definisce quindi una successione, il cui limite è la soluzione esatta del sistema. 

@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 Teorema del punto fisso per contrazioni in spazi metrici.
 
 ## Definizione

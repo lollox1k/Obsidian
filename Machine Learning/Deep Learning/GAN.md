@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 _Generative Adversarial Networks_:
 - generative model
 - instead of MLE it uses an adversarial training model

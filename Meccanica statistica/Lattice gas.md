@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 ## Lattice Gas
 Ipotesi: ogni sito può essere occupato o meno da una sola particella, quindi c'è l'ipotesi di _hard core_. Inoltre la forza è attrattiva, ed a coppia:
 

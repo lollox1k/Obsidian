@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 **Teorema** (Bauer-Fike) Sia $A\in\mathbb{C}^{n\times n}$ una matrice diagonalizzabile, ovvero:
 $$
 X^{-1}AX=\Lambda

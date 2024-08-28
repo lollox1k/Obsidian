@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 Bella l'algebra lineare.
 
 Un momento, somma di funzioni è una funzione, una funzione per uno scalare è una funzione, esiste la funzione nulla... Sono uno spazio vettoriale!

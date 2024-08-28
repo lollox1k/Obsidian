@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 # Fattorizzazione LU
 Mostreremo come il [[Metodo di Gauss MEG]] equivalga a fattorizzare la matrice $A$ di partenza nel prodotto di due matrici, $A=LU$. Il vantaggio di questo punto di vista è che posso sfruttare la stessa fattorizzazione per risolvere sistemi con termine noto $b$ diverso:
 $$

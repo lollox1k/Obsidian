@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 # Norma dell'energia
 
 Sia $A \in \mathbb{C}^{n\times n}$ una matrice _hermitiana defnita positiva_. Allora esiste unica la matrice $A^{\frac{1}{2}}$ soluzione del problema $X^2=A$. Una matrice hermitiana defnita positiva induce un prodotto scalere (non degenere), dunque anche una norma:

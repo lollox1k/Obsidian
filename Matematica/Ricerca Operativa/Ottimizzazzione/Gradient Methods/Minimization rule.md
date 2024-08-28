@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 # Minimization rule
 ## Unlimited
 Scelgo lo step size $\alpha^k$ in maniera da minimizzare il valore della funzione lungo la semiretta:

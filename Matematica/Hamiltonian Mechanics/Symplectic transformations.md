@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 We can give a more algebric characterziation of [[Canonical transformations]]. First some notation
 $$
 z = \begin{pmatrix}

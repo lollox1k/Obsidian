@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 >[!definition]
 >A subgroup $H$ of a group $G$ is called _normal subgroup_ if it's invariant under conjugation:
 >$$

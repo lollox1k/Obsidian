@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 ### Introduction
 1. [[Intro to Deep Learning]]
 2. Linear algebra and probability basics :)

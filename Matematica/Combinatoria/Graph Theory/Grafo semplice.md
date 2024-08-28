@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 # Definizioni 
 Un grafo semplice $G$ è una tupla $(V,E)$ con $V$ insieme *finito* e $E \subseteq \binom{V}{2}$.
 

@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 The simplest of [[Monotonic functions]] are called _jump functions_, they are defined in the following way:
 Let $I \subseteq \mathbb{R}$ be an interval, suppose we have a finite or countable collection of points $x_1,x_n, \dots$ in this interval, for each point we assign a value $h_n$ such that $\sum_n h_n < \infty$ and $h_n > 0$ for all $n$. 
 $$

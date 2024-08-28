@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 Partiamo da una formula CNF con clausole di lunghezza variabile, vogiamo generare un'istanza del 3SAT quindi avere solo clausole da 3 letterali in un numero di passi al più polinomniale [[Riduzione polinomiale]].
 Per le clausole già di 3 letterali non devo fare niente, per quelle minori aggiungo copie dei letterali:
 - Per 1 clausole:

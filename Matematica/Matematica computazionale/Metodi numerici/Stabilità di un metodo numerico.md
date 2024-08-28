@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 >If a problem in differential equations is well-posed, then, by definition, the solution u depends continuously on the data f. On the discrete level, this continuous dependence is called stability
 
  [[Metodi numerici]]

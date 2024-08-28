@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 We assume that the network is finite, that is $V$ and $E$ are finite sets.
 As usual We define the Hilbert space $l^2(V)$ of real functions on $V$ with inner product:
 $$

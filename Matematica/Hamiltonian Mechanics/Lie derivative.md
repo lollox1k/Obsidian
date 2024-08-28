@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 > [!definition]
 Let $M$ be a [[Differentiable manifold]], and $X, Y$ two smooth vector fields on $M$, let $\Phi$ be the flow of $X$, the **Lie derivative** of $Y$ w.r.t $X$ is the vector $(L_XY)_p$ at each $p \in M$, is defined as
 $$

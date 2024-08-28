@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 # Algoritmo di Householder
 
 L'algoritmo genera una matrice $H$ unitariamente simile ad $A$ in forma di Hessemberg superiore.

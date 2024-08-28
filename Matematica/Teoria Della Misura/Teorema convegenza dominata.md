@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 # Teorema della convergenza dominata
 Sia $f_n,f$ funzioni misurabili tali che $f_n \to f$ puntualmente in un insieme $S$, e la successione sia dominata da una funzione integrabile (finito) $g$ non negativa:
 $$

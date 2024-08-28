@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 # Ramsey Theory
 
 E' una generalizzazzione del [[Pigeonhole Principle]], introdotta nel $1928$ dal logico/matematico/filosofo Frank Ramsey.

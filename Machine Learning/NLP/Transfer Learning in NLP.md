@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 **Fine-tuning** In computer vision, it is common practice to use transfer learning to train a convolutional neural network like ResNet on one task and then adapt it to or fine-tune it on a new task. 
 Architecturally, this involves splitting the model into a _body_ and a _head_, where the head is a task-specific network. 
 During training, the weights of the body learn broad features of the source domain, and these weights are used to initialize a new model for the new task. Compared to traditional supervised learning, this approach typically produces high-quality models that can be trained much more efficiently on a variety of downstream tasks, and with much less labeled data.

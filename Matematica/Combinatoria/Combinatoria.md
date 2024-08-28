@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 # Combinatoria
 ## Teoria dei grafi
 1. [x] [[Grafo semplice]]

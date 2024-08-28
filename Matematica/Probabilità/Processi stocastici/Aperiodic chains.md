@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 
 Consider the irreducible two-state chain with stochastic matrix
 $$

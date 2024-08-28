@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 # Core idea
 Una famiglia di metodi di ottimizzazzione non lineare numerici. 
 L'idea alla base è una successione di punti definita per ricorrenza:

@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 
 
 Let $f \in L_{loc}^1(\mathbb{R}^n)$, then for every $\varphi \in C_c^{\infty}(\mathbb{R}^n)$ it's well defined the action of $f$ on $\varphi$ by

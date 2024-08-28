@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 Let $X,Y$ be normed spaces, $X$ a [[Banach spaces|Banach space]].
 We denote the set of all linear bounded operators from $X$ to $Y$ as:
 $$

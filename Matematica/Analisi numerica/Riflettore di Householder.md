@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 # Riflettore di Householder
 
 Sia dato un vettore $u \in \mathbb{C}^n$. Vogliamo costruire l'applicazione lineare che proietta rispetto al piano ortogonale al vettore direttore $u$. 

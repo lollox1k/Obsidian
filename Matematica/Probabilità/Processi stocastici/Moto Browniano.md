@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 Il moto Browniano è un processo stocatisco a tempo continuo $(B_t)_{t \geq 0}$ è un elemento di $C[0,1]$ distribuito secondo la [[Wiener measure]].
 Then $B_t \sim N(0,t)$ and
 $$

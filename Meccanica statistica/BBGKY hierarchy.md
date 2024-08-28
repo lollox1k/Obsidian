@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 Note **heavily** based on [Kinetic Theory](https://www.damtp.cam.ac.uk/user/tong/kintheory/kintheory.pdf) by David Thong.
 
 ---

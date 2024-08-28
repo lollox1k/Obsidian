@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 
 The self-supervised task, also known as pretext task, guides us to a supervised loss function, e.g. by a Proxy task:
 

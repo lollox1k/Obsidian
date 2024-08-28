@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 Sia $F$ un'istanza del problema SAT, ovvero la soddisfacibilità di formule booleana in forma CNF.
 Mostriamo una rimappatura dell'instanza in un'istanza del problema della Clique, che rispetta le proprietà della [[Riduzione polinomiale]].
 

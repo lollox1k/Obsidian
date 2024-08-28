@@ -1,4 +1,10 @@
 ---
+tags: review
+aliases:
+cssclass:
+---
+ 
+---
 created: <% tp.file.creation_date() %>
 tags: daily notes
 sleep: 

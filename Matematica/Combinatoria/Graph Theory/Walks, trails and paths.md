@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 ## Passeggiate, Cammini, Circuiti, Cicli
 
 Una *passeggiata* (*walk*) in un [[Grafo semplice|grafo]]$G$ dal vertice $x$ ad $y$ è una successione di vertici, archi alternata:

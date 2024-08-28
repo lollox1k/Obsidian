@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 Consideriamo l'equazione
 $$
 u_t + f(u)_x = 0

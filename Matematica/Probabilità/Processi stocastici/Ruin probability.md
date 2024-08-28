@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 
 The aim of this note is to study the behaviour of the gambler's ruin, a finite state [[catene di Markov|Markov chain]] with absorting state at its ends.
 

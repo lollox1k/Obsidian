@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 Nella [[Termodinamica assiomatica]] si postula l'esistenza di una funzione entropia associata ad ogni sistema macroscopico, grazie alla quale è possibile caratterizzare lo stato di equilibrio.
 
 ## Postulato  

@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 Esistono soluzioni di PDE come [[linear advection]] non differenziabili, basta considerare una condizione iniziale discontinua. Quindi non essendo derivabili, non possono soffisfare l'equazione differenziale, tuttavia in un certo senso sono soluzioni. Formalizziamo questo fatto grazie alle _funzioni test_, ovvero fuzioni smooth a supporto compatto. 
 
 Intuitivamente, le funzioni test definiscono una _misura locale_ di una quantità tramite un integrale. 

@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 # Risolvere sistemi lineari
 Consideriamo il problema
 $$

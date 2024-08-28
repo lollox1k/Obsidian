@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 # Sistemi reticolari
 Perchè ha senso studiare modelli semplificati, su un reticolo? 
 1. la parte complicata da trattare ed interessante è solo quella dovuta al potenziale, le interazioni

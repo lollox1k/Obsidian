@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 Supponiamo di avere una variabile dipendente $w$ dimensionale che può assumere valori in $[w_m, w_M]$. Dipende dalla fisica del sistema (es temperatura di un materiale).
 Adimensionalizzare significa trovare $\overline w$ tale che i nuovi valori che può assumere sono ad esempio $[0,1]$ oppure $[-1,+1]$ . Banalmente riscalo $w$:
 $$

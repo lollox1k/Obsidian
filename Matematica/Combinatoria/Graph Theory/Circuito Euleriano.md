@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 # Circuito Euleriano
 
 Un [[Grafo semplice#Passeggiate Cammini Circuiti Cicli|circuito]] è detto *Euleriano* se visita tutti i vertici del grafo.

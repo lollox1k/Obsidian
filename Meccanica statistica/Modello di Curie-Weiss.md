@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 # Modello Curie-Weiss
 
 E' la versione _mean-field_ del [[The Ising model]], che è risolvibile analiticamente solo per $d=1$ e $d=2$ con campo esterno $h=0$. L'approssimazione di campo medio fornisce risultati qualitativamente corretti per dimensioni abbastanza elevate (esatte per $d > 4$), nel caso $d=1$ sbaglia anche qualitativamente, mostrando una transizione di fase che nella soluzione esatta è assente.

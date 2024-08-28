@@ -1,4 +1,10 @@
 ---
+tags: review
+aliases:
+cssclass:
+---
+ 
+---
 ref: https://www.maa.org/sites/default/files/pdf/upload_library/22/Ford/Aigner808-816.pdf
 ---
 

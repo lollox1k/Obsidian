@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 # Matching
 
 **Def** Un _matching_ $M$ è un insieme indipendente di archi $M \subseteq E(G)$, ovvero archi che non hanno estremi in comune.

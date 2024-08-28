@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 From music, code, art and math, every intellectual work is  a collection of ideas. 
 
 Does it need an hidden deep message? No, very superficial

@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 # Weak convergence of probability mesures on metric spaces
 
 We discuss the weak convergence of probability mesures on metric spaces $(S,\mathcal{S})$ equipped with the borel $\sigma-$algbra from the metric induced topology.

@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 # Numero di condizionamento 
 Abbiamo già visto che il [[Fondamenti dell'analisi numerica#Sistemi di equazioni lineari | numero di condizionamento]] di una matrice invertibile è definito come:
 $$

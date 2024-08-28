@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 # Legendre transform
 
 Suppose $L : \mathbb{R}^n \to \mathbb{R}$ is a function such that:

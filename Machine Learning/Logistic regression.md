@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 
 Suppose that we want to learn a function $f : \mathbb{R}^n \to \{0,1\}$. A simple hypotesis would be a step function:
 $$

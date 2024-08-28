@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 Let $D$ be a vocabulary of words, and let $w_i \in D$ be a word.
 A _Language Model_ (LM) is a probability distribution over the sequences of words, i.e. $P(w_1,w_2,\dots, w_n)$.
 

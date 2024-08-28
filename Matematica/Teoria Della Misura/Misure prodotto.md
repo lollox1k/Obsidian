@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 # Misure prodotto
 L'obbiettivo è arrivare al [[Fubini-Tonnelli's theorem]] per lo scambio dell'ordine di integrazione. Prima dobbiamo definire il prodotto si spazio misurabili.
 

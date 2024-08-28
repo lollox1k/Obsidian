@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 
 Networks used usually for computer vision, they use _convolutional layers_ that exploit the visual domain traslation invariance (for a motivation[[Convolutions from first principles]]), and hierarchical structer of the visual world by stacking layers and lateyers, with the idea that each layer learing more complex feature.
 

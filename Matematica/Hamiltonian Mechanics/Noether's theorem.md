@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 > [!theorem]
 > The hamiltonian $H$ is invariant wrt a one parameter group of [[Symplectic transformations|symplectic]] diffeomorphism if and only if there exists a function $K$ such that the one parameter group is the [[Hamiltonian flows|hamiltonian flow]] of $K$ and $K$ is an integral of motion for $H$.
 > > [!proof]-

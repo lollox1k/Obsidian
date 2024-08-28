@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 # Line graph
 
 Studiato negli anni $'60$, è una naturale "dualità" tra nozione di adiacenza ed incidenta.

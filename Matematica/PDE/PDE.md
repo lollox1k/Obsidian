@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 ## Classificazione delle PDE
 - _ordine_: il grado della derivata maggiore
 $$

@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 # Limite di successioni subadditive
 Una successione si dice _subadditiva_ se:
 $$

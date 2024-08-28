@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 Ricapitoliamo l'approccio assiomatico alla termodinamica dell'equilibrio, il punto di partenza è la funzione _entropia_.
 
 ## Cosa studia la termodinamica dell'equilibrio

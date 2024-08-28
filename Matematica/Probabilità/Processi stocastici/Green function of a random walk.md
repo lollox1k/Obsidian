@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 
 Suppose we have a _transient_ random walk, or one that is "killed" when it reaches the subset of state $Z$ in a finite irredicible markov chain.
 An interesting question is the quantity:

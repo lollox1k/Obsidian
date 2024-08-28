@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 The main idea behind _attention_ is that instead of producing a single hidden state for the input sequence, the encoder outputs a hidden state at each step that the decoder can access. 
 However, using all the states at the same time would create a huge input for the decoder, so _some mechanism is needed to prioritize which states to use_. 
 ![[Pasted image 20231002124514.png]]

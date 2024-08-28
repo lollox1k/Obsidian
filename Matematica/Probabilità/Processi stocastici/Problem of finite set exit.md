@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 **Theorem** Let $J \subset I$ a finite subset of the state space of an irreducible [[Discrete time Markov chains|Markov chain]] $(X_n)_{n\geq 0}$. Define the the [[Stopping times|stopping time]]
 $$
 \tau := \inf\{n \geq0\,:\, X_n \notin J\}

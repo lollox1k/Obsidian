@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 ## Relazione di raggiungibilità
 Se tra i vertici $x$ e $y$ esiste un cammino dico che sono raggiungibili:
 $$

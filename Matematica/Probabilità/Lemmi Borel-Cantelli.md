@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 
 Danno informazioni sul [[Limit of sets#Liminf limsup]] di insiemi misurabili.
 # Lemma di Borel-Cantelli I

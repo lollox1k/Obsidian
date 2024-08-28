@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 This theorem is a global version of [[Liouville local integrability]] theorem, we require more conditions on the manifold where the integral of motion have fixed values, and conclude a cool reparametrization of the system, usefull for qualitative statements about the system motions.
 
 > [!theorem]

@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 ## Def Cylinder set
 Sia $S$ una famiglia di insiemi e l'insieme prodotto cartesiano $X = \Pi_{Y\in S} Y$. La mappa di _proiezione canonica_ $p_Y X \mapsto Y$  rispetto un certo insieme $Y$ è definita naturalmente come la componente $Y$.
 

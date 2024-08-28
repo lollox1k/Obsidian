@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 One of the advantages of the Hamilton formulation over the Lagrangian is the reduction of degrees of freedom given a cyclic coordinate. Recall that a generalized position $q_i$ is said to be cyclic if $\partial_{q_i}H = 0$, i.e. the Hamiltonian/Lagrangian doesn't depend on $q_i$. 
 
 >  [!definition]

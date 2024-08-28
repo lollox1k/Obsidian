@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 
 # Stability of stationary points
 Recall that an equilibrium/stationary point is a point $\overline y$ such that $f(\overline y) = 0$

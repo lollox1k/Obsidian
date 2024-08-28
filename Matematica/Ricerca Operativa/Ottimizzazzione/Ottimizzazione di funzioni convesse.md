@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 Una classe importantissima di problemi di ottimizzazione è quella dei _problemi
 di ottimizzazione convessi_. Un problema $MIN(C, f)$ è detto convesso se $C \subseteq \mathbb{R}^n$ è un insieme convesso è la $f : C → \mathbb{R}^n$ è convessa su $C$.
 

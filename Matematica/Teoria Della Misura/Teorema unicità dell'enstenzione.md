@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 ## Teorema unicità dell'enstenzione
 Sia $\mathcal{I}$ un $\pi$-sistema su $S$. Sia $\Sigma = \sigma(\mathcal{I})$ la sigma algebra generata dal sistema, e $\mu,\nu$ due misure finite sullo spazio misurabile $(S,\sigma(\mathcal{I}))$ che concordano sul $\pi$-sistema e sulla misura di $S$             ($\mu(S) = \nu(S) < \infty$).  Allora:
 $$

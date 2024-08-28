@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Matematica/Matematica computazionale/Metodi numerici/Numerical PDE/Finite difference.md",
+                "file": "Matematica/Set Theory/Famiglie di insiemi/Anello.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Matematica/Matematica computazionale/Metodi numerici/Numerical PDE/Finite difference.md",
+                "file": "Matematica/Set Theory/Famiglie di insiemi/Anello.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,8 +129,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -145,41 +144,44 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "51323684b4c46c57",
+  "active": "a79abcba84f95a4b",
   "lastOpenFiles": [
-    "test note spaced rep.md",
+    "Matematica/Set Theory/Famiglie di insiemi/Sigma algebra.md",
+    "Matematica/Teoria Della Misura/Pi-system.md",
+    "Matematica/Probabilità/Kolmogorov 0-1 law.md",
+    "Matematica/Probabilità/Processi stocastici/Filtrazione naturale di un processo stocastico.md",
+    "Matematica/Probabilità/Processi stocastici/Harmonic functions.md",
+    "Matematica/Probabilità/Processi stocastici/Green function of a random walk.md",
+    "Matematica/Probabilità/Processi stocastici/Energy.md",
+    "Matematica/Probabilità/Processi stocastici/Discrete time Markov chains.md",
+    "Matematica/Probabilità/Processi stocastici/Convergence to equilibrium for ergodic chains.md",
+    "Matematica/Probabilità/Processi stocastici/Class structure.md",
+    "Matematica/Probabilità/Processi stocastici/Aperiodic chains.md",
+    "Meccanica statistica/Sistemi reticolari.md",
+    "Meccanica statistica/BBGKY hierarchy.md",
+    "Meccanica statistica/BBGKY hierarchy v2.md",
+    "Meccanica statistica/Misure di Gibbs a volume infinito.md",
+    "Meccanica statistica/Metodi matematici in Meccanica Statistica.md",
+    "Meccanica statistica/Equipartition of energy.md",
+    "Meccanica statistica/Non confermato 451633.crdownload",
+    "Machine Learning/Deep Learning/Convolutions from first principles.md",
+    "Neural Networks/Recurrent McCulloch-Pitts network dynamics.md",
+    "Neural Networks/McCulloch-Pitts neuron.md",
+    "Neural Networks/Isserlis-Wick theorem.md",
+    "Information Theory/Intro.md",
     "Matematica/Matematica computazionale/Metodi numerici/Numerical PDE/Finite difference.md",
+    "add_tags.bat",
+    "add_tags.bat.txt",
+    "Nuovo Documento di testo.txt",
+    "test note spaced rep.md",
     "Journal/28-08-2024.md",
     "Matematica/Matematica computazionale/Cinetic Models/Modelli Cinetici.md",
-    "Matematica/Matematica computazionale/Modelli/Crowd dynamics.md",
-    "Matematica/Analisi numerica/Metodo di Richardson stazionario.md",
-    "Matematica/Algebra/Quotient group.md",
-    "Machine Learning/Reinforcement Learning/Solving RL tasks.md",
-    "Matematica/Probabilità/Processi stocastici/Problem of finite set exit.md",
-    "Matematica/Hamiltonian Mechanics/Liouville equation.md",
-    "Matematica/Hamiltonian Mechanics/Lie derivative.md",
-    "Matematica/Hamiltonian Mechanics/Legendre transform.md",
-    "Matematica/Hamiltonian Mechanics/Kepler problem.md",
-    "Matematica/Hamiltonian Mechanics/Hamiltonian flows.md",
-    "Matematica/Hamiltonian Mechanics/Hamilton-Jacobi method.md",
-    "Matematica/Hamiltonian Mechanics/Hamilton-Jacobi equation.md",
-    "Matematica/Hamiltonian Mechanics/Flow of an ODE.md",
-    "Matematica/Hamiltonian Mechanics/Cyclic coordinates.md",
-    "Matematica/Hamiltonian Mechanics/Canonical transformations.md",
-    "Matematica/Hamiltonian Mechanics/Symplectic transformations.md",
-    "Matematica/Hamiltonian Mechanics/Properties of Hamiltonian systems.md",
-    "Matematica/Algebra Lineare/symplectic matrix.md",
-    "Matematica/Hamiltonian Mechanics/Noether's theorem.md",
-    "Matematica/Hamiltonian Mechanics/Liouville local integrability.md",
-    "Matematica/Hamiltonian Mechanics/Poisson's brackets.md",
-    "Matematica/Hamiltonian Mechanics/Poincarré return theorem.md",
     "Machine Learning/Reinforcement Learning",
     "Matematica/Untitled",
     "Information Theory",
     "Misc/Blog",
     "Thesis",
     "cv.pdf",
-    "Matematica/Topology",
     "Images/traffic_curve_cropped.gif",
     "Images/Pasted image 20231121213013.png",
     "Images/Pasted image 20231108162437.png",
@@ -188,12 +190,9 @@
     "Images/Banners/traffic_banner.gif",
     "Images/Banners/percolation_big.png",
     "Images/Banners/Screenshot 2023-10-09 140919.png",
-    "Images/Banners",
     "Thesis ideas.canvas",
     "Images/Pasted image 20231103175616.png",
     "Images/Pasted image 20231027122535.png",
-    "Matematica/Combinatoria/Senza nome.canvas",
-    "Machine Learning/NLP",
-    "Matematica/Algebra"
+    "Matematica/Combinatoria/Senza nome.canvas"
   ]
 }

@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 Mi dice la differenza di potenziale necessaria tra due regioni per avere una certa concentrazione, ad una certa temperatura. Abbiamo in gioco le "forze" di diffusioni, puramente statistiche che vanno contro il gradiente di concentrazione (gli ioni vanno dalle zone più dense a quelle meno dense), e una forza reale in gioco, come ad esempio quella elettrica.
 
 #### Derivazione dalla statistica di MB

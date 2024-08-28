@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 # Limit of sets
 ## Liminf & limsup
 Sia $(A_n)_{n\geq 1}$ una sequenza di sottoinsiemi di un insieme di partenza $X$.

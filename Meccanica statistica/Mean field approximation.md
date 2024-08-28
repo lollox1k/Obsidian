@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 We have seen that solving [[Liouville equation]] or the [[BBGKY hierarchy]] is an hard task, the mean field approximation assumes that the interaction strenghts scales as $O(1/N)$, so that in the limit $N\to\infty$ particles should be indipendent, so that we expect a factorized solution. 
 
 $$

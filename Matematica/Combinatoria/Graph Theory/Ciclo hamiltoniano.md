@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 # Ciclo Hamiltoniano
 
 Ideato da Sir. Hamilton nel 1859 come gioco di società, the _Icosian Game_, perchè originariamente i vertici e gli archi corrispondevano ad un icosaedro. 

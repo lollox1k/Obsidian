@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 # Substitution formula
 
 **Theorem** Let $(X,\mathcal{F})$ and $(Y, \mathcal{E})$ be two measurable spaces, and a [[Funzioni misurabili|measurable map]] $h : X \to Y$, and a measurable function $g : Y \to \mathbb{R}$ (assuming the Borél $\sigma$-algebra). Then, if any of the two following integral exists, they are equal:

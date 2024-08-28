@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 # Poliedri
 I poliedri sono particolari insiemi convessi che rivestono un ruolo importante
 nei problemi di ottimizzazione per la frequenza con la quale si incontrano. E'

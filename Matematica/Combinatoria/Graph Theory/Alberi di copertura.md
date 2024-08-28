@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 # Alberi di copertura
 
 Dato un grafo connesso $G$, sicuramente ammette un [[alberi|albero]] di copertura (un sottografo che comprenende tutti vertici e che è un albero).

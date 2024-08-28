@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 Un [[Metodi numerici|metodo numerico]] $\Phi$ si dice di _ordine p_, se per una qualche norma vettoriale vale:
 $$
 ||T(x,y;h)|| \leq Ch^p

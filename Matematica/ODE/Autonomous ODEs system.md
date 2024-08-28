@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 > [!definition]
 > A first order **autonomous system** is an ODEs system of the form:
 > $$

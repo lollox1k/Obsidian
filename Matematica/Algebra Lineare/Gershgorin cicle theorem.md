@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 # Gershgorin cicle theorem
 
 It's possibile to gain some information about eigenvalues locations easly using Gershgorin's theorem.

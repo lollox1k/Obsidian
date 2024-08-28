@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 # The Hopfield model
 
 ### Mattis model (1977)

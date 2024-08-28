@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 # Teorema di Erdos (1947)
 In generale vale il lower bound per il [[Graph coloring|numero cromatico]]
 $$

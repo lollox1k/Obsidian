@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 # Coefficiente binomiale
 ### Definizione combinatoria
 Vediamo la definizione combinatoria del coefficient binomiale.

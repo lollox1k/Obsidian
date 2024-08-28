@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 Una classe di PDE [[Hyperbolic PDEs | iperboliche]] di primo grado, _semi-lineare_.
 Forma generale:
 $$

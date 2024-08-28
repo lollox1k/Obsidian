@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 **Proposition** (Every absolutely convergent series is convergent) Let $(X, \Vert\cdot\Vert)$ be a Banach space, and $\sum_k x_k$ a series such that series of norms $\sum_k \Vert x_k \Vert < \infty$ conveges. Then also the series conveges.
 
 **Proof** The norm series is a series of real numbers. Since it converges, it's also a [[successioni di Cauchy|Cauchy sequence]], so that $\forall \epsilon > 0$ there exists $N \geq 0$ such that for all $m > n \geq N$

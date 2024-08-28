@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 ## The Transformer Architecture
 The original Transformer is based on the [[The Encoder-Decoder framework|encoder-decoder]] architecture.
 ![[Pasted image 20231002130914.png]]

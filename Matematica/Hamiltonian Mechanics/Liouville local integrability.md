@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 > [!theorem]
 > Let $H$ be time indipendent. SUppose in a neighbourhood of a point $z_0 = (q_0, p_0)$ there exists $n$ functions $f_i(q,p)$ such that they are:
 > 1. integral of motion: $\{f_i, H\}=0$ for $i = 1,\dots, n$;

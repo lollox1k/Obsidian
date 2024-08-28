@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 # Gas perfetto
 E' il più semplice sistema studiato dalla meccanica statistica:
 $N$ particelle identiche di massa $m$, che non interagiscono, in assenza di forze esterne.

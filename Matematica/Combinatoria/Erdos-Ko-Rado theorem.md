@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 **Teorema** (Erod-Ko-Rado)  Sia $I(n,k)$ definito come:
 $$
 I(n,k) := \max\left\{ |\mathcal{F}| \, :\, \mathcal{F} \subseteq \binom{[n]}{k}, \text { intersecante}\right\}

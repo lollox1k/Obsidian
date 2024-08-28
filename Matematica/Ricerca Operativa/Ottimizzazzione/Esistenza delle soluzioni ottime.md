@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 # Esistenza delle soluzioni ottime
 In questo capitolo trattiamo dell’esistenza di soluzioni di problemi di ottimiz-
 zazione del tipo:

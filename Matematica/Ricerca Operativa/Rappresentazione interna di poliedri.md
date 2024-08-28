@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 L'obbiettivo è il _teorema di Wyel_, rappresentare un poliedro in forma interna, ovvero come una combinazione particolare di un insieme finito di oggetti, rispetto alla definizione esterna tramite sistema di disequazioni [[Poliedri#Def]].
 
 ### Def cono 

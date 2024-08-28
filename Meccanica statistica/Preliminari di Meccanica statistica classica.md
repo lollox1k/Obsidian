@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 # Preliminari di Meccanica statistica classica
 _Source:_ Short treatise G. Gallavotti (1999) 
 - Obiettivo della MS classica;

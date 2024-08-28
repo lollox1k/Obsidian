@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 
 A loss function used in  classification. 
 In general the **cross entropy** beetween discrete probability distribution is defined as

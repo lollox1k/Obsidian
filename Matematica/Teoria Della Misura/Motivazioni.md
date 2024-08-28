@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 L'idea alla base è estendere la nozione di misura di sottonisiemi di un insieme, si lavora quindi nell'insieme delle parti $P(X)$ di una dato insieme di partenza $X$ [[Axioms of set theory]]. 
 
 Vogliamo trovare una funzione non negativa $\mu : P(X) \to [0,+\infty]$, la [[Misura]], che abbia proprietà ragionevoli, compatibile con le nostre aspettative di una misura. Sia $X$ la retta reale $\mathbb{R}$. Richiediamo che:

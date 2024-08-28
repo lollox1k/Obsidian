@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 ## Jensen's inequality
 Sia $f$ una funzione convessa, $\lambda_i \in [0,1]$ t.c. $\sum_i \lambda_i = 1$, allora:
 $$

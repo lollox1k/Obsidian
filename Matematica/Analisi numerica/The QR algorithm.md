@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 # The QR algorithm
 
 The QR algorithm for computing eigenvalues is one of the best known algorithms in numerical analysis. It was developed by G.F. Francis in the $1950$s.

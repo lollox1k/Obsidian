@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 ### Escape probability
 Consider a random walk on a [[Electrical networks|random network]]. Fis a state $a \in V$ and a subset $Z \subset V$ such that $a \notin Z$. An interesting question is what is the probability of _escape from a_, that is, starting from $a$, what is the probability of arriving in $Z$ before returning to $a$:
 $$

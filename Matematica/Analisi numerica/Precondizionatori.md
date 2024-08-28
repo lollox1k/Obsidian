@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 # Precondizionatori
 
 >L'idea è _ridurre il numero di condizionamento_ di un problema, per migliorare la _stabilità_ e la _velocità_ di convergenza.

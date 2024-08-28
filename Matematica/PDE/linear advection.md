@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 PDE [[Hyperbolic PDEs| iperbolica]], caso particolare (lineare ed omogeno) dell'[[Equazione del trasporto]]. 
 In una dimensione spaziale ($1D+1D$):
 $$

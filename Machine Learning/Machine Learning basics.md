@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 
 Machine learning is essentially a form of _applied statistics_ with increased _emphasis on the use of computers_ to statistically estimate complicated functions and a decreased emphasis on proving confidence intervals around these functions.
 

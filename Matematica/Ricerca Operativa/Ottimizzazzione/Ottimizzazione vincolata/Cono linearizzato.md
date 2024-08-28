@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 # Il cono linearizzato
 Abbiamo visto come il [[Cono Tangente]] sia un'approssimazione locale dell'insieme ammissibile. E se invece tentassimo di approssimare le funzioni vincolo tramite i loro gradienti? 
 ## Def

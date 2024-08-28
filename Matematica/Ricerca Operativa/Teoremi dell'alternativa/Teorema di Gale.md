@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 Dall'[[Eliminazione di Fourier-Motzkin]], segue che un poliedro $P$ definito come al solito:
 $$
 P := \left\{x \in \mathbb{R}^n \vert Ax\leq b\right\}

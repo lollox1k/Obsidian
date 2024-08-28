@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 Uno _spazio metrico_ $(X,d)$ è un insieme $X$ ed una distanza $d : X\times X \mapsto [0,\infty)$. 
 Vediamo le condizioni che una distanza deve rispettare:
 ### Definizione 

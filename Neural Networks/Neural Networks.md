@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 1. [[Biological neurons]]
 2. [[Artificial Neurons]]
 ### Retrival networks

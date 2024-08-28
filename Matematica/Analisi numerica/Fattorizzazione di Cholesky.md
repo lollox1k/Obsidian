@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 # Fattorizzazione di Cholesky $A = H^TH$
 
 **Teorema** Sia $A \in \mathbb{C}^{n\times n}$ una matrice hermitiana definita positiva. Allora esiste un'unica matrice triangolare superiore $H$ tale che $A = H^TH$.

@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 # Point transformations for Lagrangian
 
 Recall that the Eulero-Lagrange equations are invariant under point transformations: let $L= L(q,\dot q, t)$ be a lagrangian and $s = s(q,t)$ new variables with inverse $q = q(s,t)$. Then the new variables $s$ solve the new lagrangian $\tilde L(s, \dot s, t) = L(q(s,t), \dot q(s, \dot s, t), t)$: 

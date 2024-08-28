@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 # Grafi bipartiti
 Un grafo $G$ si dice _bipartito_ se esiste una partizione dei suoi vertici $V(G) = V_1 \dot\cup V_2$  in due sottoinsiemi disgiunti tale che:
 $$

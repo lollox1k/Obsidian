@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 # The perceptron
 Abbiamo visto come reti di neuroni [[McCulloch-Pitts neuron]] siano universali, ovvero riescono a rappresentare ogni funzione binaria $M : \{0,1\}^N \mapsto \{0,1\}^K$. Quindi data una funzione, riesco a trovare i parametri dei neuroni tali che la rete replichi perfettamente la funzione. 
 

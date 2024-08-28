@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 
 # Two approaches
 Given a task, we want to find a strategy to choose the next action what will yield the maximum cumulative reward.

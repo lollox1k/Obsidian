@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 # The bayesian setting
 
 As always in baysian statistics, one exploits bayes theorem.

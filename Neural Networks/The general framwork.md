@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 
 A computer program is said to learn from _experience_ $\mathcal{E}$ with respect to some class of _tasks_ $\mathcal{T}$  and performance measure $\mathcal{P}$, if its performance at tasks $\mathcal{T}$, as measured by $\mathcal{P}$, improves with experience $\mathcal{E}$.
 

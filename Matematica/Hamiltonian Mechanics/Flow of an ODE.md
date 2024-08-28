@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 # Flow
 
 >> Given an ODE, we can define a _flow_ in its state space. Each starting conditon moves guided by this flow.

@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 **Proposition** (Minkowsky inequality) Let $u,v : E \to \mathbb{C}$ two measurable functions, and $p \in [1,+\infty]$, then
 $$
 \Vert u + v \Vert_p \leq \Vert u \Vert_p + \Vert v \Vert_p

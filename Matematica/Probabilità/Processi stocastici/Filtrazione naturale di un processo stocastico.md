@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 # Filtrazione 
 Una filtrazione di uno spazio di probabilità $(\Omega, \mathcal{F},\mathbb{P})$ è una famiglia di sigma algebre totalmente ordinate per inclusione, indicizzate con un insieme di indici totalmente ordinato $I$.
 $$

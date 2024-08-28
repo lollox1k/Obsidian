@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 # Decomposizione di Schur
 
 **Teorema** (Schur) Sia $A \in \mathbb{C}^{n\times n}$. Esiste $Q$ unitaria tale che:

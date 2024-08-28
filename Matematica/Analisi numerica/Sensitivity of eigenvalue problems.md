@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 # Sensitivity of eigenvalue problems
 
 Given a matrix $A \in \mathbb{C}^{n\times n}$ we know that a new matrix obtained via a [[Similarity transformation]] has the same eigenvalues. When computing numerically the eigenvalue of a given matrix, it will be convinient to transform the starting matrix in a more simple form using similarity transformation to preserve the spectrum. 

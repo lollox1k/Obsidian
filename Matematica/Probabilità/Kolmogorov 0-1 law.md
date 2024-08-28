@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 # Kolmogorov 0-1 law
 
 **Def** Given a collection of random variables $(X_n)_{n\geq 1}$ we define the $\sigma$-algebras $\mathcal{T_n}$ by $\mathcal{T}_n := \sigma(X_n,X_{n+1},\dots)$. Then the _tail_ $\sigma$-algebra is defined by

@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 # Hamilton-Jacobi equation
 
 Is a general first order PDE of the form

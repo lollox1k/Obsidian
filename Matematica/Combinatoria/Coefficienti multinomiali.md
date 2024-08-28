@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 # Coefficienti multinomiali
 Generalizza in maniera naturale il [[Coefficiente binomiale]]:
 Consideriamo la potenza $n$-esima del polinomio:

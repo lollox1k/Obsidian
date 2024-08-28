@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 # Regola di armijo
 L'idea è ridurre lo step size abbastanza da far diminuire la funzione (sappiamo che per un $\alpha$ abbastanza piccolo la funzione decresce), senza però perdere troppo sulla velocità di convergenza. 
 Definiamo la seguente regola:

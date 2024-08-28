@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 **Def** The _Wiener measure_ on $C([0,1])$ is the probability measure $\mu$ on the measurable space $(C[0,1], \mathcal{B}(C[0,1]))$ with the following properties:
 1. $x(t) \sim N(0,t)$ for all $t \in [0,1]$, that is
 $$

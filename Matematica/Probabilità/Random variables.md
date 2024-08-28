@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 # Random variables
 
 **Def** A _real random variable_ is a [[Funzioni misurabili|measurable function]] $X : (\Omega,\mathcal{F}) \mapsto (\mathbb{R},\mathcal{B})$.

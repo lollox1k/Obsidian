@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 # Finite volume Gibbs distributions
 Lavoriamo sui sistemi reticolari, ovvero in $\mathbb{Z}^d$.
 

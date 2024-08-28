@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 #### Combinazione conica
 Praticamente una combinazione lineare con coefficienti non negativi. La combinazione conica di un insieme di vettori viene indicata come:
 $$

@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 # Capture Theorem
 ![[Pasted image 20220630172907.png]]
 

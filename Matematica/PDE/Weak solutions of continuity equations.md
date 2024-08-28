@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 Consideriamo l'equazione di continuità
 $$
 u_t + q(u)_x = 0

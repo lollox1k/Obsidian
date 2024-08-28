@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 # Metodi del gradiente per sistemi lineari
 
 Vediamo ora come utilizzare i [[Gradient Methods]] per risolvere sistemi lineari con matrici simmetriche definite positive, associando ad essi una forma quadratica da minimizzare. 

@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 When we have a symmetric matrix $A$, the [[Arnoldi iteration]] can be greatly optimized, since $V_k^TAV_k = H_k$ and the left side is symmetric, the matrix $H_k$ (which is upper hessember) is now forced to be tri-diagonal.
 
 So when computing the overlaps $h_{ij}$, which for the arnoldi iteration are $k$, we need only the previous.

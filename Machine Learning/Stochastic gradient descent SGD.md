@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 
 >> Just approx the gradient of the loss function on the whole dataset with a mean on just a subset (batch)
 >

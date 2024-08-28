@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 it's a continuous non-decreasing function from $f: [0,1] \to [0,1]$ but constant a.e. (the complement of the [[Cantor set]]). 
 ![[Pasted image 20231024210912.png]]
 

@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 **Theorem** Let $\phi$ be a homomorphism from a universal algebra $A$ to $B$, let $R \subseteq Ker(\phi)$. Then the function $\overline \phi : [x] \mapsto f(x)$ (where $x$ is any memeber of the equivalence class $[x]$) is a homomorphism of $A/R$ to $B$.
 Furthermore, $\overline\phi$ is an isomorphism iff $R=Ker(\phi)$ and $B=\phi(A)$ ($\phi$ is an epi-morphism).
 

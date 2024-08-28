@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 # Semianello
 Un semianello è una famiglia di insieme $\mathcal{A}$  con le seguenti proprietà:
 1. $\emptyset \in \mathcal{A}$

@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 # Graph Isomorphism
 
 Dua grafi $G = (V(G), E(G))$ e $H = (V(H), E(H))$ sono *isomorfi* se esiste una biiezione tra i vertici $f : V(G) \mapsto V(H)$ tale che $\forall u,v \in G$:

@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 Mantel's theorem is a special case of [[Turan theorem]]. 
 
 **Theorem** The maximum size of a graph of order $n$ that is triangle-free (it doesn't contain $K_3$) is 

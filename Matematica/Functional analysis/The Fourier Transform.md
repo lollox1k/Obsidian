@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 > [!definition]
 > Let $u \in L^1(\mathbb{R}^n, \mathbb{C})$, the **fourier transform** of $u$ is a function $\hat u : \mathbb{R}^n \to \mathbb{C}$ defined as:
 > $$

@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 [[Riduzione polinomiale]]
 Nel partition si richiede l'esistenza o meno di un sottoinsieme $S \subseteq X$ di un insieme di interi positivi finito $|X| < \infty$ dato tale che:
 $$

@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 La dinamica del processo è unicamente determinata dalla distribuzione di offspring. 
 Siamo interessati alla distribuzione del numero della popolazione ad ogni step.
 

@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 # Combinatoria estremale
 
 I problemi estremali sono quei problemi di combinatoria che richiedono di determinare la cardinalità massima che può avere una famiglia $\mathcal{F}$ di insiemi che soddisfa certe condizioni.

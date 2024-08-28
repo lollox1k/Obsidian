@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 
 In a _supervised setting_, the goal is to produce an embedding such that a fixed distance function is small for example in the same class, large for example in different classes.
 

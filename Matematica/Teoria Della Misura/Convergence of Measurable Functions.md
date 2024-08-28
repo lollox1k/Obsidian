@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 Recall that a function $f : X \to \mathbb{R}$ is $\mathcal{S}$-measurable if the preimage of every Borel set $B$ is in the $\sigma$-algebra $\mathcal{F}$:
 $$
 \forall B \in \mathcal{B} \quad f^{-1}(B) \in \mathcal{S}

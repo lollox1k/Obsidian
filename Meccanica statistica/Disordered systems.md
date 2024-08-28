@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 # Disordered systems
 
 Models like [[Modello di Curie-Weiss|Curie-Weiss]] may be too simple to capture the complexity of real solids, for example the couplings may depend on time, be pair depandant (two different molecules) or may be subjected to _noise_.

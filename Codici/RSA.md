@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 $p$ and $q$ big primes, modern RSA $1024/2048$ bit size of $n$
 $$
 c = p^e \mod(n)

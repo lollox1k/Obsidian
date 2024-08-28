@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 
 **Def** A [[catene di Markov|Markov chain]] is called **reversible** if there exists a _positive valued function_ $\pi$ such that for all states $x,y$ holds
 $$

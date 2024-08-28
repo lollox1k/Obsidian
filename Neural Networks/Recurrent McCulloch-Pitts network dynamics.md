@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 # Dinamica 
 Possiamo introdurre una dinamica discreta tra stati di una rete di [[McCulloch-Pitts neuron]] $S(t)$:
 $$

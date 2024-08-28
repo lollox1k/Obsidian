@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 
 We want to model a function $f : \mathbb{R}^n \to \mathbb{R}$, our hypotesis is that this function is linear, that is
 $$

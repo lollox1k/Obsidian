@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 The Ising Model, initially conceptualized for studying ferromagnetism, has evolved into a cornerstone of statistical mechanics with diverse applications across thermodynamics, neuroscience, sociology, and more. Its significance lies in offering a mathematical framework for describing systems comprised of a vast number of elements, ranging from water molecules and iron atoms to broader societal phenomena.
 
 **Statistical Mechanics Overview:**

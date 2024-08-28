@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 # $\lambda$-sistema
 Chiamato anche $d$-sistema (da differenza). Una famiglia di insiemi $\mathcal{D} \subseteq 2^S$ è un $d$-sistema sull'insieme $S$ se e valgono le seguenti proprietà:
 - $S \in \mathcal{D}$

@@ -1,3 +1,15 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 The basic intuition behind information theory is that learning that an unlikely event has occurred is more informative than learning that a likely event has occurred. A message saying “the sun rose this morning” is so uninformative as to be unnecessary to send, but a message saying “there was a solar eclipse this morning” is very informative.
 
 We would like to quantify information in a way that formalizes this intuition.

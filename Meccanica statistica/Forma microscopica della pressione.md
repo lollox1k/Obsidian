@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 # Pressione
 >> Intuitivamente: Forza per unità di superficie
 

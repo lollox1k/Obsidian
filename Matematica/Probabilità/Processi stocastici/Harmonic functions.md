@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 # Harmonic functions
 
 ### Markov Chain on a graph

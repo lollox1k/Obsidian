@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 **Theorem** (_Binet_) 
 $$
 det(AB) = det(A)\,det(B)

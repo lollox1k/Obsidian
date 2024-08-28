@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 **Proposition** Let $\mathcal{P} = \{E_1,E_2,\dots\}$ be a countable partition of a set $E$, that is
 $$
 \bigcup_k E_k = E, \qquad E_i \cap E_j = \emptyset \text{ if } i \neq j

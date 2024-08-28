@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 # Similarity transformation
 
 **Definition** For a nonsingular matrix $X$, the map $A \mapsto X^{-1}AX$ is called a _similarity transformation_ of $A$.

@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 # Teorema di Bondy
 
 E' un'applicazione degli [[Alberi]], nel constesto di compressione di stringhe.

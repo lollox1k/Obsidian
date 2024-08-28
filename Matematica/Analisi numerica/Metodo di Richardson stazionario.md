@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 # Metodo di Richardson stazionario
 
 Sono metodi iterativi della forma:

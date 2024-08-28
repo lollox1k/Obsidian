@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 #### Proto misura
 La definizione più semplie, quasi inutile.  E' una funzione non negativa dell'insieme delle parti, richiediamo che la misura dell'insieme vuoto sia zero:
 

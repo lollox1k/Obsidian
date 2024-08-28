@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 # Norme matriciali
 Una norma matriciale è un'applicazione $\Vert \cdot \Vert : \mathcal{C}^{m\times n} \mapsto [0,\infty)$ tale che $\forall A,B \in \mathcal{C}^{m\times n}$:
 1. $\Vert A \Vert = 0$ se e solo se $A = 0$;

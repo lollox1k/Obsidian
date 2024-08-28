@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 ### AdaGrad
 Individually adapts the learning rate for each parameter.
 

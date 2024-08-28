@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 Una [[PDE]] non lineare (quasi-lineare), un suo caso semplice è un'esempio di come la non linearità può generare soluzioni non $C^\infty$ nonostante la condizione iniziale sia smooth.
 Forma generale:
 $$

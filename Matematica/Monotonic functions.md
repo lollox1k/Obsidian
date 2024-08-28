@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 > [!definition]
 > Let $I \subseteq \mathbb{R}$ be an interval. A function $f : I \to \mathbb{R}$ is called **monotonic non-decreasing** if $f(x)\leq f(y)$ for every $x,y \in I$ such that $x \leq y$. When the same holds with the reversed inequalities is called **monotonic non-increasing**.
 

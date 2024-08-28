@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 
 
 **Def** A Markov Chain $(X_n)_{n\geq 0}$ is said to admin a **limiting probability distribution** if the following conditions are satisfied:

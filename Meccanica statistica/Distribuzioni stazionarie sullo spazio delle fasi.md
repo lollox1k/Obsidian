@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 # Ensebles
 Le [[Preliminari di Meccanica statistica classica|ipotesi di Boltzmann]], permettono di calcolare il valore  medio di osservabili _dimenticando_ la dinamica miscroscopica sottostante, effettuando una media sulla regione dello spazio delle fasi con energia compatibile.
 

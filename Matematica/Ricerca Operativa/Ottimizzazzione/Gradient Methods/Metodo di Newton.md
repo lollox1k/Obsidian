@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 # Metodo di Newton
 Uno dei [[Gradient Methods]], che sotto opportune condizioni converge molto velocemente alla soluzione. 
 Si può applicare sia alla ricerca di zeri di funzioni, e quindi anche a punti stazionari.

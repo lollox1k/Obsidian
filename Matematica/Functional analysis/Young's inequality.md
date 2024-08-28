@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 **Theorem** (Young's inequality) Suppose $1 < p < \infty$, then for all $a,b \geq 0$
 $$
 ab \leq \frac{a^p} p + \frac{b^{p'}}{p'}  

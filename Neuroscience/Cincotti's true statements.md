@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 - The alpha rhythm is an oscillatory component of the spontaneous EEG. The frequency of oscillation of the alpha rhythm is around 10 Hz. The amplitude of the EEG in the alpha band decreases when the generating region of the cerebral cortex becomes engaged in a functional task (visual, motor). The proper (visual) alpha rhythm is generated in the occipital lobe of the cerebral cortex. The amplitude of the alpha rhythm is not constant, but rather “waxes and wanes” with irregular periods, with changes occurring often after an interval in the order of 1 second. The alpha band of the EEG is conventionally limited between 8 and 13 Hz. The alpha rhythm can be observed by filtering the spontaneous EEG signal using a narrowband filter, with cutoff frequencies at 8 and 13 Hz (approximately).
 - The mu rhythm is an oscillatory component of the spontaneous EEG, whose frequency is in the alpha band. The mu rhythm is generated in the central regions of the cerebral cortex. The oscillations of mu rhythm are more “arc-shaped”, rather than resembling a regular sinewave.
 

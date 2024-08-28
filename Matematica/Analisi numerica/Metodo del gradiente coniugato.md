@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 # Metodo CG
 
 Il metodo del gradiente coniugato (Hestenes-Stiefel 1950) costruisce la _nuova direzione di discesa_ come _combinazione lineare della direzione precedente e del residuo_.

@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 # L'ensemble canonico
 Chiamato da Boltzmann "Holode", sono distribuzioni stazionarie con un parametro $\beta$:
 $$

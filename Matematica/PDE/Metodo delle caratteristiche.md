@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 # Method of characteristics
 
 Metodo usato per risolvere [[PDE]] del primo ordine, (si può estendere alle PDE [[Hyperbolic PDEs|iperboliche]]). 

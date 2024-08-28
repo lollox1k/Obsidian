@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 For Markov Chains, the past and the future are indipendent, given the present. This suggests looking at the Markov Chain with time running backwards. On the other end, [[Convergence to equilibrium for ergodic chains]] is an irreversible process. So we must start at equilibrium.
 
 **Theorem** Let $P$ be irreducible and have an invariant distribution $\pi$. Suppose that $(X_n)_{n\geq 0} \sim Markov(\pi,P)$ define the reverse chain

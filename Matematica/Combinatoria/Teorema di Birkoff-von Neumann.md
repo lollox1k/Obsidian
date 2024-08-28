@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 # Teorema di Birkoff-von Neumann
 
 Un'altra conseguenza del [[Teorema di Hall|teorema di Hall]] per matrici $0$-$1$.

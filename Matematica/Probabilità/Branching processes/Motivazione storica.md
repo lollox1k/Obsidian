@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 Famiglie aristocratiche nel periodo vittoriano erano preoccupate che il loro nome diventasse estinto,  Sir Francis Galton pose la seguente domanda:
 
 >How many male children (on average) must each generation of a family have in order for the family name to continue in perpetuity?  

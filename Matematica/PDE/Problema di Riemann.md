@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 Problema di cauchy di una legge di conservazione con condizione iniziale costante a tratti con una discontinuità.
 ![[Pasted image 20220406155724.png]]
 Interessante perchè compaiono fenomini come onde di shock e rarefazione.

@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 # Lemma di Farkas
 Il sistema:
 $$

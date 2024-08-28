@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 > [!definition]
 > A matrix $A \in M_n(\mathbb{R})$ is *symplectic* if:
 > $$

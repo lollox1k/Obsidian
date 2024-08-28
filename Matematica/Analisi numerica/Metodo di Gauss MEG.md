@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 # Eliminazione Gaussiana MEG
 
 > Per risolvere un sistema lineare con questo metodo occorrono $2/3n^3$ $flops$, a cui vanno aggiunti $2n^2$ $flops$ per risolverte i due sistemi triangolari.

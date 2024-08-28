@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 ## Dispense
 Consider a generic initial probability distribution $f_0$ (w.r.t. Lebesque measure). Let $f(t,x)$ be the probability density at time $t$. For every subset of the phase space $A$ should hold the following
 $$

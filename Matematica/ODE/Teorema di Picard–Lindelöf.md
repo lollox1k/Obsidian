@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 Utile teorema che mostra esistenza ed unicità della soluzione di un problema di Cauchy, con ipotesi ragionevoli.
 
 ## Teorema

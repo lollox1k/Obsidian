@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 # Fattorizzazione QR
 
 Sia $A \in \mathbb{C}^{m\times n}$, esistono una matrice unitaria $Q \in \mathbb{C}^{m\times m}$ ed una matrice trapezoidale siperiore $R \in \mathbb{C}^{m\times n}$ tale che:

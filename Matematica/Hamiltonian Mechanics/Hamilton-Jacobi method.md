@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 The power of the hamiltonian formalism resides in it's [[Canonical transformations]]. If we can find the right transformation, maybe the equations of motions are trivial, for example:
 $$
 \begin{cases}

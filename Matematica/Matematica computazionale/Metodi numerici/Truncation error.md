@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 Sia $\Phi$ un [[Metodi numerici|metodo numerico]] di integrazione. Il suo errore di _tronacamento_ nel punto (x,y) è definito come la differenza tra l'incremento approssimato con quello vero:
 $$
 T(x,y;h) := \frac{1}{h}[y_{n+1} - u(x+h)]

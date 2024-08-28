@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 **Theorem** (Lebesgue) Let $f_n$ be a sequence of measurable functions in the measure space $(X, \Sigma, \mu)$ such that $f_n \to f$ (pointwise convergence) a.e. Then if there exists a measurable function $g$ such that  $|f_n| \leq g$ a.e. for all $n$, and $g$ is integrable,
 $$
 \lim_{n\to\infty} \int |f-f_n|d\mu = 0

@@ -1,0 +1,7 @@
+@echo off
+setlocal enabledelayedexpansion
+set "folder=your file path here"
+for /r "%folder%" %%f in (*.md) do (
+  (echo ---& echo tags: unpolished& echo aliases:& echo cssclass:& echo ---& echo. & type "%%f") > "%%~dpnf.tmp"
+  move /y "%%~dpnf.tmp" "%%f" > nul
+)

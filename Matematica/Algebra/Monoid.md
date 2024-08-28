@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 A _Monoid_ is a [[Semigroup]] with an identity element.
 
 **Def** A set $S$ equipped with a binary operation is called a _Monide_ if:

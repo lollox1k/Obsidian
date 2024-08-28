@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 # Volume della palla n dim
 $$
 Vol(B_r) = \frac{(2\pi)^{N/2}}{\Gamma(N/2+1)}R^N \qquad Sup(B_r)= \frac{(2\pi)^{N/2}}{\Gamma(N/2)}R^{N-1}

@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 # Prima legge
 $$
 \vec J_{diff} = -D\nabla \rho

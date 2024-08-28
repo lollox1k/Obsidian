@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 
 In deep learning, since we stack a _considerable amount of layers_, the gradient depends on more and more factor. So a natural problem arises: the gradient can _tendo to zero or infinity exponetially fast_.
 

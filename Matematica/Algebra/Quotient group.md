@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 > [!definition]
 > Given a [[Normal subgroup]] $H$ of a group $G$, the _quotient group_ $G \setminus H$ is the set of cosets with the group operation:
 > $$

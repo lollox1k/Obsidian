@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 Suppose the assumptions to guarantee that our [[Discrete time Markov chains|Markov chain]] converges to its [[Convergence to equilibrium for ergodic chains|invariant distribution]]. We now ask 
 >
 >How fast does it converges?

@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 # Definition
 Vogliamo associare ad una funzione con codominio in $\mathbb{R^n}$ un numero reale, il suo integrale (definito).
 

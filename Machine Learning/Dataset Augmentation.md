@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 
 The best way to make a machine learning model generalize better is to train it on more data... But only have a limited amount of data!
 

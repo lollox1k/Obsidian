@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 #### Microscopic
 - Focus su ogni singolo agente/particella del sistema fisico in esame
 - indivudare gli stati microscopici

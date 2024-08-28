@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 1. [x] [[Termodinamica assiomatica]] 
 2. [x] [[Entropia termodinamica]] 
 3. [x] [[Variabili coniugate]]

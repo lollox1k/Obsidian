@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 > [!definition]
 > A function $f: [a,b] \to \mathbb{R}$ is called **absolutely continuous** if for every $\epsilon > 0$ there exists $\delta_\epsilon > 0$ such that every finite familiy of open disjoint intervals $(a_k,b_k)$ such that the sum of their lenghts is less than $\delta_\epsilon$
 > $$

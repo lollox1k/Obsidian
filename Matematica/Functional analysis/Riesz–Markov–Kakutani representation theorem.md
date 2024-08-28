@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 It relates linear functionals on spaces of continuous functions on a locally compact space to [[Real or complex measures]].
 
 Let $X$ be a locally compact Hausdorff space and $C_c(X)$ be the set of all continuous functions $f : X \to \mathbb{R}$ with compact support. 

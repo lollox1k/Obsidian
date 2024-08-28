@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 # Wielandt algorithm
 
 Viene anche detto algoritmo dell'iterazione inversa, è dovuto a Wielandt (1944), e sfrutta uno shift per adattare il [[Power method]] al calcolo di tutto lo spettro (autovettori compresi) e non solo l'autovalore dominante.

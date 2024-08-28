@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 
 A non-symmetric distance beetween probability distribution, defined as:
 $$

@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 # Mc Culloch Pitts neuron
 E' un modello matematico semplificato dei complicati modelli differenziali dei [[Biological neurons]]. Introdotto nel 1943, chiamato anche _formal neuron_, in breve:
 

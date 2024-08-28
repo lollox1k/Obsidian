@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 ## L'equazione di Poisson
 
 L'equazione di poisson è una PDE lineare del second'ordine

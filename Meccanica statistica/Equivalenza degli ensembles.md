@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 # Equivalenza degli ensemble
 ## Equivalenza microcanonico-canonico
 Dimostriamo l'equivalenza della termodinamica ottenuta dall' [[Ensemble canonico]] e [[Ensemble microcanonico]].

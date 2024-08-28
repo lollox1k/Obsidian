@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 
 ## The rise of Deep Learning
 It is easiest to understand deep learning with some historical context. Rather than providing a detailed history of deep learning, we identify a few key trends: 

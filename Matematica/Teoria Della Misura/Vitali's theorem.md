@@ -1,3 +1,9 @@
+---
+tags: review
+aliases:
+cssclass:
+---
+ 
 
 > [!definition]
 > A family of functions $\{f_i\}_{i \in I} \subseteq L^1(X,\mu)$ is called **uniformly integrable** if for every $\epsilon > 0$ there exists a $\delta > 0$ such that for every small enough set $\mu(E) < \delta$ 
