@@ -36,11 +36,11 @@ In maniera equivalente:
 $$
 x \in \cup_n \cap_{m\geq n} A_n \iff \exists N \,\vert\, x \in A_m \forall m \geq N 
 $$
-che è quivalente a dire $x \notin A_n$ per un numero _finito_ di insiemi.
+che è equivalente a dire $x \notin A_n$ per un numero _finito_ di insiemi.
 
 Quindi $x \in \liminf_n A_n$ se e solo se $x \in A_n$ a meno di un numero finito di insiemi.
 
-In maniera analoga, $\limsup_n A_n = 0$ se e solo se la successione $A_n(x)$ vale $1$ un numero finito di volta, che è quivalente a dire:
+In maniera analoga, $\limsup_n A_n = 0$ se e solo se la successione $A_n(x)$ vale $1$ un numero finito di volta, che è equivalente a dire:
 
 $$
 \exists N \,\vert\, \forall m \geq N \quad A_m(x) = 0
@@ -53,11 +53,11 @@ negando:
 $$
 x \notin \cap_n \cup_{m\geq n} A_n \iff  \exists N \,\vert\, \forall m \geq N x \notin A_m
 $$
-che è quivalente alla condizione data con la funzione caratteristica.
+che è equivalente alla condizione data con la funzione caratteristica.
 
 # Sequenze monotone
 Come per sequenze reali, se le successioni sono _monotone_, il limite esiste.
-Sia la sequenza $(A_n)_{n\geq 1}$ non descrescente: $A_n\subseteq A_{n+1}$ per ogni $n$, allora:
+Sia la sequenza $(A_n)_{n\geq 1}$ non decrescente: $A_n\subseteq A_{n+1}$ per ogni $n$, allora:
 $$
 \limsup_n A_n = \bigcup_{n\geq 1} \bigcap_{m \geq n} A_m
 $$

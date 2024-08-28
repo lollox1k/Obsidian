@@ -31,3 +31,14 @@ My mind wanders
 yet I'm stalled
 lost in the myst 
 alone
+
+---
+04-04-2024
+**Tangled**
+if I cut these ropes
+will I fly or
+will I fall?
+
+---
+09-04-2024
+We hold on to bubbles of local meaning, perhaps we lose ourselfs into them as a distraction from the approaching end.

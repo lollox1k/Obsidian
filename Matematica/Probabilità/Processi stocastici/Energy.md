@@ -168,7 +168,7 @@ $$
 $$
 this is a unit flow from $a$ to $Z$.  Then by the [[Cauchy-Schwarz inequality]]
 $$
-\sum_{e \in \Pi} i(e)^2 r(e) \sum_{e \in \Pi} c(e) \geq \left(\sum_{e \in Pi} |i(e)|r(e)^{1/2}c(e)^{1/2}\right)^2 = 
+\sum_{e \in \Pi} i(e)^2 r(e) \sum_{e \in \Pi} c(e) \geq \left(\sum_{e \in \Pi} |i(e)|r(e)^{1/2}c(e)^{1/2}\right)^2 = 
 \left( \sum_{e \in \Pi} |i(e)|\right)^2 
 $$
 $$

@@ -19,7 +19,7 @@ dove abbiamo ricostruito il $\liminf$ semplicemente usando il fatto che l'inters
 $$
 \mu(\limsup_n A_n) = \mu( \bigcap_{n\geq 1} \bigcup_{m\geq n} A_n) 
 $$
-la successione delle unioni è non crescente, quindi per la continutà della misura:
+la successione delle unioni è non crescente, quindi per la continiutà della misura:
 $$
 \mu(\limsup_n A_n) = \lim_{n\to\infty} \mu(\bigcup_{m\geq n} A_n) \geq \limsup_n \mu(A_n)
 $$

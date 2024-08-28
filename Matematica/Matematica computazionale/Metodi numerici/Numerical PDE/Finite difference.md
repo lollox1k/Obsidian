@@ -1,3 +1,12 @@
+---
+sr-due: 2024-09-01
+sr-interval: 4
+sr-ease: 270
+---
+
+#review
+
+
 Un approccio [[Numerical PDE| numerico]] per le PDE molto semplice: discretizzare il domnio spaziale e temporale, approssimare le derivate con rapporti di differenze finite.
 
 ### FD linear advection

@@ -72,7 +72,7 @@ The transition probabilty are defined as follows:
 $$
 p_{i,\omega} = \frac{1}{(i+1)^2} \quad p_{i,i+1} = 1- p_{i,\omega}
 $$
-this chain, if started in $J$ tends towards $-\infty$, however every vertex in $J$ is connected to $\omega$, this measn that $T=1$. But the $min$ of the $q_i$ is note defined, their $\inf$ is zero. 
+this chain, if started in $J$ tends towards $-\infty$, however every vertex in $J$ is connected to $\omega$, this means that $T=1$. But the $min$ of the $q_i$ is not defined, their $\inf$ is zero. 
 
 Clearly. starting from any $i \in J$, the probability of never reaching $\omega$ is the same as always going down:
 $$

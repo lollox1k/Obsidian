@@ -43,7 +43,7 @@ One can easily see that if we define
 $$
 u(x) = \frac{d}{dt} \Psi^t(x)\big|_{t=0}
 $$
-$u$ generates $\Psi$. The idea is that if it solves the ODE, it solves it in paritcular for $t=0$, which is precisley the equation above. We can check it's works:
+$u$ generates $\Psi$. The idea is that if it solves the ODE, it solves it in paritcular for $t=0$, which is precisley the equation above. We can check it works:
 $$
 \frac{d}{dt} \Psi^t(x) = \lim_{\epsilon \to 0} \frac{1}{\epsilon} (\Psi^{t+\epsilon}(x)- \Psi^t(x)) = \lim_{\epsilon \to 0} \frac{1}{\epsilon}(\Psi^\epsilon(\psi^t(x))- \Psi^0(\Psi^t(x))  = u(\Psi^t(x))
 $$
